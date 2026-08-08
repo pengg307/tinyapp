@@ -61,8 +61,8 @@ def calculate_user_vector(answers: list[dict], questions_data: list[dict]) -> np
         for q in questions:
             qid = q.get("id")
             for ans in answers:
-                if ans["question_id"] == qid:
-                    opt_idx = ans["option_index"]
+                if ans.question_id == qid:
+                    opt_idx = ans.option_index
                     scores.append(option_scores.get(opt_idx, 0.5))
                     break
         if scores:
