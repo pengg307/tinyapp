@@ -114,7 +114,7 @@ SUGGESTIONS_MAP = {
 }
 
 
-def generate_suggestions(gaps: list[dict[str, Any]], figure_type: str, language: str = "zh") -> list[dict[str, Any]]:
+def generate_suggestions(gaps: list[dict[str, Any]], figure_type: str, language: str = "zh", figure_name: str = "") -> dict[str, Any]:
     """
     生成改进建议
     
@@ -122,13 +122,14 @@ def generate_suggestions(gaps: list[dict[str, Any]], figure_type: str, language:
         gaps: 维度差距列表
         figure_type: 人物类型
         language: 语言代码 (zh/en/es/ja/de/ru/fr)
+        figure_name: 人物名字
     
     Returns:
-        建议列表 - 格式与前端期望一致
+        建议对象 - 格式与前端期望一致
     """
     suggestions_map = SUGGESTIONS_ZH if language == "zh" else SUGGESTIONS_MAP.get(language, SUGGESTIONS_EN)
     
-    suggestions = []
+    suggestions_list = []
     for gap in gaps[:3]:  # 只显示前3个最大差距
         trait = gap.get("trait", "")
         # gap > 0: 用户值低于人物值，需要"提升"
@@ -137,12 +138,22 @@ def generate_suggestions(gaps: list[dict[str, Any]], figure_type: str, language:
         
         if trait in suggestions_map:
             tips = suggestions_map[trait].get(direction, [])
-            suggestions.append({
+            suggestions_list.append({
                 "trait": trait,
-                "trait_cn": gap.get("trait_cn", trait),
+                "trait_cn": trait,
                 "direction": direction,
                 "tips": tips[:3],
                 "gap_value": round(abs(gap.get("gap", 0)), 2)
             })
     
-    return suggestions
+    # 构建总体评价
+    if language == "zh":
+        overall = f"你与{figure_name}的差距主要集中在{suggestions_list[0]['trait'] if suggestions_list else '某些'}维度"
+    else:
+        overall = f"Your main gap with {figure_name} is in {suggestions_list[0]['trait'] if suggestions_list else 'some'} dimension"
+    
+    return {
+        "figure_name": figure_name,
+        "overall": overall,
+        "suggestions": suggestions_list
+    }
