@@ -2,7 +2,7 @@
   {
     "id": 1,
     "trait": "openness",
-    "trait_cn": "开放性",
+    "trait_cn": "",
     "text": "面对全新的领域，你的态度是？",
     "translations": {
       "zh": {
@@ -73,7 +73,7 @@
   {
     "id": 2,
     "trait": "openness",
-    "trait_cn": "开放性",
+    "trait_cn": "",
     "text": "你更喜欢尝试新事物还是坚持传统？",
     "translations": {
       "zh": {
@@ -144,7 +144,7 @@
   {
     "id": 3,
     "trait": "openness",
-    "trait_cn": "开放性",
+    "trait_cn": "",
     "text": "当面对一个从未见过的难题时？",
     "translations": {
       "zh": {
@@ -215,7 +215,7 @@
   {
     "id": 4,
     "trait": "openness",
-    "trait_cn": "开放性",
+    "trait_cn": "",
     "text": "你对不同文化背景的人有什么态度？",
     "translations": {
       "zh": {
@@ -286,7 +286,7 @@
   {
     "id": 5,
     "trait": "openness",
-    "trait_cn": "开放性",
+    "trait_cn": "",
     "text": "如果给你机会去一个陌生国家生活一年？",
     "translations": {
       "zh": {
@@ -357,7 +357,7 @@
   {
     "id": 6,
     "trait": "conscientiousness",
-    "trait_cn": "尽责性",
+    "trait_cn": "",
     "text": "你通常如何规划每天的工作？",
     "translations": {
       "zh": {
@@ -428,7 +428,7 @@
   {
     "id": 7,
     "trait": "conscientiousness",
-    "trait_cn": "尽责性",
+    "trait_cn": "",
     "text": "对于答应别人的事情，你会？",
     "translations": {
       "zh": {
@@ -468,7 +468,7 @@
         ]
       },
       "de": {
-        "text": "Was tun Sie über Dinge, die Sie anderen versprochen haben?",
+        "text": "Was tun Sie über Dinge, que Sie anderen versprochen haben?",
         "options": [
           "Egal was passiert, fertigstellen",
           "Mein Bestes geben, gelegentliche Ausnahmen",
@@ -499,7 +499,7 @@
   {
     "id": 8,
     "trait": "conscientiousness",
-    "trait_cn": "尽责性",
+    "trait_cn": "",
     "text": "你的工作/学习桌面通常是什么样的？",
     "translations": {
       "zh": {
@@ -570,7 +570,7 @@
   {
     "id": 9,
     "trait": "conscientiousness",
-    "trait_cn": "尽责性",
+    "trait_cn": "",
     "text": "deadline临近时，你的反应是？",
     "translations": {
       "zh": {
@@ -641,7 +641,7 @@
   {
     "id": 10,
     "trait": "conscientiousness",
-    "trait_cn": "尽责性",
+    "trait_cn": "",
     "text": "对于长期目标，你会？",
     "translations": {
       "zh": {
@@ -705,6 +705,3556 @@
           "Avoir un plan mais ajuster flexiblement",
           "Avoir une direction générale mais pas spécifique",
           "Rarement considérer les objectifs à long terme"
+        ]
+      }
+    }
+  },
+  {
+    "id": 11,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "[extraversion] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[extraversion] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[extraversion] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[extraversion] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[extraversion] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[extraversion] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[extraversion] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[extraversion] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 12,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "[extraversion] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[extraversion] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[extraversion] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[extraversion] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[extraversion] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[extraversion] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[extraversion] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[extraversion] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 13,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "[extraversion] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[extraversion] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[extraversion] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[extraversion] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[extraversion] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[extraversion] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[extraversion] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[extraversion] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 14,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "[extraversion] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[extraversion] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[extraversion] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[extraversion] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[extraversion] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[extraversion] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[extraversion] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[extraversion] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 15,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "[extraversion] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[extraversion] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[extraversion] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[extraversion] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[extraversion] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[extraversion] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[extraversion] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[extraversion] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 16,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "[agreeableness] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[agreeableness] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[agreeableness] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[agreeableness] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[agreeableness] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[agreeableness] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[agreeableness] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[agreeableness] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 17,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "[agreeableness] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[agreeableness] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[agreeableness] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[agreeableness] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[agreeableness] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[agreeableness] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[agreeableness] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[agreeableness] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 18,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "[agreeableness] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[agreeableness] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[agreeableness] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[agreeableness] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[agreeableness] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[agreeableness] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[agreeableness] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[agreeableness] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 19,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "[agreeableness] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[agreeableness] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[agreeableness] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[agreeableness] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[agreeableness] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[agreeableness] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[agreeableness] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[agreeableness] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 20,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "[agreeableness] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[agreeableness] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[agreeableness] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[agreeableness] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[agreeableness] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[agreeableness] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[agreeableness] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[agreeableness] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 21,
+    "trait": "emotional_stability",
+    "trait_cn": "情绪稳定性",
+    "text": "[emotional_stability] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[emotional_stability] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[emotional_stability] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[emotional_stability] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[emotional_stability] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[emotional_stability] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[emotional_stability] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[emotional_stability] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 22,
+    "trait": "emotional_stability",
+    "trait_cn": "情绪稳定性",
+    "text": "[emotional_stability] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[emotional_stability] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[emotional_stability] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[emotional_stability] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[emotional_stability] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[emotional_stability] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[emotional_stability] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[emotional_stability] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 23,
+    "trait": "emotional_stability",
+    "trait_cn": "情绪稳定性",
+    "text": "[emotional_stability] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[emotional_stability] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[emotional_stability] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[emotional_stability] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[emotional_stability] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[emotional_stability] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[emotional_stability] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[emotional_stability] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 24,
+    "trait": "emotional_stability",
+    "trait_cn": "情绪稳定性",
+    "text": "[emotional_stability] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[emotional_stability] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[emotional_stability] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[emotional_stability] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[emotional_stability] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[emotional_stability] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[emotional_stability] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[emotional_stability] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 25,
+    "trait": "emotional_stability",
+    "trait_cn": "情绪稳定性",
+    "text": "[emotional_stability] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[emotional_stability] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[emotional_stability] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[emotional_stability] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[emotional_stability] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[emotional_stability] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[emotional_stability] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[emotional_stability] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 26,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "[leadership] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[leadership] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[leadership] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[leadership] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[leadership] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[leadership] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[leadership] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[leadership] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 27,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "[leadership] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[leadership] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[leadership] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[leadership] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[leadership] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[leadership] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[leadership] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[leadership] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 28,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "[leadership] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[leadership] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[leadership] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[leadership] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[leadership] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[leadership] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[leadership] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[leadership] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 29,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "[leadership] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[leadership] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[leadership] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[leadership] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[leadership] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[leadership] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[leadership] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[leadership] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 30,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "[leadership] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[leadership] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[leadership] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[leadership] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[leadership] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[leadership] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[leadership] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[leadership] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 31,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "[risk_taking] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[risk_taking] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[risk_taking] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[risk_taking] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[risk_taking] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[risk_taking] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[risk_taking] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[risk_taking] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 32,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "[risk_taking] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[risk_taking] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[risk_taking] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[risk_taking] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[risk_taking] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[risk_taking] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[risk_taking] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[risk_taking] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 33,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "[risk_taking] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[risk_taking] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[risk_taking] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[risk_taking] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[risk_taking] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[risk_taking] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[risk_taking] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[risk_taking] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 34,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "[risk_taking] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[risk_taking] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[risk_taking] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[risk_taking] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[risk_taking] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[risk_taking] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[risk_taking] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[risk_taking] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 35,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "[risk_taking] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[risk_taking] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[risk_taking] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[risk_taking] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[risk_taking] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[risk_taking] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[risk_taking] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[risk_taking] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 36,
+    "trait": "rationality",
+    "trait_cn": "理性思维",
+    "text": "[rationality] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[rationality] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[rationality] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[rationality] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[rationality] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[rationality] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[rationality] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[rationality] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 37,
+    "trait": "rationality",
+    "trait_cn": "理性思维",
+    "text": "[rationality] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[rationality] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[rationality] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[rationality] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[rationality] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[rationality] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[rationality] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[rationality] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 38,
+    "trait": "rationality",
+    "trait_cn": "理性思维",
+    "text": "[rationality] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[rationality] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[rationality] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[rationality] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[rationality] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[rationality] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[rationality] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[rationality] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 39,
+    "trait": "rationality",
+    "trait_cn": "理性思维",
+    "text": "[rationality] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[rationality] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[rationality] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[rationality] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[rationality] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[rationality] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[rationality] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[rationality] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 40,
+    "trait": "rationality",
+    "trait_cn": "理性思维",
+    "text": "[rationality] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[rationality] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[rationality] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[rationality] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[rationality] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[rationality] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[rationality] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[rationality] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 41,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "[discipline] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[discipline] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[discipline] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[discipline] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[discipline] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[discipline] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[discipline] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[discipline] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 42,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "[discipline] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[discipline] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[discipline] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[discipline] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[discipline] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[discipline] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[discipline] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[discipline] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 43,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "[discipline] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[discipline] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[discipline] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[discipline] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[discipline] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[discipline] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[discipline] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[discipline] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 44,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "[discipline] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[discipline] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[discipline] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[discipline] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[discipline] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[discipline] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[discipline] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[discipline] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 45,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "[discipline] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[discipline] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[discipline] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[discipline] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[discipline] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[discipline] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[discipline] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[discipline] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 46,
+    "trait": "empathy",
+    "trait_cn": "共情能力",
+    "text": "[empathy] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[empathy] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[empathy] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[empathy] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[empathy] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[empathy] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[empathy] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[empathy] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 47,
+    "trait": "empathy",
+    "trait_cn": "共情能力",
+    "text": "[empathy] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[empathy] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[empathy] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[empathy] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[empathy] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[empathy] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[empathy] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[empathy] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 48,
+    "trait": "empathy",
+    "trait_cn": "共情能力",
+    "text": "[empathy] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[empathy] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[empathy] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[empathy] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[empathy] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[empathy] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[empathy] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[empathy] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 49,
+    "trait": "empathy",
+    "trait_cn": "共情能力",
+    "text": "[empathy] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[empathy] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[empathy] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[empathy] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[empathy] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[empathy] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[empathy] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[empathy] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 50,
+    "trait": "empathy",
+    "trait_cn": "共情能力",
+    "text": "[empathy] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[empathy] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[empathy] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[empathy] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[empathy] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[empathy] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[empathy] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[empathy] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 51,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "[ambition] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[ambition] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[ambition] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[ambition] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[ambition] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[ambition] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[ambition] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[ambition] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 52,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "[ambition] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[ambition] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[ambition] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[ambition] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[ambition] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[ambition] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[ambition] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[ambition] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 53,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "[ambition] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[ambition] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[ambition] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[ambition] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[ambition] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[ambition] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[ambition] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[ambition] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 54,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "[ambition] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[ambition] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[ambition] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[ambition] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[ambition] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[ambition] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[ambition] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[ambition] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 55,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "[ambition] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[ambition] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[ambition] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[ambition] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[ambition] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[ambition] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[ambition] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[ambition] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 56,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "[resilience] 问题1（中文）",
+    "translations": {
+      "zh": {
+        "text": "[resilience] 问题1（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[resilience] Question 1 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[resilience] Pregunta 1 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[resilience] 質問1（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[resilience] Frage 1 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[resilience] Вопрос 1 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[resilience] Question 1 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 57,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "[resilience] 问题2（中文）",
+    "translations": {
+      "zh": {
+        "text": "[resilience] 问题2（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[resilience] Question 2 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[resilience] Pregunta 2 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[resilience] 質問2（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[resilience] Frage 2 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[resilience] Вопрос 2 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[resilience] Question 2 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 58,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "[resilience] 问题3（中文）",
+    "translations": {
+      "zh": {
+        "text": "[resilience] 问题3（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[resilience] Question 3 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[resilience] Pregunta 3 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[resilience] 質問3（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[resilience] Frage 3 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[resilience] Вопрос 3 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[resilience] Question 3 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 59,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "[resilience] 问题4（中文）",
+    "translations": {
+      "zh": {
+        "text": "[resilience] 问题4（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[resilience] Question 4 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[resilience] Pregunta 4 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[resilience] 質問4（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[resilience] Frage 4 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[resilience] Вопрос 4 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[resilience] Question 4 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      }
+    }
+  },
+  {
+    "id": 60,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "[resilience] 问题5（中文）",
+    "translations": {
+      "zh": {
+        "text": "[resilience] 问题5（中文）",
+        "options": [
+          "选项A",
+          "选项B",
+          "选项C",
+          "选项D"
+        ]
+      },
+      "en": {
+        "text": "[resilience] Question 5 (English)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "es": {
+        "text": "[resilience] Pregunta 5 (Español)",
+        "options": [
+          "Opción A",
+          "Opción B",
+          "Opción C",
+          "Opción D"
+        ]
+      },
+      "ja": {
+        "text": "[resilience] 質問5（日本語）",
+        "options": [
+          "オプションA",
+          "オプションB",
+          "オプションC",
+          "オプションD"
+        ]
+      },
+      "de": {
+        "text": "[resilience] Frage 5 (Deutsch)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ]
+      },
+      "ru": {
+        "text": "[resilience] Вопрос 5 (Русский)",
+        "options": [
+          "Вариант A",
+          "Вариант B",
+          "Вариант C",
+          "Вариант D"
+        ]
+      },
+      "fr": {
+        "text": "[resilience] Question 5 (Français)",
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
         ]
       }
     }
