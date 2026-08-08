@@ -155,7 +155,7 @@ def match_user(
     for r in results:
         fig = next(f for f in figures_data if f["id"] == r["figure_id"])
         gaps = analyze_gaps(user_vector, figure_vectors[r["figure_id"]])
-        suggestion = generate_suggestions(gaps, fig["type"], language)
+        suggestion = generate_suggestions(gaps, fig["type"], language, names.get(language, names.get("zh", fig["name"])))
         
         # 获取多语言名字
         names = fig.get("names", {})
