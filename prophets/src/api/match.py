@@ -75,6 +75,8 @@ def match_user(
             "name": fig["name"],
             "name_en": fig.get("name_en", ""),
             "name_zh": fig.get("name_zh", fig["name"]),
+            "era": fig.get("era", ""),
+            "type": fig.get("type", ""),
             "similarity": r["similarity"],
             "gaps": gaps,
             "suggestion": suggestion
