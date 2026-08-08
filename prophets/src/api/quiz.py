@@ -70,11 +70,27 @@ async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$
         for q in questions:
             # 获取当前语言的文本和选项
             translations = q.get("translations", {})
-            lang_data = translations.get(language, translations.get("zh", {}))
             
-            # 获取题目文本和选项
-            question_text = lang_data.get("text", q.get("text", ""))
-            lang_options = lang_data.get("options", [])
+            # 兼容两种格式:
+            # 格式1: translations是dict，如 {"zh": {"text": "...", "options": [...]}, ...}
+            # 格式2: translations是list，如 [{"lang": "zh", "text": "...", "options": [...]}, ...]
+            
+            if isinstance(translations, dict):
+                lang_data = translations.get(language, translations.get("zh", {}))
+                question_text = lang_data.get("text", q.get("text", ""))
+                lang_options = lang_data.get("options", [])
+            elif isinstance(translations, list):
+                # 查找对应语言的翻译
+                lang_item = next((t for t in translations if t.get("lang") == language), None)
+                if lang_item:
+                    question_text = lang_item.get("text", q.get("text", ""))
+                    lang_options = lang_item.get("options", [])
+                else:
+                    question_text = q.get("text", "")
+                    lang_options = []
+            else:
+                question_text = q.get("text", "")
+                lang_options = []
 
             sanitized_questions.append(QuizQuestion(
                 id=q.get("id"),
@@ -117,9 +133,22 @@ async def get_question(question_id: int, language: str = Query("zh", pattern="^(
 
         # 获取当前语言的文本和选项
         translations = question.get("translations", {})
-        lang_data = translations.get(language, translations.get("zh", {}))
-        question_text = lang_data.get("text", question.get("text", ""))
-        lang_options = lang_data.get("options", [])
+        
+        if isinstance(translations, dict):
+            lang_data = translations.get(language, translations.get("zh", {}))
+            question_text = lang_data.get("text", question.get("text", ""))
+            lang_options = lang_data.get("options", [])
+        elif isinstance(translations, list):
+            lang_item = next((t for t in translations if t.get("lang") == language), None)
+            if lang_item:
+                question_text = lang_item.get("text", question.get("text", ""))
+                lang_options = lang_item.get("options", [])
+            else:
+                question_text = question.get("text", "")
+                lang_options = []
+        else:
+            question_text = question.get("text", "")
+            lang_options = []
 
         sanitized = {
             "id": question.get("id"),
