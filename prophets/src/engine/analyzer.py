@@ -38,4 +38,4 @@ def analyze_gaps(user_vector: np.ndarray, figure_vector: np.ndarray) -> list[dic
     # 按差距绝对值排序
     gaps.sort(key=lambda x: abs(x["gap"]), reverse=True)
     
-    return gaps[:5]  # 返回差距最大的5个维度
+    return gaps  # 返回全部12个维度
