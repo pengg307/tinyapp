@@ -72,8 +72,10 @@ async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$
             translations = q.get("translations", {})
             lang_options = translations.get(language, translations.get("zh", []))
 
-            # 获取题目文本（使用第一个选项作为问题提示）
+            # 获取题目文本（从第一个选项数组中提取问题文本，或使用默认值）
             question_text = q.get("text", "")
+            if not question_text and lang_options:
+                question_text = lang_options[0]  # 使用第一个选项作为问题提示
 
             sanitized_questions.append(QuizQuestion(
                 id=q.get("id"),
