@@ -1111,6 +1111,8 @@
             currentLang = lang;
             localStorage.setItem('prophets-lang', lang);
             updateLanguage();
+            // Reload quiz to apply new language
+            loadQuiz();
             toggleLangDropdown();
         }
         
