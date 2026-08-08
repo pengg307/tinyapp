@@ -1246,9 +1246,9 @@
             document.getElementById('progress-text').textContent = `${currentQuestion + 1} / ${questions.length}`;
 
             const t_current = i18n[currentLang];
-            // Use question.text for the question, and translations for options
+            // API返回: question.text 是题目文本, question.options 是选项数组
             const questionText = question.text || '';
-            const options = question.translations?.[currentLang] || question.options || [];
+            const options = question.options || [];
 
             container.innerHTML = `
                 <div class="question">
