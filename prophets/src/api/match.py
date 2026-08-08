@@ -33,6 +33,7 @@ class MatchResponse(BaseModel):
     success: bool
     matches: list[dict[str, Any]]
     user_vector: dict[str, float]
+    summary: str = ""
 
 
 @router.post("/match", response_model=MatchResponse)
@@ -82,6 +83,10 @@ def match_user(
             "suggestion": suggestion
         })
     
+    # 生成总结
+    top_match = matches[0] if matches else None
+    summary = generate_summary(user_vector, top_match) if top_match else ""
+    
     return MatchResponse(
         success=True,
         matches=matches,
@@ -90,7 +95,8 @@ def match_user(
              "neuroticism", "leadership", "risk_taking", "rationality", 
              "discipline", "empathy", "ambition", "resilience"],
             user_vector
-        )}
+        )},
+        summary=summary
     )
 
 
@@ -111,16 +117,20 @@ def calculate_user_vector(answers: list[AnswerItem], questions_data: list) -> np
             continue
         question = questions_data[ans.question_id - 1]
         
+        # 获取选项（使用中文翻译）
+        translations = question.get("translations", {})
+        options = translations.get("zh", [])
+        
         # 找到对应选项
-        if ans.option_index >= len(question["options"]):
+        if ans.option_index >= len(options):
             continue
-        option = question["options"][ans.option_index]
+        option_value = ans.option_index / 3.0  # 0-3 映射到 0.0-1.0
         
         # 累加维度得分
         trait = question.get("trait", "")
         if trait in trait_names:
             dim_index = trait_names.index(trait)
-            dimension_scores[dim_index].append(option["vector"].get(trait, 0.5))
+            dimension_scores[dim_index].append(option_value)
     
     # 计算平均值
     for i in range(12):
@@ -161,3 +171,16 @@ def match_euclidean(
     results.sort(key=lambda x: x["similarity"], reverse=True)
     
     return results[:top_k]
+
+
+def generate_summary(user_vector: np.ndarray, top_match: dict) -> str:
+    """生成用户性格总结"""
+    trait_names = ["openness", "conscientiousness", "extraversion", "agreeableness", 
+                   "neuroticism", "leadership", "risk_taking", "rationality", 
+                   "discipline", "empathy", "ambition", "resilience"]
+    
+    # 找出最高和最低的维度
+    max_dim = trait_names[np.argmax(user_vector)]
+    min_dim = trait_names[np.argmin(user_vector)]
+    
+    return f"Your personality shows high {max_dim} and low {min_dim} traits. You are most similar to {top_match.get('name', 'a historical figure')}."
