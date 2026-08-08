@@ -1,16 +1,18 @@
 """
 测评题目接口
-GET /api/quiz - 获取题目列表（不含选项向量）
+GET /api/quiz - 获取题目列表（支持语言选择）
 """
 
 from typing import Any
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 
-# 路由定义
 router = APIRouter()
 
-# 数据加载缓存
+# 支持的語言列表
+SUPPORTED_LANGUAGES = ["zh", "en", "es", "ja", "de", "ru", "fr"]
+
+# 缓存
 _questions_data: list[dict[str, Any]] | None = None
 
 
@@ -23,7 +25,7 @@ def _load_questions() -> list[dict[str, Any]]:
     import json
     from pathlib import Path
     
-    data_path = Path(__file__).parent.parent.parent / "src" / "data" / "questions.json"
+    data_path = Path(__file__).parent.parent / "src" / "data" / "questions.json"
     
     if not data_path.exists():
         raise HTTPException(status_code=503, detail="题目数据文件不存在")
@@ -36,45 +38,50 @@ def _load_questions() -> list[dict[str, Any]]:
         raise HTTPException(status_code=500, detail=f"加载题目数据失败: {e}")
 
 
+class QuizQuestion(BaseModel):
+    id: int
+    trait: str
+    text: str
+    options: list[str]
+
+
 class QuizResponse(BaseModel):
-    """题目响应模型"""
-    questions: list[dict[str, Any]]
+    questions: list[QuizQuestion]
     total: int
+    language: str
 
 
 @router.get("/quiz", response_model=QuizResponse, summary="获取测评题目")
-async def get_quiz():
+async def get_quiz(language: str = Query("zh", regex="^(zh|en|es|ja|de|ru|fr)$")):
     """
     获取测评题目列表
     
-    - 返回所有题目基本信息（ID、题干）
-    - 不含选项向量数据（避免泄露匹配逻辑）
-    - 选项文本保留，供用户选择
+    - language: 语言代码 (zh/en/es/ja/de/ru/fr)，默认中文
+    - 返回指定语言的题目和选项
     """
     try:
         questions = _load_questions()
         
-        # 清理敏感数据：移除选项向量
         sanitized_questions = []
         for q in questions:
-            q_clean = {
-                "id": q.get("id"),
-                "text": q.get("text"),
-                "options": []
-            }
+            # 获取当前语言的文本和选项
+            translations = q.get("translations", {})
+            lang_options = translations.get(language, translations.get("zh", []))
             
-            # 保留选项文本，移除向量
-            for opt in q.get("options", []):
-                q_clean["options"].append({
-                    "text": opt.get("text"),
-                    "index": opt.get("index", 0)
-                })
+            # 获取题目文本（使用第一个选项作为问题提示）
+            question_text = q.get("text", "")
             
-            sanitized_questions.append(q_clean)
+            sanitized_questions.append(QuizQuestion(
+                id=q.get("id"),
+                trait=q.get("trait", ""),
+                text=question_text,
+                options=lang_options[:4]  # 最多4个选项
+            ))
         
         return QuizResponse(
             questions=sanitized_questions,
-            total=len(sanitized_questions)
+            total=len(sanitized_questions),
+            language=language
         )
     
     except HTTPException:
@@ -84,17 +91,16 @@ async def get_quiz():
 
 
 @router.get("/quiz/{question_id}", summary="获取单道题目")
-async def get_question(question_id: int):
+async def get_question(question_id: int, language: str = Query("zh", regex="^(zh|en|es|ja|de|ru|fr)$")):
     """
     获取单道题目详情
     
-    - 返回题目和所有选项
-    - 不含选项向量
+    - question_id: 题目ID
+    - language: 语言代码
     """
     try:
         questions = _load_questions()
         
-        # 查找题目
         question = None
         for q in questions:
             if q.get("id") == question_id:
@@ -104,17 +110,15 @@ async def get_question(question_id: int):
         if question is None:
             raise HTTPException(status_code=404, detail=f"题目 {question_id} 不存在")
         
-        # 清理数据
+        # 获取当前语言的选项
+        translations = question.get("translations", {})
+        lang_options = translations.get(language, translations.get("zh", []))
+        
         sanitized = {
             "id": question.get("id"),
-            "text": question.get("text"),
-            "options": [
-                {
-                    "text": opt.get("text"),
-                    "index": opt.get("index", 0)
-                }
-                for opt in question.get("options", [])
-            ]
+            "trait": question.get("trait", ""),
+            "text": question.get("text", ""),
+            "options": lang_options[:4]
         }
         
         return sanitized
