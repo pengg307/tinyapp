@@ -95,7 +95,7 @@ SUGGESTIONS_EN = {
         "down": ["Learn to think from others' perspectives", "Listen to others' stories more", "Cultivate care for others"]
     },
     "ambition": {
-        "up": ["Set higher goals", "Maintain进取心", "Continuously challenge yourself"],
+        "up": ["Set higher goals", "Maintain ambition", "Continuously challenge yourself"],
         "down": ["Clarify life goals", "Create growth plans", "Cultivate a positive attitude"]
     },
     "resilience": {
@@ -104,7 +104,7 @@ SUGGESTIONS_EN = {
     }
 }
 
-# Translation maps for other languages (simplified - using key English for others)
+# Other languages use English as fallback
 SUGGESTIONS_MAP = {
     "es": SUGGESTIONS_EN,
     "ja": SUGGESTIONS_EN,
@@ -124,21 +124,25 @@ def generate_suggestions(gaps: list[dict[str, Any]], figure_type: str, language:
         language: 语言代码 (zh/en/es/ja/de/ru/fr)
     
     Returns:
-        建议列表
+        建议列表 - 格式与前端期望一致
     """
     suggestions_map = SUGGESTIONS_ZH if language == "zh" else SUGGESTIONS_MAP.get(language, SUGGESTIONS_EN)
     
     suggestions = []
-    for gap in gaps:
+    for gap in gaps[:3]:  # 只显示前3个最大差距
         trait = gap.get("trait", "")
-        direction = gap.get("direction", "up" if gap.get("gap", 0) < 0 else "down")
+        # gap > 0: 用户值低于人物值，需要"提升"
+        # gap < 0: 用户值高于人物值，需要"调整"
+        direction = "up" if gap.get("gap", 0) > 0 else "down"
         
         if trait in suggestions_map:
             tips = suggestions_map[trait].get(direction, [])
             suggestions.append({
                 "trait": trait,
+                "trait_cn": gap.get("trait_cn", trait),
                 "direction": direction,
-                "tips": tips
+                "tips": tips[:3],
+                "gap_value": round(abs(gap.get("gap", 0)), 2)
             })
     
     return suggestions
