@@ -819,6 +819,11 @@
                 result_suggestion_title: '改进建议',
                 btn_restart: '重新测试',
                 match_similarity: '匹配',
+                result_summary: '您的性格分析结果',
+                suggestion_overall: '与{name}相比：{text}',
+                direction_提升: '提升',
+                direction_调整: '调整',
+                direction_降低: '降低',
                 trait_names: {
                     openness: '开放性', conscientiousness: '尽责性', extraversion: '外向性',
                     agreeableness: '宜人性', neuroticism: '情绪稳定', leadership: '领导力',
@@ -857,6 +862,11 @@
                 result_suggestion_title: 'Improvement Suggestions',
                 btn_restart: 'Restart',
                 match_similarity: 'Match',
+                result_summary: 'Your personality analysis results',
+                suggestion_overall: 'Compared to {name}: {text}',
+                direction_提升: 'Improve',
+                direction_调整: 'Adjust',
+                direction_降低: 'Reduce',
                 trait_names: {
                     openness: 'Openness', conscientiousness: 'Conscientiousness', extraversion: 'Extraversion',
                     agreeableness: 'Agreeableness', neuroticism: 'Emotional Stability', leadership: 'Leadership',
@@ -895,6 +905,11 @@
                 result_suggestion_title: 'Sugerencias de Mejora',
                 btn_restart: 'Reiniciar',
                 match_similarity: 'Coincidencia',
+                result_summary: 'Resultados del análisis de personalidad',
+                suggestion_overall: 'En comparación con {name}: {text}',
+                direction_提升: 'Mejorar',
+                direction_调整: 'Ajustar',
+                direction_降低: 'Reducir',
                 trait_names: {
                     openness: 'Apertura', conscientiousness: 'Responsabilidad', extraversion: 'Extroversión',
                     agreeableness: 'Amabilidad', neuroticism: 'Estabilidad Emocional', leadership: 'Liderazgo',
@@ -933,6 +948,11 @@
                 result_suggestion_title: '改善提案',
                 btn_restart: '再テスト',
                 match_similarity: '一致率',
+                result_summary: '性格分析結果',
+                suggestion_overall: '{name}との比較：{text}',
+                direction_提升: '向上',
+                direction_調整: '調整',
+                direction_降低: '低下',
                 trait_names: {
                     openness: '開放性', conscientiousness: '誠実性', extraversion: '外伸性',
                     agreeableness: '協調性', neuroticism: '情緒安定', leadership: 'リーダーシップ',
@@ -971,6 +991,11 @@
                 result_suggestion_title: 'Verbesserungsvorschläge',
                 btn_restart: 'Neu starten',
                 match_similarity: 'Übereinstimmung',
+                result_summary: 'Ihre Persönlichkeitsanalyseergebnisse',
+                suggestion_overall: 'Im Vergleich zu {name}: {text}',
+                direction_提升: 'Verbessern',
+                direction_调整: 'Anpassen',
+                direction_降低: 'Reduzieren',
                 trait_names: {
                     openness: 'Offenheit', conscientiousness: 'Gewissenhaftigkeit', extraversion: 'Extraversions',
                     agreeableness: 'Verträglichkeit', neuroticism: 'Emotionale Stabilität', leadership: 'Führung',
@@ -1009,6 +1034,11 @@
                 result_suggestion_title: 'Рекомендации по улучшению',
                 btn_restart: 'Начать заново',
                 match_similarity: 'Совпадение',
+                result_summary: 'Результаты анализа личности',
+                suggestion_overall: 'По сравнению с {name}: {text}',
+                direction_提升: 'Улучшить',
+                direction_调整: 'Корректировать',
+                direction_降低: 'Снизить',
                 trait_names: {
                     openness: 'Открытость', conscientiousness: 'Добросовестность', extraversion: 'Экстраверсия',
                     agreeableness: 'Доброжелательность', neuroticism: 'Эмоциональная стабильность', leadership: 'Лидерство',
@@ -1047,6 +1077,11 @@
                 result_suggestion_title: 'Suggestions d\'amélioration',
                 btn_restart: 'Recommencer',
                 match_similarity: 'Correspondance',
+                result_summary: 'Résultats de votre analyse de personnalité',
+                suggestion_overall: 'Comparé à {name} : {text}',
+                direction_提升: 'Améliorer',
+                direction_调整: 'Ajuster',
+                direction_降低: 'Réduire',
                 trait_names: {
                     openness: 'Ouverture', conscientiousness: 'Conscience', extraversion: 'Extraversion',
                     agreeableness: 'Agréabilité', neuroticism: 'Stabilité émotionnelle', leadership: 'Leadership',
@@ -1229,12 +1264,20 @@
         
         function selectOption(index) {
             answers[currentQuestion] = index;
-            if (currentQuestion < questions.length - 1) {
-                currentQuestion++;
-                renderQuestion();
-            } else {
-                showCompletionMessage();
-            }
+            // 高亮选中选项
+            const options = document.querySelectorAll('.option');
+            options.forEach((opt, idx) => {
+                opt.classList.toggle('selected', idx === index);
+            });
+            // 短暂高亮后跳转
+            setTimeout(() => {
+                if (currentQuestion < questions.length - 1) {
+                    currentQuestion++;
+                    renderQuestion();
+                } else {
+                    showCompletionMessage();
+                }
+            }, 300);
         }
         
         function showCompletionMessage() {
@@ -1283,8 +1326,10 @@
             document.getElementById('loading-section').classList.remove('active');
             document.getElementById('result-section').classList.add('active');
             
-            // Summary
-            document.getElementById('summary-text').textContent = data.summary;
+            // Summary - use i18n key for dynamic content
+            const summaryEl = document.getElementById('summary-text');
+            summaryEl.textContent = data.summary;
+            summaryEl.dataset.i18n = 'result_summary';
             
             // Matches
             const matchesContainer = document.getElementById('matches-container');
@@ -1340,12 +1385,12 @@
             
             section.innerHTML = `
                 <div class="suggestions__title">💡 ${suggestion.figure_name} ${t('result_suggestion_title')}</div>
-                <div class="suggestions__overall">${suggestion.overall}</div>
+                <div class="suggestions__overall">${t('suggestion_overall', { name: suggestion.figure_name, text: suggestion.overall })}</div>
                 ${suggestion.suggestions.map(item => `
                     <div class="suggestions__item">
                         <div class="suggestions__trait">
-                            <span class="suggestions__trait-name">${item.trait_cn}</span>
-                            <span class="suggestions__dir ${item.direction === '提升' ? 'up' : 'down'}">${item.direction}</span>
+                            <span class="suggestions__trait-name">${t('trait_' + item.trait, { fallback: item.trait_cn })}</span>
+                            <span class="suggestions__dir ${item.direction === '提升' ? 'up' : 'down'}">${t('direction_' + item.direction, { fallback: item.direction })}</span>
                         </div>
                         <ul class="suggestions__tips">
                             ${item.tips.map(tip => `<li>${tip}</li>`).join('')}
