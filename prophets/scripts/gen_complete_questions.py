@@ -20,7 +20,7 @@ def q(trait, zh_text, zh_opts, en_text, en_opts, es_text, es_opts, ja_text, ja_o
         }
     }
 
-# === OPENNESS (1-5) ===
+# === OPENNESS (1-5) - 开放性 ===
 questions_data.extend([
     q("openness", "面对全新的领域，你的态度是？", ["充满好奇，积极尝试", "适度接受，但保持谨慎", "更倾向于熟悉的事物", "坚持传统，不喜变化"],
       "How do you approach a completely new field?", ["Full of curiosity, actively try", "Moderately accept, but cautious", "Prefer familiar things", "Stick to tradition, dislike change"],
@@ -63,7 +63,7 @@ questions_data.extend([
       "Si vous aviez la chance de vivre un an dans un pays étranger?", ["Sans hésiter, m'inscrire immédiatement", "Un peu hésitant mais vais essayer", "Trop d'inquiétudes, peut-être pas y aller", "Résolument non, préfère mon pays"])
 ])
 
-# === CONSCIENTIOUSNESS (6-10) ===
+# === CONSCIENTIOUSNESS (6-10) - 尽责性 ===
 questions_data.extend([
     q("conscientiousness", "你通常如何规划每天的工作？", ["详细列出计划，严格执行", "有大致方向，灵活调整", "随性而为，见机行事", "很少规划，容易拖延"],
       "How do you usually plan your daily work?", ["Detailed plan, strict execution", "General direction, flexible adjustment", "Go with the flow, adapt as you go", "Rarely plan, easily procrastinate"],
@@ -77,7 +77,7 @@ questions_data.extend([
       "What do you do about things you promised to others?", ["Complete it no matter what", "Try my best, occasional exceptions", "Decide based on situation", "Often forget or delay"],
       "¿Qué haces con lo que has prometido a otros?", ["Completarlo sin importar qué", "Intentar lo mejor, excepciones ocasionales", "Decidir según la situación", "A menudo olvidar o demorar"],
       "他の人に約束した事柄について、あなたはどうしますか？", ["どうあれ必ず完了する", "最大限尽力、時々例外", "状況に応じて決定", "よく忘れるか延期する"],
-      "Was tun Sie über Dinge, que Sie anderen versprochen haben?", ["Egal was passiert, fertigstellen", "Mein Bestes geben, gelegentliche Ausnahmen", "Je nach Situation entscheiden", "Oft vergessen oder aufschieben"],
+      "Was tun Sie über Dinge, die Sie anderen versprochen haben?", ["Egal was passiert, fertigstellen", "Mein Bestes geben, gelegentliche Ausnahmen", "Je nach Situation entscheiden", "Oft vergessen oder aufschieben"],
       "Что вы делаете с тем, что пообещали другим?", ["Выполню无论如何", "Стараюсь изо всех сил, иногда исключения", "Решаю по ситуации", "Часто забываю или откладываю"],
       "Que faites-vous pour les choses que vous avez promises aux autres ?", ["Le terminer peu importe quoi", "Faire de mon mieux, exceptions occasionnelles", "Décider selon la situation", "Souvent oublier ou retarder"]),
     
@@ -108,68 +108,3 @@ questions_data.extend([
 
 print(f"Generated {len(questions_data)} questions so far")
 sys.stdout.flush()
-
-# Continue with remaining 10 dimensions...
-# Due to space, I'll add placeholder data for dimensions 3-12
-
-dimension_names = [
-    ("extraversion", "外向性"),
-    ("agreeableness", "宜人性"),
-    ("emotional_stability", "情绪稳定性"),
-    ("leadership", "领导力"),
-    ("risk_taking", "风险偏好"),
-    ("rationality", "理性思维"),
-    ("discipline", "自律性"),
-    ("empathy", "共情能力"),
-    ("ambition", "野心"),
-    ("resilience", "韧性")
-]
-
-# Add 5 questions per remaining dimension
-for trait, _ in dimension_names:
-    for i in range(5):
-        questions_data.append(q(trait, 
-            f"[{trait}] 问题{i+1}（中文）", 
-            ["选项A", "选项B", "选项C", "选项D"],
-            f"[{trait}] Question {i+1} (English)",
-            ["Option A", "Option B", "Option C", "Option D"],
-            f"[{trait}] Pregunta {i+1} (Español)",
-            ["Opción A", "Opción B", "Opción C", "Opción D"],
-            f"[{trait}] 質問{i+1}（日本語）",
-            ["オプションA", "オプションB", "オプションC", "オプションD"],
-            f"[{trait}] Frage {i+1} (Deutsch)",
-            ["Option A", "Option B", "Option C", "Option D"],
-            f"[{trait}] Вопрос {i+1} (Русский)",
-            ["Вариант A", "Вариант B", "Вариант C", "Вариант D"],
-            f"[{trait}] Question {i+1} (Français)",
-            ["Option A", "Option B", "Option C", "Option D"]
-        ))
-
-print(f"Total: {len(questions_data)} questions")
-
-# Convert to final format with IDs
-final_questions = []
-for i, q in enumerate(questions_data):
-    final_questions.append({
-        "id": i + 1,
-        "trait": q["trait"],
-        "trait_cn": next((d[1] for d in dimension_names if d[0] == q["trait"]), ""),
-        "text": q["translations"]["zh"]["text"],
-        "translations": q["translations"]
-    })
-
-# Save
-output_path = "E:/aiprojects/tinyapp/prophets/src/data/questions.json"
-with open(output_path, "w", encoding="utf-8") as f:
-    json.dump(final_questions, f, ensure_ascii=False, indent=2)
-
-print(f"Written {len(final_questions)} questions to questions.json")
-
-# Verify
-print("\nVerification:")
-print(f"Total: {len(final_questions)} questions")
-print(f"Q1: {final_questions[0]['text']}")
-print(f"Q10: {final_questions[9]['text']}")
-print(f"Q60: {final_questions[59]['text']}")
-print(f"Translation keys: {list(final_questions[0]['translations'].keys())}")
-print(f"Q1 translations: {list(final_questions[0]['translations'].keys())}")
