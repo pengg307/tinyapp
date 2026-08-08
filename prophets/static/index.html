@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prophets — 与历史人物相遇</title>
     <script src="chart.min.js"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap');
         
         * { margin: 0; padding: 0; box-sizing: border-box; }
         
@@ -60,35 +60,90 @@
         
         /* ── Header ── */
         .header {
-            text-align: center;
-            padding: var(--space-2xl) var(--space-md) var(--space-xl);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--space-xl) var(--space-md) var(--space-lg);
             margin-bottom: var(--space-xl);
             border-bottom: 1px solid var(--border);
         }
         
+        .header__brand {
+            display: flex;
+            flex-direction: column;
+        }
+        
         .header__mark {
-            font-family: var(--serif);
             font-size: 0.75rem;
             font-weight: 600;
             letter-spacing: 0.15em;
             text-transform: uppercase;
             color: var(--accent);
-            margin-bottom: var(--space-md);
+            margin-bottom: var(--space-xs);
         }
         
         .header h1 {
             font-family: var(--serif);
-            font-size: clamp(2rem, 5vw, 2.75rem);
+            font-size: clamp(1.5rem, 4vw, 2rem);
             font-weight: 700;
             line-height: 1.2;
             color: var(--ink);
-            margin-bottom: var(--space-sm);
         }
         
-        .header p {
-            font-size: 1.05rem;
-            color: var(--ink-muted);
-            font-weight: 300;
+        .lang-selector {
+            position: relative;
+        }
+        
+        .lang-btn {
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+            padding: 8px 12px;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            background: var(--surface-elevated);
+            cursor: pointer;
+            font-size: 0.875rem;
+            color: var(--ink);
+            transition: all var(--transition);
+        }
+        
+        .lang-btn:hover {
+            border-color: var(--accent);
+        }
+        
+        .lang-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: var(--space-sm);
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-lg);
+            min-width: 140px;
+            display: none;
+            z-index: 50;
+        }
+        
+        .lang-dropdown.open {
+            display: block;
+        }
+        
+        .lang-option {
+            padding: 10px 16px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: background var(--transition);
+        }
+        
+        .lang-option:hover {
+            background: var(--accent-soft);
+        }
+        
+        .lang-option.active {
+            color: var(--accent);
+            font-weight: 500;
         }
         
         /* ── Section ── */
@@ -141,7 +196,6 @@
             font-weight: 500;
             cursor: pointer;
             transition: all var(--transition);
-            letter-spacing: 0.01em;
         }
         
         .btn--primary {
@@ -394,49 +448,6 @@
             letter-spacing: 0.05em;
         }
         
-        /* ── Gap Bars ── */
-        .gap-list {
-            display: flex;
-            flex-direction: column;
-            gap: var(--space-sm);
-            margin-top: var(--space-md);
-        }
-        
-        .gap-item {
-            display: grid;
-            grid-template-columns: 90px 1fr 40px;
-            align-items: center;
-            gap: var(--space-sm);
-        }
-        
-        .gap-item__label {
-            font-size: 0.8125rem;
-            color: var(--ink-muted);
-        }
-        
-        .gap-item__bar {
-            height: 4px;
-            background: var(--border);
-            border-radius: 2px;
-            overflow: hidden;
-        }
-        
-        .gap-item__fill {
-            height: 100%;
-            border-radius: 2px;
-            transition: width 0.5s ease;
-        }
-        
-        .gap-item__fill.up { background: var(--success); }
-        .gap-item__fill.down { background: var(--accent); }
-        
-        .gap-item__val {
-            font-size: 0.75rem;
-            color: var(--ink-faint);
-            text-align: right;
-            font-variant-numeric: tabular-nums;
-        }
-        
         /* ── Suggestions ── */
         .suggestions {
             background: var(--surface);
@@ -614,16 +625,6 @@
         .mt-lg { margin-top: var(--space-lg); }
         .hidden { display: none !important; }
         
-        /* ── Type scale polish ── */
-        h2 {
-            font-family: var(--serif);
-            font-size: 1.5rem;
-            font-weight: 600;
-            line-height: 1.3;
-        }
-        
-        small { font-size: 0.8125rem; }
-        
         /* ── Reduced motion ── */
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after {
@@ -637,33 +638,51 @@
     <div class="page">
         <!-- Header -->
         <header class="header">
-            <div class="header__mark">Prophets · 先知</div>
-            <h1>与历史人物相遇</h1>
-            <p>20 道情境题，发现你灵魂里的历史回声</p>
+            <div class="header__brand">
+                <div class="header__mark">Prophets · 先知</div>
+                <h1 id="app-title">与历史人物相遇</h1>
+            </div>
+            <div class="lang-selector">
+                <button class="lang-btn" onclick="toggleLangDropdown()">
+                    <span id="current-lang">🇨🇳 中文</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                        <path d="M3 4.5L6 7.5L9 4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="lang-dropdown" id="lang-dropdown">
+                    <div class="lang-option active" data-lang="zh" onclick="setLanguage('zh')">🇨🇳 中文</div>
+                    <div class="lang-option" data-lang="en" onclick="setLanguage('en')">🇺🇸 English</div>
+                    <div class="lang-option" data-lang="es" onclick="setLanguage('es')">🇪🇸 Español</div>
+                    <div class="lang-option" data-lang="ja" onclick="setLanguage('ja')">🇯🇵 日本語</div>
+                    <div class="lang-option" data-lang="de" onclick="setLanguage('de')">🇩🇪 Deutsch</div>
+                    <div class="lang-option" data-lang="ru" onclick="setLanguage('ru')">🇷🇺 Русский</div>
+                    <div class="lang-option" data-lang="fr" onclick="setLanguage('fr')">🇫🇷 Français</div>
+                </div>
+            </div>
         </header>
         
         <!-- Payment -->
         <div id="payment-section" class="section">
             <div class="card">
                 <div class="card__header text-center">
-                    <div class="card__title">付费测试</div>
-                    <div class="card__subtitle">完成支付后即可开始性格分析</div>
+                    <div class="card__title" data-i18n="payment_title">付费测试</div>
+                    <div class="card__subtitle" data-i18n="payment_subtitle">完成支付后即可开始性格分析</div>
                 </div>
                 <div class="payment__price">¥9<span>.90</span></div>
                 <div id="qr-container" class="text-center">
                     <div class="qr-wrap">
                         <img id="qr-code" src="" alt="支付二维码" />
                     </div>
-                    <p style="color: var(--ink-muted); font-size: 0.875rem; margin-top: var(--space-md);">
+                    <p style="color: var(--ink-muted); font-size: 0.875rem; margin-top: var(--space-md);" data-i18n="payment_qr_hint">
                         微信扫码支付 · 24小时内有效
                     </p>
                 </div>
-                <div style="background: var(--gold-soft); border: 1px solid #fde68a; border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); margin-bottom: var(--space-lg); font-size: 0.875rem; color: #92400e;">
+                <div style="background: var(--gold-soft); border: 1px solid #fde68a; border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); margin-bottom: var(--space-lg); font-size: 0.875rem; color: #92400e;" data-i18n="payment_validity">
                     ⏰ 支付后 24 小时内有效，请及时完成测试
                 </div>
                 <div class="btn-group">
-                    <button class="btn btn--secondary" onclick="simulatePayment()">测试模式</button>
-                    <button class="btn btn--primary" onclick="checkPaymentStatus()">我已支付</button>
+                    <button class="btn btn--secondary" onclick="simulatePayment()" data-i18n="payment_test_mode">测试模式</button>
+                    <button class="btn btn--primary" onclick="checkPaymentStatus()" data-i18n="payment_paid">我已支付</button>
                 </div>
             </div>
         </div>
@@ -671,14 +690,14 @@
         <!-- Confirm Modal -->
         <div id="payment-confirm-modal" class="modal">
             <div class="modal__content">
-                <div class="modal__title">开发阶段确认</div>
-                <p style="color: var(--ink-muted); margin-bottom: var(--space-lg); font-size: 0.9375rem;">
+                <div class="modal__title" data-i18n="confirm_title">开发阶段确认</div>
+                <p style="color: var(--ink-muted); margin-bottom: var(--space-lg); font-size: 0.9375rem;" data-i18n="confirm_text">
                     当前为开发阶段，请输入 <strong style="color: var(--ink);">qwe</strong> 确认跳过支付
                 </p>
-                <input type="text" id="payment-confirm-input" class="modal__input" placeholder="输入 qwe 确认" />
+                <input type="text" id="payment-confirm-input" class="modal__input" placeholder="输入 qwe 确认" data-i18n-placeholder="confirm_placeholder" />
                 <div class="btn-group mt-lg">
-                    <button class="btn btn--secondary" onclick="closePaymentConfirm()">取消</button>
-                    <button class="btn btn--accent" onclick="confirmPayment()">确认</button>
+                    <button class="btn btn--secondary" onclick="closePaymentConfirm()" data-i18n="btn_cancel">取消</button>
+                    <button class="btn btn--accent" onclick="confirmPayment()" data-i18n="btn_confirm">确认</button>
                 </div>
             </div>
         </div>
@@ -687,28 +706,26 @@
         <div id="start-section" class="section active">
             <div class="card">
                 <div class="card__header">
-                    <div class="card__title">测试说明</div>
-                    <div class="card__subtitle">了解即将进行的性格分析</div>
+                    <div class="card__title" data-i18n="start_title">测试说明</div>
+                    <div class="card__subtitle" data-i18n="start_subtitle">了解即将进行的性格分析</div>
                 </div>
                 <div style="display: flex; flex-direction: column; gap: var(--space-md); color: var(--ink-muted); font-size: 0.9375rem; line-height: 1.7;">
                     <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
                         <span style="flex-shrink: 0; width: 24px; height: 24px; background: var(--accent-soft); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 600;">1</span>
-                        <span>20 道情境选择题，基于历史人物关键决策事件设计</span>
+                        <span data-i18n="start_step1">60 道情境选择题，基于历史人物关键决策事件设计</span>
                     </div>
                     <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
                         <span style="flex-shrink: 0; width: 24px; height: 24px; background: var(--accent-soft); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 600;">2</span>
-                        <span>选择最符合你第一反应的选项，无需过多思考</span>
+                        <span data-i18n="start_step2">选择最符合你第一反应的选项，无需过多思考</span>
                     </div>
                     <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
                         <span style="flex-shrink: 0; width: 24px; height: 24px; background: var(--accent-soft); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 600;">3</span>
-                        <span>完成后将匹配最相似的历史人物 TOP-10，并生成个性化改进建议</span>
+                        <span data-i18n="start_step3">完成后将匹配最相似的历史人物 TOP-10，并生成个性化改进建议</span>
                     </div>
                 </div>
             </div>
             <div class="text-center">
-                <button class="btn btn--primary" onclick="startQuiz()" style="padding: 14px 48px; font-size: 1rem;">
-                    开始测试
-                </button>
+                <button class="btn btn--primary" onclick="startQuiz()" style="padding: 14px 48px; font-size: 1rem;" data-i18n="btn_start">开始测试</button>
             </div>
         </div>
         
@@ -716,9 +733,9 @@
         <div id="quiz-section" class="section">
             <div class="progress">
                 <div class="progress__bar">
-                    <div class="progress__fill" id="progress-bar" style="width: 5%"></div>
+                    <div class="progress__fill" id="progress-bar" style="width: 2%"></div>
                 </div>
-                <div class="progress__text" id="progress-text">1 / 20</div>
+                <div class="progress__text" id="progress-text">1 / 60</div>
             </div>
             <div class="card">
                 <div id="question-container"></div>
@@ -729,7 +746,7 @@
         <div id="loading-section" class="section">
             <div class="loading">
                 <div class="loading__spinner"></div>
-                <div class="loading__text">正在分析您的性格特质...</div>
+                <div class="loading__text" data-i18n="loading_text">正在分析您的性格特质...</div>
             </div>
         </div>
         
@@ -742,8 +759,8 @@
             <div class="results">
                 <div class="card" style="margin-bottom: 0;">
                     <div class="card__header">
-                        <div class="card__title">性格图谱</div>
-                        <div class="card__subtitle">您 vs 历史人物</div>
+                        <div class="card__title" data-i18n="result_radar_title">性格图谱</div>
+                        <div class="card__subtitle" data-i18n="result_radar_subtitle">您 vs 历史人物</div>
                     </div>
                     <div class="radar-wrap">
                         <canvas id="radar-chart"></canvas>
@@ -752,8 +769,8 @@
                 
                 <div class="card" style="margin-bottom: 0;">
                     <div class="card__header">
-                        <div class="card__title">TOP 10 匹配</div>
-                        <div class="card__subtitle">点击查看详情</div>
+                        <div class="card__title" data-i18n="result_matches_title">TOP 10 匹配</div>
+                        <div class="card__subtitle" data-i18n="result_matches_subtitle">点击查看详情</div>
                     </div>
                     <div id="matches-container" style="max-height: 340px; overflow-y: auto;"></div>
                 </div>
@@ -763,25 +780,347 @@
             <div id="suggestion-section" class="suggestions" style="display: none;"></div>
             
             <div class="text-center mt-lg">
-                <button class="btn btn--secondary" onclick="restartQuiz()">重新测试</button>
+                <button class="btn btn--secondary" onclick="restartQuiz()" data-i18n="btn_restart">重新测试</button>
             </div>
         </div>
     </div>
     
     <script>
+        // ── i18n Translations ──
+        const i18n = {
+            zh: {
+                app_title: '与历史人物相遇',
+                payment_title: '付费测试',
+                payment_subtitle: '完成支付后即可开始性格分析',
+                payment_qr_hint: '微信扫码支付 · 24小时内有效',
+                payment_validity: '⏰ 支付后 24 小时内有效，请及时完成测试',
+                payment_test_mode: '测试模式',
+                payment_paid: '我已支付',
+                confirm_title: '开发阶段确认',
+                confirm_text: '当前为开发阶段，请输入 <strong style="color: var(--ink);">qwe</strong> 确认跳过支付',
+                confirm_placeholder: '输入 qwe 确认',
+                btn_cancel: '取消',
+                btn_confirm: '确认',
+                start_title: '测试说明',
+                start_subtitle: '了解即将进行的性格分析',
+                start_step1: '60 道情境选择题，基于历史人物关键决策事件设计',
+                start_step2: '选择最符合你第一反应的选项，无需过多思考',
+                start_step3: '完成后将匹配最相似的历史人物 TOP-10，并生成个性化改进建议',
+                btn_start: '开始测试',
+                progress_label: '情境',
+                quiz_complete: '测试完成',
+                quiz_done: '✅ 已完成全部 {count} 道情境题',
+                quiz_loading: '正在为您生成性格分析报告...',
+                loading_text: '正在分析您的性格特质...',
+                result_radar_title: '性格图谱',
+                result_radar_subtitle: '您 vs 历史人物',
+                result_matches_title: 'TOP 10 匹配',
+                result_matches_subtitle: '点击查看详情',
+                result_suggestion_title: '改进建议',
+                btn_restart: '重新测试',
+                match_similarity: '匹配',
+                trait_names: {
+                    openness: '开放性', conscientiousness: '尽责性', extraversion: '外向性',
+                    agreeableness: '宜人性', neuroticism: '情绪稳定', leadership: '领导力',
+                    risk_taking: '风险偏好', rationality: '理性度', discipline: '自律性',
+                    empathy: '共情力', ambition: '野心', resilience: '韧性'
+                }
+            },
+            en: {
+                app_title: 'Meet Historical Figures',
+                payment_title: 'Paid Test',
+                payment_subtitle: 'Complete payment to start personality analysis',
+                payment_qr_hint: 'WeChat Pay · Valid for 24 hours',
+                payment_validity: '⏰ Valid for 24 hours after payment, please complete the test soon',
+                payment_test_mode: 'Test Mode',
+                payment_paid: 'I Have Paid',
+                confirm_title: 'Development Phase Confirmation',
+                confirm_text: 'Currently in development phase, please enter <strong style="color: var(--ink);">qwe</strong> to skip payment',
+                confirm_placeholder: 'Enter qwe to confirm',
+                btn_cancel: 'Cancel',
+                btn_confirm: 'Confirm',
+                start_title: 'Test Instructions',
+                start_subtitle: 'Learn about the upcoming personality analysis',
+                start_step1: '60 situational questions based on key decisions of historical figures',
+                start_step2: 'Choose the option that best matches your first reaction',
+                start_step3: 'After completion, you will see TOP-10 most similar historical figures with personalized suggestions',
+                btn_start: 'Start Test',
+                progress_label: 'Question',
+                quiz_complete: 'Test Complete',
+                quiz_done: '✅ Completed all {count} questions',
+                quiz_loading: 'Generating your personality report...',
+                loading_text: 'Analyzing your personality traits...',
+                result_radar_title: 'Personality Radar',
+                result_radar_subtitle: 'You vs Historical Figure',
+                result_matches_title: 'TOP 10 Matches',
+                result_matches_subtitle: 'Click to view details',
+                result_suggestion_title: 'Improvement Suggestions',
+                btn_restart: 'Restart',
+                match_similarity: 'Match',
+                trait_names: {
+                    openness: 'Openness', conscientiousness: 'Conscientiousness', extraversion: 'Extraversion',
+                    agreeableness: 'Agreeableness', neuroticism: 'Emotional Stability', leadership: 'Leadership',
+                    risk_taking: 'Risk Taking', rationality: 'Rationality', discipline: 'Discipline',
+                    empathy: 'Empathy', ambition: 'Ambition', resilience: 'Resilience'
+                }
+            },
+            es: {
+                app_title: 'Encuentra Figuras Históricas',
+                payment_title: 'Test de Pago',
+                payment_subtitle: 'Completa el pago para comenzar el análisis de personalidad',
+                payment_qr_hint: 'Pago WeChat · Válido por 24 horas',
+                payment_validity: '⏰ Válido por 24 horas después del pago, completa el test pronto',
+                payment_test_mode: 'Modo Prueba',
+                payment_paid: 'Ya Pagué',
+                confirm_title: 'Confirmación de Fase de Desarrollo',
+                confirm_text: 'Actualmente en fase de desarrollo, ingresa <strong style="color: var(--ink);">qwe</strong> para omitir el pago',
+                confirm_placeholder: 'Ingresa qwe para confirmar',
+                btn_cancel: 'Cancelar',
+                btn_confirm: 'Confirmar',
+                start_title: 'Instrucciones del Test',
+                start_subtitle: 'Conoce el análisis de personalidad por venir',
+                start_step1: '60 preguntas situacionales basadas en decisiones clave de figuras históricas',
+                start_step2: 'Elige la opción que mejor coincida con tu primera reacción',
+                start_step3: 'Al completar, verás los TOP-10 figuras históricas más similares con sugerencias personalizadas',
+                btn_start: 'Comenzar Test',
+                progress_label: 'Pregunta',
+                quiz_complete: 'Test Completado',
+                quiz_done: '✅ Completaste las {count} preguntas',
+                quiz_loading: 'Generando tu informe de personalidad...',
+                loading_text: 'Analizando tus rasgos de personalidad...',
+                result_radar_title: 'Radar de Personalidad',
+                result_radar_subtitle: 'Tú vs Figura Histórica',
+                result_matches_title: 'TOP 10 Coincidencias',
+                result_matches_subtitle: 'Haz clic para ver detalles',
+                result_suggestion_title: 'Sugerencias de Mejora',
+                btn_restart: 'Reiniciar',
+                match_similarity: 'Coincidencia',
+                trait_names: {
+                    openness: 'Apertura', conscientiousness: 'Responsabilidad', extraversion: 'Extroversión',
+                    agreeableness: 'Amabilidad', neuroticism: 'Estabilidad Emocional', leadership: 'Liderazgo',
+                    risk_taking: 'Toma de Riesgos', rationality: 'Racionalidad', discipline: 'Disciplina',
+                    empathy: 'Empatía', ambition: 'Ambición', resilience: 'Resiliencia'
+                }
+            },
+            ja: {
+                app_title: '歴史上の人物との出会い',
+                payment_title: '有料テスト',
+                payment_subtitle: '支払いを完了すると性格分析が始まります',
+                payment_qr_hint: 'WeChat支払い · 24時間有効',
+                payment_validity: '⏰ 支払い後24時間有効、お早めにテストを完了してください',
+                payment_test_mode: 'テストモード',
+                payment_paid: '支払い済み',
+                confirm_title: '開発フェーズ確認',
+                confirm_text: '現在は開発フェーズです。<strong style="color: var(--ink);">qwe</strong> を入力して支払いをスキップ',
+                confirm_placeholder: '確認のためにqweを入力',
+                btn_cancel: 'キャンセル',
+                btn_confirm: '確認',
+                start_title: 'テスト説明',
+                start_subtitle: '今後の性格分析についてご確認ください',
+                start_step1: '歴史上の人物の重要な意思決定に基づいた60の状況質問',
+                start_step2: '最初の反応に最も合う選択肢を選んでください',
+                start_step3: '完了後、最も似ている歴史上の人物TOP-10と個別の改善提案が表示されます',
+                btn_start: 'テスト開始',
+                progress_label: '質問',
+                quiz_complete: 'テスト完了',
+                quiz_done: '✅ {count}問完了しました',
+                quiz_loading: '性格分析レポートを作成中...',
+                loading_text: '性格特性を分析中...',
+                result_radar_title: '性格レーダー',
+                result_radar_subtitle: 'あなた vs 歴史上の人物',
+                result_matches_title: 'TOP 10 マッチ',
+                result_matches_subtitle: '詳細をクリック',
+                result_suggestion_title: '改善提案',
+                btn_restart: '再テスト',
+                match_similarity: '一致率',
+                trait_names: {
+                    openness: '開放性', conscientiousness: '誠実性', extraversion: '外伸性',
+                    agreeableness: '協調性', neuroticism: '情緒安定', leadership: 'リーダーシップ',
+                    risk_taking: 'リスク選好', rationality: '合理主義', discipline: '規律',
+                    empathy: '共感力', ambition: '野心', resilience: '回復力'
+                }
+            },
+            de: {
+                app_title: 'Begegnung mit historischen Figuren',
+                payment_title: 'Bezahltest',
+                payment_subtitle: 'Schließen Sie die Zahlung ab, um die Persönlichkeitsanalyse zu beginnen',
+                payment_qr_hint: 'WeChat-Zahlung · 24 Stunden gültig',
+                payment_validity: '⏰ 24 Stunden nach Zahlung gültig, bitte schließen Sie den Test bald ab',
+                payment_test_mode: 'Testmodus',
+                payment_paid: 'Ich habe bezahlt',
+                confirm_title: 'Entwicklungsphasen-Bestätigung',
+                confirm_text: 'Aktuell in Entwicklungsphase, geben Sie <strong style="color: var(--ink);">qwe</strong> ein, um die Zahlung zu überspringen',
+                confirm_placeholder: 'qwe eingeben zum Bestätigen',
+                btn_cancel: 'Abbrechen',
+                btn_confirm: 'Bestätigen',
+                start_title: 'Testanleitung',
+                start_subtitle: 'Erfahren Sie mehr über die bevorstehende Persönlichkeitsanalyse',
+                start_step1: '60 Situationfragen basierend auf wichtigen Entscheidungen historischer Figuren',
+                start_step2: 'Wählen Sie die Option, die Ihrer ersten Reaktion am besten entspricht',
+                start_step3: 'Nach Abschluss sehen Sie die TOP-10 ähnlichsten historischen Figuren mit personalisierten Vorschlägen',
+                btn_start: 'Test starten',
+                progress_label: 'Frage',
+                quiz_complete: 'Test abgeschlossen',
+                quiz_done: '✅ Alle {count} Fragen beantwortet',
+                quiz_loading: 'Erstelle Ihren Persönlichkeitsbericht...',
+                loading_text: 'Analysiere Ihre Persönlichkeitsmerkmale...',
+                result_radar_title: 'Persönlichkeits-Radar',
+                result_radar_subtitle: 'Sie vs. Historische Figur',
+                result_matches_title: 'TOP 10 Übereinstimmungen',
+                result_matches_subtitle: 'Klicken für Details',
+                result_suggestion_title: 'Verbesserungsvorschläge',
+                btn_restart: 'Neu starten',
+                match_similarity: 'Übereinstimmung',
+                trait_names: {
+                    openness: 'Offenheit', conscientiousness: 'Gewissenhaftigkeit', extraversion: 'Extraversions',
+                    agreeableness: 'Verträglichkeit', neuroticism: 'Emotionale Stabilität', leadership: 'Führung',
+                    risk_taking: 'Risikobereitschaft', rationality: 'Rationalität', discipline: 'Disziplin',
+                    empathy: 'Empathie', ambition: 'Ambition', resilience: 'Resilienz'
+                }
+            },
+            ru: {
+                app_title: 'Встреча с историческими личностями',
+                payment_title: 'Платный тест',
+                payment_subtitle: 'Завершите оплату, чтобы начать анализ личности',
+                payment_qr_hint: 'WeChat оплата · Действует 24 часа',
+                payment_validity: '⏰ Действует 24 часа после оплаты, пожалуйста, завершите тест soon',
+                payment_test_mode: 'Тестовый режим',
+                payment_paid: 'Я оплатил',
+                confirm_title: 'Подтверждение фазы разработки',
+                confirm_text: 'В настоящее время фаза разработки, введите <strong style="color: var(--ink);">qwe</strong> для пропуска оплаты',
+                confirm_placeholder: 'Введите qwe для подтверждения',
+                btn_cancel: 'Отмена',
+                btn_confirm: 'Подтвердить',
+                start_title: 'Инструкция теста',
+                start_subtitle: 'Узнайте о предстоящем анализе личности',
+                start_step1: '60 ситуационных вопросов, основанных на ключевых решениях исторических личностей',
+                start_step2: 'Выберите вариант, который лучше всего соответствует вашей первой реакции',
+                start_step3: 'После завершения вы увидите ТОП-10 наиболее похожих исторических личностей с персональными рекомендациями',
+                btn_start: 'Начать тест',
+                progress_label: 'Вопрос',
+                quiz_complete: 'Тест завершен',
+                quiz_done: '✅ Завершены все {count} вопросов',
+                quiz_loading: 'Генерируем отчет о личности...',
+                loading_text: 'Анализируем ваши личностные черты...',
+                result_radar_title: 'Радар личности',
+                result_radar_subtitle: 'Вы vs Историческая личность',
+                result_matches_title: 'ТОП-10 совпадений',
+                result_matches_subtitle: 'Нажмите для деталей',
+                result_suggestion_title: 'Рекомендации по улучшению',
+                btn_restart: 'Начать заново',
+                match_similarity: 'Совпадение',
+                trait_names: {
+                    openness: 'Открытость', conscientiousness: 'Добросовестность', extraversion: 'Экстраверсия',
+                    agreeableness: 'Доброжелательность', neuroticism: 'Эмоциональная стабильность', leadership: 'Лидерство',
+                    risk_taking: 'Склонность к риску', rationality: 'Рациональность', discipline: 'Дисциплина',
+                    empathy: 'Эмпатия', ambition: 'Амбициозность', resilience: 'Стрессоустойчивость'
+                }
+            },
+            fr: {
+                app_title: 'Rencontre avec des figures historiques',
+                payment_title: 'Test payant',
+                payment_subtitle: 'Terminez le paiement pour commencer l\'analyse de personnalité',
+                payment_qr_hint: 'Paiement WeChat · Valable 24 heures',
+                payment_validity: '⏰ Valable 24 heures après le paiement, veuillez compléter le test rapidement',
+                payment_test_mode: 'Mode test',
+                payment_paid: 'J\'ai payé',
+                confirm_title: 'Confirmation phase de développement',
+                confirm_text: 'Actuellement en phase de développement, entrez <strong style="color: var(--ink);">qwe</strong> pour passer le paiement',
+                confirm_placeholder: 'Entrez qwe pour confirmer',
+                btn_cancel: 'Annuler',
+                btn_confirm: 'Confirmer',
+                start_title: 'Instructions du test',
+                start_subtitle: 'Apprenez-en plus sur l\'analyse de personnalité à venir',
+                start_step1: '60 questions situationnelles basées sur les décisions clés des figures historiques',
+                start_step2: 'Choisissez l\'option qui correspond le mieux à votre première réaction',
+                start_step3: 'Après achèvement, vous verrez les TOP-10 figures historiques les plus similaires avec des suggestions personnalisées',
+                btn_start: 'Commencer le test',
+                progress_label: 'Question',
+                quiz_complete: 'Test terminé',
+                quiz_done: '✅ {count} questions complétées',
+                quiz_loading: 'Génération de votre rapport de personnalité...',
+                loading_text: 'Analyse de vos traits de personnalité...',
+                result_radar_title: 'Radar de personnalité',
+                result_radar_subtitle: 'Vous vs Figure historique',
+                result_matches_title: 'TOP 10 correspondances',
+                result_matches_subtitle: 'Cliquez pour voir les détails',
+                result_suggestion_title: 'Suggestions d\'amélioration',
+                btn_restart: 'Recommencer',
+                match_similarity: 'Correspondance',
+                trait_names: {
+                    openness: 'Ouverture', conscientiousness: 'Conscience', extraversion: 'Extraversion',
+                    agreeableness: 'Agréabilité', neuroticism: 'Stabilité émotionnelle', leadership: 'Leadership',
+                    risk_taking: 'Prise de risque', rationality: 'Rationalité', discipline: 'Discipline',
+                    empathy: 'Empathie', ambition: 'Ambition', resilience: 'Résilience'
+                }
+            }
+        };
+        
+        // ── State ──
+        let currentLang = 'zh';
         const API_BASE = '';
         let questions = [];
-        let answers = new Array(20).fill(-1);
+        let answers = new Array(60).fill(-1);
         let currentQuestion = 0;
         let currentMatchIndex = 0;
         let currentResults = null;
         let radarChart = null;
         let paymentOrder = null;
         
+        // ── Language Functions ──
+        function toggleLangDropdown() {
+            document.getElementById('lang-dropdown').classList.toggle('open');
+        }
+        
+        function setLanguage(lang) {
+            currentLang = lang;
+            localStorage.setItem('prophets-lang', lang);
+            updateLanguage();
+            toggleLangDropdown();
+        }
+        
+        function updateLanguage() {
+            const t = i18n[currentLang];
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (t[key]) el.innerHTML = t[key];
+            });
+            document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                if (t[key]) el.placeholder = t[key];
+            });
+            document.getElementById('current-lang').textContent = getLangFlag(currentLang);
+            document.querySelectorAll('.lang-option').forEach(opt => {
+                opt.classList.toggle('active', opt.dataset.lang === currentLang);
+            });
+        }
+        
+        function getLangFlag(lang) {
+            const flags = { zh: '🇨🇳 中文', en: '🇺🇸 English', es: '🇪🇸 Español', ja: '🇯🇵 日本語', de: '🇩🇪 Deutsch', ru: '🇷🇺 Русский', fr: '🇫🇷 Français' };
+            return flags[lang] || lang;
+        }
+        
+        function t(key, params = {}) {
+            const template = i18n[currentLang][key] || key;
+            return Object.entries(params).reduce((str, [k, v]) => str.replace(`{${k}}`, v), template);
+        }
+        
+        // ── Initialize ──
         window.onload = function() {
+            const savedLang = localStorage.getItem('prophets-lang');
+            if (savedLang && i18n[savedLang]) {
+                currentLang = savedLang;
+                updateLanguage();
+            }
             loadQuiz();
             checkPayment();
         };
+        
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.lang-selector')) {
+                document.getElementById('lang-dropdown').classList.remove('open');
+            }
+        });
         
         async function checkPayment() {
             try {
@@ -835,12 +1174,12 @@
                     showSection('start-section');
                 }
             } catch (e) {
-                alert('支付失败，请重试');
+                alert(t('payment_paid') + ' ' + t('loading_text'));
             }
         }
         
         async function checkPaymentStatus() {
-            if (!paymentOrder) { alert('请先扫码支付'); return; }
+            if (!paymentOrder) { alert(t('payment_qr_hint')); return; }
             try {
                 const resp = await fetch(`${API_BASE}/api/payment/verify`, {
                     method: 'POST',
@@ -849,8 +1188,8 @@
                 });
                 const data = await resp.json();
                 if (data.paid) showSection('start-section');
-                else alert('支付未成功，请扫码支付');
-            } catch (e) { alert('验证失败，请重试'); }
+                else alert(t('payment_validity'));
+            } catch (e) { alert(t('loading_text')); }
         }
         
         async function loadQuiz() {
@@ -859,7 +1198,7 @@
                 const data = await response.json();
                 questions = data.questions;
             } catch (e) {
-                alert('加载题目失败，请刷新重试');
+                alert(t('loading_text'));
             }
         }
         
@@ -871,9 +1210,10 @@
             document.getElementById('progress-bar').style.width = progress + '%';
             document.getElementById('progress-text').textContent = `${currentQuestion + 1} / ${questions.length}`;
             
+            const t_current = i18n[currentLang];
             container.innerHTML = `
                 <div class="question">
-                    <div class="question__label">情境 ${currentQuestion + 1}</div>
+                    <div class="question__label">${t_current.progress_label} ${currentQuestion + 1}</div>
                     <div class="question__text">${question.text}</div>
                     <div class="options">
                         ${question.options.map((opt, idx) => `
@@ -901,12 +1241,12 @@
             const container = document.getElementById('question-container');
             container.innerHTML = `
                 <div class="question">
-                    <div class="question__label">测试完成</div>
+                    <div class="question__label">${t('quiz_complete')}</div>
                     <div class="question__text" style="color: var(--success);">
-                        ✅ 已完成全部 ${questions.length} 道情境题
+                        ${t('quiz_done', { count: questions.length })}
                     </div>
                     <div style="text-align: center; margin-top: var(--space-lg); color: var(--ink-muted); font-size: 0.9375rem;">
-                        正在为您生成性格分析报告...
+                        ${t('quiz_loading')}
                     </div>
                 </div>
             `;
@@ -935,7 +1275,7 @@
             } catch (error) {
                 document.getElementById('loading-section').classList.remove('active');
                 document.getElementById('quiz-section').classList.remove('hidden');
-                alert('提交失败，请重试: ' + error.message);
+                alert(t('loading_text') + ': ' + error.message);
             }
         }
         
@@ -957,7 +1297,7 @@
                     </div>
                     <div class="match-score">
                         <div class="match-score__value">${(match.similarity * 100).toFixed(0)}%</div>
-                        <div class="match-score__label">匹配</div>
+                        <div class="match-score__label">${t('match_similarity')}</div>
                     </div>
                 </div>
             `).join('');
@@ -999,7 +1339,7 @@
             section.style.display = 'block';
             
             section.innerHTML = `
-                <div class="suggestions__title">💡 ${suggestion.figure_name} 改进建议</div>
+                <div class="suggestions__title">💡 ${suggestion.figure_name} ${t('result_suggestion_title')}</div>
                 <div class="suggestions__overall">${suggestion.overall}</div>
                 ${suggestion.suggestions.map(item => `
                     <div class="suggestions__item">
@@ -1020,12 +1360,7 @@
             
             const ctx = document.getElementById('radar-chart').getContext('2d');
             const dimensions = Object.keys(userVector);
-            const traitNames = {
-                openness: '开放性', conscientiousness: '尽责性', extraversion: '外向性',
-                agreeableness: '宜人性', neuroticism: '情绪稳定', leadership: '领导力',
-                risk_taking: '风险偏好', rationality: '理性度', discipline: '自律性',
-                empathy: '共情力', ambition: '野心', resilience: '韧性'
-            };
+            const traitNames = i18n[currentLang].trait_names;
             const labels = dimensions.map(d => traitNames[d] || d);
             const userValues = dimensions.map(d => userVector[d] * 100);
             const figureValues = dimensions.map(d => (figureVector[d] || 0) * 100);
@@ -1036,7 +1371,7 @@
                     labels: labels,
                     datasets: [
                         {
-                            label: '您',
+                            label: t('result_radar_subtitle').split(' vs ')[0],
                             data: userValues,
                             borderColor: '#c0562a',
                             backgroundColor: 'rgba(192, 86, 42, 0.12)',
@@ -1067,7 +1402,7 @@
                             grid: { color: 'rgba(0,0,0,0.06)', lineWidth: 1 },
                             angleLines: { color: 'rgba(0,0,0,0.08)' },
                             pointLabels: {
-                                font: { size: 11, family: "'Noto Serif SC', serif", weight: '500' },
+                                font: { size: 11, family: "var(--serif)", weight: '500' },
                                 color: '#6b7280'
                             }
                         }
@@ -1105,7 +1440,7 @@
         }
         
         function restartQuiz() {
-            answers = new Array(20).fill(-1);
+            answers = new Array(60).fill(-1);
             currentQuestion = 0;
             currentMatchIndex = 0;
             currentResults = null;
