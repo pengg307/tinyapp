@@ -24,11 +24,9 @@ def _load_questions() -> list[dict[str, Any]]:
     if _questions_data is not None:
         return _questions_data
 
-    # 使用正确的路径
     data_path = Path(__file__).parent.parent / "data" / "questions.json"
 
     if not data_path.exists():
-        # 尝试备选路径
         data_path = Path(__file__).parent.parent.parent / "prophets" / "src" / "data" / "questions.json"
 
     if not data_path.exists():
@@ -68,29 +66,14 @@ async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$
 
         sanitized_questions = []
         for q in questions:
-            # 获取当前语言的文本和选项
+            # translations格式: {"zh": [...options...], "en": [...], ...}
             translations = q.get("translations", {})
             
-            # 兼容两种格式:
-            # 格式1: translations是dict，如 {"zh": {"text": "...", "options": [...]}, ...}
-            # 格式2: translations是list，如 [{"lang": "zh", "text": "...", "options": [...]}, ...]
+            # 获取当前语言的选项
+            lang_options = translations.get(language, translations.get("zh", []))
             
-            if isinstance(translations, dict):
-                lang_data = translations.get(language, translations.get("zh", {}))
-                question_text = lang_data.get("text", q.get("text", ""))
-                lang_options = lang_data.get("options", [])
-            elif isinstance(translations, list):
-                # 查找对应语言的翻译
-                lang_item = next((t for t in translations if t.get("lang") == language), None)
-                if lang_item:
-                    question_text = lang_item.get("text", q.get("text", ""))
-                    lang_options = lang_item.get("options", [])
-                else:
-                    question_text = q.get("text", "")
-                    lang_options = []
-            else:
-                question_text = q.get("text", "")
-                lang_options = []
+            # 题目文本使用顶层text字段（中文）
+            question_text = q.get("text", "")
 
             sanitized_questions.append(QuizQuestion(
                 id=q.get("id"),
@@ -131,24 +114,9 @@ async def get_question(question_id: int, language: str = Query("zh", pattern="^(
         if question is None:
             raise HTTPException(status_code=404, detail=f"题目 {question_id} 不存在")
 
-        # 获取当前语言的文本和选项
         translations = question.get("translations", {})
-        
-        if isinstance(translations, dict):
-            lang_data = translations.get(language, translations.get("zh", {}))
-            question_text = lang_data.get("text", question.get("text", ""))
-            lang_options = lang_data.get("options", [])
-        elif isinstance(translations, list):
-            lang_item = next((t for t in translations if t.get("lang") == language), None)
-            if lang_item:
-                question_text = lang_item.get("text", question.get("text", ""))
-                lang_options = lang_item.get("options", [])
-            else:
-                question_text = question.get("text", "")
-                lang_options = []
-        else:
-            question_text = question.get("text", "")
-            lang_options = []
+        lang_options = translations.get(language, translations.get("zh", []))
+        question_text = question.get("text", "")
 
         sanitized = {
             "id": question.get("id"),
