@@ -130,8 +130,8 @@ def generate_suggestions(gaps: list[dict[str, Any]], figure_type: str, language:
     
     suggestions = []
     for gap in gaps:
-        trait = gap["trait"]
-        direction = gap["direction"]
+        trait = gap.get("trait", "")
+        direction = gap.get("direction", "up" if gap.get("gap", 0) < 0 else "down")
         
         if trait in suggestions_map:
             tips = suggestions_map[trait].get(direction, [])
