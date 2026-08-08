@@ -66,14 +66,15 @@ async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$
 
         sanitized_questions = []
         for q in questions:
-            # translations格式: {"zh": [...options...], "en": [...], ...}
+            # 新格式: translations = {"zh": {"text": "...", "options": [...]}, ...}
             translations = q.get("translations", {})
             
-            # 获取当前语言的选项
-            lang_options = translations.get(language, translations.get("zh", []))
+            # 获取当前语言的数据
+            lang_data = translations.get(language, translations.get("zh", {}))
             
-            # 题目文本使用顶层text字段（中文）
-            question_text = q.get("text", "")
+            # 提取文本和选项
+            question_text = lang_data.get("text", q.get("text", ""))
+            lang_options = lang_data.get("options", [])
 
             sanitized_questions.append(QuizQuestion(
                 id=q.get("id"),
@@ -115,8 +116,9 @@ async def get_question(question_id: int, language: str = Query("zh", pattern="^(
             raise HTTPException(status_code=404, detail=f"题目 {question_id} 不存在")
 
         translations = question.get("translations", {})
-        lang_options = translations.get(language, translations.get("zh", []))
-        question_text = question.get("text", "")
+        lang_data = translations.get(language, translations.get("zh", {}))
+        question_text = lang_data.get("text", question.get("text", ""))
+        lang_options = lang_data.get("options", [])
 
         sanitized = {
             "id": question.get("id"),
