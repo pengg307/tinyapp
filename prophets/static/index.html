@@ -1241,20 +1241,24 @@
             const container = document.getElementById('question-container');
             const question = questions[currentQuestion];
             const progress = ((currentQuestion + 1) / questions.length) * 100;
-            
+
             document.getElementById('progress-bar').style.width = progress + '%';
             document.getElementById('progress-text').textContent = `${currentQuestion + 1} / ${questions.length}`;
-            
+
             const t_current = i18n[currentLang];
+            // Use translations from the question data
+            const questionText = question.translations?.[currentLang]?.[0] || question.text || question.translations?.['zh']?.[0];
+            const options = question.translations?.[currentLang] || question.options || [];
+
             container.innerHTML = `
                 <div class="question">
                     <div class="question__label">${t_current.progress_label} ${currentQuestion + 1}</div>
-                    <div class="question__text">${question.text}</div>
+                    <div class="question__text">${questionText}</div>
                     <div class="options">
-                        ${question.options.map((opt, idx) => `
-                            <div class="option ${answers[currentQuestion] === idx ? 'selected' : ''}" 
+                        ${options.map((opt, idx) => `
+                            <div class="option ${answers[currentQuestion] === idx ? 'selected' : ''}"
                                  onclick="selectOption(${idx})">
-                                ${opt.text}
+                                ${opt}
                             </div>
                         `).join('')}
                     </div>
