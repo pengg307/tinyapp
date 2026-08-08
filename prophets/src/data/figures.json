@@ -18,6 +18,15 @@
       "empathy": 0.08329161244736728,
       "ambition": 0.9420584494295803,
       "resilience": 0.9751855763459191
+    },
+    "names": {
+      "zh": "秦始皇",
+      "en": "Qin Shi Huang",
+      "es": "Qin Shi Huang",
+      "ja": "秦始皇",
+      "de": "Qin Shi Huang",
+      "ru": "Цинь Шихуанди",
+      "fr": "Qin Shi Huang"
     }
   },
   {
@@ -39,6 +48,15 @@
       "empathy": 0,
       "ambition": 0.9692144648535218,
       "resilience": 0.8786178949269907
+    },
+    "names": {
+      "zh": "汉武帝",
+      "en": "Emperor Wu of Han",
+      "es": "Emperador Wu de Han",
+      "ja": "漢武帝",
+      "de": "Kaiser Wu von Han",
+      "ru": "У-ди Хань",
+      "fr": "Empereur Wu des Han"
     }
   },
   {
@@ -60,6 +78,15 @@
       "empathy": 0.12182168596053333,
       "ambition": 1,
       "resilience": 0.9493435756986338
+    },
+    "names": {
+      "zh": "唐太宗",
+      "en": "Taizong of Tang",
+      "es": "Taizong de Tang",
+      "ja": "唐太宗",
+      "de": "Taizong von Tang",
+      "ru": "Тай-цзун Тан",
+      "fr": "Taizong des Tang"
     }
   },
   {
@@ -81,6 +108,15 @@
       "empathy": 0.07600356549663712,
       "ambition": 0.9711711076089411,
       "resilience": 0.9032108833884498
+    },
+    "names": {
+      "zh": "武则天",
+      "en": "Wu Zetian",
+      "es": "Wu Zetian",
+      "ja": "武則天",
+      "de": "Wu Zetian",
+      "ru": "У Цзэтянь",
+      "fr": "Wu Zetian"
     }
   },
   {
@@ -102,6 +138,15 @@
       "empathy": 0.0013572579870632304,
       "ambition": 0.9445227288910538,
       "resilience": 0.8720528529221223
+    },
+    "names": {
+      "zh": "康熙",
+      "en": "Kangxi Emperor",
+      "es": "Emperador Kangxi",
+      "ja": "康熙帝",
+      "de": "Kangxi Kaiser",
+      "ru": "Канси",
+      "fr": "Empereur Kangxi"
     }
   },
   {
@@ -123,6 +168,15 @@
       "empathy": 0.12790190985608277,
       "ambition": 1,
       "resilience": 0.8517945090454676
+    },
+    "names": {
+      "zh": "成吉思汗",
+      "en": "Genghis Khan",
+      "es": "Genghis Khan",
+      "ja": "チンギス・カン",
+      "de": "Dschingis Khan",
+      "ru": "Чингисхан",
+      "fr": "Gengis Khan"
     }
   },
   {
@@ -144,6 +198,15 @@
       "empathy": 0.06972770029240927,
       "ambition": 0.9730898024852649,
       "resilience": 0.8301693360457638
+    },
+    "names": {
+      "zh": "曹操",
+      "en": "Cao Cao",
+      "es": "Cao Cao",
+      "ja": "曹操",
+      "de": "Cao Cao",
+      "ru": "Цао Цао",
+      "fr": "Cao Cao"
     }
   },
   {
@@ -165,6 +228,15 @@
       "empathy": 0.0598043516111194,
       "ambition": 1,
       "resilience": 0.8990072954183026
+    },
+    "names": {
+      "zh": "诸葛亮",
+      "en": "Zhuge Liang",
+      "es": "Zhuge Liang",
+      "ja": "諸葛亮",
+      "de": "Zhuge Liang",
+      "ru": "Чжугэ Лян",
+      "fr": "Zhuge Liang"
     }
   },
   {
@@ -186,6 +258,15 @@
       "empathy": 0.009886756663819996,
       "ambition": 0.981038292303563,
       "resilience": 0.9408881821668879
+    },
+    "names": {
+      "zh": "刘邦",
+      "en": "Liu Bang",
+      "es": "Liu Bang",
+      "ja": "劉邦",
+      "de": "Liu Bang",
+      "ru": "Лю Бан",
+      "fr": "Liu Bang"
     }
   },
   {
@@ -207,6 +288,15 @@
       "empathy": 0,
       "ambition": 1,
       "resilience": 0.9062947587065041
+    },
+    "names": {
+      "zh": "李世民",
+      "en": "Li Shimin",
+      "es": "Li Shimin",
+      "ja": "李世民",
+      "de": "Li Shimin",
+      "ru": "Ли Шиминь",
+      "fr": "Li Shimin"
     }
   },
   {
@@ -228,6 +318,15 @@
       "empathy": 0.051719568412410516,
       "ambition": 0.9817411003148779,
       "resilience": 0.8555372496753169
+    },
+    "names": {
+      "zh": "孔子",
+      "en": "Confucius",
+      "es": "Confucio",
+      "ja": "孔子",
+      "de": "Konfuzius",
+      "ru": "Конфуций",
+      "fr": "Confucius"
     }
   },
   {
@@ -249,6 +348,15 @@
       "empathy": 0.010285167332058268,
       "ambition": 0.9897248505892385,
       "resilience": 0.8681405295706832
+    },
+    "names": {
+      "zh": "老子",
+      "en": "Laozi",
+      "es": "Laozi",
+      "ja": "老子",
+      "de": "Laozi",
+      "ru": "Лао-цзы",
+      "fr": "Laozi"
     }
   },
   {
@@ -270,6 +378,15 @@
       "empathy": 0.1178905520555126,
       "ambition": 0.9471300908221201,
       "resilience": 0.8180932651627602
+    },
+    "names": {
+      "zh": "孙子",
+      "en": "Sun Tzu",
+      "es": "Sun Tzu",
+      "ja": "孫子",
+      "de": "Sun Tzu",
+      "ru": "Сунь-цзы",
+      "fr": "Sun Tzu"
     }
   },
   {
@@ -291,6 +408,15 @@
       "empathy": 0.18706049911784758,
       "ambition": 0.8141560129943471,
       "resilience": 0.804764442495965
+    },
+    "names": {
+      "zh": "孟子",
+      "en": "Mencius",
+      "es": "Mencio",
+      "ja": "孟子",
+      "de": "Mencius",
+      "ru": "Мэн-цзы",
+      "fr": "Mencius"
     }
   },
   {
@@ -312,6 +438,15 @@
       "empathy": 0.09734706926010747,
       "ambition": 0.9373459977473468,
       "resilience": 0.7930050265950384
+    },
+    "names": {
+      "zh": "庄子",
+      "en": "Zhuangzi",
+      "es": "Zhuangzi",
+      "ja": "荘子",
+      "de": "Zhuangzi",
+      "ru": "Чжуан-цзы",
+      "fr": "Zhuangzi"
     }
   },
   {
@@ -333,6 +468,15 @@
       "empathy": 0.06837045818009033,
       "ambition": 0.7686205535611799,
       "resilience": 0.9753317819087984
+    },
+    "names": {
+      "zh": "秦始皇",
+      "en": "Qin Shi Huang",
+      "es": "Qin Shi Huang",
+      "ja": "秦始皇",
+      "de": "Qin Shi Huang",
+      "ru": "Цинь Шихуанди",
+      "fr": "Qin Shi Huang"
     }
   },
   {
@@ -354,6 +498,15 @@
       "empathy": 0.036827992999009754,
       "ambition": 0.7823257428189228,
       "resilience": 0.975653005246499
+    },
+    "names": {
+      "zh": "汉武帝",
+      "en": "Emperor Wu of Han",
+      "es": "Emperador Wu de Han",
+      "ja": "漢武帝",
+      "de": "Kaiser Wu von Han",
+      "ru": "У-ди Хань",
+      "fr": "Empereur Wu des Han"
     }
   },
   {
@@ -375,6 +528,15 @@
       "empathy": 0.06485386189211195,
       "ambition": 0.8924358442695072,
       "resilience": 0.816939780999232
+    },
+    "names": {
+      "zh": "唐太宗",
+      "en": "Taizong of Tang",
+      "es": "Taizong de Tang",
+      "ja": "唐太宗",
+      "de": "Taizong von Tang",
+      "ru": "Тай-цзун Тан",
+      "fr": "Taizong des Tang"
     }
   },
   {
@@ -396,6 +558,15 @@
       "empathy": 0.06879792867581672,
       "ambition": 0.9446021109504891,
       "resilience": 0.8543434539200225
+    },
+    "names": {
+      "zh": "武则天",
+      "en": "Wu Zetian",
+      "es": "Wu Zetian",
+      "ja": "武則天",
+      "de": "Wu Zetian",
+      "ru": "У Цзэтяь",
+      "fr": "Wu Zetian"
     }
   },
   {
@@ -417,6 +588,15 @@
       "empathy": 0.02486319328629076,
       "ambition": 0.8790944591814336,
       "resilience": 0.8025065630576917
+    },
+    "names": {
+      "zh": "康熙",
+      "en": "Kangxi Emperor",
+      "es": "Emperador Kangxi",
+      "ja": "康熙帝",
+      "de": "Kangxi Kaiser",
+      "ru": "Канси",
+      "fr": "Empereur Kangxi"
     }
   },
   {
@@ -438,6 +618,15 @@
       "empathy": 0.190601891093472,
       "ambition": 0.8088897784139171,
       "resilience": 0.852423454864462
+    },
+    "names": {
+      "zh": "亚历山大大帝",
+      "en": "Alexander the Great",
+      "es": "Alejandro Magno",
+      "ja": "アレクサンダー大王",
+      "de": "Alexander der Große",
+      "ru": "Александр Македонский",
+      "fr": "Alexandre le Grand"
     }
   },
   {
@@ -459,6 +648,15 @@
       "empathy": 0.21801077002085265,
       "ambition": 0.7780168030473048,
       "resilience": 0.8843991165672969
+    },
+    "names": {
+      "zh": "凯撒",
+      "en": "Julius Caesar",
+      "es": "Julio César",
+      "ja": "ユリウス・カエサル",
+      "de": "Julius Caesar",
+      "ru": "Юлий Цезарь",
+      "fr": "Jules César"
     }
   },
   {
@@ -480,6 +678,15 @@
       "empathy": 0.20264811051129425,
       "ambition": 0.8522684797721876,
       "resilience": 0.8803639107249279
+    },
+    "names": {
+      "zh": "屋大维",
+      "en": "Augustus Caesar",
+      "es": "Augusto César",
+      "ja": "アウグストゥス",
+      "de": "Augustus",
+      "ru": "Октавиан Август",
+      "fr": "Auguste"
     }
   },
   {
@@ -501,6 +708,15 @@
       "empathy": 0.027188454759348404,
       "ambition": 0.843119603626492,
       "resilience": 0.8902347123298184
+    },
+    "names": {
+      "zh": "尼禄",
+      "en": "Nero",
+      "es": "Nerón",
+      "ja": "ネロ",
+      "de": "Nero",
+      "ru": "Нерон",
+      "fr": "Néron"
     }
   },
   {
@@ -522,6 +738,15 @@
       "empathy": 0.11179704659924236,
       "ambition": 0.9045780951638001,
       "resilience": 0.7504833915985043
+    },
+    "names": {
+      "zh": "图拉真",
+      "en": "Trajan",
+      "es": "Trajano",
+      "ja": "トラヤヌス",
+      "de": "Trajan",
+      "ru": "Траян",
+      "fr": "Trajan"
     }
   },
   {
@@ -543,6 +768,15 @@
       "empathy": 0.1249997403028978,
       "ambition": 0.8677942841411272,
       "resilience": 0.7488295315221438
+    },
+    "names": {
+      "zh": "马可·波罗",
+      "en": "Marco Polo",
+      "es": "Marco Polo",
+      "ja": "マルコ・ポーロ",
+      "de": "Marco Polo",
+      "ru": "Марко Поло",
+      "fr": "Marco Polo"
     }
   },
   {
@@ -564,6 +798,15 @@
       "empathy": 0.23150302144801496,
       "ambition": 0.9120394753435462,
       "resilience": 0.7971841352670263
+    },
+    "names": {
+      "zh": "哥伦布",
+      "en": "Christopher Columbus",
+      "es": "Cristóbal Colón",
+      "ja": "コロンブス",
+      "de": "Kolumbus",
+      "ru": "Христофор Колумб",
+      "fr": "Christophe Colomb"
     }
   },
   {
@@ -585,6 +828,15 @@
       "empathy": 0.0878574337216599,
       "ambition": 0.7892005284043505,
       "resilience": 0.7397749125565528
+    },
+    "names": {
+      "zh": "麦哲伦",
+      "en": "Ferdinand Magellan",
+      "es": "Fernando de Magallanes",
+      "ja": "マゼラン",
+      "de": "Magellan",
+      "ru": "Магеллан",
+      "fr": "Magellan"
     }
   },
   {
@@ -606,6 +858,15 @@
       "empathy": 0.20780402353253194,
       "ambition": 0.9070187301735287,
       "resilience": 0.7408729623452907
+    },
+    "names": {
+      "zh": "达·芬奇",
+      "en": "Leonardo da Vinci",
+      "es": "Leonardo da Vinci",
+      "ja": "レオナルド・ダ・ヴィンチ",
+      "de": "Leonardo da Vinci",
+      "ru": "Леонардо да Винчи",
+      "fr": "Léonard de Vinci"
     }
   },
   {
@@ -627,6 +888,15 @@
       "empathy": 0.20058613950563117,
       "ambition": 0.9680460482849915,
       "resilience": 0.8681138026902109
+    },
+    "names": {
+      "zh": "米开朗基罗",
+      "en": "Michelangelo",
+      "es": "Miguel Ángel",
+      "ja": "ミケランジェロ",
+      "de": "Michelangelo",
+      "ru": "Микеланджело",
+      "fr": "Michel-Ange"
     }
   },
   {
@@ -648,6 +918,15 @@
       "empathy": 0.07664671221003971,
       "ambition": 0.8001556002754853,
       "resilience": 0.7343732381563719
+    },
+    "names": {
+      "zh": "伽利略",
+      "en": "Galileo Galilei",
+      "es": "Galileo Galilei",
+      "ja": "ガリレオ・ガリレイ",
+      "de": "Galileo Galilei",
+      "ru": "Галилео Галилей",
+      "fr": "Galilée"
     }
   },
   {
@@ -669,6 +948,15 @@
       "empathy": 0.22721691968739616,
       "ambition": 0.9057885693559768,
       "resilience": 0.9405932832464927
+    },
+    "names": {
+      "zh": "牛顿",
+      "en": "Isaac Newton",
+      "es": "Isaac Newton",
+      "ja": "ニュートン",
+      "de": "Isaac Newton",
+      "ru": "Исаак Ньютон",
+      "fr": "Isaac Newton"
     }
   },
   {
@@ -690,6 +978,15 @@
       "empathy": 0.24633911057807922,
       "ambition": 0.8481607080506036,
       "resilience": 0.9533817581448555
+    },
+    "names": {
+      "zh": "爱因斯坦",
+      "en": "Albert Einstein",
+      "es": "Albert Einstein",
+      "ja": "アインシュタイン",
+      "de": "Albert Einstein",
+      "ru": "Альберт Эйнштейн",
+      "fr": "Albert Einstein"
     }
   },
   {
@@ -711,6 +1008,15 @@
       "empathy": 0.2749255748390881,
       "ambition": 0.8578403357468326,
       "resilience": 0.7326010363552716
+    },
+    "names": {
+      "zh": "居里夫人",
+      "en": "Marie Curie",
+      "es": "Marie Curie",
+      "ja": "キュリー夫人",
+      "de": "Marie Curie",
+      "ru": "Мария Кюри",
+      "fr": "Marie Curie"
     }
   },
   {
@@ -732,6 +1038,15 @@
       "empathy": 0.13887949088877982,
       "ambition": 0.9145036912154076,
       "resilience": 0.9105698870650432
+    },
+    "names": {
+      "zh": "达尔文",
+      "en": "Charles Darwin",
+      "es": "Charles Darwin",
+      "ja": "ダーウィン",
+      "de": "Charles Darwin",
+      "ru": "Чарльз Дарвин",
+      "fr": "Charles Darwin"
     }
   },
   {
@@ -753,6 +1068,15 @@
       "empathy": 0.0880960839426254,
       "ambition": 0.8085983364105671,
       "resilience": 0.9127625516121933
+    },
+    "names": {
+      "zh": "拿破仑",
+      "en": "Napoleon Bonaparte",
+      "es": "Napoleón Bonaparte",
+      "ja": "ナポレオン",
+      "de": "Napoleon Bonaparte",
+      "ru": "Наполеон Бонапарт",
+      "fr": "Napoléon Bonaparte"
     }
   },
   {
@@ -774,6 +1098,15 @@
       "empathy": 0.7551902482604231,
       "ambition": 0.20473748647220333,
       "resilience": 0.5811926441200672
+    },
+    "names": {
+      "zh": "威廉一世",
+      "en": "William the Conqueror",
+      "es": "William el Conquistador",
+      "ja": "ウィリアム征服王",
+      "de": "Wilhelm der Eroberer",
+      "ru": "Вильгельм Завоеватель",
+      "fr": "Guillaume le Conquérant"
     }
   },
   {
@@ -795,6 +1128,15 @@
       "empathy": 0.726287578634105,
       "ambition": 0.11003109363021449,
       "resilience": 0.6177875312872577
+    },
+    "names": {
+      "zh": "亨利八世",
+      "en": "Henry VIII",
+      "es": "Enrique VIII",
+      "ja": "ヘンリー8世",
+      "de": "Heinrich VIII",
+      "ru": "Генрих VIII",
+      "fr": "Henri VIII"
     }
   },
   {
@@ -816,6 +1158,15 @@
       "empathy": 0.5349534086285335,
       "ambition": 0.17285635106146985,
       "resilience": 0.7305797384568381
+    },
+    "names": {
+      "zh": "伊丽莎白一世",
+      "en": "Elizabeth I",
+      "es": "Isabel I",
+      "ja": "エリザベス1世",
+      "de": "Elizabeth I",
+      "ru": "Елизавета I",
+      "fr": "Élisabeth Ire"
     }
   },
   {
@@ -837,6 +1188,15 @@
       "empathy": 0.5993875423844754,
       "ambition": 0.4189489128228756,
       "resilience": 0.6269293532510447
+    },
+    "names": {
+      "zh": "彼得大帝",
+      "en": "Peter the Great",
+      "es": "Pedro el Grande",
+      "ja": "ペテル1世",
+      "de": "Peter der Große",
+      "ru": "Пётр Великий",
+      "fr": "Pierre le Grand"
     }
   },
   {
@@ -858,6 +1218,15 @@
       "empathy": 0.7204949622007298,
       "ambition": 0.23403643100285665,
       "resilience": 0.656039779340461
+    },
+    "names": {
+      "zh": "叶卡捷琳娜大帝",
+      "en": "Catherine the Great",
+      "es": "Catalina la Grande",
+      "ja": "エカチェリーナ2世",
+      "de": "Katharina die Große",
+      "ru": "Екатерина II",
+      "fr": "Catherine II"
     }
   },
   {
@@ -879,6 +1248,15 @@
       "empathy": 0.5929946918838833,
       "ambition": 0.18142994186307798,
       "resilience": 0.7141385059120846
+    },
+    "names": {
+      "zh": "列宁",
+      "en": "Vladimir Lenin",
+      "es": "Vladimir Lenin",
+      "ja": "レーニン",
+      "de": "Wladimir Lenin",
+      "ru": "Владимир Ленин",
+      "fr": "Lénine"
     }
   },
   {
@@ -900,6 +1278,15 @@
       "empathy": 0.711783000220147,
       "ambition": 0.08627872123822819,
       "resilience": 0.4779100923491756
+    },
+    "names": {
+      "zh": "斯大林",
+      "en": "Joseph Stalin",
+      "es": "José Stalin",
+      "ja": "スターリン",
+      "de": "Josef Stalin",
+      "ru": "Иосиф Сталин",
+      "fr": "Staline"
     }
   },
   {
@@ -921,6 +1308,15 @@
       "empathy": 0.5687295375261893,
       "ambition": 0.21933502084155945,
       "resilience": 0.5520221215792118
+    },
+    "names": {
+      "zh": "丘吉尔",
+      "en": "Winston Churchill",
+      "es": "Winston Churchill",
+      "ja": "チャーチル",
+      "de": "Winston Churchill",
+      "ru": "Уинстон Черчилль",
+      "fr": "Winston Churchill"
     }
   },
   {
@@ -942,6 +1338,15 @@
       "empathy": 0.48904531662755113,
       "ambition": 0.23219588871163366,
       "resilience": 0.5087478245454485
+    },
+    "names": {
+      "zh": "罗斯福",
+      "en": "Franklin D. Roosevelt",
+      "es": "Franklin D. Roosevelt",
+      "ja": "ルーズベルト",
+      "de": "Franklin D. Roosevelt",
+      "ru": "Франклин Рузвельт",
+      "fr": "Franklin D. Roosevelt"
     }
   },
   {
@@ -963,6 +1368,15 @@
       "empathy": 0.67803462102483,
       "ambition": 0.25725886040031765,
       "resilience": 0.7256544500955621
+    },
+    "names": {
+      "zh": "戴高乐",
+      "en": "Charles de Gaulle",
+      "es": "Charles de Gaulle",
+      "ja": "ドゴール",
+      "de": "Charles de Gaulle",
+      "ru": "Шарль де Голль",
+      "fr": "Charles de Gaulle"
     }
   },
   {
@@ -984,6 +1398,15 @@
       "empathy": 0.47666709814320785,
       "ambition": 0.11909373121123712,
       "resilience": 0.47436339970036456
+    },
+    "names": {
+      "zh": "肯尼迪",
+      "en": "John F. Kennedy",
+      "es": "John F. Kennedy",
+      "ja": "ケネディ",
+      "de": "John F. Kennedy",
+      "ru": "Джон Кеннеди",
+      "fr": "John F. Kennedy"
     }
   },
   {
@@ -1005,6 +1428,15 @@
       "empathy": 0.6239512120820344,
       "ambition": 0.3804509351488283,
       "resilience": 0.7548561870972926
+    },
+    "names": {
+      "zh": "里根",
+      "en": "Ronald Reagan",
+      "es": "Ronald Reagan",
+      "ja": "レーガン",
+      "de": "Ronald Reagan",
+      "ru": "Рональд Рейган",
+      "fr": "Ronald Reagan"
     }
   },
   {
@@ -1026,6 +1458,15 @@
       "empathy": 0.3160582475112772,
       "ambition": 0.22731079811911903,
       "resilience": 0.4686639165731947
+    },
+    "names": {
+      "zh": "拿破仑",
+      "en": "Napoleon Bonaparte",
+      "es": "Napoleón Bonaparte",
+      "ja": "ナポレオン",
+      "de": "Napoleon Bonaparte",
+      "ru": "Наполеон Бонапарт",
+      "fr": "Napoléon Bonaparte"
     }
   },
   {
@@ -1047,6 +1488,15 @@
       "empathy": 0.2889279484806519,
       "ambition": 0.2692240467711215,
       "resilience": 0.44226058487994363
+    },
+    "names": {
+      "zh": "拿破仑",
+      "en": "Napoleon Bonaparte",
+      "es": "Napoleón Bonaparte",
+      "ja": "ナポレオン",
+      "de": "Napoleon Bonaparte",
+      "ru": "Наполеон Бонапарт",
+      "fr": "Napoléon Bonaparte"
     }
   },
   {
@@ -1068,6 +1518,15 @@
       "empathy": 0.4961579314517461,
       "ambition": 0.21415237034279563,
       "resilience": 0.6698231196727127
+    },
+    "names": {
+      "zh": "亚里士多德",
+      "en": "Aristotle",
+      "es": "Aristóteles",
+      "ja": "アリストテレス",
+      "de": "Aristoteles",
+      "ru": "Аристотель",
+      "fr": "Aristote"
     }
   },
   {
@@ -1089,6 +1548,15 @@
       "empathy": 0.30373972933468407,
       "ambition": 0.3333699570048975,
       "resilience": 0.5753568955573063
+    },
+    "names": {
+      "zh": "柏拉图",
+      "en": "Plato",
+      "es": "Platón",
+      "ja": "プラトン",
+      "de": "Platon",
+      "ru": "Платон",
+      "fr": "Platon"
     }
   },
   {
@@ -1110,6 +1578,15 @@
       "empathy": 0.4328453941061262,
       "ambition": 0.23858192408231937,
       "resilience": 0.5642237100470364
+    },
+    "names": {
+      "zh": "苏格拉底",
+      "en": "Socrates",
+      "es": "Sócrates",
+      "ja": "ソクラテス",
+      "de": "Sokrates",
+      "ru": "Сократ",
+      "fr": "Socrate"
     }
   },
   {
@@ -1131,6 +1608,15 @@
       "empathy": 0.576210912295958,
       "ambition": 0.41369328327945754,
       "resilience": 0.6337306957433468
+    },
+    "names": {
+      "zh": "笛卡尔",
+      "en": "René Descartes",
+      "es": "René Descartes",
+      "ja": "デカルト",
+      "de": "René Descartes",
+      "ru": "Рене Декарт",
+      "fr": "René Descartes"
     }
   },
   {
@@ -1152,6 +1638,15 @@
       "empathy": 0.36523291855945406,
       "ambition": 0.43253020687937643,
       "resilience": 0.6012334914006735
+    },
+    "names": {
+      "zh": "康德",
+      "en": "Immanuel Kant",
+      "es": "Immanuel Kant",
+      "ja": "カント",
+      "de": "Immanuel Kant",
+      "ru": "Иммануил Кант",
+      "fr": "Immanuel Kant"
     }
   },
   {
@@ -1173,6 +1668,15 @@
       "empathy": 0.33403806747753884,
       "ambition": 0.26241449430611175,
       "resilience": 0.6990296273879275
+    },
+    "names": {
+      "zh": "黑格尔",
+      "en": "Hegel",
+      "es": "Hegel",
+      "ja": "ヘーゲル",
+      "de": "Hegel",
+      "ru": "Гегель",
+      "fr": "Hegel"
     }
   },
   {
@@ -1194,6 +1698,15 @@
       "empathy": 0.32316113081797593,
       "ambition": 0.2615195314604237,
       "resilience": 0.6305929659773293
+    },
+    "names": {
+      "zh": "叔本华",
+      "en": "Schopenhauer",
+      "es": "Schopenhauer",
+      "ja": "ショーペンハウアー",
+      "de": "Schopenhauer",
+      "ru": "Шопенгауэр",
+      "fr": "Schopenhauer"
     }
   },
   {
@@ -1215,6 +1728,15 @@
       "empathy": 0.31696389296603206,
       "ambition": 0.2413412569061133,
       "resilience": 0.6131860127324897
+    },
+    "names": {
+      "zh": "尼采",
+      "en": "Friedrich Nietzsche",
+      "es": "Friedrich Nietzsche",
+      "ja": "ニーチェ",
+      "de": "Friedrich Nietzsche",
+      "ru": "Фридрих Ницше",
+      "fr": "Friedrich Nietzsche"
     }
   },
   {
@@ -1236,6 +1758,15 @@
       "empathy": 0.6159840929559781,
       "ambition": 0.3160473841909003,
       "resilience": 0.6729623337563904
+    },
+    "names": {
+      "zh": "马克思",
+      "en": "Karl Marx",
+      "es": "Karl Marx",
+      "ja": "マルクス",
+      "de": "Karl Marx",
+      "ru": "Карл Маркс",
+      "fr": "Karl Marx"
     }
   },
   {
@@ -1257,6 +1788,15 @@
       "empathy": 0.606010764266605,
       "ambition": 0.2447470004547961,
       "resilience": 0.6492602425610933
+    },
+    "names": {
+      "zh": "恩格斯",
+      "en": "Friedrich Engels",
+      "es": "Friedrich Engels",
+      "ja": "エンゲルス",
+      "de": "Friedrich Engels",
+      "ru": "Фридрих Энгельс",
+      "fr": "Friedrich Engels"
     }
   },
   {
@@ -1278,6 +1818,15 @@
       "empathy": 0.6692774262877691,
       "ambition": 0.2722769510896369,
       "resilience": 0.6332468992832976
+    },
+    "names": {
+      "zh": "伏尔泰",
+      "en": "Voltaire",
+      "es": "Voltaire",
+      "ja": "ヴォルテール",
+      "de": "Voltaire",
+      "ru": "Вольтер",
+      "fr": "Voltaire"
     }
   },
   {
@@ -1299,6 +1848,15 @@
       "empathy": 0.7023306897993941,
       "ambition": 0.5289481272775505,
       "resilience": 0.5209793404332925
+    },
+    "names": {
+      "zh": "卢梭",
+      "en": "Jean-Jacques Rousseau",
+      "es": "Jean-Jacques Rousseau",
+      "ja": "ルソー",
+      "de": "Jean-Jacques Rousseau",
+      "ru": "Жан-Жак Руссо",
+      "fr": "Jean-Jacques Rousseau"
     }
   },
   {
@@ -1320,6 +1878,15 @@
       "empathy": 0.7103773475177007,
       "ambition": 0.26127971197189037,
       "resilience": 0.6258490681373066
+    },
+    "names": {
+      "zh": "洛克",
+      "en": "John Locke",
+      "es": "John Locke",
+      "ja": "ロック",
+      "de": "John Locke",
+      "ru": "Джон Локк",
+      "fr": "John Locke"
     }
   },
   {
@@ -1341,6 +1908,15 @@
       "empathy": 0.7667735243691159,
       "ambition": 0.5354818217259039,
       "resilience": 0.6556356292342298
+    },
+    "names": {
+      "zh": "休谟",
+      "en": "David Hume",
+      "es": "David Hume",
+      "ja": "ヒューム",
+      "de": "David Hume",
+      "ru": "Дэвид Юм",
+      "fr": "David Hume"
     }
   },
   {
@@ -1362,6 +1938,15 @@
       "empathy": 0.803340616414336,
       "ambition": 0.5168160760802727,
       "resilience": 0.5708131478387071
+    },
+    "names": {
+      "zh": "斯宾诺莎",
+      "en": "Spinoza",
+      "es": "Spinoza",
+      "ja": "スピノザ",
+      "de": "Spinoza",
+      "ru": "Спиноза",
+      "fr": "Spinoza"
     }
   },
   {
@@ -1383,6 +1968,15 @@
       "empathy": 0.8573480015068357,
       "ambition": 0.26747461737107525,
       "resilience": 0.551042739526047
+    },
+    "names": {
+      "zh": "莱布尼茨",
+      "en": "Leibniz",
+      "es": "Leibniz",
+      "ja": "ライプニッツ",
+      "de": "Leibniz",
+      "ru": "Лейбниц",
+      "fr": "Leibniz"
     }
   },
   {
@@ -1404,6 +1998,15 @@
       "empathy": 0.6666093702994227,
       "ambition": 0.4535668784733978,
       "resilience": 0.5584174166978282
+    },
+    "names": {
+      "zh": "柏格森",
+      "en": "Henri Bergson",
+      "es": "Henri Bergson",
+      "ja": "ベルクソン",
+      "de": "Henri Bergson",
+      "ru": "Анри Бергсон",
+      "fr": "Henri Bergson"
     }
   },
   {
@@ -1425,6 +2028,15 @@
       "empathy": 0.8510020518281693,
       "ambition": 0.5827543993073364,
       "resilience": 0.526781700565386
+    },
+    "names": {
+      "zh": "胡塞尔",
+      "en": "Edmund Husserl",
+      "es": "Edmund Husserl",
+      "ja": "フッサール",
+      "de": "Edmund Husserl",
+      "ru": "Эдмунд Гуссерль",
+      "fr": "Edmund Husserl"
     }
   },
   {
@@ -1446,6 +2058,15 @@
       "empathy": 0.8507653479390624,
       "ambition": 0.35239223752102294,
       "resilience": 0.464903152682642
+    },
+    "names": {
+      "zh": "海德格尔",
+      "en": "Martin Heidegger",
+      "es": "Martin Heidegger",
+      "ja": "ハイデガー",
+      "de": "Martin Heidegger",
+      "ru": "Мартин Хайдеггер",
+      "fr": "Martin Heidegger"
     }
   },
   {
@@ -1467,6 +2088,15 @@
       "empathy": 0.716974535787992,
       "ambition": 0.4554588741223391,
       "resilience": 0.5676151436510309
+    },
+    "names": {
+      "zh": "萨特",
+      "en": "Jean-Paul Sartre",
+      "es": "Jean-Paul Sartre",
+      "ja": "サルトル",
+      "de": "Jean-Paul Sartre",
+      "ru": "Жан-Поль Сартр",
+      "fr": "Jean-Paul Sartre"
     }
   },
   {
@@ -1488,6 +2118,15 @@
       "empathy": 0.7728924041568105,
       "ambition": 0.22951365005090807,
       "resilience": 0.6099857693437041
+    },
+    "names": {
+      "zh": "加缪",
+      "en": "Albert Camus",
+      "es": "Albert Camus",
+      "ja": "カミュ",
+      "de": "Albert Camus",
+      "ru": "Альбер Камю",
+      "fr": "Albert Camus"
     }
   },
   {
@@ -1509,6 +2148,15 @@
       "empathy": 0.7387893203395266,
       "ambition": 0.43073171850413516,
       "resilience": 0.49867458889776217
+    },
+    "names": {
+      "zh": "弗洛伊德",
+      "en": "Sigmund Freud",
+      "es": "Sigmund Freud",
+      "ja": "フロイト",
+      "de": "Sigmund Freud",
+      "ru": "Зигмунд Фрейд",
+      "fr": "Sigmund Freud"
     }
   },
   {
@@ -1530,6 +2178,15 @@
       "empathy": 0.44349366843923854,
       "ambition": 0.09015454226413797,
       "resilience": 0.3962149350518286
+    },
+    "names": {
+      "zh": "荣格",
+      "en": "Carl Jung",
+      "es": "Carl Jung",
+      "ja": "ユング",
+      "de": "Carl Jung",
+      "ru": "Карл Юнг",
+      "fr": "Carl Jung"
     }
   },
   {
@@ -1551,6 +2208,15 @@
       "empathy": 0.35141786482173343,
       "ambition": 0.3410984431407499,
       "resilience": 0.4257458011768216
+    },
+    "names": {
+      "zh": "阿德勒",
+      "en": "Alfred Adler",
+      "es": "Alfred Adler",
+      "ja": "アドラー",
+      "de": "Alfred Adler",
+      "ru": "Альфред Адлер",
+      "fr": "Alfred Adler"
     }
   },
   {
@@ -1572,6 +2238,15 @@
       "empathy": 0.6385343274084478,
       "ambition": 0.08520076940429444,
       "resilience": 0.37078307110760855
+    },
+    "names": {
+      "zh": "马斯洛",
+      "en": "Abraham Maslow",
+      "es": "Abraham Maslow",
+      "ja": "マズロー",
+      "de": "Abraham Maslow",
+      "ru": "Авраам Маслоу",
+      "fr": "Abraham Maslow"
     }
   },
   {
@@ -1593,6 +2268,15 @@
       "empathy": 0.4318769632669067,
       "ambition": 0.31611797700592315,
       "resilience": 0.4365029106962355
+    },
+    "names": {
+      "zh": "皮亚杰",
+      "en": "Jean Piaget",
+      "es": "Jean Piaget",
+      "ja": "ピアジェ",
+      "de": "Jean Piaget",
+      "ru": "Жан Пиаже",
+      "fr": "Jean Piaget"
     }
   },
   {
@@ -1614,6 +2298,15 @@
       "empathy": 0.47497247929980546,
       "ambition": 0.4378208907576366,
       "resilience": 0.6279478921410335
+    },
+    "names": {
+      "zh": "弗洛姆",
+      "en": "Erich Fromm",
+      "es": "Erich Fromm",
+      "ja": "フロム",
+      "de": "Erich Fromm",
+      "ru": "Эрих Фромм",
+      "fr": "Erich Fromm"
     }
   },
   {
@@ -1635,6 +2328,15 @@
       "empathy": 0.49027607292107434,
       "ambition": 0.14867171433932141,
       "resilience": 0.43803063754697286
+    },
+    "names": {
+      "zh": "弗洛姆",
+      "en": "Erich Fromm",
+      "es": "Erich Fromm",
+      "ja": "フロム",
+      "de": "Erich Fromm",
+      "ru": "Эрих Фромм",
+      "fr": "Erich Fromm"
     }
   },
   {
@@ -1656,6 +2358,15 @@
       "empathy": 0.28439833146339216,
       "ambition": 0.13475425202752292,
       "resilience": 0.6640067110653178
+    },
+    "names": {
+      "zh": "弗洛伊德",
+      "en": "Sigmund Freud",
+      "es": "Sigmund Freud",
+      "ja": "フロイト",
+      "de": "Sigmund Freud",
+      "ru": "Зигмунд Фрейд",
+      "fr": "Sigmund Freud"
     }
   },
   {
@@ -1677,6 +2388,15 @@
       "empathy": 0.298786386710022,
       "ambition": 0.14651334750243178,
       "resilience": 0.6056921019134933
+    },
+    "names": {
+      "zh": "荣格",
+      "en": "Carl Jung",
+      "es": "Carl Jung",
+      "ja": "ユング",
+      "de": "Carl Jung",
+      "ru": "Карл Юнг",
+      "fr": "Carl Jung"
     }
   },
   {
@@ -1698,6 +2418,15 @@
       "empathy": 0.47042016087963984,
       "ambition": 0.34546846614505927,
       "resilience": 0.6772587061569129
+    },
+    "names": {
+      "zh": "亚伯拉罕·林肯",
+      "en": "Abraham Lincoln",
+      "es": "Abraham Lincoln",
+      "ja": "リンカーン",
+      "de": "Abraham Lincoln",
+      "ru": "Авраам Линкольн",
+      "fr": "Abraham Lincoln"
     }
   },
   {
@@ -1719,6 +2448,15 @@
       "empathy": 0.5883648814983288,
       "ambition": 0.12263930125350875,
       "resilience": 0.3670496014248912
+    },
+    "names": {
+      "zh": "乔治·华盛顿",
+      "en": "George Washington",
+      "es": "George Washington",
+      "ja": "ワシントン",
+      "de": "George Washington",
+      "ru": "Джордж Вашингтон",
+      "fr": "George Washington"
     }
   },
   {
@@ -1740,6 +2478,15 @@
       "empathy": 0.5160922667476349,
       "ambition": 0.22438955877601074,
       "resilience": 0.3729695463975883
+    },
+    "names": {
+      "zh": "托马斯·杰斐逊",
+      "en": "Thomas Jefferson",
+      "es": "Thomas Jefferson",
+      "ja": "ジェファーソン",
+      "de": "Thomas Jefferson",
+      "ru": "Томас Джефферсон",
+      "fr": "Thomas Jefferson"
     }
   },
   {
@@ -1761,6 +2508,15 @@
       "empathy": 0.543513346684287,
       "ambition": 0.356910625807141,
       "resilience": 0.645710434563515
+    },
+    "names": {
+      "zh": "本杰明·富兰克林",
+      "en": "Benjamin Franklin",
+      "es": "Benjamín Franklin",
+      "ja": "フランクリン",
+      "de": "Benjamin Franklin",
+      "ru": "Бенджамин Франклин",
+      "fr": "Benjamin Franklin"
     }
   },
   {
@@ -1782,6 +2538,15 @@
       "empathy": 0.8908712368884207,
       "ambition": 0.38619531903521676,
       "resilience": 0.6681470348605918
+    },
+    "names": {
+      "zh": "温斯顿·丘吉尔",
+      "en": "Winston Churchill",
+      "es": "Winston Churchill",
+      "ja": "チャーチル",
+      "de": "Winston Churchill",
+      "ru": "Уинстон Черчилль",
+      "fr": "Winston Churchill"
     }
   },
   {
@@ -1803,6 +2568,15 @@
       "empathy": 0.9326264758641084,
       "ambition": 0.03480305388619703,
       "resilience": 0.8031047708356928
+    },
+    "names": {
+      "zh": "戴高乐",
+      "en": "Charles de Gaulle",
+      "es": "Charles de Gaulle",
+      "ja": "ドゴール",
+      "de": "Charles de Gaulle",
+      "ru": "Шарль де Голль",
+      "fr": "Charles de Gaulle"
     }
   },
   {
@@ -1824,6 +2598,15 @@
       "empathy": 0.9265157063742342,
       "ambition": 0.14750100117282797,
       "resilience": 0.8102139303448822
+    },
+    "names": {
+      "zh": "阿道夫·希特勒",
+      "en": "Adolf Hitler",
+      "es": "Adolf Hitler",
+      "ja": "ヒトラー",
+      "de": "Adolf Hitler",
+      "ru": "Адольф Гитлер",
+      "fr": "Adolf Hitler"
     }
   },
   {
@@ -1845,6 +2628,15 @@
       "empathy": 0.9278053177237865,
       "ambition": 0.41917364421333503,
       "resilience": 0.7441708357084105
+    },
+    "names": {
+      "zh": "约瑟夫·斯大林",
+      "en": "Joseph Stalin",
+      "es": "José Stalin",
+      "ja": "スターリン",
+      "de": "Josef Stalin",
+      "ru": "Иосиф Сталин",
+      "fr": "Staline"
     }
   },
   {
@@ -1866,6 +2658,15 @@
       "empathy": 0.9180131682542226,
       "ambition": 0.11551085830732093,
       "resilience": 0.6865137871515348
+    },
+    "names": {
+      "zh": "毛泽东",
+      "en": "Mao Zedong",
+      "es": "Mao Zedong",
+      "ja": "毛沢東",
+      "de": "Mao Zedong",
+      "ru": "Мао Цзэдун",
+      "fr": "Mao Zedong"
     }
   },
   {
@@ -1887,6 +2688,15 @@
       "empathy": 0.9087435652308912,
       "ambition": 0.10730155514602566,
       "resilience": 0.887990684148054
+    },
+    "names": {
+      "zh": "邓小平",
+      "en": "Deng Xiaoping",
+      "es": "Deng Xiaoping",
+      "ja": "鄧小平",
+      "de": "Deng Xiaoping",
+      "ru": "Дэн Сяопин",
+      "fr": "Deng Xiaoping"
     }
   },
   {
@@ -1908,6 +2718,15 @@
       "empathy": 0.8370674722213509,
       "ambition": 0.3970927096540503,
       "resilience": 0.8159151957581685
+    },
+    "names": {
+      "zh": "周恩来",
+      "en": "Zhou Enlai",
+      "es": "Zhou Enlai",
+      "ja": "周恩来",
+      "de": "Zhou Enlai",
+      "ru": "Чжоу Эньлай",
+      "fr": "Zhou Enlai"
     }
   },
   {
@@ -1929,6 +2748,15 @@
       "empathy": 0.9550564208225298,
       "ambition": 0.37351435398537025,
       "resilience": 0.8826605479668511
+    },
+    "names": {
+      "zh": "朱德",
+      "en": "Zhu De",
+      "es": "Zhu De",
+      "ja": "朱徳",
+      "de": "Zhu De",
+      "ru": "Чжу Дэ",
+      "fr": "Zhu De"
     }
   },
   {
@@ -1950,6 +2778,15 @@
       "empathy": 0.8859159076629461,
       "ambition": 0.25717597393668123,
       "resilience": 0.7992206898810748
+    },
+    "names": {
+      "zh": "刘少奇",
+      "en": "Liu Shaoqi",
+      "es": "Liu Shaoqi",
+      "ja": "劉少奇",
+      "de": "Liu Shaoqi",
+      "ru": "Лю Шаочи",
+      "fr": "Liu Shaoqi"
     }
   },
   {
@@ -1971,6 +2808,15 @@
       "empathy": 0.8881371792974623,
       "ambition": 0.05479470396456404,
       "resilience": 0.7580287711369678
+    },
+    "names": {
+      "zh": "任弼时",
+      "en": "Ren Bishi",
+      "es": "Ren Bishi",
+      "ja": "任弼時",
+      "de": "Ren Bishi",
+      "ru": "Жэнь Биси",
+      "fr": "Ren Bishi"
     }
   },
   {
@@ -1992,6 +2838,15 @@
       "empathy": 0.8792234443222359,
       "ambition": 0.2122346309306592,
       "resilience": 0.8021778683182843
+    },
+    "names": {
+      "zh": "彭德怀",
+      "en": "Peng Dehuai",
+      "es": "Peng Dehuai",
+      "ja": "彭徳懐",
+      "de": "Peng Dehuai",
+      "ru": "Пэн Дэхуай",
+      "fr": "Peng Dehuai"
     }
   },
   {
@@ -2013,6 +2868,15 @@
       "empathy": 0.9387670721535684,
       "ambition": 0.30334519068601395,
       "resilience": 0.8608831988072814
+    },
+    "names": {
+      "zh": "林彪",
+      "en": "Lin Biao",
+      "es": "Lin Biao",
+      "ja": "林彪",
+      "de": "Lin Biao",
+      "ru": "Лин Бяо",
+      "fr": "Lin Biao"
     }
   }
 ]

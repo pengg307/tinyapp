@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import numpy as np
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
 from typing import Any
 
@@ -39,13 +39,15 @@ class MatchResponse(BaseModel):
 @router.post("/match", response_model=MatchResponse)
 def match_user(
     request: MatchRequest,
+    language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$")
 ) -> MatchResponse:
     """
     根据用户答案匹配最相似的历史人物
     
     Args:
         request: 用户答案列表
-        
+        language: 语言代码 (zh/en/es/ja/de/ru/fr)，默认中文
+    
     Returns:
         匹配结果
     """
@@ -69,13 +71,17 @@ def match_user(
     for r in results:
         fig = next(f for f in figures_data if f["id"] == r["figure_id"])
         gaps = analyze_gaps(user_vector, figure_vectors[r["figure_id"]])
-        suggestion = generate_suggestions(gaps, fig["type"])
+        suggestion = generate_suggestions(gaps, fig["type"], language)
+        
+        # 获取多语言名字
+        names = fig.get("names", {})
         
         matches.append({
             "figure_id": r["figure_id"],
-            "name": fig["name"],
-            "name_en": fig.get("name_en", ""),
-            "name_zh": fig.get("name_zh", fig["name"]),
+            "name": names.get(language, names.get("zh", fig["name"])),
+            "name_en": names.get("en", ""),
+            "name_zh": names.get("zh", fig["name"]),
+            "name_ja": names.get("ja", ""),
             "era": fig.get("era", ""),
             "type": fig.get("type", ""),
             "similarity": r["similarity"],
@@ -85,7 +91,7 @@ def match_user(
     
     # 生成总结
     top_match = matches[0] if matches else None
-    summary = generate_summary(user_vector, top_match) if top_match else ""
+    summary = generate_summary(user_vector, top_match, language) if top_match else ""
     
     return MatchResponse(
         success=True,
@@ -98,89 +104,3 @@ def match_user(
         )},
         summary=summary
     )
-
-
-def calculate_user_vector(answers: list[AnswerItem], questions_data: list) -> np.ndarray:
-    """根据用户答案计算用户性格向量"""
-    # 初始化12维向量为0.5
-    vector = np.ones(12) * 0.5
-    
-    # 遍历答案，累加维度得分
-    dimension_scores = {i: [] for i in range(12)}
-    trait_names = ["openness", "conscientiousness", "extraversion", "agreeableness", 
-                   "neuroticism", "leadership", "risk_taking", "rationality", 
-                   "discipline", "empathy", "ambition", "resilience"]
-    
-    for ans in answers:
-        # 找到对应题目（questions_data是列表，用索引）
-        if ans.question_id > len(questions_data):
-            continue
-        question = questions_data[ans.question_id - 1]
-        
-        # 获取选项（使用中文翻译）
-        translations = question.get("translations", {})
-        options = translations.get("zh", [])
-        
-        # 找到对应选项
-        if ans.option_index >= len(options):
-            continue
-        option_value = ans.option_index / 3.0  # 0-3 映射到 0.0-1.0
-        
-        # 累加维度得分
-        trait = question.get("trait", "")
-        if trait in trait_names:
-            dim_index = trait_names.index(trait)
-            dimension_scores[dim_index].append(option_value)
-    
-    # 计算平均值
-    for i in range(12):
-        if dimension_scores[i]:
-            vector[i] = np.mean(dimension_scores[i])
-    
-    return vector
-
-
-def match_euclidean(
-    user_vector: np.ndarray,
-    figure_vectors: dict[int, np.ndarray],
-    top_k: int = 5
-) -> list[dict[str, Any]]:
-    """
-    使用欧氏距离进行匹配（距离越小越相似）
-    
-    Returns:
-        按相似度降序排列的结果列表
-    """
-    results = []
-    
-    for fig_id, fig_vec in figure_vectors.items():
-        # 计算欧氏距离
-        dist = euclidean_distance(user_vector, fig_vec)
-        
-        # 转换为相似度分数（0-1之间，距离越小分数越高）
-        # 使用指数衰减: sim = exp(-dist^2 / 2)
-        similarity = np.exp(-(dist ** 2) / 2)
-        
-        results.append({
-            "figure_id": fig_id,
-            "distance": dist,
-            "similarity": float(similarity)
-        })
-    
-    # 按相似度降序排序
-    results.sort(key=lambda x: x["similarity"], reverse=True)
-    
-    return results[:top_k]
-
-
-def generate_summary(user_vector: np.ndarray, top_match: dict) -> str:
-    """生成用户性格总结"""
-    trait_names = ["openness", "conscientiousness", "extraversion", "agreeableness", 
-                   "neuroticism", "leadership", "risk_taking", "rationality", 
-                   "discipline", "empathy", "ambition", "resilience"]
-    
-    # 找出最高和最低的维度
-    max_dim = trait_names[np.argmax(user_vector)]
-    min_dim = trait_names[np.argmin(user_vector)]
-    
-    return f"Your personality shows high {max_dim} and low {min_dim} traits. You are most similar to {top_match.get('name', 'a historical figure')}."
