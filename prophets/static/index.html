@@ -3,446 +3,766 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prophets - 历史人物性格匹配</title>
-    <script src="chart.min.js"></script>
+    <title>Prophets — 与历史人物相遇</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         
         :root {
-            --primary: #2c3e50;
-            --accent: #e74c3c;
-            --bg: #f5f6fa;
-            --card: #ffffff;
-            --text: #2c3e50;
-            --text-light: #7f8c8d;
-            --border: #dfe6e9;
-            --success: #27ae60;
-            --warning: #f39c12;
+            --ink: #1a1a2e;
+            --ink-muted: #6b7280;
+            --ink-faint: #9ca3af;
+            --surface: #fafaf9;
+            --surface-elevated: #ffffff;
+            --border: #e7e5e4;
+            --border-strong: #d6d3d1;
+            --accent: #c0562a;
+            --accent-soft: #fff5f0;
+            --accent-border: #fde8dd;
+            --gold: #b8860b;
+            --gold-soft: #fffbeb;
+            --success: #059669;
+            --success-soft: #ecfdf5;
+            --serif: 'Noto Serif SC', 'Songti SC', Georgia, serif;
+            --sans: 'Inter', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            --space-xs: 4px;
+            --space-sm: 8px;
+            --space-md: 16px;
+            --space-lg: 24px;
+            --space-xl: 32px;
+            --space-2xl: 48px;
+            --radius-sm: 6px;
+            --radius-md: 10px;
+            --radius-lg: 16px;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.04), 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.06), 0 2px 4px -1px rgba(0,0,0,0.04);
+            --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.06), 0 4px 6px -2px rgba(0,0,0,0.03);
+            --transition: 180ms cubic-bezier(0.4, 0, 0.2, 1);
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-            background: var(--bg);
-            color: var(--text);
+            font-family: var(--sans);
+            background: var(--surface);
+            color: var(--ink);
             line-height: 1.6;
+            font-size: 15px;
+            -webkit-font-smoothing: antialiased;
         }
         
-        .container {
-            max-width: 800px;
+        /* ── Layout ── */
+        .page {
+            max-width: 720px;
             margin: 0 auto;
-            padding: 20px;
+            padding: var(--space-xl) var(--space-lg);
         }
         
-        header {
+        /* ── Header ── */
+        .header {
             text-align: center;
-            padding: 40px 20px;
-            background: linear-gradient(135deg, var(--primary) 0%, #34495e 100%);
-            color: white;
-            margin-bottom: 30px;
+            padding: var(--space-2xl) var(--space-md) var(--space-xl);
+            margin-bottom: var(--space-xl);
+            border-bottom: 1px solid var(--border);
         }
         
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
+        .header__mark {
+            font-family: var(--serif);
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: var(--space-md);
         }
         
-        header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
+        .header h1 {
+            font-family: var(--serif);
+            font-size: clamp(2rem, 5vw, 2.75rem);
+            font-weight: 700;
+            line-height: 1.2;
+            color: var(--ink);
+            margin-bottom: var(--space-sm);
         }
         
-        .section {
-            display: none;
+        .header p {
+            font-size: 1.05rem;
+            color: var(--ink-muted);
+            font-weight: 300;
         }
         
-        .section.active {
-            display: block;
+        /* ── Section ── */
+        .section { display: none; }
+        .section.active { display: block; animation: fadeUp 0.4s ease; }
+        
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
         }
         
+        /* ── Cards ── */
         .card {
-            background: var(--card);
-            border-radius: 12px;
-            padding: 25px;
-            margin-bottom: 20px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-xl);
+            margin-bottom: var(--space-lg);
+            box-shadow: var(--shadow-sm);
         }
         
-        .card h3 {
-            margin-bottom: 15px;
-            color: var(--primary);
+        .card__header {
+            margin-bottom: var(--space-lg);
         }
         
+        .card__title {
+            font-family: var(--serif);
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--ink);
+            margin-bottom: var(--space-xs);
+        }
+        
+        .card__subtitle {
+            font-size: 0.875rem;
+            color: var(--ink-muted);
+        }
+        
+        /* ── Buttons ── */
         .btn {
-            padding: 12px 30px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-sm);
+            padding: 12px 28px;
             border: none;
-            border-radius: 8px;
-            font-size: 1rem;
+            border-radius: var(--radius-md);
+            font-family: var(--sans);
+            font-size: 0.9375rem;
+            font-weight: 500;
             cursor: pointer;
-            transition: all 0.3s;
+            transition: all var(--transition);
+            letter-spacing: 0.01em;
         }
         
-        .btn-primary {
-            background: var(--primary);
+        .btn--primary {
+            background: var(--ink);
             color: white;
         }
-        
-        .btn-primary:hover {
-            background: #34495e;
+        .btn--primary:hover {
+            background: #2d2d44;
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-md);
         }
         
-        .btn-secondary {
-            background: var(--text-light);
+        .btn--secondary {
+            background: transparent;
+            color: var(--ink-muted);
+            border: 1px solid var(--border-strong);
+        }
+        .btn--secondary:hover {
+            border-color: var(--ink);
+            color: var(--ink);
+        }
+        
+        .btn--accent {
+            background: var(--accent);
             color: white;
         }
+        .btn--accent:hover {
+            background: #a84722;
+            transform: translateY(-1px);
+            box-shadow: var(--shadow-md);
+        }
         
+        .btn-group {
+            display: flex;
+            gap: var(--space-md);
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        /* ── Progress ── */
         .progress {
+            display: flex;
+            align-items: center;
+            gap: var(--space-md);
+            margin-bottom: var(--space-lg);
+        }
+        
+        .progress__bar {
+            flex: 1;
+            height: 3px;
             background: var(--border);
-            height: 6px;
-            border-radius: 3px;
-            margin-bottom: 20px;
+            border-radius: 2px;
             overflow: hidden;
         }
         
-        .progress-bar {
-            background: linear-gradient(90deg, var(--primary), var(--accent));
+        .progress__fill {
             height: 100%;
-            transition: width 0.3s;
+            background: var(--accent);
+            transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
         
+        .progress__text {
+            font-size: 0.8125rem;
+            color: var(--ink-faint);
+            font-variant-numeric: tabular-nums;
+            min-width: 60px;
+            text-align: right;
+        }
+        
+        /* ── Quiz ── */
         .question {
-            margin-bottom: 20px;
+            margin-bottom: var(--space-lg);
         }
         
-        .question-number {
-            font-size: 0.9rem;
-            color: var(--text-light);
-            margin-bottom: 10px;
-        }
-        
-        .question-text {
-            font-size: 1.2rem;
+        .question__label {
+            font-size: 0.8125rem;
             font-weight: 500;
-            margin-bottom: 20px;
-            line-height: 1.6;
+            color: var(--ink-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            margin-bottom: var(--space-sm);
+        }
+        
+        .question__text {
+            font-family: var(--serif);
+            font-size: 1.3rem;
+            font-weight: 600;
+            line-height: 1.5;
+            color: var(--ink);
+            margin-bottom: var(--space-lg);
         }
         
         .options {
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            gap: var(--space-sm);
         }
         
         .option {
-            padding: 15px 20px;
-            border: 2px solid var(--border);
-            border-radius: 8px;
+            padding: 16px 20px;
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius-md);
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all var(--transition);
+            font-size: 0.9375rem;
+            line-height: 1.5;
+            position: relative;
         }
         
         .option:hover {
-            border-color: var(--primary);
-            background: #f8f9fa;
+            border-color: var(--accent-border);
+            background: var(--accent-soft);
         }
         
         .option.selected {
             border-color: var(--accent);
-            background: #fff5f5;
+            background: var(--accent-soft);
+            font-weight: 500;
         }
         
+        .option::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3px;
+            height: 0;
+            background: var(--accent);
+            border-radius: 2px;
+            transition: height var(--transition);
+        }
+        
+        .option.selected::before,
+        .option:hover::before {
+            height: 60%;
+        }
+        
+        /* ── Loading ── */
+        .loading {
+            text-align: center;
+            padding: var(--space-2xl) var(--space-lg);
+        }
+        
+        .loading__spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto var(--space-lg);
+        }
+        
+        @keyframes spin { to { transform: rotate(360deg); } }
+        
+        .loading__text {
+            color: var(--ink-muted);
+            font-size: 0.9375rem;
+        }
+        
+        /* ── Results Layout ── */
+        .results {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-lg);
+            margin-bottom: var(--space-lg);
+        }
+        
+        @media (max-width: 600px) {
+            .results { grid-template-columns: 1fr; }
+        }
+        
+        /* ── Radar ── */
+        .radar-wrap {
+            position: relative;
+            height: 300px;
+        }
+        
+        .radar-wrap canvas {
+            width: 100% !important;
+            height: 100% !important;
+        }
+        
+        /* ── Match Cards ── */
         .match-card {
-            display: flex;
+            display: grid;
+            grid-template-columns: 40px 1fr auto;
             align-items: center;
-            padding: 15px;
-            border: 2px solid var(--border);
-            border-radius: 8px;
-            margin-bottom: 10px;
+            gap: var(--space-md);
+            padding: 14px 16px;
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius-md);
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all var(--transition);
+            margin-bottom: var(--space-sm);
         }
         
         .match-card:hover {
-            border-color: var(--primary);
-            transform: translateX(5px);
+            border-color: var(--border-strong);
+            box-shadow: var(--shadow-sm);
+            transform: translateX(2px);
         }
         
         .match-card.selected {
             border-color: var(--accent);
-            background: #fff5f5;
+            background: var(--accent-soft);
         }
         
         .match-rank {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--accent);
-            margin-right: 15px;
-            min-width: 40px;
+            font-family: var(--serif);
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: var(--ink-faint);
         }
         
-        .match-info {
-            flex: 1;
+        .match-card.selected .match-rank {
+            color: var(--accent);
         }
         
         .match-name {
-            font-size: 1.2rem;
-            font-weight: 500;
+            font-family: var(--serif);
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--ink);
         }
         
         .match-meta {
-            font-size: 0.9rem;
-            color: var(--text-light);
+            font-size: 0.8125rem;
+            color: var(--ink-muted);
+            margin-top: 2px;
         }
         
         .match-score {
             text-align: right;
         }
         
-        .score-value {
-            font-size: 1.5rem;
-            font-weight: bold;
+        .match-score__value {
+            font-family: var(--serif);
+            font-size: 1.25rem;
+            font-weight: 700;
             color: var(--accent);
+            line-height: 1;
         }
         
-        .score-label {
-            font-size: 0.8rem;
-            color: var(--text-light);
+        .match-score__label {
+            font-size: 0.6875rem;
+            color: var(--ink-faint);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
         
-        .summary {
-            background: linear-gradient(135deg, #fff5f5 0%, #ffeaa7 100%);
-            padding: 20px;
-            border-radius: 12px;
-            margin-bottom: 30px;
+        /* ── Gap Bars ── */
+        .gap-list {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-sm);
+            margin-top: var(--space-md);
+        }
+        
+        .gap-item {
+            display: grid;
+            grid-template-columns: 90px 1fr 40px;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+        
+        .gap-item__label {
+            font-size: 0.8125rem;
+            color: var(--ink-muted);
+        }
+        
+        .gap-item__bar {
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            overflow: hidden;
+        }
+        
+        .gap-item__fill {
+            height: 100%;
+            border-radius: 2px;
+            transition: width 0.5s ease;
+        }
+        
+        .gap-item__fill.up { background: var(--success); }
+        .gap-item__fill.down { background: var(--accent); }
+        
+        .gap-item__val {
+            font-size: 0.75rem;
+            color: var(--ink-faint);
+            text-align: right;
+            font-variant-numeric: tabular-nums;
+        }
+        
+        /* ── Suggestions ── */
+        .suggestions {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: var(--space-lg);
+            margin-top: var(--space-lg);
+        }
+        
+        .suggestions__title {
+            font-family: var(--serif);
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: var(--space-md);
+            display: flex;
+            align-items: center;
+            gap: var(--space-sm);
+        }
+        
+        .suggestions__overall {
+            background: var(--surface-elevated);
+            border-left: 3px solid var(--accent);
+            padding: var(--space-md);
+            border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+            margin-bottom: var(--space-md);
+            font-size: 0.9375rem;
+            line-height: 1.6;
+        }
+        
+        .suggestions__item {
+            background: var(--surface-elevated);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: var(--space-md);
+            margin-bottom: var(--space-sm);
+        }
+        
+        .suggestions__trait {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: var(--space-sm);
+        }
+        
+        .suggestions__trait-name {
+            font-weight: 600;
+            font-size: 0.9375rem;
+        }
+        
+        .suggestions__dir {
+            font-size: 0.75rem;
+            padding: 2px 8px;
+            border-radius: 20px;
             font-weight: 500;
         }
         
-        .figure-bio {
-            font-size: 0.95rem;
-            color: var(--text-light);
-            margin-top: 8px;
-            font-style: italic;
-        }
-        
-        .suggestion-section {
-            background: #f8f9fa;
-            border-radius: 12px;
-            padding: 20px;
-            margin-top: 20px;
-        }
-        
-        .suggestion-title {
-            font-size: 1.3rem;
-            font-weight: bold;
-            margin-bottom: 15px;
-            color: var(--primary);
-        }
-        
-        .suggestion-overall {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            border-left: 4px solid var(--accent);
-        }
-        
-        .suggestion-item {
-            background: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 10px;
-        }
-        
-        .suggestion-trait {
-            font-weight: bold;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-        
-        .direction-up {
+        .suggestions__dir.up {
+            background: var(--success-soft);
             color: var(--success);
-            font-size: 0.85rem;
         }
         
-        .direction-down {
-            color: var(--warning);
-            font-size: 0.85rem;
-        }
-        
-        .suggestion-tips {
-            margin-left: 20px;
-            color: var(--text-light);
-        }
-        
-        .suggestion-tips li {
-            margin-bottom: 5px;
-        }
-        
-        .suggestion-tips li:before {
-            content: "• ";
+        .suggestions__dir.down {
+            background: var(--accent-soft);
             color: var(--accent);
         }
         
-        .radar-container {
-            max-width: 400px;
-            margin: 0 auto;
+        .suggestions__tips {
+            list-style: none;
+            padding: 0;
         }
         
-        .hidden {
-            display: none !important;
+        .suggestions__tips li {
+            position: relative;
+            padding-left: var(--space-lg);
+            margin-bottom: var(--space-sm);
+            font-size: 0.875rem;
+            color: var(--ink-muted);
+            line-height: 1.5;
         }
         
+        .suggestions__tips li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: var(--ink-faint);
+        }
+        
+        /* ── Payment ── */
+        .payment__price {
+            font-family: var(--serif);
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--ink);
+            text-align: center;
+            margin: var(--space-lg) 0;
+        }
+        
+        .payment__price span {
+            font-size: 1rem;
+            color: var(--ink-muted);
+            font-family: var(--sans);
+            font-weight: 400;
+        }
+        
+        .qr-wrap {
+            display: inline-block;
+            padding: var(--space-md);
+            background: white;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+            margin: var(--space-lg) 0;
+        }
+        
+        .qr-wrap img {
+            display: block;
+            width: 180px;
+            height: 180px;
+        }
+        
+        /* ── Modal ── */
         .modal {
             position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.5);
-            display: flex;
+            inset: 0;
+            background: rgba(26, 26, 46, 0.4);
+            backdrop-filter: blur(4px);
+            display: none;
             align-items: center;
             justify-content: center;
-            z-index: 1000;
+            z-index: 100;
+            padding: var(--space-lg);
         }
         
-        .modal-content {
-            background: white;
-            padding: 30px;
-            border-radius: 12px;
-            max-width: 400px;
-            width: 90%;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        .modal.active { display: flex; }
+        
+        .modal__content {
+            background: var(--surface-elevated);
+            border-radius: var(--radius-lg);
+            padding: var(--space-xl);
+            max-width: 380px;
+            width: 100%;
+            box-shadow: var(--shadow-lg);
+            animation: modalIn 0.2s ease;
+        }
+        
+        @keyframes modalIn {
+            from { opacity: 0; transform: scale(0.96) translateY(8px); }
+            to { opacity: 1; transform: scale(1) translateY(0); }
+        }
+        
+        .modal__title {
+            font-family: var(--serif);
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: var(--space-md);
+        }
+        
+        .modal__input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1.5px solid var(--border);
+            border-radius: var(--radius-md);
+            font-size: 1rem;
+            text-align: center;
+            font-family: var(--sans);
+            transition: border-color var(--transition);
+        }
+        
+        .modal__input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        
+        /* ── Utilities ── */
+        .text-center { text-align: center; }
+        .mt-lg { margin-top: var(--space-lg); }
+        .hidden { display: none !important; }
+        
+        /* ── Type scale polish ── */
+        h2 {
+            font-family: var(--serif);
+            font-size: 1.5rem;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+        
+        small { font-size: 0.8125rem; }
+        
+        /* ── Reduced motion ── */
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                transition-duration: 0.01ms !important;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>🎯 Prophets</h1>
-        <p>你的性格像哪位历史人物？</p>
-    </header>
-    
-    <div class="container">
-        <!-- 支付界面 -->
+    <div class="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="header__mark">Prophets · 先知</div>
+            <h1>与历史人物相遇</h1>
+            <p>20 道情境题，发现你灵魂里的历史回声</p>
+        </header>
+        
+        <!-- Payment -->
         <div id="payment-section" class="section">
             <div class="card">
-                <h3>🔒 付费测试</h3>
-                <p style="margin-bottom: 15px; color: var(--text-light);">
-                    本测试费用 <strong style="color: var(--accent); font-size: 1.5rem;">¥9.90</strong>
-                </p>
-                <div id="qr-container" style="text-align: center; margin: 30px 0;">
-                    <div style="display: inline-block; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <img id="qr-code" src="" alt="支付二维码" style="width: 200px; height: 200px;" />
+                <div class="card__header text-center">
+                    <div class="card__title">付费测试</div>
+                    <div class="card__subtitle">完成支付后即可开始性格分析</div>
+                </div>
+                <div class="payment__price">¥9<span>.90</span></div>
+                <div id="qr-container" class="text-center">
+                    <div class="qr-wrap">
+                        <img id="qr-code" src="" alt="支付二维码" />
                     </div>
-                    <p style="margin-top: 15px; color: var(--text-light);">
-                        请使用微信或支付宝扫码支付
+                    <p style="color: var(--ink-muted); font-size: 0.875rem; margin-top: var(--space-md);">
+                        微信扫码支付 · 24小时内有效
                     </p>
                 </div>
-                <div style="background: #fff5f5; border: 1px solid #fee; border-radius: 8px; padding: 15px; margin-bottom: 20px;">
-                    <p style="color: var(--warning); font-size: 0.9rem;">
-                        ⏰ 支付后 <strong>24小时</strong> 内有效，请及时完成测试
-                    </p>
+                <div style="background: var(--gold-soft); border: 1px solid #fde68a; border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); margin-bottom: var(--space-lg); font-size: 0.875rem; color: #92400e;">
+                    ⏰ 支付后 24 小时内有效，请及时完成测试
                 </div>
-                <div style="text-align: center;">
-                    <button class="btn btn-secondary" onclick="simulatePayment()" style="margin-right: 10px;">
-                        模拟支付（测试）
-                    </button>
-                    <button class="btn btn-primary" onclick="checkPaymentStatus()">
-                        我已支付
-                    </button>
+                <div class="btn-group">
+                    <button class="btn btn--secondary" onclick="simulatePayment()">测试模式</button>
+                    <button class="btn btn--primary" onclick="checkPaymentStatus()">我已支付</button>
                 </div>
             </div>
         </div>
         
-        <!-- 支付确认框 -->
-        <div id="payment-confirm-modal" class="modal" style="display: none;">
-            <div class="modal-content">
-                <h3>🔐 开发阶段确认</h3>
-                <p style="margin: 20px 0; color: var(--text-light);">
-                    当前为开发阶段，请输入 <strong style="color: var(--primary);">qwe</strong> 确认跳过支付流程
+        <!-- Confirm Modal -->
+        <div id="payment-confirm-modal" class="modal">
+            <div class="modal__content">
+                <div class="modal__title">开发阶段确认</div>
+                <p style="color: var(--ink-muted); margin-bottom: var(--space-lg); font-size: 0.9375rem;">
+                    当前为开发阶段，请输入 <strong style="color: var(--ink);">qwe</strong> 确认跳过支付
                 </p>
-                <input type="text" id="payment-confirm-input" placeholder="请输入 qwe 确认" 
-                       style="width: 100%; padding: 12px; border: 2px solid var(--border); border-radius: 8px; font-size: 1rem; text-align: center;" />
-                <div style="text-align: center; margin-top: 20px; display: flex; gap: 10px; justify-content: center;">
-                    <button class="btn btn-secondary" onclick="closePaymentConfirm()">取消</button>
-                    <button class="btn btn-primary" onclick="confirmPayment()">确认支付</button>
+                <input type="text" id="payment-confirm-input" class="modal__input" placeholder="输入 qwe 确认" />
+                <div class="btn-group mt-lg">
+                    <button class="btn btn--secondary" onclick="closePaymentConfirm()">取消</button>
+                    <button class="btn btn--accent" onclick="confirmPayment()">确认</button>
                 </div>
             </div>
         </div>
         
-        <!-- 开始界面 -->
+        <!-- Start -->
         <div id="start-section" class="section active">
             <div class="card">
-                <h3>📋 测试说明</h3>
-                <p style="margin-bottom: 15px; color: var(--text-light);">
-                    本测试包含20道情境选择题，基于历史人物关键决策事件设计。
-                </p>
-                <p style="margin-bottom: 15px; color: var(--text-light);">
-                    请选择最符合你倾向的选项，无需过多思考，相信第一感觉。
-                </p>
-                <p style="color: var(--text-light);">
-                    完成后将显示与你性格最相似的历史人物TOP-10，并提供个性化改进建议。
-                </p>
+                <div class="card__header">
+                    <div class="card__title">测试说明</div>
+                    <div class="card__subtitle">了解即将进行的性格分析</div>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: var(--space-md); color: var(--ink-muted); font-size: 0.9375rem; line-height: 1.7;">
+                    <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
+                        <span style="flex-shrink: 0; width: 24px; height: 24px; background: var(--accent-soft); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 600;">1</span>
+                        <span>20 道情境选择题，基于历史人物关键决策事件设计</span>
+                    </div>
+                    <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
+                        <span style="flex-shrink: 0; width: 24px; height: 24px; background: var(--accent-soft); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 600;">2</span>
+                        <span>选择最符合你第一反应的选项，无需过多思考</span>
+                    </div>
+                    <div style="display: flex; gap: var(--space-md); align-items: flex-start;">
+                        <span style="flex-shrink: 0; width: 24px; height: 24px; background: var(--accent-soft); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.75rem; font-weight: 600;">3</span>
+                        <span>完成后将匹配最相似的历史人物 TOP-10，并生成个性化改进建议</span>
+                    </div>
+                </div>
             </div>
-            <div style="text-align: center;">
-                <button class="btn btn-primary" onclick="startQuiz()">开始测试</button>
+            <div class="text-center">
+                <button class="btn btn--primary" onclick="startQuiz()" style="padding: 14px 48px; font-size: 1rem;">
+                    开始测试
+                </button>
             </div>
         </div>
         
-        <!-- 答题界面 -->
+        <!-- Quiz -->
         <div id="quiz-section" class="section">
             <div class="progress">
-                <div class="progress-bar" id="progress-bar" style="width: 5%"></div>
+                <div class="progress__bar">
+                    <div class="progress__fill" id="progress-bar" style="width: 5%"></div>
+                </div>
+                <div class="progress__text" id="progress-text">1 / 20</div>
             </div>
             <div class="card">
-                <div id="question-container">
-                    <!-- Questions will be loaded here -->
-                </div>
+                <div id="question-container"></div>
             </div>
         </div>
         
-        <!-- 加载界面 -->
+        <!-- Loading -->
         <div id="loading-section" class="section">
-            <div class="card" style="text-align: center; padding: 50px;">
-                <div style="font-size: 3rem; margin-bottom: 20px;">🔄</div>
-                <p style="color: var(--text-light);">正在分析您的性格...</p>
+            <div class="loading">
+                <div class="loading__spinner"></div>
+                <div class="loading__text">正在分析您的性格特质...</div>
             </div>
         </div>
         
-        <!-- 结果界面 -->
+        <!-- Results -->
         <div id="result-section" class="section">
-            <div class="summary" id="summary-text"></div>
+            <!-- Summary -->
+            <div id="summary-text" style="background: var(--accent-soft); border: 1px solid var(--accent-border); border-radius: var(--radius-md); padding: var(--space-lg); margin-bottom: var(--space-lg); font-size: 0.9375rem; line-height: 1.7; color: var(--ink);"></div>
             
-            <div class="card">
-                <h3>📊 您的性格雷达图</h3>
-                <div class="radar-container">
-                    <canvas id="radar-chart"></canvas>
+            <!-- Radar + Matches -->
+            <div class="results">
+                <div class="card" style="margin-bottom: 0;">
+                    <div class="card__header">
+                        <div class="card__title">性格图谱</div>
+                        <div class="card__subtitle">您 vs 历史人物</div>
+                    </div>
+                    <div class="radar-wrap">
+                        <canvas id="radar-chart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="card" style="margin-bottom: 0;">
+                    <div class="card__header">
+                        <div class="card__title">TOP 10 匹配</div>
+                        <div class="card__subtitle">点击查看详情</div>
+                    </div>
+                    <div id="matches-container" style="max-height: 340px; overflow-y: auto;"></div>
                 </div>
             </div>
             
-            <div class="card">
-                <h3>🏆 最相似的历史人物 TOP 10</h3>
-                <p style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 15px;">
-                    点击人物查看详细改进建议
-                </p>
-                <div id="matches-container"></div>
-            </div>
+            <!-- Suggestions -->
+            <div id="suggestion-section" class="suggestions" style="display: none;"></div>
             
-            <!-- 建议区域 -->
-            <div id="suggestion-section" class="suggestion-section" style="display: none;">
-                <div class="suggestion-title">
-                    💡 <span id="suggestion-figure-name"></span> 改进建议
-                </div>
-                <div class="suggestion-overall" id="suggestion-overall"></div>
-                <div id="suggestion-list"></div>
-            </div>
-            
-            <div style="text-align: center; margin-top: 30px;">
-                <button class="btn btn-secondary" onclick="restartQuiz()">重新测试</button>
+            <div class="text-center mt-lg">
+                <button class="btn btn--secondary" onclick="restartQuiz()">重新测试</button>
             </div>
         </div>
     </div>
@@ -457,66 +777,52 @@
         let radarChart = null;
         let paymentOrder = null;
         
-        // 初始化
         window.onload = function() {
             loadQuiz();
             checkPayment();
         };
         
-        // 检查支付状态
         async function checkPayment() {
             try {
                 const resp = await fetch(`${API_BASE}/api/payment/status/anonymous`);
                 const data = await resp.json();
-                
                 if (data.paid) {
-                    // 已支付，显示开始界面
                     showSection('start-section');
                 } else {
-                    // 未支付，显示支付界面
                     showSection('payment-section');
                     loadQRCode();
                 }
-            } catch (error) {
-                console.error('检查支付状态失败:', error);
+            } catch (e) {
                 showSection('start-section');
             }
         }
         
-        // 加载二维码
         async function loadQRCode() {
             try {
                 const resp = await fetch(`${API_BASE}/api/payment/mock_qr/anonymous`);
                 const data = await resp.json();
                 document.getElementById('qr-code').src = data.qr_code;
                 paymentOrder = data.order_id;
-            } catch (error) {
-                console.error('加载二维码失败:', error);
-            }
+            } catch (e) { console.error(e); }
         }
         
-        // 模拟支付
-        async function simulatePayment() {
-            // 显示确认框
-            document.getElementById('payment-confirm-modal').style.display = 'flex';
+        function simulatePayment() {
+            document.getElementById('payment-confirm-modal').classList.add('active');
+            document.getElementById('payment-confirm-input').focus();
         }
         
         function closePaymentConfirm() {
-            document.getElementById('payment-confirm-modal').style.display = 'none';
+            document.getElementById('payment-confirm-modal').classList.remove('active');
             document.getElementById('payment-confirm-input').value = '';
         }
         
         async function confirmPayment() {
             const input = document.getElementById('payment-confirm-input').value.trim();
-            
             if (input !== 'qwe') {
-                alert('请输入正确的确认码: qwe');
+                document.getElementById('payment-confirm-input').style.borderColor = '#ef4444';
                 return;
             }
-            
-            // 关闭确认框
             closePaymentConfirm();
-            
             try {
                 const resp = await fetch(`${API_BASE}/api/payment/mock_pay`, {
                     method: 'POST',
@@ -524,24 +830,16 @@
                     body: JSON.stringify({ user_id: 'anonymous' })
                 });
                 const data = await resp.json();
-                
                 if (data.success) {
-                    alert('支付成功！您可以开始测试了。\n\n有效期: ' + data.remaining_hours + ' 小时');
                     showSection('start-section');
                 }
-            } catch (error) {
-                console.error('支付失败:', error);
+            } catch (e) {
                 alert('支付失败，请重试');
             }
         }
         
-        // 检查支付状态（用户点击"我已支付"）
         async function checkPaymentStatus() {
-            if (!paymentOrder) {
-                alert('请先扫码支付');
-                return;
-            }
-            
+            if (!paymentOrder) { alert('请先扫码支付'); return; }
             try {
                 const resp = await fetch(`${API_BASE}/api/payment/verify`, {
                     method: 'POST',
@@ -549,17 +847,9 @@
                     body: JSON.stringify({ order_id: paymentOrder, user_id: 'anonymous' })
                 });
                 const data = await resp.json();
-                
-                if (data.paid) {
-                    alert('支付验证成功！您可以开始测试了。');
-                    showSection('start-section');
-                } else {
-                    alert('支付未成功，请扫码支付');
-                }
-            } catch (error) {
-                console.error('验证失败:', error);
-                alert('验证失败，请重试');
-            }
+                if (data.paid) showSection('start-section');
+                else alert('支付未成功，请扫码支付');
+            } catch (e) { alert('验证失败，请重试'); }
         }
         
         async function loadQuiz() {
@@ -567,10 +857,7 @@
                 const response = await fetch(`${API_BASE}/api/quiz`);
                 const data = await response.json();
                 questions = data.questions;
-                renderQuestion();
-                showSection('quiz-section');
-            } catch (error) {
-                console.error('加载题目失败:', error);
+            } catch (e) {
                 alert('加载题目失败，请刷新重试');
             }
         }
@@ -578,15 +865,15 @@
         function renderQuestion() {
             const container = document.getElementById('question-container');
             const question = questions[currentQuestion];
-            
-            // 更新进度条
             const progress = ((currentQuestion + 1) / questions.length) * 100;
+            
             document.getElementById('progress-bar').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = `${currentQuestion + 1} / ${questions.length}`;
             
             container.innerHTML = `
                 <div class="question">
-                    <div class="question-number">第 ${currentQuestion + 1} 题 / 共 ${questions.length} 题</div>
-                    <div class="question-text">${question.text}</div>
+                    <div class="question__label">情境 ${currentQuestion + 1}</div>
+                    <div class="question__text">${question.text}</div>
                     <div class="options">
                         ${question.options.map((opt, idx) => `
                             <div class="option ${answers[currentQuestion] === idx ? 'selected' : ''}" 
@@ -601,12 +888,10 @@
         
         function selectOption(index) {
             answers[currentQuestion] = index;
-            // 自动跳转到下一题
             if (currentQuestion < questions.length - 1) {
                 currentQuestion++;
                 renderQuestion();
             } else {
-                // 最后一题，显示完成提示
                 showCompletionMessage();
             }
         }
@@ -615,54 +900,46 @@
             const container = document.getElementById('question-container');
             container.innerHTML = `
                 <div class="question">
-                    <div class="question-number">测试完成</div>
-                    <div class="question-text" style="font-size: 1.5rem; color: var(--primary); font-weight: bold;">
-                        ✅ 已经完成测试
+                    <div class="question__label">测试完成</div>
+                    <div class="question__text" style="color: var(--success);">
+                        ✅ 已完成全部 ${questions.length} 道情境题
                     </div>
-                    <div style="text-align: center; margin-top: 20px; color: var(--text-light);">
-                        正在为您生成性格分析...
+                    <div style="text-align: center; margin-top: var(--space-lg); color: var(--ink-muted); font-size: 0.9375rem;">
+                        正在为您生成性格分析报告...
                     </div>
                 </div>
             `;
-            // 延迟提交，让用户看到完成提示
-            setTimeout(() => submitQuiz(), 800);
+            setTimeout(() => submitQuiz(), 1000);
         }
         
         async function submitQuiz() {
             document.getElementById('quiz-section').classList.add('hidden');
-            document.getElementById('loading-section').classList.remove('hidden');
             document.getElementById('loading-section').classList.add('active');
-
+            
             try {
                 const answersArray = answers.map((optionIndex, questionNum) => ({
                     question_id: questionNum + 1,
                     option_index: optionIndex
                 }));
-
+                
                 const response = await fetch(`${API_BASE}/api/match`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ answers: answersArray })
                 });
-
-                if (!response.ok) {
-                    const errorText = await response.text();
-                    throw new Error(`HTTP ${response.status}: ${errorText}`);
-                }
-
+                
                 const data = await response.json();
-                currentResults = data;  // 保存结果到全局变量
+                currentResults = data;
                 renderResults(data);
             } catch (error) {
-                console.error('提交失败:', error);
-                document.getElementById('loading-section').classList.add('hidden');
+                document.getElementById('loading-section').classList.remove('active');
                 document.getElementById('quiz-section').classList.remove('hidden');
                 alert('提交失败，请重试: ' + error.message);
             }
         }
         
         function renderResults(data) {
-            document.getElementById('loading-section').classList.add('hidden');
+            document.getElementById('loading-section').classList.remove('active');
             document.getElementById('result-section').classList.add('active');
             
             // Summary
@@ -673,36 +950,29 @@
             matchesContainer.innerHTML = data.matches.map((match, idx) => `
                 <div class="match-card" onclick="selectMatch(${idx})" id="match-${idx}">
                     <div class="match-rank">#${idx + 1}</div>
-                    <div class="match-info">
+                    <div>
                         <div class="match-name">${match.name}</div>
                         <div class="match-meta">${match.era} · ${match.type}</div>
-                        ${match.name_en ? `<div class="figure-bio">${match.name_en}</div>` : ''}
                     </div>
                     <div class="match-score">
-                        <div class="score-value">${(match.similarity * 100).toFixed(0)}%</div>
-                        <div class="score-label">相似度</div>
+                        <div class="match-score__value">${(match.similarity * 100).toFixed(0)}%</div>
+                        <div class="match-score__label">匹配</div>
                     </div>
                 </div>
             `).join('');
             
-            // 默认选中第一个
             selectMatch(0);
         }
         
         function selectMatch(index) {
             currentMatchIndex = index;
-            
-            // 更新选中状态
             document.querySelectorAll('.match-card').forEach((card, idx) => {
                 card.classList.toggle('selected', idx === index);
             });
-            
-            // 更新雷达图 - 显示当前选中人物 vs 用户
             updateRadarChart(index);
             
-            // 显示建议 - 使用全局变量currentResults
             if (currentResults && currentResults.matches[index] && currentResults.matches[index].suggestion) {
-                renderSuggestion(currentResults.matches[index].suggestion);
+                renderSuggestions(currentResults.matches[index].suggestion);
             }
         }
         
@@ -712,7 +982,6 @@
             const match = currentResults.matches[matchIndex];
             const userVector = currentResults.user_vector;
             
-            // 构建人物向量
             let figureVector = {};
             if (match.gaps) {
                 match.gaps.forEach(gap => {
@@ -720,99 +989,116 @@
                 });
             }
             
-            // 销毁旧图表
-            if (radarChart) {
-                radarChart.destroy();
-            }
-            
-            // 渲染新图表
+            if (radarChart) { radarChart.destroy(); radarChart = null; }
             renderRadarChart(userVector, figureVector, match.name);
         }
         
-        function renderSuggestion(suggestion) {
+        function renderSuggestions(suggestion) {
             const section = document.getElementById('suggestion-section');
-            const nameEl = document.getElementById('suggestion-figure-name');
-            const overallEl = document.getElementById('suggestion-overall');
-            const listEl = document.getElementById('suggestion-list');
-            
-            nameEl.textContent = suggestion.figure_name;
-            overallEl.textContent = suggestion.overall;
-            
-            listEl.innerHTML = suggestion.suggestions.map(item => `
-                <div class="suggestion-item">
-                    <div class="suggestion-trait">
-                        ${item.trait_cn}
-                        <span class="suggestion-direction ${item.direction === '提升' ? 'direction-up' : 'direction-down'}">
-                            ${item.direction}
-                        </span>
-                    </div>
-                    <ul class="suggestion-tips">
-                        ${item.tips.map(tip => `<li>${tip}</li>`).join('')}
-                    </ul>
-                </div>
-            `).join('');
-            
             section.style.display = 'block';
+            
+            section.innerHTML = `
+                <div class="suggestions__title">💡 ${suggestion.figure_name} 改进建议</div>
+                <div class="suggestions__overall">${suggestion.overall}</div>
+                ${suggestion.suggestions.map(item => `
+                    <div class="suggestions__item">
+                        <div class="suggestions__trait">
+                            <span class="suggestions__trait-name">${item.trait_cn}</span>
+                            <span class="suggestions__dir ${item.direction === '提升' ? 'up' : 'down'}">${item.direction}</span>
+                        </div>
+                        <ul class="suggestions__tips">
+                            ${item.tips.map(tip => `<li>${tip}</li>`).join('')}
+                        </ul>
+                    </div>
+                `).join('')}
+            `;
         }
         
-        function renderRadarChart(userVector, figureVector, figureName = '历史人物') {
-            if (typeof Chart === 'undefined') {
-                console.error('Chart.js未定义');
-                return;
-            }
+        function renderRadarChart(userVector, figureVector, figureName) {
+            if (typeof Chart === 'undefined') { console.error('Chart.js not loaded'); return; }
+            
             const ctx = document.getElementById('radar-chart').getContext('2d');
-            
             const dimensions = Object.keys(userVector);
+            const traitNames = {
+                openness: '开放性', conscientiousness: '尽责性', extraversion: '外向性',
+                agreeableness: '宜人性', neuroticism: '情绪稳定', leadership: '领导力',
+                risk_taking: '风险偏好', rationality: '理性度', discipline: '自律性',
+                empathy: '共情力', ambition: '野心', resilience: '韧性'
+            };
+            const labels = dimensions.map(d => traitNames[d] || d);
             const userValues = dimensions.map(d => userVector[d] * 100);
-            const figureValues = figureVector ? dimensions.map(d => figureVector[d] * 100) : null;
+            const figureValues = dimensions.map(d => (figureVector[d] || 0) * 100);
             
-            new Chart(ctx, {
+            radarChart = new Chart(ctx, {
                 type: 'radar',
                 data: {
-                    labels: dimensions,
-                    datasets: [{
-                        label: '您的性格',
-                        data: userValues,
-                        borderColor: '#e74c3c',
-                        backgroundColor: 'rgba(231, 76, 60, 0.2)',
-                        pointBackgroundColor: '#e74c3c',
-                    }, ...(figureVector ? [{
-                        label: figureName,
-                        data: figureValues,
-                        borderColor: '#3498db',
-                        backgroundColor: 'rgba(52, 152, 219, 0.2)',
-                        pointBackgroundColor: '#3498db',
-                    }] : [])]
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: '您',
+                            data: userValues,
+                            borderColor: '#c0562a',
+                            backgroundColor: 'rgba(192, 86, 42, 0.12)',
+                            pointBackgroundColor: '#c0562a',
+                            pointRadius: 3,
+                            borderWidth: 2,
+                        },
+                        {
+                            label: figureName,
+                            data: figureValues,
+                            borderColor: '#1a1a2e',
+                            backgroundColor: 'rgba(26, 26, 46, 0.08)',
+                            pointBackgroundColor: '#1a1a2e',
+                            pointRadius: 3,
+                            borderWidth: 2,
+                            borderDash: [4, 4],
+                        }
+                    ]
                 },
                 options: {
                     responsive: true,
+                    maintainAspectRatio: false,
                     scales: {
                         r: {
                             min: 0,
                             max: 100,
-                            ticks: {
-                                stepSize: 20
+                            ticks: { stepSize: 20, display: false },
+                            grid: { color: 'rgba(0,0,0,0.06)', lineWidth: 1 },
+                            angleLines: { color: 'rgba(0,0,0,0.08)' },
+                            pointLabels: {
+                                font: { size: 11, family: "'Noto Serif SC', serif", weight: '500' },
+                                color: '#6b7280'
                             }
                         }
                     },
                     plugins: {
                         legend: {
-                            position: 'top'
+                            position: 'bottom',
+                            labels: {
+                                padding: 16,
+                                usePointStyle: true,
+                                pointStyle: 'circle',
+                                font: { size: 12 }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.r}%`
+                            }
                         }
                     }
                 }
             });
-            
-            // 保存图表实例
-            radarChart = Chart.getChart(ctx);
         }
         
-        function showSection(sectionId) {
+        function showSection(id) {
             document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-            document.getElementById(sectionId).classList.add('active');
+            document.getElementById(id).classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
         
         function startQuiz() {
+            if (!questions.length) { loadQuiz().then(() => showSection('quiz-section')); return; }
             showSection('quiz-section');
             renderQuestion();
         }
