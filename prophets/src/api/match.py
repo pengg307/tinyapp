@@ -36,6 +36,90 @@ class MatchResponse(BaseModel):
     summary: str = ""
 
 
+def calculate_user_vector(answers: list[dict], questions_data: list[dict]) -> np.ndarray:
+    """根据答案计算用户向量"""
+    # 选项映射到维度分数
+    option_scores = {
+        0: 0.2,  # 低分选项
+        1: 0.5,  # 中等偏低
+        2: 0.7,  # 中等偏高
+        3: 1.0   # 高分选项
+    }
+    
+    # 按trait分组题目
+    trait_questions = {}
+    for q in questions_data:
+        trait = q.get("trait", "")
+        if trait not in trait_questions:
+            trait_questions[trait] = []
+        trait_questions[trait].append(q)
+    
+    # 计算每个维度的平均分数
+    user_values = {}
+    for trait, questions in trait_questions.items():
+        scores = []
+        for q in questions:
+            qid = q.get("id")
+            for ans in answers:
+                if ans["question_id"] == qid:
+                    opt_idx = ans["option_index"]
+                    scores.append(option_scores.get(opt_idx, 0.5))
+                    break
+        if scores:
+            user_values[trait] = sum(scores) / len(scores)
+        else:
+            user_values[trait] = 0.5
+    
+    # 确保所有12个维度都有值
+    trait_order = ["openness", "conscientiousness", "extraversion", "agreeableness", 
+                   "neuroticism", "leadership", "risk_taking", "rationality", 
+                   "discipline", "empathy", "ambition", "resilience"]
+    
+    vector = np.array([user_values.get(t, 0.5) for t in trait_order])
+    return vector
+
+
+def match_euclidean(user_vector: np.ndarray, figure_vectors: dict, top_k: int = 10) -> list[dict]:
+    """使用欧氏距离进行匹配"""
+    results = []
+    for fig_id, fig_vec in figure_vectors.items():
+        dist = euclidean_distance(user_vector, fig_vec)
+        # 转换为相似度 (0-1, 1表示完全匹配)
+        similarity = np.exp(-(dist ** 2) / 2)
+        results.append({
+            "figure_id": fig_id,
+            "distance": dist,
+            "similarity": float(similarity)
+        })
+    
+    # 按相似度降序排序
+    results.sort(key=lambda x: x["similarity"], reverse=True)
+    return results[:top_k]
+
+
+def generate_summary(user_vector: np.ndarray, top_match: dict, language: str = "zh") -> str:
+    """生成匹配总结"""
+    if not top_match:
+        return ""
+    
+    name = top_match.get("name", "历史人物")
+    
+    # 找出用户最高和最低的维度
+    trait_names = {
+        "zh": ["开放性", "尽责性", "外向性", "宜人性", "情绪稳定性", 
+               "领导力", "风险偏好", "理性度", "自律性", "共情力", "野心", "韧性"],
+        "en": ["Openness", "Conscientiousness", "Extraversion", "Agreeableness", 
+               "Emotional Stability", "Leadership", "Risk Taking", "Rationality", 
+               "Discipline", "Empathy", "Ambition", "Resilience"],
+    }
+    
+    traits_zh = trait_names.get(language, trait_names["zh"])
+    max_idx = np.argmax(user_vector)
+    min_idx = np.argmin(user_vector)
+    
+    return f"您与{name}最为相似，在{traits_zh[max_idx]}方面表现突出，在{traits_zh[min_idx]}方面有待提升。"
+
+
 @router.post("/match", response_model=MatchResponse)
 def match_user(
     request: MatchRequest,
