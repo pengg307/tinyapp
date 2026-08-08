@@ -1246,8 +1246,8 @@
             document.getElementById('progress-text').textContent = `${currentQuestion + 1} / ${questions.length}`;
 
             const t_current = i18n[currentLang];
-            // Use translations from the question data
-            const questionText = question.translations?.[currentLang]?.[0] || question.text || question.translations?.['zh']?.[0];
+            // Use question.text for the question, and translations for options
+            const questionText = question.text || '';
             const options = question.translations?.[currentLang] || question.options || [];
 
             container.innerHTML = `
