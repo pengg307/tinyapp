@@ -1382,21 +1382,31 @@
         function renderSuggestions(suggestion) {
             const section = document.getElementById('suggestion-section');
             section.style.display = 'block';
-            
+            const t = i18n[currentLang];
+
+            // Get figure type name from i18n or fallback to figure_name
+            const figureName = t['figure_type_' + suggestion.figure_name] || suggestion.figure_name;
+
             section.innerHTML = `
-                <div class="suggestions__title">💡 ${suggestion.figure_name} ${t('result_suggestion_title')}</div>
-                <div class="suggestions__overall">${t('suggestion_overall', { name: suggestion.figure_name, text: suggestion.overall })}</div>
-                ${suggestion.suggestions.map(item => `
+                <div class="suggestions__title">💡 ${figureName} ${t['result_suggestion_title']}</div>
+                <div class="suggestions__overall">${t['suggestion_overall'].replace('{name}', figureName).replace('{text}', suggestion.overall)}</div>
+                ${suggestion.suggestions.map(item => {
+                    const traitKey = 'trait_' + item.trait;
+                    const traitName = t[traitKey] || item.trait_cn || item.trait;
+                    const dirKey = 'direction_' + item.direction;
+                    const direction = t[dirKey] || item.direction;
+                    return `
                     <div class="suggestions__item">
                         <div class="suggestions__trait">
-                            <span class="suggestions__trait-name">${t('trait_' + item.trait, { fallback: item.trait_cn })}</span>
-                            <span class="suggestions__dir ${item.direction === '提升' ? 'up' : 'down'}">${t('direction_' + item.direction, { fallback: item.direction })}</span>
+                            <span class="suggestions__trait-name">${traitName}</span>
+                            <span class="suggestions__dir ${item.direction === '提升' ? 'up' : 'down'}">${direction}</span>
                         </div>
                         <ul class="suggestions__tips">
                             ${item.tips.map(tip => `<li>${tip}</li>`).join('')}
                         </ul>
                     </div>
-                `).join('')}
+                `;
+                }).join('')}
             `;
         }
         
