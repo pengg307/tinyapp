@@ -154,11 +154,13 @@ def match_user(
     matches = []
     for r in results:
         fig = next(f for f in figures_data if f["id"] == r["figure_id"])
-        gaps = analyze_gaps(user_vector, figure_vectors[r["figure_id"]])
-        suggestion = generate_suggestions(gaps, fig["type"], language, names.get(language, names.get("zh", fig["name"])))
         
         # 获取多语言名字
         names = fig.get("names", {})
+        figure_name = names.get(language, names.get("zh", fig["name"]))
+        
+        gaps = analyze_gaps(user_vector, figure_vectors[r["figure_id"]])
+        suggestion = generate_suggestions(gaps, fig["type"], language, figure_name)
         
         matches.append({
             "figure_id": r["figure_id"],
