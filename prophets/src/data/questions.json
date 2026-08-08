@@ -1,0 +1,2162 @@
+[
+  {
+    "id": 1,
+    "trait": "openness",
+    "trait_cn": "开放性",
+    "text": "面对全新的领域，你的态度是？",
+    "options": [
+      {
+        "text": "充满好奇，积极尝试",
+        "vector": {
+          "openness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度接受，但保持谨慎",
+        "vector": {
+          "openness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "更倾向于熟悉的事物",
+        "vector": {
+          "openness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "坚持传统，不喜变化",
+        "vector": {
+          "openness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "trait": "openness",
+    "trait_cn": "开放性",
+    "text": "你更喜欢尝试新事物还是坚持传统？",
+    "options": [
+      {
+        "text": "充满好奇，积极尝试",
+        "vector": {
+          "openness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度接受，但保持谨慎",
+        "vector": {
+          "openness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "更倾向于熟悉的事物",
+        "vector": {
+          "openness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "坚持传统，不喜变化",
+        "vector": {
+          "openness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "trait": "openness",
+    "trait_cn": "开放性",
+    "text": "当面对一个从未见过的难题时？",
+    "options": [
+      {
+        "text": "充满好奇，积极尝试",
+        "vector": {
+          "openness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度接受，但保持谨慎",
+        "vector": {
+          "openness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "更倾向于熟悉的事物",
+        "vector": {
+          "openness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "坚持传统，不喜变化",
+        "vector": {
+          "openness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "trait": "openness",
+    "trait_cn": "开放性",
+    "text": "你如何对待不同的观点？",
+    "options": [
+      {
+        "text": "充满好奇，积极尝试",
+        "vector": {
+          "openness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度接受，但保持谨慎",
+        "vector": {
+          "openness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "更倾向于熟悉的事物",
+        "vector": {
+          "openness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "坚持传统，不喜变化",
+        "vector": {
+          "openness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "trait": "openness",
+    "trait_cn": "开放性",
+    "text": "对于未知的风险，你会？",
+    "options": [
+      {
+        "text": "充满好奇，积极尝试",
+        "vector": {
+          "openness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度接受，但保持谨慎",
+        "vector": {
+          "openness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "更倾向于熟悉的事物",
+        "vector": {
+          "openness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "坚持传统，不喜变化",
+        "vector": {
+          "openness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "trait": "conscientiousness",
+    "trait_cn": "尽责性",
+    "text": "面对截止日期，你的习惯是？",
+    "options": [
+      {
+        "text": "立即开始，按时完成",
+        "vector": {
+          "conscientiousness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "提前计划，但可能拖延",
+        "vector": {
+          "conscientiousness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "最后期限前才行动",
+        "vector": {
+          "conscientiousness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，不拘计划",
+        "vector": {
+          "conscientiousness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "trait": "conscientiousness",
+    "trait_cn": "尽责性",
+    "text": "你做计划的方式通常是？",
+    "options": [
+      {
+        "text": "立即开始，按时完成",
+        "vector": {
+          "conscientiousness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "提前计划，但可能拖延",
+        "vector": {
+          "conscientiousness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "最后期限前才行动",
+        "vector": {
+          "conscientiousness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，不拘计划",
+        "vector": {
+          "conscientiousness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "trait": "conscientiousness",
+    "trait_cn": "尽责性",
+    "text": "当任务完成后？",
+    "options": [
+      {
+        "text": "立即开始，按时完成",
+        "vector": {
+          "conscientiousness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "提前计划，但可能拖延",
+        "vector": {
+          "conscientiousness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "最后期限前才行动",
+        "vector": {
+          "conscientiousness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，不拘计划",
+        "vector": {
+          "conscientiousness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "trait": "conscientiousness",
+    "trait_cn": "尽责性",
+    "text": "你如何处理琐碎的事务？",
+    "options": [
+      {
+        "text": "立即开始，按时完成",
+        "vector": {
+          "conscientiousness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "提前计划，但可能拖延",
+        "vector": {
+          "conscientiousness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "最后期限前才行动",
+        "vector": {
+          "conscientiousness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，不拘计划",
+        "vector": {
+          "conscientiousness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "trait": "conscientiousness",
+    "trait_cn": "尽责性",
+    "text": "对于承诺，你的态度是？",
+    "options": [
+      {
+        "text": "立即开始，按时完成",
+        "vector": {
+          "conscientiousness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "提前计划，但可能拖延",
+        "vector": {
+          "conscientiousness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "最后期限前才行动",
+        "vector": {
+          "conscientiousness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，不拘计划",
+        "vector": {
+          "conscientiousness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "在社交场合中，你通常是？",
+    "options": [
+      {
+        "text": "享受社交，精力充沛",
+        "vector": {
+          "extraversion": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度社交，需要独处恢复",
+        "vector": {
+          "extraversion": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偏好小范围交往",
+        "vector": {
+          "extraversion": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "更倾向于独处",
+        "vector": {
+          "extraversion": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "你更喜欢哪种聚会方式？",
+    "options": [
+      {
+        "text": "享受社交，精力充沛",
+        "vector": {
+          "extraversion": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度社交，需要独处恢复",
+        "vector": {
+          "extraversion": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偏好小范围交往",
+        "vector": {
+          "extraversion": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "更倾向于独处",
+        "vector": {
+          "extraversion": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "当遇到陌生人时？",
+    "options": [
+      {
+        "text": "享受社交，精力充沛",
+        "vector": {
+          "extraversion": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度社交，需要独处恢复",
+        "vector": {
+          "extraversion": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偏好小范围交往",
+        "vector": {
+          "extraversion": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "更倾向于独处",
+        "vector": {
+          "extraversion": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "你从社交中获取能量还是消耗能量？",
+    "options": [
+      {
+        "text": "享受社交，精力充沛",
+        "vector": {
+          "extraversion": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度社交，需要独处恢复",
+        "vector": {
+          "extraversion": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偏好小范围交往",
+        "vector": {
+          "extraversion": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "更倾向于独处",
+        "vector": {
+          "extraversion": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "trait": "extraversion",
+    "trait_cn": "外向性",
+    "text": "在团队中，你倾向于？",
+    "options": [
+      {
+        "text": "享受社交，精力充沛",
+        "vector": {
+          "extraversion": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度社交，需要独处恢复",
+        "vector": {
+          "extraversion": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偏好小范围交往",
+        "vector": {
+          "extraversion": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "更倾向于独处",
+        "vector": {
+          "extraversion": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "当与他人意见不合时？",
+    "options": [
+      {
+        "text": "合作共赢，避免冲突",
+        "vector": {
+          "agreeableness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "寻求平衡，偶尔竞争",
+        "vector": {
+          "agreeableness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "坚持己见，敢于冲突",
+        "vector": {
+          "agreeableness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "竞争优先，不惜对抗",
+        "vector": {
+          "agreeableness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "你如何看待竞争？",
+    "options": [
+      {
+        "text": "合作共赢，避免冲突",
+        "vector": {
+          "agreeableness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "寻求平衡，偶尔竞争",
+        "vector": {
+          "agreeableness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "坚持己见，敢于冲突",
+        "vector": {
+          "agreeableness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "竞争优先，不惜对抗",
+        "vector": {
+          "agreeableness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "对于他人的错误，你会？",
+    "options": [
+      {
+        "text": "合作共赢，避免冲突",
+        "vector": {
+          "agreeableness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "寻求平衡，偶尔竞争",
+        "vector": {
+          "agreeableness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "坚持己见，敢于冲突",
+        "vector": {
+          "agreeableness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "竞争优先，不惜对抗",
+        "vector": {
+          "agreeableness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "在合作中，你更注重？",
+    "options": [
+      {
+        "text": "合作共赢，避免冲突",
+        "vector": {
+          "agreeableness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "寻求平衡，偶尔竞争",
+        "vector": {
+          "agreeableness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "坚持己见，敢于冲突",
+        "vector": {
+          "agreeableness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "竞争优先，不惜对抗",
+        "vector": {
+          "agreeableness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "trait": "agreeableness",
+    "trait_cn": "宜人性",
+    "text": "面对冲突，你倾向于？",
+    "options": [
+      {
+        "text": "合作共赢，避免冲突",
+        "vector": {
+          "agreeableness": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "寻求平衡，偶尔竞争",
+        "vector": {
+          "agreeableness": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "坚持己见，敢于冲突",
+        "vector": {
+          "agreeableness": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "竞争优先，不惜对抗",
+        "vector": {
+          "agreeableness": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "trait": "neuroticism",
+    "trait_cn": "情绪稳定性",
+    "text": "面对压力时，你通常？",
+    "options": [
+      {
+        "text": "平静应对，不受影响",
+        "vector": {
+          "neuroticism": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "略有波动，能自我调节",
+        "vector": {
+          "neuroticism": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情绪起伏较大",
+        "vector": {
+          "neuroticism": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易焦虑，难以平静",
+        "vector": {
+          "neuroticism": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "trait": "neuroticism",
+    "trait_cn": "情绪稳定性",
+    "text": "你的情绪波动程度如何？",
+    "options": [
+      {
+        "text": "平静应对，不受影响",
+        "vector": {
+          "neuroticism": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "略有波动，能自我调节",
+        "vector": {
+          "neuroticism": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情绪起伏较大",
+        "vector": {
+          "neuroticism": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易焦虑，难以平静",
+        "vector": {
+          "neuroticism": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "trait": "neuroticism",
+    "trait_cn": "情绪稳定性",
+    "text": "对于失败，你的反应是？",
+    "options": [
+      {
+        "text": "平静应对，不受影响",
+        "vector": {
+          "neuroticism": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "略有波动，能自我调节",
+        "vector": {
+          "neuroticism": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情绪起伏较大",
+        "vector": {
+          "neuroticism": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易焦虑，难以平静",
+        "vector": {
+          "neuroticism": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "trait": "neuroticism",
+    "trait_cn": "情绪稳定性",
+    "text": "你容易焦虑吗？",
+    "options": [
+      {
+        "text": "平静应对，不受影响",
+        "vector": {
+          "neuroticism": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "略有波动，能自我调节",
+        "vector": {
+          "neuroticism": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情绪起伏较大",
+        "vector": {
+          "neuroticism": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易焦虑，难以平静",
+        "vector": {
+          "neuroticism": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "trait": "neuroticism",
+    "trait_cn": "情绪稳定性",
+    "text": "面对批评时？",
+    "options": [
+      {
+        "text": "平静应对，不受影响",
+        "vector": {
+          "neuroticism": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "略有波动，能自我调节",
+        "vector": {
+          "neuroticism": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情绪起伏较大",
+        "vector": {
+          "neuroticism": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易焦虑，难以平静",
+        "vector": {
+          "neuroticism": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "在团队中，你通常扮演什么角色？",
+    "options": [
+      {
+        "text": "主动领导，承担责任",
+        "vector": {
+          "leadership": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "参与决策，提供支持",
+        "vector": {
+          "leadership": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "等待指示，执行任务",
+        "vector": {
+          "leadership": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "独立行动，不愿领导",
+        "vector": {
+          "leadership": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "当需要决策时，你会？",
+    "options": [
+      {
+        "text": "主动领导，承担责任",
+        "vector": {
+          "leadership": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "参与决策，提供支持",
+        "vector": {
+          "leadership": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "等待指示，执行任务",
+        "vector": {
+          "leadership": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "独立行动，不愿领导",
+        "vector": {
+          "leadership": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "你更喜欢领导还是跟随？",
+    "options": [
+      {
+        "text": "主动领导，承担责任",
+        "vector": {
+          "leadership": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "参与决策，提供支持",
+        "vector": {
+          "leadership": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "等待指示，执行任务",
+        "vector": {
+          "leadership": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "独立行动，不愿领导",
+        "vector": {
+          "leadership": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "面对挑战，你的态度是？",
+    "options": [
+      {
+        "text": "主动领导，承担责任",
+        "vector": {
+          "leadership": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "参与决策，提供支持",
+        "vector": {
+          "leadership": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "等待指示，执行任务",
+        "vector": {
+          "leadership": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "独立行动，不愿领导",
+        "vector": {
+          "leadership": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "trait": "leadership",
+    "trait_cn": "领导力",
+    "text": "你如何影响他人？",
+    "options": [
+      {
+        "text": "主动领导，承担责任",
+        "vector": {
+          "leadership": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "参与决策，提供支持",
+        "vector": {
+          "leadership": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "等待指示，执行任务",
+        "vector": {
+          "leadership": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "独立行动，不愿领导",
+        "vector": {
+          "leadership": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "面对重大决策时，你倾向于？",
+    "options": [
+      {
+        "text": "高风险高回报，值得尝试",
+        "vector": {
+          "risk_taking": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度风险，可控范围内",
+        "vector": {
+          "risk_taking": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "倾向稳健，避免风险",
+        "vector": {
+          "risk_taking": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "绝不冒险，安全第一",
+        "vector": {
+          "risk_taking": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "你愿意为了高回报承担风险吗？",
+    "options": [
+      {
+        "text": "高风险高回报，值得尝试",
+        "vector": {
+          "risk_taking": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度风险，可控范围内",
+        "vector": {
+          "risk_taking": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "倾向稳健，避免风险",
+        "vector": {
+          "risk_taking": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "绝不冒险，安全第一",
+        "vector": {
+          "risk_taking": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "当机会与风险并存时？",
+    "options": [
+      {
+        "text": "高风险高回报，值得尝试",
+        "vector": {
+          "risk_taking": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度风险，可控范围内",
+        "vector": {
+          "risk_taking": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "倾向稳健，避免风险",
+        "vector": {
+          "risk_taking": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "绝不冒险，安全第一",
+        "vector": {
+          "risk_taking": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "你对不确定性的容忍度如何？",
+    "options": [
+      {
+        "text": "高风险高回报，值得尝试",
+        "vector": {
+          "risk_taking": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度风险，可控范围内",
+        "vector": {
+          "risk_taking": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "倾向稳健，避免风险",
+        "vector": {
+          "risk_taking": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "绝不冒险，安全第一",
+        "vector": {
+          "risk_taking": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "trait": "risk_taking",
+    "trait_cn": "风险偏好",
+    "text": "冒险在你的生活中占多大比例？",
+    "options": [
+      {
+        "text": "高风险高回报，值得尝试",
+        "vector": {
+          "risk_taking": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "适度风险，可控范围内",
+        "vector": {
+          "risk_taking": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "倾向稳健，避免风险",
+        "vector": {
+          "risk_taking": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "绝不冒险，安全第一",
+        "vector": {
+          "risk_taking": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "trait": "rationality",
+    "trait_cn": "理性度",
+    "text": "做决定时，你更依赖？",
+    "options": [
+      {
+        "text": "完全理性，逻辑优先",
+        "vector": {
+          "rationality": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理性为主，兼顾情感",
+        "vector": {
+          "rationality": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情感与理性并重",
+        "vector": {
+          "rationality": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，直觉主导",
+        "vector": {
+          "rationality": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "trait": "rationality",
+    "trait_cn": "理性度",
+    "text": "当情感与逻辑冲突时？",
+    "options": [
+      {
+        "text": "完全理性，逻辑优先",
+        "vector": {
+          "rationality": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理性为主，兼顾情感",
+        "vector": {
+          "rationality": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情感与理性并重",
+        "vector": {
+          "rationality": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，直觉主导",
+        "vector": {
+          "rationality": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "trait": "rationality",
+    "trait_cn": "理性度",
+    "text": "你如何看待直觉？",
+    "options": [
+      {
+        "text": "完全理性，逻辑优先",
+        "vector": {
+          "rationality": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理性为主，兼顾情感",
+        "vector": {
+          "rationality": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情感与理性并重",
+        "vector": {
+          "rationality": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，直觉主导",
+        "vector": {
+          "rationality": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "trait": "rationality",
+    "trait_cn": "理性度",
+    "text": "面对复杂问题，你的方法是？",
+    "options": [
+      {
+        "text": "完全理性，逻辑优先",
+        "vector": {
+          "rationality": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理性为主，兼顾情感",
+        "vector": {
+          "rationality": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情感与理性并重",
+        "vector": {
+          "rationality": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，直觉主导",
+        "vector": {
+          "rationality": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "trait": "rationality",
+    "trait_cn": "理性度",
+    "text": "你相信理性可以解决一切吗？",
+    "options": [
+      {
+        "text": "完全理性，逻辑优先",
+        "vector": {
+          "rationality": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理性为主，兼顾情感",
+        "vector": {
+          "rationality": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "情感与理性并重",
+        "vector": {
+          "rationality": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，直觉主导",
+        "vector": {
+          "rationality": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "你的日常生活习惯是？",
+    "options": [
+      {
+        "text": "高度自律，严格执行",
+        "vector": {
+          "discipline": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "有计划但能灵活调整",
+        "vector": {
+          "discipline": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偶尔拖延，但最终完成",
+        "vector": {
+          "discipline": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，难以坚持",
+        "vector": {
+          "discipline": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "面对诱惑时，你能抵制吗？",
+    "options": [
+      {
+        "text": "高度自律，严格执行",
+        "vector": {
+          "discipline": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "有计划但能灵活调整",
+        "vector": {
+          "discipline": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偶尔拖延，但最终完成",
+        "vector": {
+          "discipline": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，难以坚持",
+        "vector": {
+          "discipline": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "你如何保持专注？",
+    "options": [
+      {
+        "text": "高度自律，严格执行",
+        "vector": {
+          "discipline": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "有计划但能灵活调整",
+        "vector": {
+          "discipline": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偶尔拖延，但最终完成",
+        "vector": {
+          "discipline": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，难以坚持",
+        "vector": {
+          "discipline": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "对于目标，你的执行力如何？",
+    "options": [
+      {
+        "text": "高度自律，严格执行",
+        "vector": {
+          "discipline": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "有计划但能灵活调整",
+        "vector": {
+          "discipline": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偶尔拖延，但最终完成",
+        "vector": {
+          "discipline": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，难以坚持",
+        "vector": {
+          "discipline": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "trait": "discipline",
+    "trait_cn": "自律性",
+    "text": "你能坚持长期计划吗？",
+    "options": [
+      {
+        "text": "高度自律，严格执行",
+        "vector": {
+          "discipline": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "有计划但能灵活调整",
+        "vector": {
+          "discipline": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "偶尔拖延，但最终完成",
+        "vector": {
+          "discipline": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "随性而为，难以坚持",
+        "vector": {
+          "discipline": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "trait": "empathy",
+    "trait_cn": "共情力",
+    "text": "你能理解他人的感受吗？",
+    "options": [
+      {
+        "text": "深度共情，感同身受",
+        "vector": {
+          "empathy": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理解他人，保持边界",
+        "vector": {
+          "empathy": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "理性分析，适度回应",
+        "vector": {
+          "empathy": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "关注自己，较少共情",
+        "vector": {
+          "empathy": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "trait": "empathy",
+    "trait_cn": "共情力",
+    "text": "当看到他人受苦时？",
+    "options": [
+      {
+        "text": "深度共情，感同身受",
+        "vector": {
+          "empathy": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理解他人，保持边界",
+        "vector": {
+          "empathy": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "理性分析，适度回应",
+        "vector": {
+          "empathy": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "关注自己，较少共情",
+        "vector": {
+          "empathy": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "trait": "empathy",
+    "trait_cn": "共情力",
+    "text": "你如何回应他人的情绪？",
+    "options": [
+      {
+        "text": "深度共情，感同身受",
+        "vector": {
+          "empathy": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理解他人，保持边界",
+        "vector": {
+          "empathy": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "理性分析，适度回应",
+        "vector": {
+          "empathy": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "关注自己，较少共情",
+        "vector": {
+          "empathy": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "trait": "empathy",
+    "trait_cn": "共情力",
+    "text": "你容易共情吗？",
+    "options": [
+      {
+        "text": "深度共情，感同身受",
+        "vector": {
+          "empathy": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理解他人，保持边界",
+        "vector": {
+          "empathy": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "理性分析，适度回应",
+        "vector": {
+          "empathy": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "关注自己，较少共情",
+        "vector": {
+          "empathy": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "trait": "empathy",
+    "trait_cn": "共情力",
+    "text": "在人际关系中，你更注重？",
+    "options": [
+      {
+        "text": "深度共情，感同身受",
+        "vector": {
+          "empathy": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "理解他人，保持边界",
+        "vector": {
+          "empathy": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "理性分析，适度回应",
+        "vector": {
+          "empathy": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "关注自己，较少共情",
+        "vector": {
+          "empathy": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "你的人生目标是？",
+    "options": [
+      {
+        "text": "追求卓越，不惜代价",
+        "vector": {
+          "ambition": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "力争上游，保持平衡",
+        "vector": {
+          "ambition": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "知足常乐，顺其自然",
+        "vector": {
+          "ambition": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "淡泊名利，随遇而安",
+        "vector": {
+          "ambition": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "成功对你意味着什么？",
+    "options": [
+      {
+        "text": "追求卓越，不惜代价",
+        "vector": {
+          "ambition": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "力争上游，保持平衡",
+        "vector": {
+          "ambition": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "知足常乐，顺其自然",
+        "vector": {
+          "ambition": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "淡泊名利，随遇而安",
+        "vector": {
+          "ambition": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "你愿意为了成功付出什么代价？",
+    "options": [
+      {
+        "text": "追求卓越，不惜代价",
+        "vector": {
+          "ambition": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "力争上游，保持平衡",
+        "vector": {
+          "ambition": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "知足常乐，顺其自然",
+        "vector": {
+          "ambition": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "淡泊名利，随遇而安",
+        "vector": {
+          "ambition": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "你对权力的看法是？",
+    "options": [
+      {
+        "text": "追求卓越，不惜代价",
+        "vector": {
+          "ambition": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "力争上游，保持平衡",
+        "vector": {
+          "ambition": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "知足常乐，顺其自然",
+        "vector": {
+          "ambition": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "淡泊名利，随遇而安",
+        "vector": {
+          "ambition": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "trait": "ambition",
+    "trait_cn": "野心",
+    "text": "你更在意过程还是结果？",
+    "options": [
+      {
+        "text": "追求卓越，不惜代价",
+        "vector": {
+          "ambition": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "力争上游，保持平衡",
+        "vector": {
+          "ambition": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "知足常乐，顺其自然",
+        "vector": {
+          "ambition": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "淡泊名利，随遇而安",
+        "vector": {
+          "ambition": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "面对重大挫折时，你会？",
+    "options": [
+      {
+        "text": "百折不挠，愈挫愈勇",
+        "vector": {
+          "resilience": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "短暂沮丧，很快恢复",
+        "vector": {
+          "resilience": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "需要时间恢复",
+        "vector": {
+          "resilience": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易放弃，难以坚持",
+        "vector": {
+          "resilience": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "你从失败中恢复的速度如何？",
+    "options": [
+      {
+        "text": "百折不挠，愈挫愈勇",
+        "vector": {
+          "resilience": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "短暂沮丧，很快恢复",
+        "vector": {
+          "resilience": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "需要时间恢复",
+        "vector": {
+          "resilience": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易放弃，难以坚持",
+        "vector": {
+          "resilience": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "逆境对你的影响大吗？",
+    "options": [
+      {
+        "text": "百折不挠，愈挫愈勇",
+        "vector": {
+          "resilience": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "短暂沮丧，很快恢复",
+        "vector": {
+          "resilience": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "需要时间恢复",
+        "vector": {
+          "resilience": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易放弃，难以坚持",
+        "vector": {
+          "resilience": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "你如何看待困难？",
+    "options": [
+      {
+        "text": "百折不挠，愈挫愈勇",
+        "vector": {
+          "resilience": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "短暂沮丧，很快恢复",
+        "vector": {
+          "resilience": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "需要时间恢复",
+        "vector": {
+          "resilience": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易放弃，难以坚持",
+        "vector": {
+          "resilience": 0.1
+        },
+        "score": 3
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "trait": "resilience",
+    "trait_cn": "韧性",
+    "text": "你能坚持到底吗？",
+    "options": [
+      {
+        "text": "百折不挠，愈挫愈勇",
+        "vector": {
+          "resilience": 0.9
+        },
+        "score": 0
+      },
+      {
+        "text": "短暂沮丧，很快恢复",
+        "vector": {
+          "resilience": 0.6
+        },
+        "score": 1
+      },
+      {
+        "text": "需要时间恢复",
+        "vector": {
+          "resilience": 0.3
+        },
+        "score": 2
+      },
+      {
+        "text": "容易放弃，难以坚持",
+        "vector": {
+          "resilience": 0.1
+        },
+        "score": 3
+      }
+    ]
+  }
+]

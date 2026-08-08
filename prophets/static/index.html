@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prophets - 历史人物性格匹配</title>
+    <script src="chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #2c3e50;
+            --accent: #e74c3c;
+            --bg: #f5f6fa;
+            --card: #ffffff;
+            --text: #2c3e50;
+            --text-light: #7f8c8d;
+            --border: #dfe6e9;
+            --success: #27ae60;
+            --warning: #f39c12;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, var(--primary) 0%, #34495e 100%);
+            color: white;
+            margin-bottom: 30px;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .section {
+            display: none;
+        }
+        
+        .section.active {
+            display: block;
+        }
+        
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .card h3 {
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        
+        .btn {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #34495e;
+        }
+        
+        .btn-secondary {
+            background: var(--text-light);
+            color: white;
+        }
+        
+        .progress {
+            background: var(--border);
+            height: 6px;
+            border-radius: 3px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        
+        .progress-bar {
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            height: 100%;
+            transition: width 0.3s;
+        }
+        
+        .question {
+            margin-bottom: 20px;
+        }
+        
+        .question-number {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            margin-bottom: 10px;
+        }
+        
+        .question-text {
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .option {
+            padding: 15px 20px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .option:hover {
+            border-color: var(--primary);
+            background: #f8f9fa;
+        }
+        
+        .option.selected {
+            border-color: var(--accent);
+            background: #fff5f5;
+        }
+        
+        .match-card {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .match-card:hover {
+            border-color: var(--primary);
+            transform: translateX(5px);
+        }
+        
+        .match-card.selected {
+            border-color: var(--accent);
+            background: #fff5f5;
+        }
+        
+        .match-rank {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent);
+            margin-right: 15px;
+            min-width: 40px;
+        }
+        
+        .match-info {
+            flex: 1;
+        }
+        
+        .match-name {
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+        
+        .match-meta {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+        
+        .match-score {
+            text-align: right;
+        }
+        
+        .score-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent);
+        }
+        
+        .score-label {
+            font-size: 0.8rem;
+            color: var(--text-light);
+        }
+        
+        .summary {
+            background: linear-gradient(135deg, #fff5f5 0%, #ffeaa7 100%);
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        
+        .figure-bio {
+            font-size: 0.95rem;
+            color: var(--text-light);
+            margin-top: 8px;
+            font-style: italic;
+        }
+        
+        .suggestion-section {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .suggestion-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        
+        .suggestion-overall {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent);
+        }
+        
+        .suggestion-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        
+        .suggestion-trait {
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .direction-up {
+            color: var(--success);
+            font-size: 0.85rem;
+        }
+        
+        .direction-down {
+            color: var(--warning);
+            font-size: 0.85rem;
+        }
+        
+        .suggestion-tips {
+            margin-left: 20px;
+            color: var(--text-light);
+        }
+        
+        .suggestion-tips li {
+            margin-bottom: 5px;
+        }
+        
+        .suggestion-tips li:before {
+            content: "• ";
+            color: var(--accent);
+        }
+        
+        .radar-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        
+        .hidden {
+            display: none !important;
+        }
+        
+        .modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎯 Prophets</h1>
+        <p>你的性格像哪位历史人物？</p>
+    </header>
+    
+    <div class="container">
+        <!-- 支付界面 -->
+        <div id="payment-section" class="section">
+            <div class="card">
+                <h3>🔒 付费测试</h3>
+                <p style="margin-bottom: 15px; color: var(--text-light);">
+                    本测试费用 <strong style="color: var(--accent); font-size: 1.5rem;">¥9.90</strong>
+                </p>
+                <div id="qr-container" style="text-align: center; margin: 30px 0;">
+                    <div style="display: inline-block; background: white; padding: 20px; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                        <img id="qr-code" src="" alt="支付二维码" style="width: 200px; height: 200px;" />
+                    </div>
+                    <p style="margin-top: 15px; color: var(--text-light);">
+                        请使用微信或支付宝扫码支付
+                    </p>
+                </div>
+                <div style="background: #fff5f5; border: 1px solid #fee; border-radius: 8px; padding: 15px; margin-bottom: 20px;">
+                    <p style="color: var(--warning); font-size: 0.9rem;">
+                        ⏰ 支付后 <strong>24小时</strong> 内有效，请及时完成测试
+                    </p>
+                </div>
+                <div style="text-align: center;">
+                    <button class="btn btn-secondary" onclick="simulatePayment()" style="margin-right: 10px;">
+                        模拟支付（测试）
+                    </button>
+                    <button class="btn btn-primary" onclick="checkPaymentStatus()">
+                        我已支付
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 支付确认框 -->
+        <div id="payment-confirm-modal" class="modal" style="display: none;">
+            <div class="modal-content">
+                <h3>🔐 开发阶段确认</h3>
+                <p style="margin: 20px 0; color: var(--text-light);">
+                    当前为开发阶段，请输入 <strong style="color: var(--primary);">qwe</strong> 确认跳过支付流程
+                </p>
+                <input type="text" id="payment-confirm-input" placeholder="请输入 qwe 确认" 
+                       style="width: 100%; padding: 12px; border: 2px solid var(--border); border-radius: 8px; font-size: 1rem; text-align: center;" />
+                <div style="text-align: center; margin-top: 20px; display: flex; gap: 10px; justify-content: center;">
+                    <button class="btn btn-secondary" onclick="closePaymentConfirm()">取消</button>
+                    <button class="btn btn-primary" onclick="confirmPayment()">确认支付</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 开始界面 -->
+        <div id="start-section" class="section active">
+            <div class="card">
+                <h3>📋 测试说明</h3>
+                <p style="margin-bottom: 15px; color: var(--text-light);">
+                    本测试包含20道情境选择题，基于历史人物关键决策事件设计。
+                </p>
+                <p style="margin-bottom: 15px; color: var(--text-light);">
+                    请选择最符合你倾向的选项，无需过多思考，相信第一感觉。
+                </p>
+                <p style="color: var(--text-light);">
+                    完成后将显示与你性格最相似的历史人物TOP-5，并提供个性化改进建议。
+                </p>
+            </div>
+            <div style="text-align: center;">
+                <button class="btn btn-primary" onclick="startQuiz()">开始测试</button>
+            </div>
+        </div>
+        
+        <!-- 答题界面 -->
+        <div id="quiz-section" class="section">
+            <div class="progress">
+                <div class="progress-bar" id="progress-bar" style="width: 5%"></div>
+            </div>
+            <div class="card">
+                <div id="question-container">
+                    <!-- Questions will be loaded here -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- 加载界面 -->
+        <div id="loading-section" class="section">
+            <div class="card" style="text-align: center; padding: 50px;">
+                <div style="font-size: 3rem; margin-bottom: 20px;">🔄</div>
+                <p style="color: var(--text-light);">正在分析您的性格...</p>
+            </div>
+        </div>
+        
+        <!-- 结果界面 -->
+        <div id="result-section" class="section">
+            <div class="summary" id="summary-text"></div>
+            
+            <div class="card">
+                <h3>📊 您的性格雷达图</h3>
+                <div class="radar-container">
+                    <canvas id="radar-chart"></canvas>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>🏆 最相似的历史人物 TOP 10</h3>
+                <p style="color: var(--text-light); font-size: 0.9rem; margin-bottom: 15px;">
+                    点击人物查看详细改进建议
+                </p>
+                <div id="matches-container"></div>
+            </div>
+            
+            <!-- 建议区域 -->
+            <div id="suggestion-section" class="suggestion-section" style="display: none;">
+                <div class="suggestion-title">
+                    💡 <span id="suggestion-figure-name"></span> 改进建议
+                </div>
+                <div class="suggestion-overall" id="suggestion-overall"></div>
+                <div id="suggestion-list"></div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <button class="btn btn-secondary" onclick="restartQuiz()">重新测试</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        const API_BASE = '';
+        let questions = [];
+        let answers = new Array(20).fill(-1);
+        let currentQuestion = 0;
+        let currentMatchIndex = 0;
+        let currentResults = null;
+        let radarChart = null;
+        let paymentOrder = null;
+        
+        // 初始化
+        window.onload = function() {
+            loadQuiz();
+            checkPayment();
+        };
+        
+        // 检查支付状态
+        async function checkPayment() {
+            try {
+                const resp = await fetch(`${API_BASE}/api/payment/status/anonymous`);
+                const data = await resp.json();
+                
+                if (data.paid) {
+                    // 已支付，显示开始界面
+                    showSection('start-section');
+                } else {
+                    // 未支付，显示支付界面
+                    showSection('payment-section');
+                    loadQRCode();
+                }
+            } catch (error) {
+                console.error('检查支付状态失败:', error);
+                showSection('start-section');
+            }
+        }
+        
+        // 加载二维码
+        async function loadQRCode() {
+            try {
+                const resp = await fetch(`${API_BASE}/api/payment/mock_qr/anonymous`);
+                const data = await resp.json();
+                document.getElementById('qr-code').src = data.qr_code;
+                paymentOrder = data.order_id;
+            } catch (error) {
+                console.error('加载二维码失败:', error);
+            }
+        }
+        
+        // 模拟支付
+        async function simulatePayment() {
+            // 显示确认框
+            document.getElementById('payment-confirm-modal').style.display = 'flex';
+        }
+        
+        function closePaymentConfirm() {
+            document.getElementById('payment-confirm-modal').style.display = 'none';
+            document.getElementById('payment-confirm-input').value = '';
+        }
+        
+        async function confirmPayment() {
+            const input = document.getElementById('payment-confirm-input').value.trim();
+            
+            if (input !== 'qwe') {
+                alert('请输入正确的确认码: qwe');
+                return;
+            }
+            
+            // 关闭确认框
+            closePaymentConfirm();
+            
+            try {
+                const resp = await fetch(`${API_BASE}/api/payment/mock_pay`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ user_id: 'anonymous' })
+                });
+                const data = await resp.json();
+                
+                if (data.success) {
+                    alert('支付成功！您可以开始测试了。\n\n有效期: ' + data.remaining_hours + ' 小时');
+                    showSection('start-section');
+                }
+            } catch (error) {
+                console.error('支付失败:', error);
+                alert('支付失败，请重试');
+            }
+        }
+        
+        // 检查支付状态（用户点击"我已支付"）
+        async function checkPaymentStatus() {
+            if (!paymentOrder) {
+                alert('请先扫码支付');
+                return;
+            }
+            
+            try {
+                const resp = await fetch(`${API_BASE}/api/payment/verify`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ order_id: paymentOrder, user_id: 'anonymous' })
+                });
+                const data = await resp.json();
+                
+                if (data.paid) {
+                    alert('支付验证成功！您可以开始测试了。');
+                    showSection('start-section');
+                } else {
+                    alert('支付未成功，请扫码支付');
+                }
+            } catch (error) {
+                console.error('验证失败:', error);
+                alert('验证失败，请重试');
+            }
+        }
+        
+        async function loadQuiz() {
+            try {
+                const response = await fetch(`${API_BASE}/api/quiz`);
+                const data = await response.json();
+                questions = data.questions;
+                renderQuestion();
+                showSection('quiz-section');
+            } catch (error) {
+                console.error('加载题目失败:', error);
+                alert('加载题目失败，请刷新重试');
+            }
+        }
+        
+        function renderQuestion() {
+            const container = document.getElementById('question-container');
+            const question = questions[currentQuestion];
+            
+            // 更新进度条
+            const progress = ((currentQuestion + 1) / questions.length) * 100;
+            document.getElementById('progress-bar').style.width = progress + '%';
+            
+            container.innerHTML = `
+                <div class="question">
+                    <div class="question-number">第 ${currentQuestion + 1} 题 / 共 ${questions.length} 题</div>
+                    <div class="question-text">${question.text}</div>
+                    <div class="options">
+                        ${question.options.map((opt, idx) => `
+                            <div class="option ${answers[currentQuestion] === idx ? 'selected' : ''}" 
+                                 onclick="selectOption(${idx})">
+                                ${opt.text}
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+        
+        function selectOption(index) {
+            answers[currentQuestion] = index;
+            // 自动跳转到下一题
+            if (currentQuestion < questions.length - 1) {
+                currentQuestion++;
+                renderQuestion();
+            } else {
+                // 最后一题，显示完成提示
+                showCompletionMessage();
+            }
+        }
+        
+        function showCompletionMessage() {
+            const container = document.getElementById('question-container');
+            container.innerHTML = `
+                <div class="question">
+                    <div class="question-number">测试完成</div>
+                    <div class="question-text" style="font-size: 1.5rem; color: var(--primary); font-weight: bold;">
+                        ✅ 已经完成测试
+                    </div>
+                    <div style="text-align: center; margin-top: 20px; color: var(--text-light);">
+                        正在为您生成性格分析...
+                    </div>
+                </div>
+            `;
+            // 延迟提交，让用户看到完成提示
+            setTimeout(() => submitQuiz(), 800);
+        }
+        
+        async function submitQuiz() {
+            document.getElementById('quiz-section').classList.add('hidden');
+            document.getElementById('loading-section').classList.remove('hidden');
+            document.getElementById('loading-section').classList.add('active');
+
+            try {
+                const answersArray = answers.map((optionIndex, questionNum) => ({
+                    question_id: questionNum + 1,
+                    option_index: optionIndex
+                }));
+
+                const response = await fetch(`${API_BASE}/api/match`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ answers: answersArray })
+                });
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    throw new Error(`HTTP ${response.status}: ${errorText}`);
+                }
+
+                const data = await response.json();
+                currentResults = data;  // 保存结果到全局变量
+                renderResults(data);
+            } catch (error) {
+                console.error('提交失败:', error);
+                document.getElementById('loading-section').classList.add('hidden');
+                document.getElementById('quiz-section').classList.remove('hidden');
+                alert('提交失败，请重试: ' + error.message);
+            }
+        }
+        
+        function renderResults(data) {
+            document.getElementById('loading-section').classList.add('hidden');
+            document.getElementById('result-section').classList.add('active');
+            
+            // Summary
+            document.getElementById('summary-text').textContent = data.summary;
+            
+            // Matches
+            const matchesContainer = document.getElementById('matches-container');
+            matchesContainer.innerHTML = data.matches.map((match, idx) => `
+                <div class="match-card" onclick="selectMatch(${idx})" id="match-${idx}">
+                    <div class="match-rank">#${idx + 1}</div>
+                    <div class="match-info">
+                        <div class="match-name">${match.name}</div>
+                        <div class="match-meta">${match.era} · ${match.type}</div>
+                        ${match.name_en ? `<div class="figure-bio">${match.name_en}</div>` : ''}
+                    </div>
+                    <div class="match-score">
+                        <div class="score-value">${(match.similarity * 100).toFixed(0)}%</div>
+                        <div class="score-label">相似度</div>
+                    </div>
+                </div>
+            `).join('');
+            
+            // 默认选中第一个
+            selectMatch(0);
+        }
+        
+        function selectMatch(index) {
+            currentMatchIndex = index;
+            
+            // 更新选中状态
+            document.querySelectorAll('.match-card').forEach((card, idx) => {
+                card.classList.toggle('selected', idx === index);
+            });
+            
+            // 更新雷达图 - 显示当前选中人物 vs 用户
+            updateRadarChart(index);
+            
+            // 显示建议 - 使用全局变量currentResults
+            if (currentResults && currentResults.matches[index] && currentResults.matches[index].suggestion) {
+                renderSuggestion(currentResults.matches[index].suggestion);
+            }
+        }
+        
+        function updateRadarChart(matchIndex) {
+            if (!currentResults || !currentResults.matches[matchIndex]) return;
+            
+            const match = currentResults.matches[matchIndex];
+            const userVector = currentResults.user_vector;
+            
+            // 构建人物向量
+            let figureVector = {};
+            if (match.gaps) {
+                match.gaps.forEach(gap => {
+                    figureVector[gap.trait] = gap.figure_value;
+                });
+            }
+            
+            // 销毁旧图表
+            if (radarChart) {
+                radarChart.destroy();
+            }
+            
+            // 渲染新图表
+            renderRadarChart(userVector, figureVector, match.name);
+        }
+        
+        function renderSuggestion(suggestion) {
+            const section = document.getElementById('suggestion-section');
+            const nameEl = document.getElementById('suggestion-figure-name');
+            const overallEl = document.getElementById('suggestion-overall');
+            const listEl = document.getElementById('suggestion-list');
+            
+            nameEl.textContent = suggestion.figure_name;
+            overallEl.textContent = suggestion.overall;
+            
+            listEl.innerHTML = suggestion.suggestions.map(item => `
+                <div class="suggestion-item">
+                    <div class="suggestion-trait">
+                        ${item.trait_cn}
+                        <span class="suggestion-direction ${item.direction === '提升' ? 'direction-up' : 'direction-down'}">
+                            ${item.direction}
+                        </span>
+                    </div>
+                    <ul class="suggestion-tips">
+                        ${item.tips.map(tip => `<li>${tip}</li>`).join('')}
+                    </ul>
+                </div>
+            `).join('');
+            
+            section.style.display = 'block';
+        }
+        
+        function renderRadarChart(userVector, figureVector, figureName = '历史人物') {
+            if (typeof Chart === 'undefined') {
+                console.error('Chart.js未定义');
+                return;
+            }
+            const ctx = document.getElementById('radar-chart').getContext('2d');
+            
+            const dimensions = Object.keys(userVector);
+            const userValues = dimensions.map(d => userVector[d] * 100);
+            const figureValues = figureVector ? dimensions.map(d => figureVector[d] * 100) : null;
+            
+            new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: dimensions,
+                    datasets: [{
+                        label: '您的性格',
+                        data: userValues,
+                        borderColor: '#e74c3c',
+                        backgroundColor: 'rgba(231, 76, 60, 0.2)',
+                        pointBackgroundColor: '#e74c3c',
+                    }, ...(figureVector ? [{
+                        label: figureName,
+                        data: figureValues,
+                        borderColor: '#3498db',
+                        backgroundColor: 'rgba(52, 152, 219, 0.2)',
+                        pointBackgroundColor: '#3498db',
+                    }] : [])]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        r: {
+                            min: 0,
+                            max: 100,
+                            ticks: {
+                                stepSize: 20
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            position: 'top'
+                        }
+                    }
+                }
+            });
+            
+            // 保存图表实例
+            radarChart = Chart.getChart(ctx);
+        }
+        
+        function showSection(sectionId) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.getElementById(sectionId).classList.add('active');
+        }
+        
+        function startQuiz() {
+            showSection('quiz-section');
+            renderQuestion();
+        }
+        
+        function restartQuiz() {
+            answers = new Array(20).fill(-1);
+            currentQuestion = 0;
+            currentMatchIndex = 0;
+            currentResults = null;
+            radarChart = null;
+            document.getElementById('suggestion-section').style.display = 'none';
+            showSection('start-section');
+        }
+    </script>
+</body>
+</html>
