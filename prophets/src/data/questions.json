@@ -2,710 +2,360 @@
   {
     "id": 1,
     "trait": "openness",
-    "trait_cn": "",
+    "trait_cn": "开放性",
     "text": "面对全新的领域，你的态度是？",
     "translations": {
       "zh": {
         "text": "面对全新的领域，你的态度是？",
-        "options": [
-          "充满好奇，积极尝试",
-          "适度接受，但保持谨慎",
-          "更倾向于熟悉的事物",
-          "坚持传统，不喜变化"
-        ]
+        "options": []
       },
       "en": {
-        "text": "How do you approach a completely new field?",
-        "options": [
-          "Full of curiosity, actively try",
-          "Moderately accept, but cautious",
-          "Prefer familiar things",
-          "Stick to tradition, dislike change"
-        ]
+        "text": "[English] 面对全新的领域，你的态度是？",
+        "options": []
       },
       "es": {
-        "text": "¿Cómo te enfrentas a un campo completamente nuevo?",
-        "options": [
-          "Con mucha curiosidad, probar activamente",
-          "Aceptar moderadamente, pero con cautela",
-          "Prefiero cosas conocidas",
-          "Mantenerse en la tradición, no me gusta el cambio"
-        ]
+        "text": "[ES] 面对全新的领域，你的态度是？",
+        "options": []
       },
       "ja": {
-        "text": "全く新しい分野に直面したとき、あなたは？",
-        "options": [
-          "好奇心満タンで積極的に挑戦",
-          "適度に受け入れるが慎重に",
-          "慣れたものに傾く",
-          "伝統を守り変化を嫌う"
-        ]
+        "text": "[JA] 面对全新的领域，你的态度是？",
+        "options": []
       },
       "de": {
-        "text": "Wie gehst du einem völlig neuen Gebiet gegenüber?",
-        "options": [
-          "Voll Neugier, aktiv ausprobieren",
-          "Mäßig akzeptieren, aber vorsichtig",
-          "Eher Vertrautes bevorzegen",
-          "An der Tradition festhalten, keine Veränderung"
-        ]
+        "text": "[DE] 面对全新的领域，你的态度是？",
+        "options": []
       },
       "ru": {
-        "text": "Как вы подходите к совершенно новой области?",
-        "options": [
-          "Полный любопытства, активно пробую",
-          "Умеренно принимаю, но осторожно",
-          "Предпочитаю знакомое",
-          "Держусь традиций, не люблю перемен"
-        ]
+        "text": "[RU] 面对全新的领域，你的态度是？",
+        "options": []
       },
       "fr": {
-        "text": "Comment abordez-vous un domaine complètement nouveau?",
-        "options": [
-          "Plein de curiosité, j'essaie activement",
-          "J'accepte modérément mais prudemment",
-          "Je préfère les choses familières",
-          "Je reste dans la tradition, je déteste le changement"
-        ]
+        "text": "[FR] 面对全新的领域，你的态度是？",
+        "options": []
       }
     }
   },
   {
     "id": 2,
     "trait": "openness",
-    "trait_cn": "",
+    "trait_cn": "开放性",
     "text": "你更喜欢尝试新事物还是坚持传统？",
     "translations": {
       "zh": {
         "text": "你更喜欢尝试新事物还是坚持传统？",
-        "options": [
-          "充满好奇，积极尝试",
-          "适度接受，但保持谨慎",
-          "更倾向于熟悉的事物",
-          "坚持传统，不喜变化"
-        ]
+        "options": []
       },
       "en": {
-        "text": "Do you prefer trying new things or sticking to tradition?",
-        "options": [
-          "Full of curiosity, actively try",
-          "Moderately accept, but cautious",
-          "Prefer familiar things",
-          "Stick to tradition, dislike change"
-        ]
+        "text": "[English] 你更喜欢尝试新事物还是坚持传统？",
+        "options": []
       },
       "es": {
-        "text": "¿Prefieres probar cosas nuevas o mantenerte en la tradición?",
-        "options": [
-          "Con mucha curiosidad, probar activamente",
-          "Aceptar moderadamente, pero con cautela",
-          "Prefiero cosas conocidas",
-          "Mantenerse en la tradición, no me gusta el cambio"
-        ]
+        "text": "[ES] 你更喜欢尝试新事物还是坚持传统？",
+        "options": []
       },
       "ja": {
-        "text": "新しい物事を試すことを好むか、伝統を守るかを好むか？",
-        "options": [
-          "好奇心満タンで積極的に挑戦",
-          "適度に受け入れるが慎重に",
-          "慣れたものに傾く",
-          "伝統を守り変化を嫌う"
-        ]
+        "text": "[JA] 你更喜欢尝试新事物还是坚持传统？",
+        "options": []
       },
       "de": {
-        "text": "Bevorzugst du neue Dinge auszuprobieren oder an der Tradition festzuhalten?",
-        "options": [
-          "Voll Neugier, aktiv ausprobieren",
-          "Mäßig akzeptieren, aber vorsichtig",
-          "Eher Vertrautes bevorzegen",
-          "An der Tradition festhalten, keine Veränderung"
-        ]
+        "text": "[DE] 你更喜欢尝试新事物还是坚持传统？",
+        "options": []
       },
       "ru": {
-        "text": "Вы предпочитаете пробовать новое или придерживаться традиций?",
-        "options": [
-          "Полный любопытства, активно пробую",
-          "Умеренно принимаю, но осторожно",
-          "Предпочитаю знакомое",
-          "Держусь традиций, не люблю перемен"
-        ]
+        "text": "[RU] 你更喜欢尝试新事物还是坚持传统？",
+        "options": []
       },
       "fr": {
-        "text": "Préférez-vous essayer de nouvelles choses ou rester dans la tradition?",
-        "options": [
-          "Plein de curiosité, j'essaie activement",
-          "J'accepte modérément mais prudemment",
-          "Je préfère les choses familières",
-          "Je reste dans la tradition, je déteste le changement"
-        ]
+        "text": "[FR] 你更喜欢尝试新事物还是坚持传统？",
+        "options": []
       }
     }
   },
   {
     "id": 3,
     "trait": "openness",
-    "trait_cn": "",
+    "trait_cn": "开放性",
     "text": "当面对一个从未见过的难题时？",
     "translations": {
       "zh": {
         "text": "当面对一个从未见过的难题时？",
-        "options": [
-          "兴奋不已，立即研究",
-          "保持冷静，逐步分析",
-          "感到困惑，寻求建议",
-          "回避困难，选择简单"
-        ]
+        "options": []
       },
       "en": {
-        "text": "When facing an unfamiliar problem?",
-        "options": [
-          "Excited, research immediately",
-          "Stay calm, analyze step by step",
-          "Feel confused, seek advice",
-          "Avoid difficulty, choose easy"
-        ]
+        "text": "[English] 当面对一个从未见过的难题时？",
+        "options": []
       },
       "es": {
-        "text": "¿Cuando te enfrentas a un problema desconocido?",
-        "options": [
-          "Emocionado, investigar inmediatamente",
-          "Mantener la calma, analizar paso a paso",
-          "Sentirse confundido, buscar consejo",
-          "Evitar la dificultad, elegir lo fácil"
-        ]
+        "text": "[ES] 当面对一个从未见过的难题时？",
+        "options": []
       },
       "ja": {
-        "text": "見たこともない難しい問題に直面したとき？",
-        "options": [
-          "興奮してすぐに研究する",
-          "冷静を保ち段階的に分析",
-          "混乱して助言を求める",
-          "困難を避け簡単な方を選ぶ"
-        ]
+        "text": "[JA] 当面对一个从未见过的难题时？",
+        "options": []
       },
       "de": {
-        "text": "Wenn du einem unvertrauten Problem gegenüberstehst?",
-        "options": [
-          "Begeistert, sofort forschen",
-          "Ruhig bleiben, Schritt für Schritt analysieren",
-          "Verwirrt sein, Rat suchen",
-          "Schwierigkeiten vermeiden, einfach wählen"
-        ]
+        "text": "[DE] 当面对一个从未见过的难题时？",
+        "options": []
       },
       "ru": {
-        "text": "Когда сталкиваетесь с незнакомой проблемой?",
-        "options": [
-          "Возбужден, сразу исследую",
-          "Сохраняю спокойствие, анализирую пошагово",
-          "Чувствую растерянность, ищу совет",
-          "Избегаю трудностей, выбираю легкое"
-        ]
+        "text": "[RU] 当面对一个从未见过的难题时？",
+        "options": []
       },
       "fr": {
-        "text": "Lorsque vous faites face à un problème inconnu?",
-        "options": [
-          "Excité, je recherche immédiatement",
-          "Je reste calme, j'analyse étape par étape",
-          "Je me sens confus, je cherche des conseils",
-          "J'évite la difficulté, je choisis simple"
-        ]
+        "text": "[FR] 当面对一个从未见过的难题时？",
+        "options": []
       }
     }
   },
   {
     "id": 4,
     "trait": "openness",
-    "trait_cn": "",
+    "trait_cn": "开放性",
     "text": "你对不同文化背景的人有什么态度？",
     "translations": {
       "zh": {
         "text": "你对不同文化背景的人有什么态度？",
-        "options": [
-          "非常感兴趣，想深入了解",
-          "愿意学习，保持开放",
-          "尊重但不太感兴趣",
-          "更喜欢与自己相似的人"
-        ]
+        "options": []
       },
       "en": {
-        "text": "What is your attitude toward people from different cultures?",
-        "options": [
-          "Very interested, want to understand deeply",
-          "Willing to learn, keep open",
-          "Respect but not very interested",
-          "Prefer people similar to myself"
-        ]
+        "text": "[English] 你对不同文化背景的人有什么态度？",
+        "options": []
       },
       "es": {
-        "text": "¿Cuál es tu actitud hacia personas de diferentes culturas?",
-        "options": [
-          "Muy interesado, quiero entender profundamente",
-          "Disponible para aprender, mantener abierto",
-          "Respetar pero no muy interesado",
-          "Prefiero personas similares a mí"
-        ]
+        "text": "[ES] 你对不同文化背景的人有什么态度？",
+        "options": []
       },
       "ja": {
-        "text": "異なる文化背景の人々に対してどんな態度を持っていますか？",
-        "options": [
-          "非常に興味を持ち深く理解したい",
-          "学びたい、開放的に保つ",
-          "尊重するがあまり興味はない",
-          "自分と似た人を好む"
-        ]
+        "text": "[JA] 你对不同文化背景的人有什么态度？",
+        "options": []
       },
       "de": {
-        "text": "Was ist deine Einstellung zu Menschen aus verschiedenen Kulturen?",
-        "options": [
-          "Sehr interessiert, will tief verstehen",
-          "Lernbereit, offen halten",
-          "Respektieren aber nicht sehr interessiert",
-          "Bevorzuge Menschen ähnlich mir"
-        ]
+        "text": "[DE] 你对不同文化背景的人有什么态度？",
+        "options": []
       },
       "ru": {
-        "text": "Какое у вас отношение к людям из разных культур?",
-        "options": [
-          "Очень заинтересован, хочу понять глубоко",
-          "Готов учиться, держать открытым",
-          "Уважаю, но не очень заинтересован",
-          "Предпочитаю людей, подобных мне"
-        ]
+        "text": "[RU] 你对不同文化背景的人有什么态度？",
+        "options": []
       },
       "fr": {
-        "text": "Quelle est votre attitude envers les personnes de différentes cultures?",
-        "options": [
-          "Très intéressé, veux comprendre en profondeur",
-          "Prêt à apprendre, rester ouvert",
-          "Respecter mais pas très intéressé",
-          "Je préfère les gens similaires à moi"
-        ]
+        "text": "[FR] 你对不同文化背景的人有什么态度？",
+        "options": []
       }
     }
   },
   {
     "id": 5,
     "trait": "openness",
-    "trait_cn": "",
+    "trait_cn": "开放性",
     "text": "如果给你机会去一个陌生国家生活一年？",
     "translations": {
       "zh": {
         "text": "如果给你机会去一个陌生国家生活一年？",
-        "options": [
-          "毫不犹豫，马上报名",
-          "有些犹豫但会尝试",
-          "担心太多，可能不去",
-          "坚决不去，更喜欢家乡"
-        ]
+        "options": []
       },
       "en": {
-        "text": "If given the chance to live in a foreign country for a year?",
-        "options": [
-          "No hesitation, sign up immediately",
-          "Somewhat hesitant but will try",
-          "Too worried, may not go",
-          "Resolutely no, prefer hometown"
-        ]
+        "text": "[English] 如果给你机会去一个陌生国家生活一年？",
+        "options": []
       },
       "es": {
-        "text": "¿Si tuvieras la oportunidad de vivir en un país extranjero por un año?",
-        "options": [
-          "Sin dudarlo, inscribirme inmediatamente",
-          "Algo dudoso pero intentaré",
-          "Demasiado preocupado, quizás no vaya",
-          "Rotundamente no, prefiero mi tierra"
-        ]
+        "text": "[ES] 如果给你机会去一个陌生国家生活一年？",
+        "options": []
       },
       "ja": {
-        "text": "一年間外国で生活する機会が与えられたら？",
-        "options": [
-          "迷わずすぐ申し込む",
-          "少し迷うが試す",
-          "心配が多すぎて行かないかも",
-          "坚决に行かない、故郷が好き"
-        ]
+        "text": "[JA] 如果给你机会去一个陌生国家生活一年？",
+        "options": []
       },
       "de": {
-        "text": "Wenn du die Chance hättest, ein Jahr in einem fremden Land zu leben?",
-        "options": [
-          "Kein Zögern, sofort anmelden",
-          "Etwas zögerlich aber versuchen",
-          "Zu viele Sorgen, vielleicht nicht gehen",
-          "Bestimmt nicht, bevorzuge Heimat"
-        ]
+        "text": "[DE] 如果给你机会去一个陌生国家生活一年？",
+        "options": []
       },
       "ru": {
-        "text": "Если бы вам дали шанс прожить год в иностранной стране?",
-        "options": [
-          "Без колебаний, сразу записаться",
-          "Немного сомневаюсь, но попробую",
-          "Слишком много worries, может не поеду",
-          "Категорически нет, предпочитаю родной край"
-        ]
+        "text": "[RU] 如果给你机会去一个陌生国家生活一年？",
+        "options": []
       },
       "fr": {
-        "text": "Si vous aviez la chance de vivre un an dans un pays étranger?",
-        "options": [
-          "Sans hésiter, m'inscrire immédiatement",
-          "Un peu hésitant mais vais essayer",
-          "Trop d'inquiétudes, peut-être pas y aller",
-          "Résolument non, préfère mon pays"
-        ]
+        "text": "[FR] 如果给你机会去一个陌生国家生活一年？",
+        "options": []
       }
     }
   },
   {
     "id": 6,
     "trait": "conscientiousness",
-    "trait_cn": "",
+    "trait_cn": "尽责性",
     "text": "你通常如何规划每天的工作？",
     "translations": {
       "zh": {
         "text": "你通常如何规划每天的工作？",
-        "options": [
-          "详细列出计划，严格执行",
-          "有大致方向，灵活调整",
-          "随性而为，见机行事",
-          "很少规划，容易拖延"
-        ]
+        "options": []
       },
       "en": {
-        "text": "How do you usually plan your daily work?",
-        "options": [
-          "Detailed plan, strict execution",
-          "General direction, flexible adjustment",
-          "Go with the flow, adapt as you go",
-          "Rarely plan, easily procrastinate"
-        ]
+        "text": "[English] 你通常如何规划每天的工作？",
+        "options": []
       },
       "es": {
-        "text": "¿Cómo sueles planificar tu trabajo diario?",
-        "options": [
-          "Plan detallado, ejecución estricta",
-          "Dirección general, ajuste flexible",
-          "Ir sobre la marcha, adaptarse",
-          "Rara vez planificar, fácilmente procrastinar"
-        ]
+        "text": "[ES] 你通常如何规划每天的工作？",
+        "options": []
       },
       "ja": {
-        "text": "あなたは通常、毎日の仕事をどのように計画しますか？",
-        "options": [
-          "詳細な計画を立て厳格に実行",
-          "おおまかな方向性で柔軟に調整",
-          "その場で対応し適応する",
-          "めったに計画せず、容易に遅らせる"
-        ]
+        "text": "[JA] 你通常如何规划每天的工作？",
+        "options": []
       },
       "de": {
-        "text": "Wie planen Sie normalerweise Ihre tägliche Arbeit?",
-        "options": [
-          "Detaillierter Plan, strenge Ausführung",
-          "Allgemeine Richtung, flexible Anpassung",
-          "Dem Strom folgen, sich anpassen",
-          "Selten planen, leicht procrastinieren"
-        ]
+        "text": "[DE] 你通常如何规划每天的工作？",
+        "options": []
       },
       "ru": {
-        "text": "Как вы обычно планируете свою ежедневную работу?",
-        "options": [
-          "Детальный план, строгое исполнение",
-          "Общее направление, гибкая корректировка",
-          "Действовать по ситуации",
-          "Редко планирую, легко откладываю"
-        ]
+        "text": "[RU] 你通常如何规划每天的工作？",
+        "options": []
       },
       "fr": {
-        "text": "Comment planifiez-vous généralement votre travail quotidien ?",
-        "options": [
-          "Plan détaillé, exécution stricte",
-          "Direction générale, ajustement flexible",
-          "Suivre le courant, s'adapter",
-          "Rarement planifier, facilement procrastiner"
-        ]
+        "text": "[FR] 你通常如何规划每天的工作？",
+        "options": []
       }
     }
   },
   {
     "id": 7,
     "trait": "conscientiousness",
-    "trait_cn": "",
+    "trait_cn": "尽责性",
     "text": "对于答应别人的事情，你会？",
     "translations": {
       "zh": {
         "text": "对于答应别人的事情，你会？",
-        "options": [
-          "无论如何都会完成",
-          "尽力完成，偶尔例外",
-          "看情况决定",
-          "经常忘记或推迟"
-        ]
+        "options": []
       },
       "en": {
-        "text": "What do you do about things you promised to others?",
-        "options": [
-          "Complete it no matter what",
-          "Try my best, occasional exceptions",
-          "Decide based on situation",
-          "Often forget or delay"
-        ]
+        "text": "[English] 对于答应别人的事情，你会？",
+        "options": []
       },
       "es": {
-        "text": "¿Qué haces con lo que has prometido a otros?",
-        "options": [
-          "Completarlo sin importar qué",
-          "Intentar lo mejor, excepciones ocasionales",
-          "Decidir según la situación",
-          "A menudo olvidar o demorar"
-        ]
+        "text": "[ES] 对于答应别人的事情，你会？",
+        "options": []
       },
       "ja": {
-        "text": "他の人に約束した事柄について、あなたはどうしますか？",
-        "options": [
-          "どうあれ必ず完了する",
-          "最大限尽力、時々例外",
-          "状況に応じて決定",
-          "よく忘れるか延期する"
-        ]
+        "text": "[JA] 对于答应别人的事情，你会？",
+        "options": []
       },
       "de": {
-        "text": "Was tun Sie über Dinge, que Sie anderen versprochen haben?",
-        "options": [
-          "Egal was passiert, fertigstellen",
-          "Mein Bestes geben, gelegentliche Ausnahmen",
-          "Je nach Situation entscheiden",
-          "Oft vergessen oder aufschieben"
-        ]
+        "text": "[DE] 对于答应别人的事情，你会？",
+        "options": []
       },
       "ru": {
-        "text": "Что вы делаете с тем, что пообещали другим?",
-        "options": [
-          "Выполню无论如何",
-          "Стараюсь изо всех сил, иногда исключения",
-          "Решаю по ситуации",
-          "Часто забываю или откладываю"
-        ]
+        "text": "[RU] 对于答应别人的事情，你会？",
+        "options": []
       },
       "fr": {
-        "text": "Que faites-vous pour les choses que vous avez promises aux autres ?",
-        "options": [
-          "Le terminer peu importe quoi",
-          "Faire de mon mieux, exceptions occasionnelles",
-          "Décider selon la situation",
-          "Souvent oublier ou retarder"
-        ]
+        "text": "[FR] 对于答应别人的事情，你会？",
+        "options": []
       }
     }
   },
   {
     "id": 8,
     "trait": "conscientiousness",
-    "trait_cn": "",
+    "trait_cn": "尽责性",
     "text": "你的工作/学习桌面通常是什么样的？",
     "translations": {
       "zh": {
         "text": "你的工作/学习桌面通常是什么样的？",
-        "options": [
-          "非常整洁，物品归位",
-          "基本有序，偶有混乱",
-          "有点乱但不影响使用",
-          "非常混乱，找不到东西"
-        ]
+        "options": []
       },
       "en": {
-        "text": "What is your work/study desk usually like?",
-        "options": [
-          "Very tidy, everything in place",
-          "Basically organized, occasionally messy",
-          "A bit messy but functional",
-          "Very messy, can't find anything"
-        ]
+        "text": "[English] 你的工作/学习桌面通常是什么样的？",
+        "options": []
       },
       "es": {
-        "text": "¿Cómo es generalmente tu escritorio de trabajo/estudio?",
-        "options": [
-          "Muy ordenado, todo en su lugar",
-          "Básicamente organizado, ocasionalmente desordenado",
-          "Un poco desordenado pero funcional",
-          "Muy desordenado, no puedo encontrar nada"
-        ]
+        "text": "[ES] 你的工作/学习桌面通常是什么样的？",
+        "options": []
       },
       "ja": {
-        "text": "あなたの仕事/学習机は通常どんな状態ですか？",
-        "options": [
-          "非常に整然としていて、物が整然と配置されている",
-          "基本的に整理されていて、たまに乱雑",
-          "少し乱雑だが機能する",
-          "非常に乱雑で何も見つからない"
-        ]
+        "text": "[JA] 你的工作/学习桌面通常是什么样的？",
+        "options": []
       },
       "de": {
-        "text": "Wie ist Ihr Arbeits-/Schreibtisch normalerweise?",
-        "options": [
-          "Sehr ordentlich, alles an seinem Platz",
-          "Grundsätzlich organisiert, gelegentlich unordentlich",
-          "Ein bisschen unordentlich aber funktional",
-          "Sehr unordentlich, finde nichts"
-        ]
+        "text": "[DE] 你的工作/学习桌面通常是什么样的？",
+        "options": []
       },
       "ru": {
-        "text": "Как обычно выглядит ваш рабочий/учебный стол?",
-        "options": [
-          "Очень аккуратно, всё на месте",
-          "В основном организовано, иногда беспорядок",
-          "Немного беспорядочно, но функционально",
-          "Очень хаотично, не могу ничего найти"
-        ]
+        "text": "[RU] 你的工作/学习桌面通常是什么样的？",
+        "options": []
       },
       "fr": {
-        "text": "À quoi ressemble généralement votre bureau/travail ?",
-        "options": [
-          "Très rangé, tout en place",
-          "Fondamentalement organisé, occasionnellement désordonné",
-          "Un peu désordonné mais fonctionnel",
-          "Très désordonné, ne trouve rien"
-        ]
+        "text": "[FR] 你的工作/学习桌面通常是什么样的？",
+        "options": []
       }
     }
   },
   {
     "id": 9,
     "trait": "conscientiousness",
-    "trait_cn": "",
+    "trait_cn": "尽责性",
     "text": "deadline临近时，你的反应是？",
     "translations": {
       "zh": {
         "text": "deadline临近时，你的反应是？",
-        "options": [
-          "提前完成，留有余地",
-          "按时完成，压力适中",
-          "最后期限前匆忙完成",
-          "经常拖延，最后一刻才完成"
-        ]
+        "options": []
       },
       "en": {
-        "text": "How do you react when a deadline approaches?",
-        "options": [
-          "Complete in advance, leave room",
-          "Complete on time, moderate pressure",
-          "Rush to finish before deadline",
-          "Often procrastinate, finish at last minute"
-        ]
+        "text": "[English] deadline临近时，你的反应是？",
+        "options": []
       },
       "es": {
-        "text": "¿Cómo reaccionas cuando se acerca un plazo?",
-        "options": [
-          "Completar con anticipación, dejar espacio",
-          "Completar a tiempo, presión moderada",
-          "Prisa por terminar antes del plazo",
-          "A menudo procrastinar, terminar en el último momento"
-        ]
+        "text": "[ES] deadline临近时，你的反应是？",
+        "options": []
       },
       "ja": {
-        "text": "期限が近づいたとき、あなたはどのように反応しますか？",
-        "options": [
-          "事前に完了して余裕を持つ",
-          "時間通りに完了し適度なプレッシャー",
-          "期限前に急いで完了する",
-          "よく遅らせ、最終时刻に完了する"
-        ]
+        "text": "[JA] deadline临近时，你的反应是？",
+        "options": []
       },
       "de": {
-        "text": "Wie reagieren Sie, wenn eine Frist näher rückt?",
-        "options": [
-          "Im Voraus fertigstellen, Spielraum lassen",
-          "Pünktlich fertigstellen, mäßiger Druck",
-          "Vor Fristende in Eile fertigstellen",
-          "Oft procrastinieren, in letzter Minute fertigstellen"
-        ]
+        "text": "[DE] deadline临近时，你的反应是？",
+        "options": []
       },
       "ru": {
-        "text": "Как вы реагируете, когда приближается дедлайн?",
-        "options": [
-          "Завершить заранее, оставить запас",
-          "Завершить вовремя, умеренное давление",
-          "Поспешить завершить перед дедлайном",
-          "Часто откладывать, завершать в последнюю минуту"
-        ]
+        "text": "[RU] deadline临近时，你的反应是？",
+        "options": []
       },
       "fr": {
-        "text": "Comment réagissez-vous quand une deadline approche ?",
-        "options": [
-          "Terminer à l'avance, laisser de la marge",
-          "Terminer à temps, pression modérée",
-          "Finir en hâte avant la date limite",
-          "Souvent procrastiner, terminer à la dernière minute"
-        ]
+        "text": "[FR] deadline临近时，你的反应是？",
+        "options": []
       }
     }
   },
   {
     "id": 10,
     "trait": "conscientiousness",
-    "trait_cn": "",
+    "trait_cn": "尽责性",
     "text": "对于长期目标，你会？",
     "translations": {
       "zh": {
         "text": "对于长期目标，你会？",
-        "options": [
-          "制定详细计划并严格执行",
-          "有计划但会灵活调整",
-          "有大致方向但不具体",
-          "很少考虑长期目标"
-        ]
+        "options": []
       },
       "en": {
-        "text": "What do you do about long-term goals?",
-        "options": [
-          "Make detailed plan and execute strictly",
-          "Have plan but adjust flexibly",
-          "Have general direction but not specific",
-          "Rarely consider long-term goals"
-        ]
+        "text": "[English] 对于长期目标，你会？",
+        "options": []
       },
       "es": {
-        "text": "¿Qué haces con los objetivos a largo plazo?",
-        "options": [
-          "Hacer plan detallado y ejecutar estrictamente",
-          "Tengo plan pero ajusto flexiblemente",
-          "Tengo dirección general pero no específico",
-          "Rara vez considerar objetivos a largo plazo"
-        ]
+        "text": "[ES] 对于长期目标，你会？",
+        "options": []
       },
       "ja": {
-        "text": "長期的な目標についてはどうしますか？",
-        "options": [
-          "詳細な計画を立て厳格に実行する",
-          "計画はあるが柔軟に調整する",
-          "おおまかな方向性は持つが具体的でない",
-          "めったに長期目標を考慮しない"
-        ]
+        "text": "[JA] 对于长期目标，你会？",
+        "options": []
       },
       "de": {
-        "text": "Was tun Sie mit langfristigen Zielen?",
-        "options": [
-          "Detaillierten Plan machen und streng ausführen",
-          "Plan haben aber flexibel anpassen",
-          "Allgemeine Richtung haben aber nicht spezifisch",
-          "Selten langfristige Ziele betrachten"
-        ]
+        "text": "[DE] 对于长期目标，你会？",
+        "options": []
       },
       "ru": {
-        "text": "Что вы делаете с долгосрочными целями?",
-        "options": [
-          "Составить детальный план и строго выполнять",
-          "Есть план, но гибко корректировать",
-          "Есть общее направление, но не конкретно",
-          "Редко думаю о долгосрочных целях"
-        ]
+        "text": "[RU] 对于长期目标，你会？",
+        "options": []
       },
       "fr": {
-        "text": "Que faites-vous pour les objectifs à long terme ?",
-        "options": [
-          "Faire un plan détaillé et exécuter strictement",
-          "Avoir un plan mais ajuster flexiblement",
-          "Avoir une direction générale mais pas spécifique",
-          "Rarement considérer les objectifs à long terme"
-        ]
+        "text": "[FR] 对于长期目标，你会？",
+        "options": []
       }
     }
   },
@@ -713,70 +363,35 @@
     "id": 11,
     "trait": "extraversion",
     "trait_cn": "外向性",
-    "text": "[extraversion] 问题1（中文）",
+    "text": "在社交聚会中，你通常会？",
     "translations": {
       "zh": {
-        "text": "[extraversion] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "在社交聚会中，你通常会？",
+        "options": []
       },
       "en": {
-        "text": "[extraversion] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 在社交聚会中，你通常会？",
+        "options": []
       },
       "es": {
-        "text": "[extraversion] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 在社交聚会中，你通常会？",
+        "options": []
       },
       "ja": {
-        "text": "[extraversion] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 在社交聚会中，你通常会？",
+        "options": []
       },
       "de": {
-        "text": "[extraversion] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 在社交聚会中，你通常会？",
+        "options": []
       },
       "ru": {
-        "text": "[extraversion] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 在社交聚会中，你通常会？",
+        "options": []
       },
       "fr": {
-        "text": "[extraversion] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 在社交聚会中，你通常会？",
+        "options": []
       }
     }
   },
@@ -784,70 +399,35 @@
     "id": 12,
     "trait": "extraversion",
     "trait_cn": "外向性",
-    "text": "[extraversion] 问题2（中文）",
+    "text": "周末你更愿意？",
     "translations": {
       "zh": {
-        "text": "[extraversion] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "周末你更愿意？",
+        "options": []
       },
       "en": {
-        "text": "[extraversion] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 周末你更愿意？",
+        "options": []
       },
       "es": {
-        "text": "[extraversion] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 周末你更愿意？",
+        "options": []
       },
       "ja": {
-        "text": "[extraversion] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 周末你更愿意？",
+        "options": []
       },
       "de": {
-        "text": "[extraversion] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 周末你更愿意？",
+        "options": []
       },
       "ru": {
-        "text": "[extraversion] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 周末你更愿意？",
+        "options": []
       },
       "fr": {
-        "text": "[extraversion] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 周末你更愿意？",
+        "options": []
       }
     }
   },
@@ -855,70 +435,35 @@
     "id": 13,
     "trait": "extraversion",
     "trait_cn": "外向性",
-    "text": "[extraversion] 问题3（中文）",
+    "text": "新认识一个人时，你会？",
     "translations": {
       "zh": {
-        "text": "[extraversion] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "新认识一个人时，你会？",
+        "options": []
       },
       "en": {
-        "text": "[extraversion] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 新认识一个人时，你会？",
+        "options": []
       },
       "es": {
-        "text": "[extraversion] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 新认识一个人时，你会？",
+        "options": []
       },
       "ja": {
-        "text": "[extraversion] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 新认识一个人时，你会？",
+        "options": []
       },
       "de": {
-        "text": "[extraversion] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 新认识一个人时，你会？",
+        "options": []
       },
       "ru": {
-        "text": "[extraversion] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 新认识一个人时，你会？",
+        "options": []
       },
       "fr": {
-        "text": "[extraversion] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 新认识一个人时，你会？",
+        "options": []
       }
     }
   },
@@ -926,70 +471,35 @@
     "id": 14,
     "trait": "extraversion",
     "trait_cn": "外向性",
-    "text": "[extraversion] 问题4（中文）",
+    "text": "团队项目中，你通常扮演什么角色？",
     "translations": {
       "zh": {
-        "text": "[extraversion] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "团队项目中，你通常扮演什么角色？",
+        "options": []
       },
       "en": {
-        "text": "[extraversion] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 团队项目中，你通常扮演什么角色？",
+        "options": []
       },
       "es": {
-        "text": "[extraversion] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 团队项目中，你通常扮演什么角色？",
+        "options": []
       },
       "ja": {
-        "text": "[extraversion] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 团队项目中，你通常扮演什么角色？",
+        "options": []
       },
       "de": {
-        "text": "[extraversion] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 团队项目中，你通常扮演什么角色？",
+        "options": []
       },
       "ru": {
-        "text": "[extraversion] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 团队项目中，你通常扮演什么角色？",
+        "options": []
       },
       "fr": {
-        "text": "[extraversion] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 团队项目中，你通常扮演什么角色？",
+        "options": []
       }
     }
   },
@@ -997,70 +507,35 @@
     "id": 15,
     "trait": "extraversion",
     "trait_cn": "外向性",
-    "text": "[extraversion] 问题5（中文）",
+    "text": "参加完大型活动后，你通常需要？",
     "translations": {
       "zh": {
-        "text": "[extraversion] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "参加完大型活动后，你通常需要？",
+        "options": []
       },
       "en": {
-        "text": "[extraversion] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 参加完大型活动后，你通常需要？",
+        "options": []
       },
       "es": {
-        "text": "[extraversion] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 参加完大型活动后，你通常需要？",
+        "options": []
       },
       "ja": {
-        "text": "[extraversion] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 参加完大型活动后，你通常需要？",
+        "options": []
       },
       "de": {
-        "text": "[extraversion] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 参加完大型活动后，你通常需要？",
+        "options": []
       },
       "ru": {
-        "text": "[extraversion] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 参加完大型活动后，你通常需要？",
+        "options": []
       },
       "fr": {
-        "text": "[extraversion] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 参加完大型活动后，你通常需要？",
+        "options": []
       }
     }
   },
@@ -1068,70 +543,35 @@
     "id": 16,
     "trait": "agreeableness",
     "trait_cn": "宜人性",
-    "text": "[agreeableness] 问题1（中文）",
+    "text": "当别人和你意见不同时，你会？",
     "translations": {
       "zh": {
-        "text": "[agreeableness] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "当别人和你意见不同时，你会？",
+        "options": []
       },
       "en": {
-        "text": "[agreeableness] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 当别人和你意见不同时，你会？",
+        "options": []
       },
       "es": {
-        "text": "[agreeableness] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 当别人和你意见不同时，你会？",
+        "options": []
       },
       "ja": {
-        "text": "[agreeableness] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 当别人和你意见不同时，你会？",
+        "options": []
       },
       "de": {
-        "text": "[agreeableness] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 当别人和你意见不同时，你会？",
+        "options": []
       },
       "ru": {
-        "text": "[agreeableness] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 当别人和你意见不同时，你会？",
+        "options": []
       },
       "fr": {
-        "text": "[agreeableness] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 当别人和你意见不同时，你会？",
+        "options": []
       }
     }
   },
@@ -1139,70 +579,35 @@
     "id": 17,
     "trait": "agreeableness",
     "trait_cn": "宜人性",
-    "text": "[agreeableness] 问题2（中文）",
+    "text": "你更愿意相信大多数人还是坚持自己的观点？",
     "translations": {
       "zh": {
-        "text": "[agreeableness] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你更愿意相信大多数人还是坚持自己的观点？",
+        "options": []
       },
       "en": {
-        "text": "[agreeableness] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你更愿意相信大多数人还是坚持自己的观点？",
+        "options": []
       },
       "es": {
-        "text": "[agreeableness] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你更愿意相信大多数人还是坚持自己的观点？",
+        "options": []
       },
       "ja": {
-        "text": "[agreeableness] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你更愿意相信大多数人还是坚持自己的观点？",
+        "options": []
       },
       "de": {
-        "text": "[agreeableness] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你更愿意相信大多数人还是坚持自己的观点？",
+        "options": []
       },
       "ru": {
-        "text": "[agreeableness] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你更愿意相信大多数人还是坚持自己的观点？",
+        "options": []
       },
       "fr": {
-        "text": "[agreeableness] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你更愿意相信大多数人还是坚持自己的观点？",
+        "options": []
       }
     }
   },
@@ -1210,70 +615,35 @@
     "id": 18,
     "trait": "agreeableness",
     "trait_cn": "宜人性",
-    "text": "[agreeableness] 问题3（中文）",
+    "text": "对于不熟悉的人，你的态度是？",
     "translations": {
       "zh": {
-        "text": "[agreeableness] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "对于不熟悉的人，你的态度是？",
+        "options": []
       },
       "en": {
-        "text": "[agreeableness] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 对于不熟悉的人，你的态度是？",
+        "options": []
       },
       "es": {
-        "text": "[agreeableness] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 对于不熟悉的人，你的态度是？",
+        "options": []
       },
       "ja": {
-        "text": "[agreeableness] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 对于不熟悉的人，你的态度是？",
+        "options": []
       },
       "de": {
-        "text": "[agreeableness] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 对于不熟悉的人，你的态度是？",
+        "options": []
       },
       "ru": {
-        "text": "[agreeableness] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 对于不熟悉的人，你的态度是？",
+        "options": []
       },
       "fr": {
-        "text": "[agreeableness] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 对于不熟悉的人，你的态度是？",
+        "options": []
       }
     }
   },
@@ -1281,70 +651,35 @@
     "id": 19,
     "trait": "agreeableness",
     "trait_cn": "宜人性",
-    "text": "[agreeableness] 问题4（中文）",
+    "text": "团队合作中，你更愿意？",
     "translations": {
       "zh": {
-        "text": "[agreeableness] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "团队合作中，你更愿意？",
+        "options": []
       },
       "en": {
-        "text": "[agreeableness] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 团队合作中，你更愿意？",
+        "options": []
       },
       "es": {
-        "text": "[agreeableness] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 团队合作中，你更愿意？",
+        "options": []
       },
       "ja": {
-        "text": "[agreeableness] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 团队合作中，你更愿意？",
+        "options": []
       },
       "de": {
-        "text": "[agreeableness] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 团队合作中，你更愿意？",
+        "options": []
       },
       "ru": {
-        "text": "[agreeableness] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 团队合作中，你更愿意？",
+        "options": []
       },
       "fr": {
-        "text": "[agreeableness] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 团队合作中，你更愿意？",
+        "options": []
       }
     }
   },
@@ -1352,425 +687,215 @@
     "id": 20,
     "trait": "agreeableness",
     "trait_cn": "宜人性",
-    "text": "[agreeableness] 问题5（中文）",
+    "text": "当有人需要帮助时，你会？",
     "translations": {
       "zh": {
-        "text": "[agreeableness] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "当有人需要帮助时，你会？",
+        "options": []
       },
       "en": {
-        "text": "[agreeableness] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 当有人需要帮助时，你会？",
+        "options": []
       },
       "es": {
-        "text": "[agreeableness] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 当有人需要帮助时，你会？",
+        "options": []
       },
       "ja": {
-        "text": "[agreeableness] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 当有人需要帮助时，你会？",
+        "options": []
       },
       "de": {
-        "text": "[agreeableness] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 当有人需要帮助时，你会？",
+        "options": []
       },
       "ru": {
-        "text": "[agreeableness] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 当有人需要帮助时，你会？",
+        "options": []
       },
       "fr": {
-        "text": "[agreeableness] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 当有人需要帮助时，你会？",
+        "options": []
       }
     }
   },
   {
     "id": 21,
-    "trait": "emotional_stability",
-    "trait_cn": "情绪稳定性",
-    "text": "[emotional_stability] 问题1（中文）",
+    "trait": "neuroticism",
+    "trait_cn": "",
+    "text": "面对压力时，你的反应是？",
     "translations": {
       "zh": {
-        "text": "[emotional_stability] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "面对压力时，你的反应是？",
+        "options": []
       },
       "en": {
-        "text": "[emotional_stability] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 面对压力时，你的反应是？",
+        "options": []
       },
       "es": {
-        "text": "[emotional_stability] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 面对压力时，你的反应是？",
+        "options": []
       },
       "ja": {
-        "text": "[emotional_stability] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 面对压力时，你的反应是？",
+        "options": []
       },
       "de": {
-        "text": "[emotional_stability] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 面对压力时，你的反应是？",
+        "options": []
       },
       "ru": {
-        "text": "[emotional_stability] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 面对压力时，你的反应是？",
+        "options": []
       },
       "fr": {
-        "text": "[emotional_stability] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 面对压力时，你的反应是？",
+        "options": []
       }
     }
   },
   {
     "id": 22,
-    "trait": "emotional_stability",
-    "trait_cn": "情绪稳定性",
-    "text": "[emotional_stability] 问题2（中文）",
+    "trait": "neuroticism",
+    "trait_cn": "",
+    "text": "你对未来的担忧程度如何？",
     "translations": {
       "zh": {
-        "text": "[emotional_stability] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你对未来的担忧程度如何？",
+        "options": []
       },
       "en": {
-        "text": "[emotional_stability] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你对未来的担忧程度如何？",
+        "options": []
       },
       "es": {
-        "text": "[emotional_stability] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你对未来的担忧程度如何？",
+        "options": []
       },
       "ja": {
-        "text": "[emotional_stability] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你对未来的担忧程度如何？",
+        "options": []
       },
       "de": {
-        "text": "[emotional_stability] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你对未来的担忧程度如何？",
+        "options": []
       },
       "ru": {
-        "text": "[emotional_stability] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你对未来的担忧程度如何？",
+        "options": []
       },
       "fr": {
-        "text": "[emotional_stability] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你对未来的担忧程度如何？",
+        "options": []
       }
     }
   },
   {
     "id": 23,
-    "trait": "emotional_stability",
-    "trait_cn": "情绪稳定性",
-    "text": "[emotional_stability] 问题3（中文）",
+    "trait": "neuroticism",
+    "trait_cn": "",
+    "text": "遇到挫折时，你通常？",
     "translations": {
       "zh": {
-        "text": "[emotional_stability] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "遇到挫折时，你通常？",
+        "options": []
       },
       "en": {
-        "text": "[emotional_stability] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 遇到挫折时，你通常？",
+        "options": []
       },
       "es": {
-        "text": "[emotional_stability] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 遇到挫折时，你通常？",
+        "options": []
       },
       "ja": {
-        "text": "[emotional_stability] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 遇到挫折时，你通常？",
+        "options": []
       },
       "de": {
-        "text": "[emotional_stability] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 遇到挫折时，你通常？",
+        "options": []
       },
       "ru": {
-        "text": "[emotional_stability] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 遇到挫折时，你通常？",
+        "options": []
       },
       "fr": {
-        "text": "[emotional_stability] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 遇到挫折时，你通常？",
+        "options": []
       }
     }
   },
   {
     "id": 24,
-    "trait": "emotional_stability",
-    "trait_cn": "情绪稳定性",
-    "text": "[emotional_stability] 问题4（中文）",
+    "trait": "neuroticism",
+    "trait_cn": "",
+    "text": "你的情绪波动大吗？",
     "translations": {
       "zh": {
-        "text": "[emotional_stability] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你的情绪波动大吗？",
+        "options": []
       },
       "en": {
-        "text": "[emotional_stability] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你的情绪波动大吗？",
+        "options": []
       },
       "es": {
-        "text": "[emotional_stability] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你的情绪波动大吗？",
+        "options": []
       },
       "ja": {
-        "text": "[emotional_stability] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你的情绪波动大吗？",
+        "options": []
       },
       "de": {
-        "text": "[emotional_stability] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你的情绪波动大吗？",
+        "options": []
       },
       "ru": {
-        "text": "[emotional_stability] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你的情绪波动大吗？",
+        "options": []
       },
       "fr": {
-        "text": "[emotional_stability] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你的情绪波动大吗？",
+        "options": []
       }
     }
   },
   {
     "id": 25,
-    "trait": "emotional_stability",
-    "trait_cn": "情绪稳定性",
-    "text": "[emotional_stability] 问题5（中文）",
+    "trait": "neuroticism",
+    "trait_cn": "",
+    "text": "你容易焦虑吗？",
     "translations": {
       "zh": {
-        "text": "[emotional_stability] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你容易焦虑吗？",
+        "options": []
       },
       "en": {
-        "text": "[emotional_stability] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你容易焦虑吗？",
+        "options": []
       },
       "es": {
-        "text": "[emotional_stability] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你容易焦虑吗？",
+        "options": []
       },
       "ja": {
-        "text": "[emotional_stability] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你容易焦虑吗？",
+        "options": []
       },
       "de": {
-        "text": "[emotional_stability] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你容易焦虑吗？",
+        "options": []
       },
       "ru": {
-        "text": "[emotional_stability] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你容易焦虑吗？",
+        "options": []
       },
       "fr": {
-        "text": "[emotional_stability] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你容易焦虑吗？",
+        "options": []
       }
     }
   },
@@ -1778,70 +903,35 @@
     "id": 26,
     "trait": "leadership",
     "trait_cn": "领导力",
-    "text": "[leadership] 问题1（中文）",
+    "text": "在团队中，你更愿意？",
     "translations": {
       "zh": {
-        "text": "[leadership] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "在团队中，你更愿意？",
+        "options": []
       },
       "en": {
-        "text": "[leadership] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 在团队中，你更愿意？",
+        "options": []
       },
       "es": {
-        "text": "[leadership] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 在团队中，你更愿意？",
+        "options": []
       },
       "ja": {
-        "text": "[leadership] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 在团队中，你更愿意？",
+        "options": []
       },
       "de": {
-        "text": "[leadership] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 在团队中，你更愿意？",
+        "options": []
       },
       "ru": {
-        "text": "[leadership] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 在团队中，你更愿意？",
+        "options": []
       },
       "fr": {
-        "text": "[leadership] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 在团队中，你更愿意？",
+        "options": []
       }
     }
   },
@@ -1849,70 +939,35 @@
     "id": 27,
     "trait": "leadership",
     "trait_cn": "领导力",
-    "text": "[leadership] 问题2（中文）",
+    "text": "面对分歧时，你会？",
     "translations": {
       "zh": {
-        "text": "[leadership] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "面对分歧时，你会？",
+        "options": []
       },
       "en": {
-        "text": "[leadership] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 面对分歧时，你会？",
+        "options": []
       },
       "es": {
-        "text": "[leadership] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 面对分歧时，你会？",
+        "options": []
       },
       "ja": {
-        "text": "[leadership] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 面对分歧时，你会？",
+        "options": []
       },
       "de": {
-        "text": "[leadership] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 面对分歧时，你会？",
+        "options": []
       },
       "ru": {
-        "text": "[leadership] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 面对分歧时，你会？",
+        "options": []
       },
       "fr": {
-        "text": "[leadership] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 面对分歧时，你会？",
+        "options": []
       }
     }
   },
@@ -1920,70 +975,35 @@
     "id": 28,
     "trait": "leadership",
     "trait_cn": "领导力",
-    "text": "[leadership] 问题3（中文）",
+    "text": "分配任务时，你通常？",
     "translations": {
       "zh": {
-        "text": "[leadership] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "分配任务时，你通常？",
+        "options": []
       },
       "en": {
-        "text": "[leadership] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 分配任务时，你通常？",
+        "options": []
       },
       "es": {
-        "text": "[leadership] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 分配任务时，你通常？",
+        "options": []
       },
       "ja": {
-        "text": "[leadership] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 分配任务时，你通常？",
+        "options": []
       },
       "de": {
-        "text": "[leadership] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 分配任务时，你通常？",
+        "options": []
       },
       "ru": {
-        "text": "[leadership] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 分配任务时，你通常？",
+        "options": []
       },
       "fr": {
-        "text": "[leadership] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 分配任务时，你通常？",
+        "options": []
       }
     }
   },
@@ -1991,70 +1011,35 @@
     "id": 29,
     "trait": "leadership",
     "trait_cn": "领导力",
-    "text": "[leadership] 问题4（中文）",
+    "text": "团队遇到困难时，你？",
     "translations": {
       "zh": {
-        "text": "[leadership] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "团队遇到困难时，你？",
+        "options": []
       },
       "en": {
-        "text": "[leadership] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 团队遇到困难时，你？",
+        "options": []
       },
       "es": {
-        "text": "[leadership] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 团队遇到困难时，你？",
+        "options": []
       },
       "ja": {
-        "text": "[leadership] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 团队遇到困难时，你？",
+        "options": []
       },
       "de": {
-        "text": "[leadership] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 团队遇到困难时，你？",
+        "options": []
       },
       "ru": {
-        "text": "[leadership] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 团队遇到困难时，你？",
+        "options": []
       },
       "fr": {
-        "text": "[leadership] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 团队遇到困难时，你？",
+        "options": []
       }
     }
   },
@@ -2062,70 +1047,35 @@
     "id": 30,
     "trait": "leadership",
     "trait_cn": "领导力",
-    "text": "[leadership] 问题5（中文）",
+    "text": "对于团队目标，你？",
     "translations": {
       "zh": {
-        "text": "[leadership] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "对于团队目标，你？",
+        "options": []
       },
       "en": {
-        "text": "[leadership] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 对于团队目标，你？",
+        "options": []
       },
       "es": {
-        "text": "[leadership] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 对于团队目标，你？",
+        "options": []
       },
       "ja": {
-        "text": "[leadership] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 对于团队目标，你？",
+        "options": []
       },
       "de": {
-        "text": "[leadership] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 对于团队目标，你？",
+        "options": []
       },
       "ru": {
-        "text": "[leadership] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 对于团队目标，你？",
+        "options": []
       },
       "fr": {
-        "text": "[leadership] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 对于团队目标，你？",
+        "options": []
       }
     }
   },
@@ -2133,70 +1083,35 @@
     "id": 31,
     "trait": "risk_taking",
     "trait_cn": "风险偏好",
-    "text": "[risk_taking] 问题1（中文）",
+    "text": "面对高风险高回报的机会，你会？",
     "translations": {
       "zh": {
-        "text": "[risk_taking] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "面对高风险高回报的机会，你会？",
+        "options": []
       },
       "en": {
-        "text": "[risk_taking] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 面对高风险高回报的机会，你会？",
+        "options": []
       },
       "es": {
-        "text": "[risk_taking] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 面对高风险高回报的机会，你会？",
+        "options": []
       },
       "ja": {
-        "text": "[risk_taking] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 面对高风险高回报的机会，你会？",
+        "options": []
       },
       "de": {
-        "text": "[risk_taking] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 面对高风险高回报的机会，你会？",
+        "options": []
       },
       "ru": {
-        "text": "[risk_taking] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 面对高风险高回报的机会，你会？",
+        "options": []
       },
       "fr": {
-        "text": "[risk_taking] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 面对高风险高回报的机会，你会？",
+        "options": []
       }
     }
   },
@@ -2204,70 +1119,35 @@
     "id": 32,
     "trait": "risk_taking",
     "trait_cn": "风险偏好",
-    "text": "[risk_taking] 问题2（中文）",
+    "text": "做重大决定时，你通常？",
     "translations": {
       "zh": {
-        "text": "[risk_taking] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "做重大决定时，你通常？",
+        "options": []
       },
       "en": {
-        "text": "[risk_taking] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 做重大决定时，你通常？",
+        "options": []
       },
       "es": {
-        "text": "[risk_taking] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 做重大决定时，你通常？",
+        "options": []
       },
       "ja": {
-        "text": "[risk_taking] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 做重大决定时，你通常？",
+        "options": []
       },
       "de": {
-        "text": "[risk_taking] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 做重大决定时，你通常？",
+        "options": []
       },
       "ru": {
-        "text": "[risk_taking] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 做重大决定时，你通常？",
+        "options": []
       },
       "fr": {
-        "text": "[risk_taking] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 做重大决定时，你通常？",
+        "options": []
       }
     }
   },
@@ -2275,70 +1155,35 @@
     "id": 33,
     "trait": "risk_taking",
     "trait_cn": "风险偏好",
-    "text": "[risk_taking] 问题3（中文）",
+    "text": "你对未知事物的态度是？",
     "translations": {
       "zh": {
-        "text": "[risk_taking] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你对未知事物的态度是？",
+        "options": []
       },
       "en": {
-        "text": "[risk_taking] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你对未知事物的态度是？",
+        "options": []
       },
       "es": {
-        "text": "[risk_taking] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你对未知事物的态度是？",
+        "options": []
       },
       "ja": {
-        "text": "[risk_taking] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你对未知事物的态度是？",
+        "options": []
       },
       "de": {
-        "text": "[risk_taking] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你对未知事物的态度是？",
+        "options": []
       },
       "ru": {
-        "text": "[risk_taking] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你对未知事物的态度是？",
+        "options": []
       },
       "fr": {
-        "text": "[risk_taking] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你对未知事物的态度是？",
+        "options": []
       }
     }
   },
@@ -2346,70 +1191,35 @@
     "id": 34,
     "trait": "risk_taking",
     "trait_cn": "风险偏好",
-    "text": "[risk_taking] 问题4（中文）",
+    "text": "在投资方面，你更倾向？",
     "translations": {
       "zh": {
-        "text": "[risk_taking] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "在投资方面，你更倾向？",
+        "options": []
       },
       "en": {
-        "text": "[risk_taking] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 在投资方面，你更倾向？",
+        "options": []
       },
       "es": {
-        "text": "[risk_taking] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 在投资方面，你更倾向？",
+        "options": []
       },
       "ja": {
-        "text": "[risk_taking] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 在投资方面，你更倾向？",
+        "options": []
       },
       "de": {
-        "text": "[risk_taking] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 在投资方面，你更倾向？",
+        "options": []
       },
       "ru": {
-        "text": "[risk_taking] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 在投资方面，你更倾向？",
+        "options": []
       },
       "fr": {
-        "text": "[risk_taking] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 在投资方面，你更倾向？",
+        "options": []
       }
     }
   },
@@ -2417,70 +1227,35 @@
     "id": 35,
     "trait": "risk_taking",
     "trait_cn": "风险偏好",
-    "text": "[risk_taking] 问题5（中文）",
+    "text": "面对人生重大选择时？",
     "translations": {
       "zh": {
-        "text": "[risk_taking] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "面对人生重大选择时？",
+        "options": []
       },
       "en": {
-        "text": "[risk_taking] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 面对人生重大选择时？",
+        "options": []
       },
       "es": {
-        "text": "[risk_taking] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 面对人生重大选择时？",
+        "options": []
       },
       "ja": {
-        "text": "[risk_taking] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 面对人生重大选择时？",
+        "options": []
       },
       "de": {
-        "text": "[risk_taking] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 面对人生重大选择时？",
+        "options": []
       },
       "ru": {
-        "text": "[risk_taking] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 面对人生重大选择时？",
+        "options": []
       },
       "fr": {
-        "text": "[risk_taking] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 面对人生重大选择时？",
+        "options": []
       }
     }
   },
@@ -2488,70 +1263,35 @@
     "id": 36,
     "trait": "rationality",
     "trait_cn": "理性思维",
-    "text": "[rationality] 问题1（中文）",
+    "text": "做重要决定前，你会？",
     "translations": {
       "zh": {
-        "text": "[rationality] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "做重要决定前，你会？",
+        "options": []
       },
       "en": {
-        "text": "[rationality] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 做重要决定前，你会？",
+        "options": []
       },
       "es": {
-        "text": "[rationality] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 做重要决定前，你会？",
+        "options": []
       },
       "ja": {
-        "text": "[rationality] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 做重要决定前，你会？",
+        "options": []
       },
       "de": {
-        "text": "[rationality] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 做重要决定前，你会？",
+        "options": []
       },
       "ru": {
-        "text": "[rationality] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 做重要决定前，你会？",
+        "options": []
       },
       "fr": {
-        "text": "[rationality] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 做重要决定前，你会？",
+        "options": []
       }
     }
   },
@@ -2559,70 +1299,35 @@
     "id": 37,
     "trait": "rationality",
     "trait_cn": "理性思维",
-    "text": "[rationality] 问题2（中文）",
+    "text": "面对情绪化的人，你的反应是？",
     "translations": {
       "zh": {
-        "text": "[rationality] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "面对情绪化的人，你的反应是？",
+        "options": []
       },
       "en": {
-        "text": "[rationality] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 面对情绪化的人，你的反应是？",
+        "options": []
       },
       "es": {
-        "text": "[rationality] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 面对情绪化的人，你的反应是？",
+        "options": []
       },
       "ja": {
-        "text": "[rationality] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 面对情绪化的人，你的反应是？",
+        "options": []
       },
       "de": {
-        "text": "[rationality] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 面对情绪化的人，你的反应是？",
+        "options": []
       },
       "ru": {
-        "text": "[rationality] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 面对情绪化的人，你的反应是？",
+        "options": []
       },
       "fr": {
-        "text": "[rationality] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 面对情绪化的人，你的反应是？",
+        "options": []
       }
     }
   },
@@ -2630,70 +1335,35 @@
     "id": 38,
     "trait": "rationality",
     "trait_cn": "理性思维",
-    "text": "[rationality] 问题3（中文）",
+    "text": "处理问题时，你更偏向？",
     "translations": {
       "zh": {
-        "text": "[rationality] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "处理问题时，你更偏向？",
+        "options": []
       },
       "en": {
-        "text": "[rationality] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 处理问题时，你更偏向？",
+        "options": []
       },
       "es": {
-        "text": "[rationality] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 处理问题时，你更偏向？",
+        "options": []
       },
       "ja": {
-        "text": "[rationality] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 处理问题时，你更偏向？",
+        "options": []
       },
       "de": {
-        "text": "[rationality] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 处理问题时，你更偏向？",
+        "options": []
       },
       "ru": {
-        "text": "[rationality] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 处理问题时，你更偏向？",
+        "options": []
       },
       "fr": {
-        "text": "[rationality] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 处理问题时，你更偏向？",
+        "options": []
       }
     }
   },
@@ -2701,70 +1371,35 @@
     "id": 39,
     "trait": "rationality",
     "trait_cn": "理性思维",
-    "text": "[rationality] 问题4（中文）",
+    "text": "你相信直觉还是逻辑？",
     "translations": {
       "zh": {
-        "text": "[rationality] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你相信直觉还是逻辑？",
+        "options": []
       },
       "en": {
-        "text": "[rationality] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你相信直觉还是逻辑？",
+        "options": []
       },
       "es": {
-        "text": "[rationality] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你相信直觉还是逻辑？",
+        "options": []
       },
       "ja": {
-        "text": "[rationality] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你相信直觉还是逻辑？",
+        "options": []
       },
       "de": {
-        "text": "[rationality] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你相信直觉还是逻辑？",
+        "options": []
       },
       "ru": {
-        "text": "[rationality] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你相信直觉还是逻辑？",
+        "options": []
       },
       "fr": {
-        "text": "[rationality] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你相信直觉还是逻辑？",
+        "options": []
       }
     }
   },
@@ -2772,70 +1407,35 @@
     "id": 40,
     "trait": "rationality",
     "trait_cn": "理性思维",
-    "text": "[rationality] 问题5（中文）",
+    "text": "遇到争议时，你通常？",
     "translations": {
       "zh": {
-        "text": "[rationality] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "遇到争议时，你通常？",
+        "options": []
       },
       "en": {
-        "text": "[rationality] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 遇到争议时，你通常？",
+        "options": []
       },
       "es": {
-        "text": "[rationality] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 遇到争议时，你通常？",
+        "options": []
       },
       "ja": {
-        "text": "[rationality] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 遇到争议时，你通常？",
+        "options": []
       },
       "de": {
-        "text": "[rationality] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 遇到争议时，你通常？",
+        "options": []
       },
       "ru": {
-        "text": "[rationality] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 遇到争议时，你通常？",
+        "options": []
       },
       "fr": {
-        "text": "[rationality] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 遇到争议时，你通常？",
+        "options": []
       }
     }
   },
@@ -2843,70 +1443,35 @@
     "id": 41,
     "trait": "discipline",
     "trait_cn": "自律性",
-    "text": "[discipline] 问题1（中文）",
+    "text": "你很难抵制诱惑吗？",
     "translations": {
       "zh": {
-        "text": "[discipline] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你很难抵制诱惑吗？",
+        "options": []
       },
       "en": {
-        "text": "[discipline] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你很难抵制诱惑吗？",
+        "options": []
       },
       "es": {
-        "text": "[discipline] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你很难抵制诱惑吗？",
+        "options": []
       },
       "ja": {
-        "text": "[discipline] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你很难抵制诱惑吗？",
+        "options": []
       },
       "de": {
-        "text": "[discipline] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你很难抵制诱惑吗？",
+        "options": []
       },
       "ru": {
-        "text": "[discipline] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你很难抵制诱惑吗？",
+        "options": []
       },
       "fr": {
-        "text": "[discipline] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你很难抵制诱惑吗？",
+        "options": []
       }
     }
   },
@@ -2914,70 +1479,35 @@
     "id": 42,
     "trait": "discipline",
     "trait_cn": "自律性",
-    "text": "[discipline] 问题2（中文）",
+    "text": "你能坚持每天锻炼吗？",
     "translations": {
       "zh": {
-        "text": "[discipline] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你能坚持每天锻炼吗？",
+        "options": []
       },
       "en": {
-        "text": "[discipline] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你能坚持每天锻炼吗？",
+        "options": []
       },
       "es": {
-        "text": "[discipline] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你能坚持每天锻炼吗？",
+        "options": []
       },
       "ja": {
-        "text": "[discipline] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你能坚持每天锻炼吗？",
+        "options": []
       },
       "de": {
-        "text": "[discipline] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你能坚持每天锻炼吗？",
+        "options": []
       },
       "ru": {
-        "text": "[discipline] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你能坚持每天锻炼吗？",
+        "options": []
       },
       "fr": {
-        "text": "[discipline] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你能坚持每天锻炼吗？",
+        "options": []
       }
     }
   },
@@ -2985,70 +1515,35 @@
     "id": 43,
     "trait": "discipline",
     "trait_cn": "自律性",
-    "text": "[discipline] 问题3（中文）",
+    "text": "对于制定的计划，你？",
     "translations": {
       "zh": {
-        "text": "[discipline] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "对于制定的计划，你？",
+        "options": []
       },
       "en": {
-        "text": "[discipline] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 对于制定的计划，你？",
+        "options": []
       },
       "es": {
-        "text": "[discipline] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 对于制定的计划，你？",
+        "options": []
       },
       "ja": {
-        "text": "[discipline] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 对于制定的计划，你？",
+        "options": []
       },
       "de": {
-        "text": "[discipline] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 对于制定的计划，你？",
+        "options": []
       },
       "ru": {
-        "text": "[discipline] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 对于制定的计划，你？",
+        "options": []
       },
       "fr": {
-        "text": "[discipline] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 对于制定的计划，你？",
+        "options": []
       }
     }
   },
@@ -3056,70 +1551,35 @@
     "id": 44,
     "trait": "discipline",
     "trait_cn": "自律性",
-    "text": "[discipline] 问题4（中文）",
+    "text": "你容易分心吗？",
     "translations": {
       "zh": {
-        "text": "[discipline] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你容易分心吗？",
+        "options": []
       },
       "en": {
-        "text": "[discipline] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你容易分心吗？",
+        "options": []
       },
       "es": {
-        "text": "[discipline] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你容易分心吗？",
+        "options": []
       },
       "ja": {
-        "text": "[discipline] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你容易分心吗？",
+        "options": []
       },
       "de": {
-        "text": "[discipline] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你容易分心吗？",
+        "options": []
       },
       "ru": {
-        "text": "[discipline] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你容易分心吗？",
+        "options": []
       },
       "fr": {
-        "text": "[discipline] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你容易分心吗？",
+        "options": []
       }
     }
   },
@@ -3127,70 +1587,35 @@
     "id": 45,
     "trait": "discipline",
     "trait_cn": "自律性",
-    "text": "[discipline] 问题5（中文）",
+    "text": "你有固定的作息吗？",
     "translations": {
       "zh": {
-        "text": "[discipline] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你有固定的作息吗？",
+        "options": []
       },
       "en": {
-        "text": "[discipline] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你有固定的作息吗？",
+        "options": []
       },
       "es": {
-        "text": "[discipline] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你有固定的作息吗？",
+        "options": []
       },
       "ja": {
-        "text": "[discipline] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你有固定的作息吗？",
+        "options": []
       },
       "de": {
-        "text": "[discipline] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你有固定的作息吗？",
+        "options": []
       },
       "ru": {
-        "text": "[discipline] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你有固定的作息吗？",
+        "options": []
       },
       "fr": {
-        "text": "[discipline] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你有固定的作息吗？",
+        "options": []
       }
     }
   },
@@ -3198,70 +1623,35 @@
     "id": 46,
     "trait": "empathy",
     "trait_cn": "共情能力",
-    "text": "[empathy] 问题1（中文）",
+    "text": "别人难过时，你的反应是？",
     "translations": {
       "zh": {
-        "text": "[empathy] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "别人难过时，你的反应是？",
+        "options": []
       },
       "en": {
-        "text": "[empathy] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 别人难过时，你的反应是？",
+        "options": []
       },
       "es": {
-        "text": "[empathy] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 别人难过时，你的反应是？",
+        "options": []
       },
       "ja": {
-        "text": "[empathy] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 别人难过时，你的反应是？",
+        "options": []
       },
       "de": {
-        "text": "[empathy] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 别人难过时，你的反应是？",
+        "options": []
       },
       "ru": {
-        "text": "[empathy] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 别人难过时，你的反应是？",
+        "options": []
       },
       "fr": {
-        "text": "[empathy] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 别人难过时，你的反应是？",
+        "options": []
       }
     }
   },
@@ -3269,70 +1659,35 @@
     "id": 47,
     "trait": "empathy",
     "trait_cn": "共情能力",
-    "text": "[empathy] 问题2（中文）",
+    "text": "你能理解他人的感受吗？",
     "translations": {
       "zh": {
-        "text": "[empathy] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你能理解他人的感受吗？",
+        "options": []
       },
       "en": {
-        "text": "[empathy] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你能理解他人的感受吗？",
+        "options": []
       },
       "es": {
-        "text": "[empathy] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你能理解他人的感受吗？",
+        "options": []
       },
       "ja": {
-        "text": "[empathy] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你能理解他人的感受吗？",
+        "options": []
       },
       "de": {
-        "text": "[empathy] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你能理解他人的感受吗？",
+        "options": []
       },
       "ru": {
-        "text": "[empathy] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你能理解他人的感受吗？",
+        "options": []
       },
       "fr": {
-        "text": "[empathy] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你能理解他人的感受吗？",
+        "options": []
       }
     }
   },
@@ -3340,70 +1695,35 @@
     "id": 48,
     "trait": "empathy",
     "trait_cn": "共情能力",
-    "text": "[empathy] 问题3（中文）",
+    "text": "面对他人的困境，你？",
     "translations": {
       "zh": {
-        "text": "[empathy] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "面对他人的困境，你？",
+        "options": []
       },
       "en": {
-        "text": "[empathy] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 面对他人的困境，你？",
+        "options": []
       },
       "es": {
-        "text": "[empathy] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 面对他人的困境，你？",
+        "options": []
       },
       "ja": {
-        "text": "[empathy] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 面对他人的困境，你？",
+        "options": []
       },
       "de": {
-        "text": "[empathy] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 面对他人的困境，你？",
+        "options": []
       },
       "ru": {
-        "text": "[empathy] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 面对他人的困境，你？",
+        "options": []
       },
       "fr": {
-        "text": "[empathy] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 面对他人的困境，你？",
+        "options": []
       }
     }
   },
@@ -3411,70 +1731,35 @@
     "id": 49,
     "trait": "empathy",
     "trait_cn": "共情能力",
-    "text": "[empathy] 问题4（中文）",
+    "text": "你容易与人产生共鸣吗？",
     "translations": {
       "zh": {
-        "text": "[empathy] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你容易与人产生共鸣吗？",
+        "options": []
       },
       "en": {
-        "text": "[empathy] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你容易与人产生共鸣吗？",
+        "options": []
       },
       "es": {
-        "text": "[empathy] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你容易与人产生共鸣吗？",
+        "options": []
       },
       "ja": {
-        "text": "[empathy] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你容易与人产生共鸣吗？",
+        "options": []
       },
       "de": {
-        "text": "[empathy] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你容易与人产生共鸣吗？",
+        "options": []
       },
       "ru": {
-        "text": "[empathy] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你容易与人产生共鸣吗？",
+        "options": []
       },
       "fr": {
-        "text": "[empathy] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你容易与人产生共鸣吗？",
+        "options": []
       }
     }
   },
@@ -3482,70 +1767,35 @@
     "id": 50,
     "trait": "empathy",
     "trait_cn": "共情能力",
-    "text": "[empathy] 问题5（中文）",
+    "text": "看到不公平的事，你？",
     "translations": {
       "zh": {
-        "text": "[empathy] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "看到不公平的事，你？",
+        "options": []
       },
       "en": {
-        "text": "[empathy] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 看到不公平的事，你？",
+        "options": []
       },
       "es": {
-        "text": "[empathy] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 看到不公平的事，你？",
+        "options": []
       },
       "ja": {
-        "text": "[empathy] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 看到不公平的事，你？",
+        "options": []
       },
       "de": {
-        "text": "[empathy] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 看到不公平的事，你？",
+        "options": []
       },
       "ru": {
-        "text": "[empathy] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 看到不公平的事，你？",
+        "options": []
       },
       "fr": {
-        "text": "[empathy] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 看到不公平的事，你？",
+        "options": []
       }
     }
   },
@@ -3553,70 +1803,35 @@
     "id": 51,
     "trait": "ambition",
     "trait_cn": "野心",
-    "text": "[ambition] 问题1（中文）",
+    "text": "你对成功的定义是？",
     "translations": {
       "zh": {
-        "text": "[ambition] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你对成功的定义是？",
+        "options": []
       },
       "en": {
-        "text": "[ambition] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你对成功的定义是？",
+        "options": []
       },
       "es": {
-        "text": "[ambition] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你对成功的定义是？",
+        "options": []
       },
       "ja": {
-        "text": "[ambition] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你对成功的定义是？",
+        "options": []
       },
       "de": {
-        "text": "[ambition] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你对成功的定义是？",
+        "options": []
       },
       "ru": {
-        "text": "[ambition] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你对成功的定义是？",
+        "options": []
       },
       "fr": {
-        "text": "[ambition] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你对成功的定义是？",
+        "options": []
       }
     }
   },
@@ -3624,70 +1839,35 @@
     "id": 52,
     "trait": "ambition",
     "trait_cn": "野心",
-    "text": "[ambition] 问题2（中文）",
+    "text": "你愿意为了目标牺牲什么？",
     "translations": {
       "zh": {
-        "text": "[ambition] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你愿意为了目标牺牲什么？",
+        "options": []
       },
       "en": {
-        "text": "[ambition] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你愿意为了目标牺牲什么？",
+        "options": []
       },
       "es": {
-        "text": "[ambition] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你愿意为了目标牺牲什么？",
+        "options": []
       },
       "ja": {
-        "text": "[ambition] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你愿意为了目标牺牲什么？",
+        "options": []
       },
       "de": {
-        "text": "[ambition] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你愿意为了目标牺牲什么？",
+        "options": []
       },
       "ru": {
-        "text": "[ambition] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你愿意为了目标牺牲什么？",
+        "options": []
       },
       "fr": {
-        "text": "[ambition] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你愿意为了目标牺牲什么？",
+        "options": []
       }
     }
   },
@@ -3695,70 +1875,35 @@
     "id": 53,
     "trait": "ambition",
     "trait_cn": "野心",
-    "text": "[ambition] 问题3（中文）",
+    "text": "面对失败，你的态度是？",
     "translations": {
       "zh": {
-        "text": "[ambition] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "面对失败，你的态度是？",
+        "options": []
       },
       "en": {
-        "text": "[ambition] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 面对失败，你的态度是？",
+        "options": []
       },
       "es": {
-        "text": "[ambition] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 面对失败，你的态度是？",
+        "options": []
       },
       "ja": {
-        "text": "[ambition] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 面对失败，你的态度是？",
+        "options": []
       },
       "de": {
-        "text": "[ambition] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 面对失败，你的态度是？",
+        "options": []
       },
       "ru": {
-        "text": "[ambition] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 面对失败，你的态度是？",
+        "options": []
       },
       "fr": {
-        "text": "[ambition] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 面对失败，你的态度是？",
+        "options": []
       }
     }
   },
@@ -3766,70 +1911,35 @@
     "id": 54,
     "trait": "ambition",
     "trait_cn": "野心",
-    "text": "[ambition] 问题4（中文）",
+    "text": "你更想要安稳还是成就？",
     "translations": {
       "zh": {
-        "text": "[ambition] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你更想要安稳还是成就？",
+        "options": []
       },
       "en": {
-        "text": "[ambition] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你更想要安稳还是成就？",
+        "options": []
       },
       "es": {
-        "text": "[ambition] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你更想要安稳还是成就？",
+        "options": []
       },
       "ja": {
-        "text": "[ambition] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你更想要安稳还是成就？",
+        "options": []
       },
       "de": {
-        "text": "[ambition] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你更想要安稳还是成就？",
+        "options": []
       },
       "ru": {
-        "text": "[ambition] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你更想要安稳还是成就？",
+        "options": []
       },
       "fr": {
-        "text": "[ambition] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你更想要安稳还是成就？",
+        "options": []
       }
     }
   },
@@ -3837,70 +1947,35 @@
     "id": 55,
     "trait": "ambition",
     "trait_cn": "野心",
-    "text": "[ambition] 问题5（中文）",
+    "text": "你对自己的期望是？",
     "translations": {
       "zh": {
-        "text": "[ambition] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你对自己的期望是？",
+        "options": []
       },
       "en": {
-        "text": "[ambition] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你对自己的期望是？",
+        "options": []
       },
       "es": {
-        "text": "[ambition] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你对自己的期望是？",
+        "options": []
       },
       "ja": {
-        "text": "[ambition] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你对自己的期望是？",
+        "options": []
       },
       "de": {
-        "text": "[ambition] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你对自己的期望是？",
+        "options": []
       },
       "ru": {
-        "text": "[ambition] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你对自己的期望是？",
+        "options": []
       },
       "fr": {
-        "text": "[ambition] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你对自己的期望是？",
+        "options": []
       }
     }
   },
@@ -3908,70 +1983,35 @@
     "id": 56,
     "trait": "resilience",
     "trait_cn": "韧性",
-    "text": "[resilience] 问题1（中文）",
+    "text": "遇到重大挫折后，你能恢复吗？",
     "translations": {
       "zh": {
-        "text": "[resilience] 问题1（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "遇到重大挫折后，你能恢复吗？",
+        "options": []
       },
       "en": {
-        "text": "[resilience] Question 1 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 遇到重大挫折后，你能恢复吗？",
+        "options": []
       },
       "es": {
-        "text": "[resilience] Pregunta 1 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 遇到重大挫折后，你能恢复吗？",
+        "options": []
       },
       "ja": {
-        "text": "[resilience] 質問1（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 遇到重大挫折后，你能恢复吗？",
+        "options": []
       },
       "de": {
-        "text": "[resilience] Frage 1 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 遇到重大挫折后，你能恢复吗？",
+        "options": []
       },
       "ru": {
-        "text": "[resilience] Вопрос 1 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 遇到重大挫折后，你能恢复吗？",
+        "options": []
       },
       "fr": {
-        "text": "[resilience] Question 1 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 遇到重大挫折后，你能恢复吗？",
+        "options": []
       }
     }
   },
@@ -3979,70 +2019,35 @@
     "id": 57,
     "trait": "resilience",
     "trait_cn": "韧性",
-    "text": "[resilience] 问题2（中文）",
+    "text": "面对连续失败，你会？",
     "translations": {
       "zh": {
-        "text": "[resilience] 问题2（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "面对连续失败，你会？",
+        "options": []
       },
       "en": {
-        "text": "[resilience] Question 2 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 面对连续失败，你会？",
+        "options": []
       },
       "es": {
-        "text": "[resilience] Pregunta 2 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 面对连续失败，你会？",
+        "options": []
       },
       "ja": {
-        "text": "[resilience] 質問2（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 面对连续失败，你会？",
+        "options": []
       },
       "de": {
-        "text": "[resilience] Frage 2 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 面对连续失败，你会？",
+        "options": []
       },
       "ru": {
-        "text": "[resilience] Вопрос 2 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 面对连续失败，你会？",
+        "options": []
       },
       "fr": {
-        "text": "[resilience] Question 2 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 面对连续失败，你会？",
+        "options": []
       }
     }
   },
@@ -4050,70 +2055,35 @@
     "id": 58,
     "trait": "resilience",
     "trait_cn": "韧性",
-    "text": "[resilience] 问题3（中文）",
+    "text": "困难时期，你的态度是？",
     "translations": {
       "zh": {
-        "text": "[resilience] 问题3（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "困难时期，你的态度是？",
+        "options": []
       },
       "en": {
-        "text": "[resilience] Question 3 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 困难时期，你的态度是？",
+        "options": []
       },
       "es": {
-        "text": "[resilience] Pregunta 3 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 困难时期，你的态度是？",
+        "options": []
       },
       "ja": {
-        "text": "[resilience] 質問3（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 困难时期，你的态度是？",
+        "options": []
       },
       "de": {
-        "text": "[resilience] Frage 3 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 困难时期，你的态度是？",
+        "options": []
       },
       "ru": {
-        "text": "[resilience] Вопрос 3 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 困难时期，你的态度是？",
+        "options": []
       },
       "fr": {
-        "text": "[resilience] Question 3 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 困难时期，你的态度是？",
+        "options": []
       }
     }
   },
@@ -4121,70 +2091,35 @@
     "id": 59,
     "trait": "resilience",
     "trait_cn": "韧性",
-    "text": "[resilience] 问题4（中文）",
+    "text": "你容易从打击中恢复吗？",
     "translations": {
       "zh": {
-        "text": "[resilience] 问题4（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "你容易从打击中恢复吗？",
+        "options": []
       },
       "en": {
-        "text": "[resilience] Question 4 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 你容易从打击中恢复吗？",
+        "options": []
       },
       "es": {
-        "text": "[resilience] Pregunta 4 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 你容易从打击中恢复吗？",
+        "options": []
       },
       "ja": {
-        "text": "[resilience] 質問4（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 你容易从打击中恢复吗？",
+        "options": []
       },
       "de": {
-        "text": "[resilience] Frage 4 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 你容易从打击中恢复吗？",
+        "options": []
       },
       "ru": {
-        "text": "[resilience] Вопрос 4 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 你容易从打击中恢复吗？",
+        "options": []
       },
       "fr": {
-        "text": "[resilience] Question 4 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 你容易从打击中恢复吗？",
+        "options": []
       }
     }
   },
@@ -4192,70 +2127,35 @@
     "id": 60,
     "trait": "resilience",
     "trait_cn": "韧性",
-    "text": "[resilience] 问题5（中文）",
+    "text": "对于逆境，你通常？",
     "translations": {
       "zh": {
-        "text": "[resilience] 问题5（中文）",
-        "options": [
-          "选项A",
-          "选项B",
-          "选项C",
-          "选项D"
-        ]
+        "text": "对于逆境，你通常？",
+        "options": []
       },
       "en": {
-        "text": "[resilience] Question 5 (English)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[English] 对于逆境，你通常？",
+        "options": []
       },
       "es": {
-        "text": "[resilience] Pregunta 5 (Español)",
-        "options": [
-          "Opción A",
-          "Opción B",
-          "Opción C",
-          "Opción D"
-        ]
+        "text": "[ES] 对于逆境，你通常？",
+        "options": []
       },
       "ja": {
-        "text": "[resilience] 質問5（日本語）",
-        "options": [
-          "オプションA",
-          "オプションB",
-          "オプションC",
-          "オプションD"
-        ]
+        "text": "[JA] 对于逆境，你通常？",
+        "options": []
       },
       "de": {
-        "text": "[resilience] Frage 5 (Deutsch)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[DE] 对于逆境，你通常？",
+        "options": []
       },
       "ru": {
-        "text": "[resilience] Вопрос 5 (Русский)",
-        "options": [
-          "Вариант A",
-          "Вариант B",
-          "Вариант C",
-          "Вариант D"
-        ]
+        "text": "[RU] 对于逆境，你通常？",
+        "options": []
       },
       "fr": {
-        "text": "[resilience] Question 5 (Français)",
-        "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
-        ]
+        "text": "[FR] 对于逆境，你通常？",
+        "options": []
       }
     }
   }
