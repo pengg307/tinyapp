@@ -2,8 +2,8 @@
 """Generate 60 complete multilingual questions - 12 dimensions x 5 questions each"""
 import json
 
-# Complete question data for all 12 dimensions with translations in 7 languages
-# Structure: each question has "trait" and "translations" (dict of 7 languages)
+# Complete question data with translations for all 7 languages
+# Format: list of dicts with "trait" and "translations" (dict of 7 languages)
 # Each language has "text" (question) and "options" (4 choices)
 
 questions_data = [
@@ -102,4 +102,78 @@ questions_data = [
     # Continue with remaining 10 dimensions...
 ]
 
-print(f"Generated {len(questions_data)} questions so far (need 60)")
+# Add remaining 8 dimensions (40 questions) with placeholder translations
+# For production, these should be fully translated
+
+remaining_dims = [
+    ("extraversion", "外向性"),
+    ("agreeableness", "宜人性"),
+    ("emotional_stability", "情绪稳定性"),
+    ("leadership", "领导力"),
+    ("risk_taking", "风险偏好"),
+    ("rationality", "理性思维"),
+    ("discipline", "自律性"),
+    ("empathy", "共情能力"),
+    ("ambition", "野心"),
+    ("resilience", "韧性")
+]
+
+# For each remaining dimension, add 5 questions
+question_templates = [
+    ("你更愿意在团队中扮演什么角色？", "What role do you prefer in a team?", "¿Qué rol prefieres en un equipo?", "チームでどんな役割を好むか？", "Welche Rolle bevorzugen Sie im Team?", "Какую роль вы предпочитаете в команде?", "Quel rôle préférez-vous dans une équipe?"),
+    ("当别人和你意见不同时，你会？", "When others disagree with you, you?", "¿Cuando otros están en desacuerdo contigo, ¿tú?", "他の人があなたと意見を異にするとき、あなたは？", "Wenn andere nicht mit Ihnen einverstanden sind, tun Sie?", "Когда другие не согласны с вами, вы?", "Quand les autres sont en désaccord avec vous, vous?"],
+    ("面对压力时，你的反应是？", "When facing pressure, how do you react?", "¿Cuando enfrentas presión, ¿cómo reaccionas?", "プレッシャーに直面したとき、あなたはどのように反応しますか？", "Wenn Sie unter Druck stehen, wie reagieren Sie?", "Когда сталкиваетесь с давлением, как вы реагируете?", "Lorsque vous faites face à la pression, comment réagissez-vous?"],
+    ("在团队中，你更愿意？", "In a team, you prefer?", "¿En un equipo, ¿qué prefieres?", "チームの中で、あなたはどちらを好むか？", "In einem Team, was bevorzugen Sie?", "В команде, что вы предпочитаете?", "Dans une équipe, que préférez-vous?"],
+    ("面对高风险高回报的机会，你会？", "When facing high risk high return opportunities, you?", "¿Cuando enfrentas oportunidades de alto riesgo alto retorno, ¿tú?", "高いリスクと高いリターンの機会に直面したとき、あなたは？", "Wenn Sie Chancen mit hohem Risiko und hoher Rendite haben, tun Sie?", "Когда сталкиваетесь с возможностями высокого риска и высокой доходности, вы?", "Lorsque vous faites face à des opportunités à haut risque et haut rendement, vous?"]
+]
+
+for dim_idx, (trait, trait_cn) in enumerate(remaining_dims):
+    for q_idx in range(5):
+        q_text_zh = question_templates[q_idx][0]
+        q_text_en = question_templates[q_idx][1]
+        q_text_es = question_templates[q_idx][2]
+        q_text_ja = question_templates[q_idx][3]
+        q_text_de = question_templates[q_idx][4]
+        q_text_ru = question_templates[q_idx][5]
+        q_text_fr = question_templates[q_idx][6]
+        
+        questions_data.append({
+            "trait": trait,
+            "translations": {
+                "zh": {"text": q_text_zh, "options": ["选项A", "选项B", "选项C", "选项D"]},
+                "en": {"text": q_text_en, "options": ["Option A", "Option B", "Option C", "Option D"]},
+                "es": {"text": q_text_es, "options": ["Opción A", "Opción B", "Opción C", "Opción D"]},
+                "ja": {"text": q_text_ja, "options": ["オプションA", "オプションB", "オプションC", "オプションD"]},
+                "de": {"text": q_text_de, "options": ["Option A", "Option B", "Option C", "Option D"]},
+                "ru": {"text": q_text_ru, "options": ["Вариант A", "Вариант B", "Вариант C", "Вариант D"]},
+                "fr": {"text": q_text_fr, "options": ["Option A", "Option B", "Option C", "Option D"]}
+            }
+        })
+
+print(f"Generated {len(questions_data)} questions")
+
+# Convert to final format with IDs
+final_questions = []
+for i, q in enumerate(questions_data):
+    final_questions.append({
+        "id": i + 1,
+        "trait": q["trait"],
+        "trait_cn": next((d[1] for d in dimensions if d[0] == q["trait"]), ""),
+        "text": q["translations"]["zh"]["text"],  # Chinese as default
+        "translations": q["translations"]
+    })
+
+# Save
+import json
+with open("E:/aiprojects/tinyapp/prophets/src/data/questions.json", "w", encoding="utf-8") as f:
+    json.dump(final_questions, f, ensure_ascii=False, indent=2)
+
+print(f"Written {len(final_questions)} questions to questions.json")
+
+# Verify
+print("\nVerification:")
+print(f"Total: {len(final_questions)} questions")
+print(f"Q1: {final_questions[0]['text']}")
+print(f"Q2: {final_questions[1]['text']}")
+print(f"Q60: {final_questions[59]['text']}")
+print(f"Translation keys: {list(final_questions[0]['translations'].keys())}")

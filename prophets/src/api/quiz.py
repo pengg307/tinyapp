@@ -11,7 +11,7 @@ from pathlib import Path
 
 router = APIRouter()
 
-# 支持的語言列表
+# 支持的语言列表
 SUPPORTED_LANGUAGES = ["zh", "en", "es", "ja", "de", "ru", "fr"]
 
 # 缓存
@@ -59,7 +59,7 @@ class QuizResponse(BaseModel):
 async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$")):
     """
     获取测评题目列表
-
+    
     - language: 语言代码 (zh/en/es/ja/de/ru/fr)，默认中文
     - 返回指定语言的题目和选项
     """
@@ -70,12 +70,11 @@ async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$
         for q in questions:
             # 获取当前语言的文本和选项
             translations = q.get("translations", {})
-            lang_options = translations.get(language, translations.get("zh", []))
-
-            # 获取题目文本（从第一个选项数组中提取问题文本，或使用默认值）
-            question_text = q.get("text", "")
-            if not question_text and lang_options:
-                question_text = lang_options[0]  # 使用第一个选项作为问题提示
+            lang_data = translations.get(language, translations.get("zh", {}))
+            
+            # 获取题目文本和选项
+            question_text = lang_data.get("text", q.get("text", ""))
+            lang_options = lang_data.get("options", [])
 
             sanitized_questions.append(QuizQuestion(
                 id=q.get("id"),
@@ -100,7 +99,7 @@ async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$
 async def get_question(question_id: int, language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$")):
     """
     获取单道题目详情
-
+    
     - question_id: 题目ID
     - language: 语言代码
     """
@@ -116,14 +115,16 @@ async def get_question(question_id: int, language: str = Query("zh", pattern="^(
         if question is None:
             raise HTTPException(status_code=404, detail=f"题目 {question_id} 不存在")
 
-        # 获取当前语言的选项
+        # 获取当前语言的文本和选项
         translations = question.get("translations", {})
-        lang_options = translations.get(language, translations.get("zh", []))
+        lang_data = translations.get(language, translations.get("zh", {}))
+        question_text = lang_data.get("text", question.get("text", ""))
+        lang_options = lang_data.get("options", [])
 
         sanitized = {
             "id": question.get("id"),
             "trait": question.get("trait", ""),
-            "text": question.get("text", ""),
+            "text": question_text,
             "options": lang_options[:4]
         }
 
