@@ -5,76 +5,49 @@
     "trait_cn": "开放性",
     "text": "面对全新的领域，你的态度是？",
     "translations": {
-      "zh": {
-        "text": "面对全新的领域，你的态度是？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 面对全新的领域，你的态度是？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 面对全新的领域，你的态度是？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 面对全新的领域，你的态度是？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 面对全新的领域，你的态度是？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 面对全新的领域，你的态度是？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 面对全新的领域，你的态度是？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "充满好奇，积极尝试",
+        "适度接受，但保持谨慎",
+        "更倾向于熟悉的事物",
+        "坚持传统，不喜变化"
+      ],
+      "en": [
+        "Full of curiosity, actively try",
+        "Moderately accept, but cautious",
+        "Prefer familiar things",
+        "Stick to tradition, dislike change"
+      ],
+      "es": [
+        "Con mucha curiosidad, probar activamente",
+        "Aceptar moderadamente, pero con cautela",
+        "Prefiero cosas conocidas",
+        "Mantenerse en la tradición, no me gusta el cambio"
+      ],
+      "ja": [
+        "好奇心満タンで積極的に挑戦",
+        "適度に受け入れるが慎重に",
+        "慣れたものに傾く",
+        "伝統を守り変化を嫌う"
+      ],
+      "de": [
+        "Voll Neugier, aktiv ausprobieren",
+        "Mäßig akzeptieren, aber vorsichtig",
+        "Eher Vertrautes bevorzugen",
+        "An der Tradition festhalten, keine Veränderung"
+      ],
+      "ru": [
+        "Полный любопытства, активно пробую",
+        "Умеренно принимаю, но осторожно",
+        "Предпочитаю знакомое",
+        "Держусь традиций, не люблю перемен"
+      ],
+      "fr": [
+        "Plein de curiosité, j'essaie activement",
+        "J'accepte modérément mais prudemment",
+        "Je préfère les choses familières",
+        "Je reste dans la tradition, je déteste le changement"
+      ]
+    }
   },
   {
     "id": 2,
@@ -82,76 +55,49 @@
     "trait_cn": "开放性",
     "text": "你更喜欢尝试新事物还是坚持传统？",
     "translations": {
-      "zh": {
-        "text": "你更喜欢尝试新事物还是坚持传统？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你更喜欢尝试新事物还是坚持传统？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你更喜欢尝试新事物还是坚持传统？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你更喜欢尝试新事物还是坚持传统？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你更喜欢尝试新事物还是坚持传统？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你更喜欢尝试新事物还是坚持传统？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你更喜欢尝试新事物还是坚持传统？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "充满好奇，积极尝试",
+        "适度接受，但保持谨慎",
+        "更倾向于熟悉的事物",
+        "坚持传统，不喜变化"
+      ],
+      "en": [
+        "Full of curiosity, actively try",
+        "Moderately accept, but cautious",
+        "Prefer familiar things",
+        "Stick to tradition, dislike change"
+      ],
+      "es": [
+        "Con mucha curiosidad, probar activamente",
+        "Aceptar moderadamente, pero con cautela",
+        "Prefiero cosas conocidas",
+        "Mantenerse en la tradición, no me gusta el cambio"
+      ],
+      "ja": [
+        "好奇心満タンで積極的に挑戦",
+        "適度に受け入れるが慎重に",
+        "慣れたものに傾く",
+        "伝統を守り変化を嫌う"
+      ],
+      "de": [
+        "Voll Neugier, aktiv ausprobieren",
+        "Mäßig akzeptieren, aber vorsichtig",
+        "Eher Vertrautes bevorzugen",
+        "An der Tradition festhalten, keine Veränderung"
+      ],
+      "ru": [
+        "Полный любопытства, активно пробую",
+        "Умеренно принимаю, но осторожно",
+        "Предпочитаю знакомое",
+        "Держусь традиций, не люблю перемен"
+      ],
+      "fr": [
+        "Plein de curiosité, j'essaie activement",
+        "J'accepte modérément mais prudemment",
+        "Je préfère les choses familières",
+        "Je reste dans la tradition, je déteste le changement"
+      ]
+    }
   },
   {
     "id": 3,
@@ -159,76 +105,49 @@
     "trait_cn": "开放性",
     "text": "当面对一个从未见过的难题时？",
     "translations": {
-      "zh": {
-        "text": "当面对一个从未见过的难题时？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 当面对一个从未见过的难题时？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 当面对一个从未见过的难题时？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 当面对一个从未见过的难题时？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 当面对一个从未见过的难题时？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 当面对一个从未见过的难题时？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 当面对一个从未见过的难题时？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "充满好奇，积极尝试",
+        "适度接受，但保持谨慎",
+        "更倾向于熟悉的事物",
+        "坚持传统，不喜变化"
+      ],
+      "en": [
+        "Full of curiosity, actively try",
+        "Moderately accept, but cautious",
+        "Prefer familiar things",
+        "Stick to tradition, dislike change"
+      ],
+      "es": [
+        "Con mucha curiosidad, probar activamente",
+        "Aceptar moderadamente, pero con cautela",
+        "Prefiero cosas conocidas",
+        "Mantenerse en la tradición, no me gusta el cambio"
+      ],
+      "ja": [
+        "好奇心満タンで積極的に挑戦",
+        "適度に受け入れるが慎重に",
+        "慣れたものに傾く",
+        "伝統を守り変化を嫌う"
+      ],
+      "de": [
+        "Voll Neugier, aktiv ausprobieren",
+        "Mäßig akzeptieren, aber vorsichtig",
+        "Eher Vertrautes bevorzugen",
+        "An der Tradition festhalten, keine Veränderung"
+      ],
+      "ru": [
+        "Полный любопытства, активно пробую",
+        "Умеренно принимаю, но осторожно",
+        "Предпочитаю знакомое",
+        "Держусь традиций, не люблю перемен"
+      ],
+      "fr": [
+        "Plein de curiosité, j'essaie activement",
+        "J'accepte modérément mais prudemment",
+        "Je préfère les choses familières",
+        "Je reste dans la tradition, je déteste le changement"
+      ]
+    }
   },
   {
     "id": 4,
@@ -236,76 +155,49 @@
     "trait_cn": "开放性",
     "text": "你对不同文化背景的人有什么态度？",
     "translations": {
-      "zh": {
-        "text": "你对不同文化背景的人有什么态度？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你对不同文化背景的人有什么态度？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你对不同文化背景的人有什么态度？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你对不同文化背景的人有什么态度？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你对不同文化背景的人有什么态度？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你对不同文化背景的人有什么态度？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你对不同文化背景的人有什么态度？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "充满好奇，积极尝试",
+        "适度接受，但保持谨慎",
+        "更倾向于熟悉的事物",
+        "坚持传统，不喜变化"
+      ],
+      "en": [
+        "Full of curiosity, actively try",
+        "Moderately accept, but cautious",
+        "Prefer familiar things",
+        "Stick to tradition, dislike change"
+      ],
+      "es": [
+        "Con mucha curiosidad, probar activamente",
+        "Aceptar moderadamente, pero con cautela",
+        "Prefiero cosas conocidas",
+        "Mantenerse en la tradición, no me gusta el cambio"
+      ],
+      "ja": [
+        "好奇心満タンで積極的に挑戦",
+        "適度に受け入れるが慎重に",
+        "慣れたものに傾く",
+        "伝統を守り変化を嫌う"
+      ],
+      "de": [
+        "Voll Neugier, aktiv ausprobieren",
+        "Mäßig akzeptieren, aber vorsichtig",
+        "Eher Vertrautes bevorzugen",
+        "An der Tradition festhalten, keine Veränderung"
+      ],
+      "ru": [
+        "Полный любопытства, активно пробую",
+        "Умеренно принимаю, но осторожно",
+        "Предпочитаю знакомое",
+        "Держусь традиций, не люблю перемен"
+      ],
+      "fr": [
+        "Plein de curiosité, j'essaie activement",
+        "J'accepte modérément mais prudemment",
+        "Je préfère les choses familières",
+        "Je reste dans la tradition, je déteste le changement"
+      ]
+    }
   },
   {
     "id": 5,
@@ -313,76 +205,49 @@
     "trait_cn": "开放性",
     "text": "如果给你机会去一个陌生国家生活一年？",
     "translations": {
-      "zh": {
-        "text": "如果给你机会去一个陌生国家生活一年？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 如果给你机会去一个陌生国家生活一年？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 如果给你机会去一个陌生国家生活一年？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 如果给你机会去一个陌生国家生活一年？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 如果给你机会去一个陌生国家生活一年？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 如果给你机会去一个陌生国家生活一年？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 如果给你机会去一个陌生国家生活一年？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "充满好奇，积极尝试",
+        "适度接受，但保持谨慎",
+        "更倾向于熟悉的事物",
+        "坚持传统，不喜变化"
+      ],
+      "en": [
+        "Full of curiosity, actively try",
+        "Moderately accept, but cautious",
+        "Prefer familiar things",
+        "Stick to tradition, dislike change"
+      ],
+      "es": [
+        "Con mucha curiosidad, probar activamente",
+        "Aceptar moderadamente, pero con cautela",
+        "Prefiero cosas conocidas",
+        "Mantenerse en la tradición, no me gusta el cambio"
+      ],
+      "ja": [
+        "好奇心満タンで積極的に挑戦",
+        "適度に受け入れるが慎重に",
+        "慣れたものに傾く",
+        "伝統を守り変化を嫌う"
+      ],
+      "de": [
+        "Voll Neugier, aktiv ausprobieren",
+        "Mäßig akzeptieren, aber vorsichtig",
+        "Eher Vertrautes bevorzugen",
+        "An der Tradition festhalten, keine Veränderung"
+      ],
+      "ru": [
+        "Полный любопытства, активно пробую",
+        "Умеренно принимаю, но осторожно",
+        "Предпочитаю знакомое",
+        "Держусь традиций, не люблю перемен"
+      ],
+      "fr": [
+        "Plein de curiosité, j'essaie activement",
+        "J'accepte modérément mais prudemment",
+        "Je préfère les choses familières",
+        "Je reste dans la tradition, je déteste le changement"
+      ]
+    }
   },
   {
     "id": 6,
@@ -390,76 +255,49 @@
     "trait_cn": "尽责性",
     "text": "你通常如何规划每天的工作？",
     "translations": {
-      "zh": {
-        "text": "你通常如何规划每天的工作？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你通常如何规划每天的工作？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你通常如何规划每天的工作？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你通常如何规划每天的工作？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你通常如何规划每天的工作？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你通常如何规划每天的工作？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你通常如何规划每天的工作？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "详细列出计划，严格执行",
+        "有大致方向，灵活调整",
+        "随性而为，见机行事",
+        "很少规划，容易拖延"
+      ],
+      "en": [
+        "Detailed plan, strict execution",
+        "General direction, flexible adjustment",
+        "Go with the flow, adapt as you go",
+        "Rarely plan, easily procrastinate"
+      ],
+      "es": [
+        "Plan detallado, ejecución estricta",
+        "Dirección general, ajuste flexible",
+        "Ir sobre la marcha, adaptarse",
+        "Rara vez planificar, fácilmente procrastinar"
+      ],
+      "ja": [
+        "詳細な計画を立て厳格に実行",
+        "おおまかな方向性で柔軟に調整",
+        "その場で対応し適応する",
+        "めったに計画せず、容易に遅らせる"
+      ],
+      "de": [
+        "Detaillierter Plan, strenge Ausführung",
+        "Allgemeine Richtung, flexible Anpassung",
+        "Dem Strom folgen, sich anpassen",
+        "Selten planen, leicht procrastinieren"
+      ],
+      "ru": [
+        "Детальный план, строгое исполнение",
+        "Общее направление, гибкая корректировка",
+        "Действовать по ситуации",
+        "Редко планирую, легко откладываю"
+      ],
+      "fr": [
+        "Plan détaillé, exécution stricte",
+        "Direction générale, ajustement flexible",
+        "Suivre le courant, s'adapter",
+        "Rarement planifier, facilement procrastiner"
+      ]
+    }
   },
   {
     "id": 7,
@@ -467,76 +305,49 @@
     "trait_cn": "尽责性",
     "text": "对于答应别人的事情，你会？",
     "translations": {
-      "zh": {
-        "text": "对于答应别人的事情，你会？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 对于答应别人的事情，你会？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 对于答应别人的事情，你会？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 对于答应别人的事情，你会？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 对于答应别人的事情，你会？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 对于答应别人的事情，你会？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 对于答应别人的事情，你会？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "详细列出计划，严格执行",
+        "有大致方向，灵活调整",
+        "随性而为，见机行事",
+        "很少规划，容易拖延"
+      ],
+      "en": [
+        "Detailed plan, strict execution",
+        "General direction, flexible adjustment",
+        "Go with the flow, adapt as you go",
+        "Rarely plan, easily procrastinate"
+      ],
+      "es": [
+        "Plan detallado, ejecución estricta",
+        "Dirección general, ajuste flexible",
+        "Ir sobre la marcha, adaptarse",
+        "Rara vez planificar, fácilmente procrastinar"
+      ],
+      "ja": [
+        "詳細な計画を立て厳格に実行",
+        "おおまかな方向性で柔軟に調整",
+        "その場で対応し適応する",
+        "めったに計画せず、容易に遅らせる"
+      ],
+      "de": [
+        "Detaillierter Plan, strenge Ausführung",
+        "Allgemeine Richtung, flexible Anpassung",
+        "Dem Strom folgen, sich anpassen",
+        "Selten planen, leicht procrastinieren"
+      ],
+      "ru": [
+        "Детальный план, строгое исполнение",
+        "Общее направление, гибкая корректировка",
+        "Действовать по ситуации",
+        "Редко планирую, легко откладываю"
+      ],
+      "fr": [
+        "Plan détaillé, exécution stricte",
+        "Direction générale, ajustement flexible",
+        "Suivre le courant, s'adapter",
+        "Rarement planifier, facilement procrastiner"
+      ]
+    }
   },
   {
     "id": 8,
@@ -544,76 +355,49 @@
     "trait_cn": "尽责性",
     "text": "你的工作/学习桌面通常是什么样的？",
     "translations": {
-      "zh": {
-        "text": "你的工作/学习桌面通常是什么样的？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你的工作/学习桌面通常是什么样的？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你的工作/学习桌面通常是什么样的？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你的工作/学习桌面通常是什么样的？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你的工作/学习桌面通常是什么样的？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你的工作/学习桌面通常是什么样的？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你的工作/学习桌面通常是什么样的？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "详细列出计划，严格执行",
+        "有大致方向，灵活调整",
+        "随性而为，见机行事",
+        "很少规划，容易拖延"
+      ],
+      "en": [
+        "Detailed plan, strict execution",
+        "General direction, flexible adjustment",
+        "Go with the flow, adapt as you go",
+        "Rarely plan, easily procrastinate"
+      ],
+      "es": [
+        "Plan detallado, ejecución estricta",
+        "Dirección general, ajuste flexible",
+        "Ir sobre la marcha, adaptarse",
+        "Rara vez planificar, fácilmente procrastinar"
+      ],
+      "ja": [
+        "詳細な計画を立て厳格に実行",
+        "おおまかな方向性で柔軟に調整",
+        "その場で対応し適応する",
+        "めったに計画せず、容易に遅らせる"
+      ],
+      "de": [
+        "Detaillierter Plan, strenge Ausführung",
+        "Allgemeine Richtung, flexible Anpassung",
+        "Dem Strom folgen, sich anpassen",
+        "Selten planen, leicht procrastinieren"
+      ],
+      "ru": [
+        "Детальный план, строгое исполнение",
+        "Общее направление, гибкая корректировка",
+        "Действовать по ситуации",
+        "Редко планирую, легко откладываю"
+      ],
+      "fr": [
+        "Plan détaillé, exécution stricte",
+        "Direction générale, ajustement flexible",
+        "Suivre le courant, s'adapter",
+        "Rarement planifier, facilement procrastiner"
+      ]
+    }
   },
   {
     "id": 9,
@@ -621,76 +405,49 @@
     "trait_cn": "尽责性",
     "text": "deadline临近时，你的反应是？",
     "translations": {
-      "zh": {
-        "text": "deadline临近时，你的反应是？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] deadline临近时，你的反应是？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] deadline临近时，你的反应是？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] deadline临近时，你的反应是？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] deadline临近时，你的反应是？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] deadline临近时，你的反应是？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] deadline临近时，你的反应是？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "详细列出计划，严格执行",
+        "有大致方向，灵活调整",
+        "随性而为，见机行事",
+        "很少规划，容易拖延"
+      ],
+      "en": [
+        "Detailed plan, strict execution",
+        "General direction, flexible adjustment",
+        "Go with the flow, adapt as you go",
+        "Rarely plan, easily procrastinate"
+      ],
+      "es": [
+        "Plan detallado, ejecución estricta",
+        "Dirección general, ajuste flexible",
+        "Ir sobre la marcha, adaptarse",
+        "Rara vez planificar, fácilmente procrastinar"
+      ],
+      "ja": [
+        "詳細な計画を立て厳格に実行",
+        "おおまかな方向性で柔軟に調整",
+        "その場で対応し適応する",
+        "めったに計画せず、容易に遅らせる"
+      ],
+      "de": [
+        "Detaillierter Plan, strenge Ausführung",
+        "Allgemeine Richtung, flexible Anpassung",
+        "Dem Strom folgen, sich anpassen",
+        "Selten planen, leicht procrastinieren"
+      ],
+      "ru": [
+        "Детальный план, строгое исполнение",
+        "Общее направление, гибкая корректировка",
+        "Действовать по ситуации",
+        "Редко планирую, легко откладываю"
+      ],
+      "fr": [
+        "Plan détaillé, exécution stricte",
+        "Direction générale, ajustement flexible",
+        "Suivre le courant, s'adapter",
+        "Rarement planifier, facilement procrastiner"
+      ]
+    }
   },
   {
     "id": 10,
@@ -698,76 +455,49 @@
     "trait_cn": "尽责性",
     "text": "对于长期目标，你会？",
     "translations": {
-      "zh": {
-        "text": "对于长期目标，你会？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 对于长期目标，你会？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 对于长期目标，你会？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 对于长期目标，你会？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 对于长期目标，你会？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 对于长期目标，你会？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 对于长期目标，你会？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "详细列出计划，严格执行",
+        "有大致方向，灵活调整",
+        "随性而为，见机行事",
+        "很少规划，容易拖延"
+      ],
+      "en": [
+        "Detailed plan, strict execution",
+        "General direction, flexible adjustment",
+        "Go with the flow, adapt as you go",
+        "Rarely plan, easily procrastinate"
+      ],
+      "es": [
+        "Plan detallado, ejecución estricta",
+        "Dirección general, ajuste flexible",
+        "Ir sobre la marcha, adaptarse",
+        "Rara vez planificar, fácilmente procrastinar"
+      ],
+      "ja": [
+        "詳細な計画を立て厳格に実行",
+        "おおまかな方向性で柔軟に調整",
+        "その場で対応し適応する",
+        "めったに計画せず、容易に遅らせる"
+      ],
+      "de": [
+        "Detaillierter Plan, strenge Ausführung",
+        "Allgemeine Richtung, flexible Anpassung",
+        "Dem Strom folgen, sich anpassen",
+        "Selten planen, leicht procrastinieren"
+      ],
+      "ru": [
+        "Детальный план, строгое исполнение",
+        "Общее направление, гибкая корректировка",
+        "Действовать по ситуации",
+        "Редко планирую, легко откладываю"
+      ],
+      "fr": [
+        "Plan détaillé, exécution stricte",
+        "Direction générale, ajustement flexible",
+        "Suivre le courant, s'adapter",
+        "Rarement planifier, facilement procrastiner"
+      ]
+    }
   },
   {
     "id": 11,
@@ -775,76 +505,49 @@
     "trait_cn": "外向性",
     "text": "在社交聚会中，你通常会？",
     "translations": {
-      "zh": {
-        "text": "在社交聚会中，你通常会？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 在社交聚会中，你通常会？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 在社交聚会中，你通常会？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 在社交聚会中，你通常会？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 在社交聚会中，你通常会？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 在社交聚会中，你通常会？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 在社交聚会中，你通常会？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "主动与人交流，享受其中",
+        "与熟人交谈，偶尔结识新人",
+        "在一旁观察，不多说话",
+        "寻找角落，希望早点离开"
+      ],
+      "en": [
+        "Actively communicate with others, enjoy it",
+        "Talk with acquaintances, occasionally meet new people",
+        "Observe from the side, don't talk much",
+        "Find a corner, hope to leave early"
+      ],
+      "es": [
+        "Comunicarme activamente con otros, disfrutarlo",
+        "Hablar con conocidos, ocasionalmente conocer gente nueva",
+        "Observar desde un lado, no hablar mucho",
+        "Buscar un rincón, esperar salir temprano"
+      ],
+      "ja": [
+        "積極的に他人と交流し楽しむ",
+        "知人と話し、たまに新しい人に出会う",
+        "横で観察しあまり話さない",
+        "隅を見つけて早く去りたい"
+      ],
+      "de": [
+        "Aktiv mit anderen kommunizieren, es genießen",
+        "Mit Bekannten sprechen, gelegentlich neue Leute treffen",
+        "Von der Seite beobachten, nicht viel reden",
+        "Eine Ecke suchen, hoffe früh zu gehen"
+      ],
+      "ru": [
+        "Активно общаться с другими, получать удовольствие",
+        "Говорить с знакомыми, иногда встречать новых людей",
+        "Наблюдать со стороны, мало говорить",
+        "Искать угол, надеюсь уйти рано"
+      ],
+      "fr": [
+        "Communiquer activement avec les autres, profiter",
+        "Parler avec des connaissances, rencontrer occasionnellement de nouvelles personnes",
+        "Observer de côté, pas beaucoup parler",
+        "Trouver un coin, espérer partir tôt"
+      ]
+    }
   },
   {
     "id": 12,
@@ -852,76 +555,49 @@
     "trait_cn": "外向性",
     "text": "周末你更愿意？",
     "translations": {
-      "zh": {
-        "text": "周末你更愿意？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 周末你更愿意？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 周末你更愿意？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 周末你更愿意？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 周末你更愿意？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 周末你更愿意？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 周末你更愿意？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "主动与人交流，享受其中",
+        "与熟人交谈，偶尔结识新人",
+        "在一旁观察，不多说话",
+        "寻找角落，希望早点离开"
+      ],
+      "en": [
+        "Actively communicate with others, enjoy it",
+        "Talk with acquaintances, occasionally meet new people",
+        "Observe from the side, don't talk much",
+        "Find a corner, hope to leave early"
+      ],
+      "es": [
+        "Comunicarme activamente con otros, disfrutarlo",
+        "Hablar con conocidos, ocasionalmente conocer gente nueva",
+        "Observar desde un lado, no hablar mucho",
+        "Buscar un rincón, esperar salir temprano"
+      ],
+      "ja": [
+        "積極的に他人と交流し楽しむ",
+        "知人と話し、たまに新しい人に出会う",
+        "横で観察しあまり話さない",
+        "隅を見つけて早く去りたい"
+      ],
+      "de": [
+        "Aktiv mit anderen kommunizieren, es genießen",
+        "Mit Bekannten sprechen, gelegentlich neue Leute treffen",
+        "Von der Seite beobachten, nicht viel reden",
+        "Eine Ecke suchen, hoffe früh zu gehen"
+      ],
+      "ru": [
+        "Активно общаться с другими, получать удовольствие",
+        "Говорить с знакомыми, иногда встречать новых людей",
+        "Наблюдать со стороны, мало говорить",
+        "Искать угол, надеюсь уйти рано"
+      ],
+      "fr": [
+        "Communiquer activement avec les autres, profiter",
+        "Parler avec des connaissances, rencontrer occasionnellement de nouvelles personnes",
+        "Observer de côté, pas beaucoup parler",
+        "Trouver un coin, espérer partir tôt"
+      ]
+    }
   },
   {
     "id": 13,
@@ -929,76 +605,49 @@
     "trait_cn": "外向性",
     "text": "新认识一个人时，你会？",
     "translations": {
-      "zh": {
-        "text": "新认识一个人时，你会？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 新认识一个人时，你会？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 新认识一个人时，你会？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 新认识一个人时，你会？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 新认识一个人时，你会？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 新认识一个人时，你会？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 新认识一个人时，你会？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "主动与人交流，享受其中",
+        "与熟人交谈，偶尔结识新人",
+        "在一旁观察，不多说话",
+        "寻找角落，希望早点离开"
+      ],
+      "en": [
+        "Actively communicate with others, enjoy it",
+        "Talk with acquaintances, occasionally meet new people",
+        "Observe from the side, don't talk much",
+        "Find a corner, hope to leave early"
+      ],
+      "es": [
+        "Comunicarme activamente con otros, disfrutarlo",
+        "Hablar con conocidos, ocasionalmente conocer gente nueva",
+        "Observar desde un lado, no hablar mucho",
+        "Buscar un rincón, esperar salir temprano"
+      ],
+      "ja": [
+        "積極的に他人と交流し楽しむ",
+        "知人と話し、たまに新しい人に出会う",
+        "横で観察しあまり話さない",
+        "隅を見つけて早く去りたい"
+      ],
+      "de": [
+        "Aktiv mit anderen kommunizieren, es genießen",
+        "Mit Bekannten sprechen, gelegentlich neue Leute treffen",
+        "Von der Seite beobachten, nicht viel reden",
+        "Eine Ecke suchen, hoffe früh zu gehen"
+      ],
+      "ru": [
+        "Активно общаться с другими, получать удовольствие",
+        "Говорить с знакомыми, иногда встречать новых людей",
+        "Наблюдать со стороны, мало говорить",
+        "Искать угол, надеюсь уйти рано"
+      ],
+      "fr": [
+        "Communiquer activement avec les autres, profiter",
+        "Parler avec des connaissances, rencontrer occasionnellement de nouvelles personnes",
+        "Observer de côté, pas beaucoup parler",
+        "Trouver un coin, espérer partir tôt"
+      ]
+    }
   },
   {
     "id": 14,
@@ -1006,76 +655,49 @@
     "trait_cn": "外向性",
     "text": "团队项目中，你通常扮演什么角色？",
     "translations": {
-      "zh": {
-        "text": "团队项目中，你通常扮演什么角色？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 团队项目中，你通常扮演什么角色？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 团队项目中，你通常扮演什么角色？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 团队项目中，你通常扮演什么角色？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 团队项目中，你通常扮演什么角色？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 团队项目中，你通常扮演什么角色？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 团队项目中，你通常扮演什么角色？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "主动与人交流，享受其中",
+        "与熟人交谈，偶尔结识新人",
+        "在一旁观察，不多说话",
+        "寻找角落，希望早点离开"
+      ],
+      "en": [
+        "Actively communicate with others, enjoy it",
+        "Talk with acquaintances, occasionally meet new people",
+        "Observe from the side, don't talk much",
+        "Find a corner, hope to leave early"
+      ],
+      "es": [
+        "Comunicarme activamente con otros, disfrutarlo",
+        "Hablar con conocidos, ocasionalmente conocer gente nueva",
+        "Observar desde un lado, no hablar mucho",
+        "Buscar un rincón, esperar salir temprano"
+      ],
+      "ja": [
+        "積極的に他人と交流し楽しむ",
+        "知人と話し、たまに新しい人に出会う",
+        "横で観察しあまり話さない",
+        "隅を見つけて早く去りたい"
+      ],
+      "de": [
+        "Aktiv mit anderen kommunizieren, es genießen",
+        "Mit Bekannten sprechen, gelegentlich neue Leute treffen",
+        "Von der Seite beobachten, nicht viel reden",
+        "Eine Ecke suchen, hoffe früh zu gehen"
+      ],
+      "ru": [
+        "Активно общаться с другими, получать удовольствие",
+        "Говорить с знакомыми, иногда встречать новых людей",
+        "Наблюдать со стороны, мало говорить",
+        "Искать угол, надеюсь уйти рано"
+      ],
+      "fr": [
+        "Communiquer activement avec les autres, profiter",
+        "Parler avec des connaissances, rencontrer occasionnellement de nouvelles personnes",
+        "Observer de côté, pas beaucoup parler",
+        "Trouver un coin, espérer partir tôt"
+      ]
+    }
   },
   {
     "id": 15,
@@ -1083,76 +705,49 @@
     "trait_cn": "外向性",
     "text": "参加完大型活动后，你通常需要？",
     "translations": {
-      "zh": {
-        "text": "参加完大型活动后，你通常需要？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 参加完大型活动后，你通常需要？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 参加完大型活动后，你通常需要？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 参加完大型活动后，你通常需要？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 参加完大型活动后，你通常需要？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 参加完大型活动后，你通常需要？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 参加完大型活动后，你通常需要？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "主动与人交流，享受其中",
+        "与熟人交谈，偶尔结识新人",
+        "在一旁观察，不多说话",
+        "寻找角落，希望早点离开"
+      ],
+      "en": [
+        "Actively communicate with others, enjoy it",
+        "Talk with acquaintances, occasionally meet new people",
+        "Observe from the side, don't talk much",
+        "Find a corner, hope to leave early"
+      ],
+      "es": [
+        "Comunicarme activamente con otros, disfrutarlo",
+        "Hablar con conocidos, ocasionalmente conocer gente nueva",
+        "Observar desde un lado, no hablar mucho",
+        "Buscar un rincón, esperar salir temprano"
+      ],
+      "ja": [
+        "積極的に他人と交流し楽しむ",
+        "知人と話し、たまに新しい人に出会う",
+        "横で観察しあまり話さない",
+        "隅を見つけて早く去りたい"
+      ],
+      "de": [
+        "Aktiv mit anderen kommunizieren, es genießen",
+        "Mit Bekannten sprechen, gelegentlich neue Leute treffen",
+        "Von der Seite beobachten, nicht viel reden",
+        "Eine Ecke suchen, hoffe früh zu gehen"
+      ],
+      "ru": [
+        "Активно общаться с другими, получать удовольствие",
+        "Говорить с знакомыми, иногда встречать новых людей",
+        "Наблюдать со стороны, мало говорить",
+        "Искать угол, надеюсь уйти рано"
+      ],
+      "fr": [
+        "Communiquer activement avec les autres, profiter",
+        "Parler avec des connaissances, rencontrer occasionnellement de nouvelles personnes",
+        "Observer de côté, pas beaucoup parler",
+        "Trouver un coin, espérer partir tôt"
+      ]
+    }
   },
   {
     "id": 16,
@@ -1160,76 +755,49 @@
     "trait_cn": "宜人性",
     "text": "当别人和你意见不同时，你会？",
     "translations": {
-      "zh": {
-        "text": "当别人和你意见不同时，你会？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 当别人和你意见不同时，你会？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 当别人和你意见不同时，你会？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 当别人和你意见不同时，你会？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 当别人和你意见不同时，你会？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 当别人和你意见不同时，你会？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 当别人和你意见不同时，你会？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "理解包容，寻求共识",
+        "坚持己见，据理力争",
+        "保持距离，避免冲突",
+        "顺从妥协，不想争论"
+      ],
+      "en": [
+        "Understand and seek consensus",
+        "Stand your ground, argue your case",
+        "Keep distance, avoid conflict",
+        "Comply and compromise, don't want to argue"
+      ],
+      "es": [
+        "Entender y buscar consenso",
+        "Mantener tu postura, argumentar tu caso",
+        "Mantener distancia, evitar conflicto",
+        "Cumplir y comprometerse, no quiero discutir"
+      ],
+      "ja": [
+        "理解し合意を求める",
+        "自分の立場を貫き、主張する",
+        "距離を保ち、衝突を避ける",
+        "従い妥協し、議論したくない"
+      ],
+      "de": [
+        "Verstehen und Konsens suchen",
+        "An Ihrer Position festhalten, Ihren Fall argumentieren",
+        "Distanz wahren, Konflikt vermeiden",
+        "Zustimmen und kompromittieren, nicht streiten wollen"
+      ],
+      "ru": [
+        "Понимать и искать консенсус",
+        "Настаивать на своем, спорить",
+        "Держать дистанцию, избегать конфликта",
+        "Соглашаться и компромисс, не хочу спорить"
+      ],
+      "fr": [
+        "Comprendre et chercher consensus",
+        "Rester ferme sur votre position, argumenter",
+        "Garder vos distances, éviter le conflit",
+        "Se conformer et faire des compromis, ne pas vouloir discuter"
+      ]
+    }
   },
   {
     "id": 17,
@@ -1237,76 +805,49 @@
     "trait_cn": "宜人性",
     "text": "你更愿意相信大多数人还是坚持自己的观点？",
     "translations": {
-      "zh": {
-        "text": "你更愿意相信大多数人还是坚持自己的观点？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你更愿意相信大多数人还是坚持自己的观点？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你更愿意相信大多数人还是坚持自己的观点？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你更愿意相信大多数人还是坚持自己的观点？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你更愿意相信大多数人还是坚持自己的观点？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你更愿意相信大多数人还是坚持自己的观点？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你更愿意相信大多数人还是坚持自己的观点？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "理解包容，寻求共识",
+        "坚持己见，据理力争",
+        "保持距离，避免冲突",
+        "顺从妥协，不想争论"
+      ],
+      "en": [
+        "Understand and seek consensus",
+        "Stand your ground, argue your case",
+        "Keep distance, avoid conflict",
+        "Comply and compromise, don't want to argue"
+      ],
+      "es": [
+        "Entender y buscar consenso",
+        "Mantener tu postura, argumentar tu caso",
+        "Mantener distancia, evitar conflicto",
+        "Cumplir y comprometerse, no quiero discutir"
+      ],
+      "ja": [
+        "理解し合意を求める",
+        "自分の立場を貫き、主張する",
+        "距離を保ち、衝突を避ける",
+        "従い妥協し、議論したくない"
+      ],
+      "de": [
+        "Verstehen und Konsens suchen",
+        "An Ihrer Position festhalten, Ihren Fall argumentieren",
+        "Distanz wahren, Konflikt vermeiden",
+        "Zustimmen und kompromittieren, nicht streiten wollen"
+      ],
+      "ru": [
+        "Понимать и искать консенсус",
+        "Настаивать на своем, спорить",
+        "Держать дистанцию, избегать конфликта",
+        "Соглашаться и компромисс, не хочу спорить"
+      ],
+      "fr": [
+        "Comprendre et chercher consensus",
+        "Rester ferme sur votre position, argumenter",
+        "Garder vos distances, éviter le conflit",
+        "Se conformer et faire des compromis, ne pas vouloir discuter"
+      ]
+    }
   },
   {
     "id": 18,
@@ -1314,76 +855,49 @@
     "trait_cn": "宜人性",
     "text": "对于不熟悉的人，你的态度是？",
     "translations": {
-      "zh": {
-        "text": "对于不熟悉的人，你的态度是？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 对于不熟悉的人，你的态度是？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 对于不熟悉的人，你的态度是？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 对于不熟悉的人，你的态度是？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 对于不熟悉的人，你的态度是？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 对于不熟悉的人，你的态度是？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 对于不熟悉的人，你的态度是？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "理解包容，寻求共识",
+        "坚持己见，据理力争",
+        "保持距离，避免冲突",
+        "顺从妥协，不想争论"
+      ],
+      "en": [
+        "Understand and seek consensus",
+        "Stand your ground, argue your case",
+        "Keep distance, avoid conflict",
+        "Comply and compromise, don't want to argue"
+      ],
+      "es": [
+        "Entender y buscar consenso",
+        "Mantener tu postura, argumentar tu caso",
+        "Mantener distancia, evitar conflicto",
+        "Cumplir y comprometerse, no quiero discutir"
+      ],
+      "ja": [
+        "理解し合意を求める",
+        "自分の立場を貫き、主張する",
+        "距離を保ち、衝突を避ける",
+        "従い妥協し、議論したくない"
+      ],
+      "de": [
+        "Verstehen und Konsens suchen",
+        "An Ihrer Position festhalten, Ihren Fall argumentieren",
+        "Distanz wahren, Konflikt vermeiden",
+        "Zustimmen und kompromittieren, nicht streiten wollen"
+      ],
+      "ru": [
+        "Понимать и искать консенсус",
+        "Настаивать на своем, спорить",
+        "Держать дистанцию, избегать конфликта",
+        "Соглашаться и компромисс, не хочу спорить"
+      ],
+      "fr": [
+        "Comprendre et chercher consensus",
+        "Rester ferme sur votre position, argumenter",
+        "Garder vos distances, éviter le conflit",
+        "Se conformer et faire des compromis, ne pas vouloir discuter"
+      ]
+    }
   },
   {
     "id": 19,
@@ -1391,76 +905,49 @@
     "trait_cn": "宜人性",
     "text": "团队合作中，你更愿意？",
     "translations": {
-      "zh": {
-        "text": "团队合作中，你更愿意？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 团队合作中，你更愿意？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 团队合作中，你更愿意？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 团队合作中，你更愿意？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 团队合作中，你更愿意？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 团队合作中，你更愿意？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 团队合作中，你更愿意？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "理解包容，寻求共识",
+        "坚持己见，据理力争",
+        "保持距离，避免冲突",
+        "顺从妥协，不想争论"
+      ],
+      "en": [
+        "Understand and seek consensus",
+        "Stand your ground, argue your case",
+        "Keep distance, avoid conflict",
+        "Comply and compromise, don't want to argue"
+      ],
+      "es": [
+        "Entender y buscar consenso",
+        "Mantener tu postura, argumentar tu caso",
+        "Mantener distancia, evitar conflicto",
+        "Cumplir y comprometerse, no quiero discutir"
+      ],
+      "ja": [
+        "理解し合意を求める",
+        "自分の立場を貫き、主張する",
+        "距離を保ち、衝突を避ける",
+        "従い妥協し、議論したくない"
+      ],
+      "de": [
+        "Verstehen und Konsens suchen",
+        "An Ihrer Position festhalten, Ihren Fall argumentieren",
+        "Distanz wahren, Konflikt vermeiden",
+        "Zustimmen und kompromittieren, nicht streiten wollen"
+      ],
+      "ru": [
+        "Понимать и искать консенсус",
+        "Настаивать на своем, спорить",
+        "Держать дистанцию, избегать конфликта",
+        "Соглашаться и компромисс, не хочу спорить"
+      ],
+      "fr": [
+        "Comprendre et chercher consensus",
+        "Rester ferme sur votre position, argumenter",
+        "Garder vos distances, éviter le conflit",
+        "Se conformer et faire des compromis, ne pas vouloir discuter"
+      ]
+    }
   },
   {
     "id": 20,
@@ -1468,461 +955,299 @@
     "trait_cn": "宜人性",
     "text": "当有人需要帮助时，你会？",
     "translations": {
-      "zh": {
-        "text": "当有人需要帮助时，你会？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 当有人需要帮助时，你会？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 当有人需要帮助时，你会？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 当有人需要帮助时，你会？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 当有人需要帮助时，你会？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 当有人需要帮助时，你会？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 当有人需要帮助时，你会？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "理解包容，寻求共识",
+        "坚持己见，据理力争",
+        "保持距离，避免冲突",
+        "顺从妥协，不想争论"
+      ],
+      "en": [
+        "Understand and seek consensus",
+        "Stand your ground, argue your case",
+        "Keep distance, avoid conflict",
+        "Comply and compromise, don't want to argue"
+      ],
+      "es": [
+        "Entender y buscar consenso",
+        "Mantener tu postura, argumentar tu caso",
+        "Mantener distancia, evitar conflicto",
+        "Cumplir y comprometerse, no quiero discutir"
+      ],
+      "ja": [
+        "理解し合意を求める",
+        "自分の立場を貫き、主張する",
+        "距離を保ち、衝突を避ける",
+        "従い妥協し、議論したくない"
+      ],
+      "de": [
+        "Verstehen und Konsens suchen",
+        "An Ihrer Position festhalten, Ihren Fall argumentieren",
+        "Distanz wahren, Konflikt vermeiden",
+        "Zustimmen und kompromittieren, nicht streiten wollen"
+      ],
+      "ru": [
+        "Понимать и искать консенсус",
+        "Настаивать на своем, спорить",
+        "Держать дистанцию, избегать конфликта",
+        "Соглашаться и компромисс, не хочу спорить"
+      ],
+      "fr": [
+        "Comprendre et chercher consensus",
+        "Rester ferme sur votre position, argumenter",
+        "Garder vos distances, éviter le conflit",
+        "Se conformer et faire des compromis, ne pas vouloir discuter"
+      ]
+    }
   },
   {
     "id": 21,
     "trait": "neuroticism",
-    "trait_cn": "",
+    "trait_cn": "情绪稳定性",
     "text": "面对压力时，你的反应是？",
     "translations": {
-      "zh": {
-        "text": "面对压力时，你的反应是？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 面对压力时，你的反应是？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 面对压力时，你的反应是？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 面对压力时，你的反应是？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 面对压力时，你的反应是？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 面对压力时，你的反应是？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 面对压力时，你的反应是？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "从容应对，很快恢复",
+        "适度紧张，但能控制",
+        "容易焦虑，需要时间平复",
+        "经常焦虑，难以放松"
+      ],
+      "en": [
+        "Handle calmly, recover quickly",
+        "Moderately nervous, but can control",
+        "Easily anxious, need time to calm down",
+        "Often anxious, hard to relax"
+      ],
+      "es": [
+        "Manejar con calma, recuperarse rápidamente",
+        "Moderadamente nervioso, pero puedo controlar",
+        "Fácilmente ansioso, necesito tiempo para calmarme",
+        "A menudo ansioso, difícil relajarse"
+      ],
+      "ja": [
+        "落ち着いて対応し、すぐに回復する",
+        "適度に緊張するがコントロールできる",
+        "簡単に不安になり、落ち着くのに時間がかかる",
+        "頻繁に不安で、リラックス难以"
+      ],
+      "de": [
+        "Ruhig handeln, schnell erholen",
+        "Mäßig nervös, aber kontrollieren können",
+        "Leicht ängstlich, brauche Zeit zum Beruhigen",
+        "Oft ängstlich, schwer zu entspannen"
+      ],
+      "ru": [
+        "Спокойно справляться, быстро восстановиться",
+        "Умеренно нервно, но могу контролировать",
+        "Легко тревожусь, нужно время чтобы успокоиться",
+        "Часто тревожусь, трудно расслабиться"
+      ],
+      "fr": [
+        "Gérer calmement, récupérer rapidement",
+        "Modérément nerveux, mais peux contrôler",
+        "Facilement anxieux, besoin de temps pour me calmer",
+        "Souvent anxieux, difficile de se détendre"
+      ]
+    }
   },
   {
     "id": 22,
     "trait": "neuroticism",
-    "trait_cn": "",
+    "trait_cn": "情绪稳定性",
     "text": "你对未来的担忧程度如何？",
     "translations": {
-      "zh": {
-        "text": "你对未来的担忧程度如何？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你对未来的担忧程度如何？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你对未来的担忧程度如何？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你对未来的担忧程度如何？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你对未来的担忧程度如何？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你对未来的担忧程度如何？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你对未来的担忧程度如何？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "从容应对，很快恢复",
+        "适度紧张，但能控制",
+        "容易焦虑，需要时间平复",
+        "经常焦虑，难以放松"
+      ],
+      "en": [
+        "Handle calmly, recover quickly",
+        "Moderately nervous, but can control",
+        "Easily anxious, need time to calm down",
+        "Often anxious, hard to relax"
+      ],
+      "es": [
+        "Manejar con calma, recuperarse rápidamente",
+        "Moderadamente nervioso, pero puedo controlar",
+        "Fácilmente ansioso, necesito tiempo para calmarme",
+        "A menudo ansioso, difícil relajarse"
+      ],
+      "ja": [
+        "落ち着いて対応し、すぐに回復する",
+        "適度に緊張するがコントロールできる",
+        "簡単に不安になり、落ち着くのに時間がかかる",
+        "頻繁に不安で、リラックス难以"
+      ],
+      "de": [
+        "Ruhig handeln, schnell erholen",
+        "Mäßig nervös, aber kontrollieren können",
+        "Leicht ängstlich, brauche Zeit zum Beruhigen",
+        "Oft ängstlich, schwer zu entspannen"
+      ],
+      "ru": [
+        "Спокойно справляться, быстро восстановиться",
+        "Умеренно нервно, но могу контролировать",
+        "Легко тревожусь, нужно время чтобы успокоиться",
+        "Часто тревожусь, трудно расслабиться"
+      ],
+      "fr": [
+        "Gérer calmement, récupérer rapidement",
+        "Modérément nerveux, mais peux contrôler",
+        "Facilement anxieux, besoin de temps pour me calmer",
+        "Souvent anxieux, difficile de se détendre"
+      ]
+    }
   },
   {
     "id": 23,
     "trait": "neuroticism",
-    "trait_cn": "",
+    "trait_cn": "情绪稳定性",
     "text": "遇到挫折时，你通常？",
     "translations": {
-      "zh": {
-        "text": "遇到挫折时，你通常？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 遇到挫折时，你通常？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 遇到挫折时，你通常？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 遇到挫折时，你通常？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 遇到挫折时，你通常？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 遇到挫折时，你通常？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 遇到挫折时，你通常？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "从容应对，很快恢复",
+        "适度紧张，但能控制",
+        "容易焦虑，需要时间平复",
+        "经常焦虑，难以放松"
+      ],
+      "en": [
+        "Handle calmly, recover quickly",
+        "Moderately nervous, but can control",
+        "Easily anxious, need time to calm down",
+        "Often anxious, hard to relax"
+      ],
+      "es": [
+        "Manejar con calma, recuperarse rápidamente",
+        "Moderadamente nervioso, pero puedo controlar",
+        "Fácilmente ansioso, necesito tiempo para calmarme",
+        "A menudo ansioso, difícil relajarse"
+      ],
+      "ja": [
+        "落ち着いて対応し、すぐに回復する",
+        "適度に緊張するがコントロールできる",
+        "簡単に不安になり、落ち着くのに時間がかかる",
+        "頻繁に不安で、リラックス难以"
+      ],
+      "de": [
+        "Ruhig handeln, schnell erholen",
+        "Mäßig nervös, aber kontrollieren können",
+        "Leicht ängstlich, brauche Zeit zum Beruhigen",
+        "Oft ängstlich, schwer zu entspannen"
+      ],
+      "ru": [
+        "Спокойно справляться, быстро восстановиться",
+        "Умеренно нервно, но могу контролировать",
+        "Легко тревожусь, нужно время чтобы успокоиться",
+        "Часто тревожусь, трудно расслабиться"
+      ],
+      "fr": [
+        "Gérer calmement, récupérer rapidement",
+        "Modérément nerveux, mais peux contrôler",
+        "Facilement anxieux, besoin de temps pour me calmer",
+        "Souvent anxieux, difficile de se détendre"
+      ]
+    }
   },
   {
     "id": 24,
     "trait": "neuroticism",
-    "trait_cn": "",
+    "trait_cn": "情绪稳定性",
     "text": "你的情绪波动大吗？",
     "translations": {
-      "zh": {
-        "text": "你的情绪波动大吗？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你的情绪波动大吗？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你的情绪波动大吗？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你的情绪波动大吗？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你的情绪波动大吗？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你的情绪波动大吗？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你的情绪波动大吗？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "从容应对，很快恢复",
+        "适度紧张，但能控制",
+        "容易焦虑，需要时间平复",
+        "经常焦虑，难以放松"
+      ],
+      "en": [
+        "Handle calmly, recover quickly",
+        "Moderately nervous, but can control",
+        "Easily anxious, need time to calm down",
+        "Often anxious, hard to relax"
+      ],
+      "es": [
+        "Manejar con calma, recuperarse rápidamente",
+        "Moderadamente nervioso, pero puedo controlar",
+        "Fácilmente ansioso, necesito tiempo para calmarme",
+        "A menudo ansioso, difícil relajarse"
+      ],
+      "ja": [
+        "落ち着いて対応し、すぐに回復する",
+        "適度に緊張するがコントロールできる",
+        "簡単に不安になり、落ち着くのに時間がかかる",
+        "頻繁に不安で、リラックス难以"
+      ],
+      "de": [
+        "Ruhig handeln, schnell erholen",
+        "Mäßig nervös, aber kontrollieren können",
+        "Leicht ängstlich, brauche Zeit zum Beruhigen",
+        "Oft ängstlich, schwer zu entspannen"
+      ],
+      "ru": [
+        "Спокойно справляться, быстро восстановиться",
+        "Умеренно нервно, но могу контролировать",
+        "Легко тревожусь, нужно время чтобы успокоиться",
+        "Часто тревожусь, трудно расслабиться"
+      ],
+      "fr": [
+        "Gérer calmement, récupérer rapidement",
+        "Modérément nerveux, mais peux contrôler",
+        "Facilement anxieux, besoin de temps pour me calmer",
+        "Souvent anxieux, difficile de se détendre"
+      ]
+    }
   },
   {
     "id": 25,
     "trait": "neuroticism",
-    "trait_cn": "",
+    "trait_cn": "情绪稳定性",
     "text": "你容易焦虑吗？",
     "translations": {
-      "zh": {
-        "text": "你容易焦虑吗？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你容易焦虑吗？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你容易焦虑吗？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你容易焦虑吗？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你容易焦虑吗？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你容易焦虑吗？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你容易焦虑吗？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "从容应对，很快恢复",
+        "适度紧张，但能控制",
+        "容易焦虑，需要时间平复",
+        "经常焦虑，难以放松"
+      ],
+      "en": [
+        "Handle calmly, recover quickly",
+        "Moderately nervous, but can control",
+        "Easily anxious, need time to calm down",
+        "Often anxious, hard to relax"
+      ],
+      "es": [
+        "Manejar con calma, recuperarse rápidamente",
+        "Moderadamente nervioso, pero puedo controlar",
+        "Fácilmente ansioso, necesito tiempo para calmarme",
+        "A menudo ansioso, difícil relajarse"
+      ],
+      "ja": [
+        "落ち着いて対応し、すぐに回復する",
+        "適度に緊張するがコントロールできる",
+        "簡単に不安になり、落ち着くのに時間がかかる",
+        "頻繁に不安で、リラックス难以"
+      ],
+      "de": [
+        "Ruhig handeln, schnell erholen",
+        "Mäßig nervös, aber kontrollieren können",
+        "Leicht ängstlich, brauche Zeit zum Beruhigen",
+        "Oft ängstlich, schwer zu entspannen"
+      ],
+      "ru": [
+        "Спокойно справляться, быстро восстановиться",
+        "Умеренно нервно, но могу контролировать",
+        "Легко тревожусь, нужно время чтобы успокоиться",
+        "Часто тревожусь, трудно расслабиться"
+      ],
+      "fr": [
+        "Gérer calmement, récupérer rapidement",
+        "Modérément nerveux, mais peux contrôler",
+        "Facilement anxieux, besoin de temps pour me calmer",
+        "Souvent anxieux, difficile de se détendre"
+      ]
+    }
   },
   {
     "id": 26,
@@ -1930,76 +1255,49 @@
     "trait_cn": "领导力",
     "text": "在团队中，你更愿意？",
     "translations": {
-      "zh": {
-        "text": "在团队中，你更愿意？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 在团队中，你更愿意？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 在团队中，你更愿意？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 在团队中，你更愿意？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 在团队中，你更愿意？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 在团队中，你更愿意？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 在团队中，你更愿意？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "主动承担领导责任",
+        "积极参与讨论",
+        "配合他人，执行任务",
+        "较少参与决策"
+      ],
+      "en": [
+        "Take initiative to lead",
+        "Actively participate in discussion",
+        "Cooperate with others, execute tasks",
+        "Less involved in decision making"
+      ],
+      "es": [
+        "Tomar la iniciativa de liderar",
+        "Participar activamente en la discusión",
+        "Cooperar con otros, ejecutar tareas",
+        "Menos involucrado en la toma de decisiones"
+      ],
+      "ja": [
+        "リーダーシップを取るのが好き",
+        "議論に積極的に参加する",
+        "他人と協力し、タスクを執行する",
+        "意思決定への参加は少ない"
+      ],
+      "de": [
+        "Initiative ergreifen zu führen",
+        "Aktiv an der Diskussion teilnehmen",
+        "Mit anderen zusammenarbeiten, Aufgaben ausführen",
+        "Weniger in Entscheidungsprozessen involviert"
+      ],
+      "ru": [
+        "Взять на себя ответственность лидера",
+        "Активно участвовать в обсуждении",
+        "Сотрудничать с другими, выполнять задачи",
+        "Мало участвует в принятии решений"
+      ],
+      "fr": [
+        "Prendre l'initiative de diriger",
+        "Participer activement à la discussion",
+        "Coopérer avec les autres, exécuter les tâches",
+        "Moins impliqué dans la prise de décision"
+      ]
+    }
   },
   {
     "id": 27,
@@ -2007,76 +1305,49 @@
     "trait_cn": "领导力",
     "text": "面对分歧时，你会？",
     "translations": {
-      "zh": {
-        "text": "面对分歧时，你会？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 面对分歧时，你会？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 面对分歧时，你会？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 面对分歧时，你会？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 面对分歧时，你会？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 面对分歧时，你会？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 面对分歧时，你会？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "主动承担领导责任",
+        "积极参与讨论",
+        "配合他人，执行任务",
+        "较少参与决策"
+      ],
+      "en": [
+        "Take initiative to lead",
+        "Actively participate in discussion",
+        "Cooperate with others, execute tasks",
+        "Less involved in decision making"
+      ],
+      "es": [
+        "Tomar la iniciativa de liderar",
+        "Participar activamente en la discusión",
+        "Cooperar con otros, ejecutar tareas",
+        "Menos involucrado en la toma de decisiones"
+      ],
+      "ja": [
+        "リーダーシップを取るのが好き",
+        "議論に積極的に参加する",
+        "他人と協力し、タスクを執行する",
+        "意思決定への参加は少ない"
+      ],
+      "de": [
+        "Initiative ergreifen zu führen",
+        "Aktiv an der Diskussion teilnehmen",
+        "Mit anderen zusammenarbeiten, Aufgaben ausführen",
+        "Weniger in Entscheidungsprozessen involviert"
+      ],
+      "ru": [
+        "Взять на себя ответственность лидера",
+        "Активно участвовать в обсуждении",
+        "Сотрудничать с другими, выполнять задачи",
+        "Мало участвует в принятии решений"
+      ],
+      "fr": [
+        "Prendre l'initiative de diriger",
+        "Participer activement à la discussion",
+        "Coopérer avec les autres, exécuter les tâches",
+        "Moins impliqué dans la prise de décision"
+      ]
+    }
   },
   {
     "id": 28,
@@ -2084,76 +1355,49 @@
     "trait_cn": "领导力",
     "text": "分配任务时，你通常？",
     "translations": {
-      "zh": {
-        "text": "分配任务时，你通常？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 分配任务时，你通常？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 分配任务时，你通常？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 分配任务时，你通常？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 分配任务时，你通常？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 分配任务时，你通常？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 分配任务时，你通常？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "主动承担领导责任",
+        "积极参与讨论",
+        "配合他人，执行任务",
+        "较少参与决策"
+      ],
+      "en": [
+        "Take initiative to lead",
+        "Actively participate in discussion",
+        "Cooperate with others, execute tasks",
+        "Less involved in decision making"
+      ],
+      "es": [
+        "Tomar la iniciativa de liderar",
+        "Participar activamente en la discusión",
+        "Cooperar con otros, ejecutar tareas",
+        "Menos involucrado en la toma de decisiones"
+      ],
+      "ja": [
+        "リーダーシップを取るのが好き",
+        "議論に積極的に参加する",
+        "他人と協力し、タスクを執行する",
+        "意思決定への参加は少ない"
+      ],
+      "de": [
+        "Initiative ergreifen zu führen",
+        "Aktiv an der Diskussion teilnehmen",
+        "Mit anderen zusammenarbeiten, Aufgaben ausführen",
+        "Weniger in Entscheidungsprozessen involviert"
+      ],
+      "ru": [
+        "Взять на себя ответственность лидера",
+        "Активно участвовать в обсуждении",
+        "Сотрудничать с другими, выполнять задачи",
+        "Мало участвует в принятии решений"
+      ],
+      "fr": [
+        "Prendre l'initiative de diriger",
+        "Participer activement à la discussion",
+        "Coopérer avec les autres, exécuter les tâches",
+        "Moins impliqué dans la prise de décision"
+      ]
+    }
   },
   {
     "id": 29,
@@ -2161,76 +1405,49 @@
     "trait_cn": "领导力",
     "text": "团队遇到困难时，你？",
     "translations": {
-      "zh": {
-        "text": "团队遇到困难时，你？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 团队遇到困难时，你？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 团队遇到困难时，你？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 团队遇到困难时，你？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 团队遇到困难时，你？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 团队遇到困难时，你？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 团队遇到困难时，你？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "主动承担领导责任",
+        "积极参与讨论",
+        "配合他人，执行任务",
+        "较少参与决策"
+      ],
+      "en": [
+        "Take initiative to lead",
+        "Actively participate in discussion",
+        "Cooperate with others, execute tasks",
+        "Less involved in decision making"
+      ],
+      "es": [
+        "Tomar la iniciativa de liderar",
+        "Participar activamente en la discusión",
+        "Cooperar con otros, ejecutar tareas",
+        "Menos involucrado en la toma de decisiones"
+      ],
+      "ja": [
+        "リーダーシップを取るのが好き",
+        "議論に積極的に参加する",
+        "他人と協力し、タスクを執行する",
+        "意思決定への参加は少ない"
+      ],
+      "de": [
+        "Initiative ergreifen zu führen",
+        "Aktiv an der Diskussion teilnehmen",
+        "Mit anderen zusammenarbeiten, Aufgaben ausführen",
+        "Weniger in Entscheidungsprozessen involviert"
+      ],
+      "ru": [
+        "Взять на себя ответственность лидера",
+        "Активно участвовать в обсуждении",
+        "Сотрудничать с другими, выполнять задачи",
+        "Мало участвует в принятии решений"
+      ],
+      "fr": [
+        "Prendre l'initiative de diriger",
+        "Participer activement à la discussion",
+        "Coopérer avec les autres, exécuter les tâches",
+        "Moins impliqué dans la prise de décision"
+      ]
+    }
   },
   {
     "id": 30,
@@ -2238,76 +1455,49 @@
     "trait_cn": "领导力",
     "text": "对于团队目标，你？",
     "translations": {
-      "zh": {
-        "text": "对于团队目标，你？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 对于团队目标，你？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 对于团队目标，你？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 对于团队目标，你？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 对于团队目标，你？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 对于团队目标，你？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 对于团队目标，你？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "主动承担领导责任",
+        "积极参与讨论",
+        "配合他人，执行任务",
+        "较少参与决策"
+      ],
+      "en": [
+        "Take initiative to lead",
+        "Actively participate in discussion",
+        "Cooperate with others, execute tasks",
+        "Less involved in decision making"
+      ],
+      "es": [
+        "Tomar la iniciativa de liderar",
+        "Participar activamente en la discusión",
+        "Cooperar con otros, ejecutar tareas",
+        "Menos involucrado en la toma de decisiones"
+      ],
+      "ja": [
+        "リーダーシップを取るのが好き",
+        "議論に積極的に参加する",
+        "他人と協力し、タスクを執行する",
+        "意思決定への参加は少ない"
+      ],
+      "de": [
+        "Initiative ergreifen zu führen",
+        "Aktiv an der Diskussion teilnehmen",
+        "Mit anderen zusammenarbeiten, Aufgaben ausführen",
+        "Weniger in Entscheidungsprozessen involviert"
+      ],
+      "ru": [
+        "Взять на себя ответственность лидера",
+        "Активно участвовать в обсуждении",
+        "Сотрудничать с другими, выполнять задачи",
+        "Мало участвует в принятии решений"
+      ],
+      "fr": [
+        "Prendre l'initiative de diriger",
+        "Participer activement à la discussion",
+        "Coopérer avec les autres, exécuter les tâches",
+        "Moins impliqué dans la prise de décision"
+      ]
+    }
   },
   {
     "id": 31,
@@ -2315,76 +1505,49 @@
     "trait_cn": "风险偏好",
     "text": "面对高风险高回报的机会，你会？",
     "translations": {
-      "zh": {
-        "text": "面对高风险高回报的机会，你会？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 面对高风险高回报的机会，你会？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 面对高风险高回报的机会，你会？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 面对高风险高回报的机会，你会？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 面对高风险高回报的机会，你会？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 面对高风险高回报的机会，你会？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 面对高风险高回报的机会，你会？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "果断接受，敢于冒险",
+        "谨慎评估，适度冒险",
+        "偏向保守，规避风险",
+        "坚决拒绝，安全第一"
+      ],
+      "en": [
+        "Decisively accept, dare to take risks",
+        "Carefully evaluate, moderate risk",
+        "Lean conservative, avoid risks",
+        "Firmly refuse, safety first"
+      ],
+      "es": [
+        "Aceptar decididamente, atreverse a correr riesgos",
+        "Evaluar cuidadosamente, riesgo moderado",
+        "Tender conservador, evitar riesgos",
+        "Rechazar firmemente, seguridad primero"
+      ],
+      "ja": [
+        "断固として受け入れ、冒険する",
+        "慎重に評価し、適度なリスク",
+        "保守的に傾き、リスクを回避",
+        "坚决に拒绝し、安全第一"
+      ],
+      "de": [
+        "Entschieden akzeptieren, Risiken eingehen",
+        "Sorgfältig bewerten, moderates Risiko",
+        "Konservativ neigen, Risiken vermeiden",
+        "Bestimmt ablehnen, Sicherheit zuerst"
+      ],
+      "ru": [
+        "Решительно принять, осмелиться рисковать",
+        "Тщательно оценить, умеренный риск",
+        "Склоняться к консерватизму, избегать рисков",
+        "Категорически отказаться, безопасность прежде всего"
+      ],
+      "fr": [
+        "Accepter décisivement, oser prendre des risques",
+        "Évaluer soigneusement, risque modéré",
+        "Tendre vers la prudence, éviter les risques",
+        "Refuser fermement, sécurité d'abord"
+      ]
+    }
   },
   {
     "id": 32,
@@ -2392,76 +1555,49 @@
     "trait_cn": "风险偏好",
     "text": "做重大决定时，你通常？",
     "translations": {
-      "zh": {
-        "text": "做重大决定时，你通常？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 做重大决定时，你通常？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 做重大决定时，你通常？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 做重大决定时，你通常？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 做重大决定时，你通常？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 做重大决定时，你通常？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 做重大决定时，你通常？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "果断接受，敢于冒险",
+        "谨慎评估，适度冒险",
+        "偏向保守，规避风险",
+        "坚决拒绝，安全第一"
+      ],
+      "en": [
+        "Decisively accept, dare to take risks",
+        "Carefully evaluate, moderate risk",
+        "Lean conservative, avoid risks",
+        "Firmly refuse, safety first"
+      ],
+      "es": [
+        "Aceptar decididamente, atreverse a correr riesgos",
+        "Evaluar cuidadosamente, riesgo moderado",
+        "Tender conservador, evitar riesgos",
+        "Rechazar firmemente, seguridad primero"
+      ],
+      "ja": [
+        "断固として受け入れ、冒険する",
+        "慎重に評価し、適度なリスク",
+        "保守的に傾き、リスクを回避",
+        "坚决に拒绝し、安全第一"
+      ],
+      "de": [
+        "Entschieden akzeptieren, Risiken eingehen",
+        "Sorgfältig bewerten, moderates Risiko",
+        "Konservativ neigen, Risiken vermeiden",
+        "Bestimmt ablehnen, Sicherheit zuerst"
+      ],
+      "ru": [
+        "Решительно принять, осмелиться рисковать",
+        "Тщательно оценить, умеренный риск",
+        "Склоняться к консерватизму, избегать рисков",
+        "Категорически отказаться, безопасность прежде всего"
+      ],
+      "fr": [
+        "Accepter décisivement, oser prendre des risques",
+        "Évaluer soigneusement, risque modéré",
+        "Tendre vers la prudence, éviter les risques",
+        "Refuser fermement, sécurité d'abord"
+      ]
+    }
   },
   {
     "id": 33,
@@ -2469,76 +1605,49 @@
     "trait_cn": "风险偏好",
     "text": "你对未知事物的态度是？",
     "translations": {
-      "zh": {
-        "text": "你对未知事物的态度是？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你对未知事物的态度是？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你对未知事物的态度是？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你对未知事物的态度是？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你对未知事物的态度是？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你对未知事物的态度是？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你对未知事物的态度是？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "果断接受，敢于冒险",
+        "谨慎评估，适度冒险",
+        "偏向保守，规避风险",
+        "坚决拒绝，安全第一"
+      ],
+      "en": [
+        "Decisively accept, dare to take risks",
+        "Carefully evaluate, moderate risk",
+        "Lean conservative, avoid risks",
+        "Firmly refuse, safety first"
+      ],
+      "es": [
+        "Aceptar decididamente, atreverse a correr riesgos",
+        "Evaluar cuidadosamente, riesgo moderado",
+        "Tender conservador, evitar riesgos",
+        "Rechazar firmemente, seguridad primero"
+      ],
+      "ja": [
+        "断固として受け入れ、冒険する",
+        "慎重に評価し、適度なリスク",
+        "保守的に傾き、リスクを回避",
+        "坚决に拒绝し、安全第一"
+      ],
+      "de": [
+        "Entschieden akzeptieren, Risiken eingehen",
+        "Sorgfältig bewerten, moderates Risiko",
+        "Konservativ neigen, Risiken vermeiden",
+        "Bestimmt ablehnen, Sicherheit zuerst"
+      ],
+      "ru": [
+        "Решительно принять, осмелиться рисковать",
+        "Тщательно оценить, умеренный риск",
+        "Склоняться к консерватизму, избегать рисков",
+        "Категорически отказаться, безопасность прежде всего"
+      ],
+      "fr": [
+        "Accepter décisivement, oser prendre des risques",
+        "Évaluer soigneusement, risque modéré",
+        "Tendre vers la prudence, éviter les risques",
+        "Refuser fermement, sécurité d'abord"
+      ]
+    }
   },
   {
     "id": 34,
@@ -2546,76 +1655,49 @@
     "trait_cn": "风险偏好",
     "text": "在投资方面，你更倾向？",
     "translations": {
-      "zh": {
-        "text": "在投资方面，你更倾向？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 在投资方面，你更倾向？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 在投资方面，你更倾向？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 在投资方面，你更倾向？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 在投资方面，你更倾向？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 在投资方面，你更倾向？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 在投资方面，你更倾向？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "果断接受，敢于冒险",
+        "谨慎评估，适度冒险",
+        "偏向保守，规避风险",
+        "坚决拒绝，安全第一"
+      ],
+      "en": [
+        "Decisively accept, dare to take risks",
+        "Carefully evaluate, moderate risk",
+        "Lean conservative, avoid risks",
+        "Firmly refuse, safety first"
+      ],
+      "es": [
+        "Aceptar decididamente, atreverse a correr riesgos",
+        "Evaluar cuidadosamente, riesgo moderado",
+        "Tender conservador, evitar riesgos",
+        "Rechazar firmemente, seguridad primero"
+      ],
+      "ja": [
+        "断固として受け入れ、冒険する",
+        "慎重に評価し、適度なリスク",
+        "保守的に傾き、リスクを回避",
+        "坚决に拒绝し、安全第一"
+      ],
+      "de": [
+        "Entschieden akzeptieren, Risiken eingehen",
+        "Sorgfältig bewerten, moderates Risiko",
+        "Konservativ neigen, Risiken vermeiden",
+        "Bestimmt ablehnen, Sicherheit zuerst"
+      ],
+      "ru": [
+        "Решительно принять, осмелиться рисковать",
+        "Тщательно оценить, умеренный риск",
+        "Склоняться к консерватизму, избегать рисков",
+        "Категорически отказаться, безопасность прежде всего"
+      ],
+      "fr": [
+        "Accepter décisivement, oser prendre des risques",
+        "Évaluer soigneusement, risque modéré",
+        "Tendre vers la prudence, éviter les risques",
+        "Refuser fermement, sécurité d'abord"
+      ]
+    }
   },
   {
     "id": 35,
@@ -2623,76 +1705,49 @@
     "trait_cn": "风险偏好",
     "text": "面对人生重大选择时？",
     "translations": {
-      "zh": {
-        "text": "面对人生重大选择时？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 面对人生重大选择时？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 面对人生重大选择时？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 面对人生重大选择时？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 面对人生重大选择时？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 面对人生重大选择时？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 面对人生重大选择时？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "果断接受，敢于冒险",
+        "谨慎评估，适度冒险",
+        "偏向保守，规避风险",
+        "坚决拒绝，安全第一"
+      ],
+      "en": [
+        "Decisively accept, dare to take risks",
+        "Carefully evaluate, moderate risk",
+        "Lean conservative, avoid risks",
+        "Firmly refuse, safety first"
+      ],
+      "es": [
+        "Aceptar decididamente, atreverse a correr riesgos",
+        "Evaluar cuidadosamente, riesgo moderado",
+        "Tender conservador, evitar riesgos",
+        "Rechazar firmemente, seguridad primero"
+      ],
+      "ja": [
+        "断固として受け入れ、冒険する",
+        "慎重に評価し、適度なリスク",
+        "保守的に傾き、リスクを回避",
+        "坚决に拒绝し、安全第一"
+      ],
+      "de": [
+        "Entschieden akzeptieren, Risiken eingehen",
+        "Sorgfältig bewerten, moderates Risiko",
+        "Konservativ neigen, Risiken vermeiden",
+        "Bestimmt ablehnen, Sicherheit zuerst"
+      ],
+      "ru": [
+        "Решительно принять, осмелиться рисковать",
+        "Тщательно оценить, умеренный риск",
+        "Склоняться к консерватизму, избегать рисков",
+        "Категорически отказаться, безопасность прежде всего"
+      ],
+      "fr": [
+        "Accepter décisivement, oser prendre des risques",
+        "Évaluer soigneusement, risque modéré",
+        "Tendre vers la prudence, éviter les risques",
+        "Refuser fermement, sécurité d'abord"
+      ]
+    }
   },
   {
     "id": 36,
@@ -2700,76 +1755,49 @@
     "trait_cn": "理性思维",
     "text": "做重要决定前，你会？",
     "translations": {
-      "zh": {
-        "text": "做重要决定前，你会？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 做重要决定前，你会？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 做重要决定前，你会？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 做重要决定前，你会？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 做重要决定前，你会？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 做重要决定前，你会？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 做重要决定前，你会？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "理性分析，权衡利弊",
+        "考虑情感因素，适度理性",
+        "依赖直觉，偶尔分析",
+        "凭感觉行事，很少思考"
+      ],
+      "en": [
+        "Rational analysis, weigh pros and cons",
+        "Consider emotional factors, moderately rational",
+        "Rely on intuition, occasionally analyze",
+        "Act on feeling, rarely think"
+      ],
+      "es": [
+        "Análisis racional, sopesar pros y contras",
+        "Considerar factores emocionales, moderadamente racional",
+        "Confiar en la intuición, ocasionalmente analizar",
+        "Actuar por sentimiento, rara vez pensar"
+      ],
+      "ja": [
+        "理性的に分析し、利弊を权衡する",
+        "感情的要素を考慮し、適度に理性的",
+        "直感に頼り、 occasionally 分析",
+        "感覚で行動し、めったに考えない"
+      ],
+      "de": [
+        "Rationale Analyse, Vor- und Nachteile abwägen",
+        "Emotionale Faktoren berücksichtigen, mäßig rational",
+        "Auf Intuition verlassen, gelegentlich analysieren",
+        "Nach Gefühl handeln, selten denken"
+      ],
+      "ru": [
+        "Рациональный анализ, взвешивать плюсы и минусы",
+        "Учитывать эмоциональные факторы, умеренно рационально",
+        "Полагаться на интуицию, иногда анализировать",
+        "Действовать по ощущениям, редко думать"
+      ],
+      "fr": [
+        "Analyse rationnelle, peser le pour et le contre",
+        "Considérer les facteurs émotionnels, modérément rationnel",
+        "Compter sur l'intuition, analyser occasionnellement",
+        "Agir selon le sentiment, rarement réfléchir"
+      ]
+    }
   },
   {
     "id": 37,
@@ -2777,76 +1805,49 @@
     "trait_cn": "理性思维",
     "text": "面对情绪化的人，你的反应是？",
     "translations": {
-      "zh": {
-        "text": "面对情绪化的人，你的反应是？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 面对情绪化的人，你的反应是？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 面对情绪化的人，你的反应是？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 面对情绪化的人，你的反应是？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 面对情绪化的人，你的反应是？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 面对情绪化的人，你的反应是？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 面对情绪化的人，你的反应是？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "理性分析，权衡利弊",
+        "考虑情感因素，适度理性",
+        "依赖直觉，偶尔分析",
+        "凭感觉行事，很少思考"
+      ],
+      "en": [
+        "Rational analysis, weigh pros and cons",
+        "Consider emotional factors, moderately rational",
+        "Rely on intuition, occasionally analyze",
+        "Act on feeling, rarely think"
+      ],
+      "es": [
+        "Análisis racional, sopesar pros y contras",
+        "Considerar factores emocionales, moderadamente racional",
+        "Confiar en la intuición, ocasionalmente analizar",
+        "Actuar por sentimiento, rara vez pensar"
+      ],
+      "ja": [
+        "理性的に分析し、利弊を权衡する",
+        "感情的要素を考慮し、適度に理性的",
+        "直感に頼り、 occasionally 分析",
+        "感覚で行動し、めったに考えない"
+      ],
+      "de": [
+        "Rationale Analyse, Vor- und Nachteile abwägen",
+        "Emotionale Faktoren berücksichtigen, mäßig rational",
+        "Auf Intuition verlassen, gelegentlich analysieren",
+        "Nach Gefühl handeln, selten denken"
+      ],
+      "ru": [
+        "Рациональный анализ, взвешивать плюсы и минусы",
+        "Учитывать эмоциональные факторы, умеренно рационально",
+        "Полагаться на интуицию, иногда анализировать",
+        "Действовать по ощущениям, редко думать"
+      ],
+      "fr": [
+        "Analyse rationnelle, peser le pour et le contre",
+        "Considérer les facteurs émotionnels, modérément rationnel",
+        "Compter sur l'intuition, analyser occasionnellement",
+        "Agir selon le sentiment, rarement réfléchir"
+      ]
+    }
   },
   {
     "id": 38,
@@ -2854,76 +1855,49 @@
     "trait_cn": "理性思维",
     "text": "处理问题时，你更偏向？",
     "translations": {
-      "zh": {
-        "text": "处理问题时，你更偏向？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 处理问题时，你更偏向？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 处理问题时，你更偏向？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 处理问题时，你更偏向？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 处理问题时，你更偏向？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 处理问题时，你更偏向？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 处理问题时，你更偏向？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "理性分析，权衡利弊",
+        "考虑情感因素，适度理性",
+        "依赖直觉，偶尔分析",
+        "凭感觉行事，很少思考"
+      ],
+      "en": [
+        "Rational analysis, weigh pros and cons",
+        "Consider emotional factors, moderately rational",
+        "Rely on intuition, occasionally analyze",
+        "Act on feeling, rarely think"
+      ],
+      "es": [
+        "Análisis racional, sopesar pros y contras",
+        "Considerar factores emocionales, moderadamente racional",
+        "Confiar en la intuición, ocasionalmente analizar",
+        "Actuar por sentimiento, rara vez pensar"
+      ],
+      "ja": [
+        "理性的に分析し、利弊を权衡する",
+        "感情的要素を考慮し、適度に理性的",
+        "直感に頼り、 occasionally 分析",
+        "感覚で行動し、めったに考えない"
+      ],
+      "de": [
+        "Rationale Analyse, Vor- und Nachteile abwägen",
+        "Emotionale Faktoren berücksichtigen, mäßig rational",
+        "Auf Intuition verlassen, gelegentlich analysieren",
+        "Nach Gefühl handeln, selten denken"
+      ],
+      "ru": [
+        "Рациональный анализ, взвешивать плюсы и минусы",
+        "Учитывать эмоциональные факторы, умеренно рационально",
+        "Полагаться на интуицию, иногда анализировать",
+        "Действовать по ощущениям, редко думать"
+      ],
+      "fr": [
+        "Analyse rationnelle, peser le pour et le contre",
+        "Considérer les facteurs émotionnels, modérément rationnel",
+        "Compter sur l'intuition, analyser occasionnellement",
+        "Agir selon le sentiment, rarement réfléchir"
+      ]
+    }
   },
   {
     "id": 39,
@@ -2931,76 +1905,49 @@
     "trait_cn": "理性思维",
     "text": "你相信直觉还是逻辑？",
     "translations": {
-      "zh": {
-        "text": "你相信直觉还是逻辑？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你相信直觉还是逻辑？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你相信直觉还是逻辑？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你相信直觉还是逻辑？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你相信直觉还是逻辑？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你相信直觉还是逻辑？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你相信直觉还是逻辑？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "理性分析，权衡利弊",
+        "考虑情感因素，适度理性",
+        "依赖直觉，偶尔分析",
+        "凭感觉行事，很少思考"
+      ],
+      "en": [
+        "Rational analysis, weigh pros and cons",
+        "Consider emotional factors, moderately rational",
+        "Rely on intuition, occasionally analyze",
+        "Act on feeling, rarely think"
+      ],
+      "es": [
+        "Análisis racional, sopesar pros y contras",
+        "Considerar factores emocionales, moderadamente racional",
+        "Confiar en la intuición, ocasionalmente analizar",
+        "Actuar por sentimiento, rara vez pensar"
+      ],
+      "ja": [
+        "理性的に分析し、利弊を权衡する",
+        "感情的要素を考慮し、適度に理性的",
+        "直感に頼り、 occasionally 分析",
+        "感覚で行動し、めったに考えない"
+      ],
+      "de": [
+        "Rationale Analyse, Vor- und Nachteile abwägen",
+        "Emotionale Faktoren berücksichtigen, mäßig rational",
+        "Auf Intuition verlassen, gelegentlich analysieren",
+        "Nach Gefühl handeln, selten denken"
+      ],
+      "ru": [
+        "Рациональный анализ, взвешивать плюсы и минусы",
+        "Учитывать эмоциональные факторы, умеренно рационально",
+        "Полагаться на интуицию, иногда анализировать",
+        "Действовать по ощущениям, редко думать"
+      ],
+      "fr": [
+        "Analyse rationnelle, peser le pour et le contre",
+        "Considérer les facteurs émotionnels, modérément rationnel",
+        "Compter sur l'intuition, analyser occasionnellement",
+        "Agir selon le sentiment, rarement réfléchir"
+      ]
+    }
   },
   {
     "id": 40,
@@ -3008,76 +1955,49 @@
     "trait_cn": "理性思维",
     "text": "遇到争议时，你通常？",
     "translations": {
-      "zh": {
-        "text": "遇到争议时，你通常？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 遇到争议时，你通常？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 遇到争议时，你通常？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 遇到争议时，你通常？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 遇到争议时，你通常？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 遇到争议时，你通常？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 遇到争议时，你通常？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "理性分析，权衡利弊",
+        "考虑情感因素，适度理性",
+        "依赖直觉，偶尔分析",
+        "凭感觉行事，很少思考"
+      ],
+      "en": [
+        "Rational analysis, weigh pros and cons",
+        "Consider emotional factors, moderately rational",
+        "Rely on intuition, occasionally analyze",
+        "Act on feeling, rarely think"
+      ],
+      "es": [
+        "Análisis racional, sopesar pros y contras",
+        "Considerar factores emocionales, moderadamente racional",
+        "Confiar en la intuición, ocasionalmente analizar",
+        "Actuar por sentimiento, rara vez pensar"
+      ],
+      "ja": [
+        "理性的に分析し、利弊を权衡する",
+        "感情的要素を考慮し、適度に理性的",
+        "直感に頼り、 occasionally 分析",
+        "感覚で行動し、めったに考えない"
+      ],
+      "de": [
+        "Rationale Analyse, Vor- und Nachteile abwägen",
+        "Emotionale Faktoren berücksichtigen, mäßig rational",
+        "Auf Intuition verlassen, gelegentlich analysieren",
+        "Nach Gefühl handeln, selten denken"
+      ],
+      "ru": [
+        "Рациональный анализ, взвешивать плюсы и минусы",
+        "Учитывать эмоциональные факторы, умеренно рационально",
+        "Полагаться на интуицию, иногда анализировать",
+        "Действовать по ощущениям, редко думать"
+      ],
+      "fr": [
+        "Analyse rationnelle, peser le pour et le contre",
+        "Considérer les facteurs émotionnels, modérément rationnel",
+        "Compter sur l'intuition, analyser occasionnellement",
+        "Agir selon le sentiment, rarement réfléchir"
+      ]
+    }
   },
   {
     "id": 41,
@@ -3085,76 +2005,49 @@
     "trait_cn": "自律性",
     "text": "你很难抵制诱惑吗？",
     "translations": {
-      "zh": {
-        "text": "你很难抵制诱惑吗？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你很难抵制诱惑吗？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你很难抵制诱惑吗？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你很难抵制诱惑吗？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你很难抵制诱惑吗？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你很难抵制诱惑吗？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你很难抵制诱惑吗？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "有很强的自控力",
+        "基本能控制，偶尔失控",
+        "经常需要他人督促",
+        "很难坚持，容易放弃"
+      ],
+      "en": [
+        "Strong self-control",
+        "Basically can control, occasionally lose control",
+        "Often need others to urge",
+        "Hard to persist, easy to give up"
+      ],
+      "es": [
+        "Fuerte autocontrol",
+        "Básicamente puedo controlar, ocasionalmente perder el control",
+        "A menudo necesito que otros me impulsen",
+        "Difícil persistir, fácil abandonar"
+      ],
+      "ja": [
+        "強い自己管理能力",
+        "基本的にコントロール可能、時々制御不能",
+        "よく他人に促される必要がある",
+        "続けるのが難しく、簡単に諦める"
+      ],
+      "de": [
+        "Starke Selbstkontrolle",
+        "Grundsätzlich kontrollieren, gelegentlich Kontrolle verlieren",
+        "Oft brauchen anderen zu drängen",
+        "Schwer durchzuhalten, leicht aufzugeben"
+      ],
+      "ru": [
+        "Сильная самоконтроль",
+        "В основном могу контролировать, иногда теряю контроль",
+        "Часто нужно чтобы другие подгоняли",
+        "Трудно坚持， легко сдаться"
+      ],
+      "fr": [
+        "Fort autocontrôle",
+        "Fondamentalement peux contrôler, occasionnellement perdre le contrôle",
+        "Souvent besoin que d'autres m'encouragent",
+        "Difficile de persévérer, facile d'abandonner"
+      ]
+    }
   },
   {
     "id": 42,
@@ -3162,76 +2055,49 @@
     "trait_cn": "自律性",
     "text": "你能坚持每天锻炼吗？",
     "translations": {
-      "zh": {
-        "text": "你能坚持每天锻炼吗？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你能坚持每天锻炼吗？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你能坚持每天锻炼吗？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你能坚持每天锻炼吗？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你能坚持每天锻炼吗？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你能坚持每天锻炼吗？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你能坚持每天锻炼吗？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "有很强的自控力",
+        "基本能控制，偶尔失控",
+        "经常需要他人督促",
+        "很难坚持，容易放弃"
+      ],
+      "en": [
+        "Strong self-control",
+        "Basically can control, occasionally lose control",
+        "Often need others to urge",
+        "Hard to persist, easy to give up"
+      ],
+      "es": [
+        "Fuerte autocontrol",
+        "Básicamente puedo controlar, ocasionalmente perder el control",
+        "A menudo necesito que otros me impulsen",
+        "Difícil persistir, fácil abandonar"
+      ],
+      "ja": [
+        "強い自己管理能力",
+        "基本的にコントロール可能、時々制御不能",
+        "よく他人に促される必要がある",
+        "続けるのが難しく、簡単に諦める"
+      ],
+      "de": [
+        "Starke Selbstkontrolle",
+        "Grundsätzlich kontrollieren, gelegentlich Kontrolle verlieren",
+        "Oft brauchen anderen zu drängen",
+        "Schwer durchzuhalten, leicht aufzugeben"
+      ],
+      "ru": [
+        "Сильная самоконтроль",
+        "В основном могу контролировать, иногда теряю контроль",
+        "Часто нужно чтобы другие подгоняли",
+        "Трудно坚持， легко сдаться"
+      ],
+      "fr": [
+        "Fort autocontrôle",
+        "Fondamentalement peux contrôler, occasionnellement perdre le contrôle",
+        "Souvent besoin que d'autres m'encouragent",
+        "Difficile de persévérer, facile d'abandonner"
+      ]
+    }
   },
   {
     "id": 43,
@@ -3239,76 +2105,49 @@
     "trait_cn": "自律性",
     "text": "对于制定的计划，你？",
     "translations": {
-      "zh": {
-        "text": "对于制定的计划，你？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 对于制定的计划，你？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 对于制定的计划，你？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 对于制定的计划，你？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 对于制定的计划，你？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 对于制定的计划，你？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 对于制定的计划，你？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "有很强的自控力",
+        "基本能控制，偶尔失控",
+        "经常需要他人督促",
+        "很难坚持，容易放弃"
+      ],
+      "en": [
+        "Strong self-control",
+        "Basically can control, occasionally lose control",
+        "Often need others to urge",
+        "Hard to persist, easy to give up"
+      ],
+      "es": [
+        "Fuerte autocontrol",
+        "Básicamente puedo controlar, ocasionalmente perder el control",
+        "A menudo necesito que otros me impulsen",
+        "Difícil persistir, fácil abandonar"
+      ],
+      "ja": [
+        "強い自己管理能力",
+        "基本的にコントロール可能、時々制御不能",
+        "よく他人に促される必要がある",
+        "続けるのが難しく、簡単に諦める"
+      ],
+      "de": [
+        "Starke Selbstkontrolle",
+        "Grundsätzlich kontrollieren, gelegentlich Kontrolle verlieren",
+        "Oft brauchen anderen zu drängen",
+        "Schwer durchzuhalten, leicht aufzugeben"
+      ],
+      "ru": [
+        "Сильная самоконтроль",
+        "В основном могу контролировать, иногда теряю контроль",
+        "Часто нужно чтобы другие подгоняли",
+        "Трудно坚持， легко сдаться"
+      ],
+      "fr": [
+        "Fort autocontrôle",
+        "Fondamentalement peux contrôler, occasionnellement perdre le contrôle",
+        "Souvent besoin que d'autres m'encouragent",
+        "Difficile de persévérer, facile d'abandonner"
+      ]
+    }
   },
   {
     "id": 44,
@@ -3316,76 +2155,49 @@
     "trait_cn": "自律性",
     "text": "你容易分心吗？",
     "translations": {
-      "zh": {
-        "text": "你容易分心吗？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你容易分心吗？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你容易分心吗？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你容易分心吗？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你容易分心吗？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你容易分心吗？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你容易分心吗？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "有很强的自控力",
+        "基本能控制，偶尔失控",
+        "经常需要他人督促",
+        "很难坚持，容易放弃"
+      ],
+      "en": [
+        "Strong self-control",
+        "Basically can control, occasionally lose control",
+        "Often need others to urge",
+        "Hard to persist, easy to give up"
+      ],
+      "es": [
+        "Fuerte autocontrol",
+        "Básicamente puedo controlar, ocasionalmente perder el control",
+        "A menudo necesito que otros me impulsen",
+        "Difícil persistir, fácil abandonar"
+      ],
+      "ja": [
+        "強い自己管理能力",
+        "基本的にコントロール可能、時々制御不能",
+        "よく他人に促される必要がある",
+        "続けるのが難しく、簡単に諦める"
+      ],
+      "de": [
+        "Starke Selbstkontrolle",
+        "Grundsätzlich kontrollieren, gelegentlich Kontrolle verlieren",
+        "Oft brauchen anderen zu drängen",
+        "Schwer durchzuhalten, leicht aufzugeben"
+      ],
+      "ru": [
+        "Сильная самоконтроль",
+        "В основном могу контролировать, иногда теряю контроль",
+        "Часто нужно чтобы другие подгоняли",
+        "Трудно坚持， легко сдаться"
+      ],
+      "fr": [
+        "Fort autocontrôle",
+        "Fondamentalement peux contrôler, occasionnellement perdre le contrôle",
+        "Souvent besoin que d'autres m'encouragent",
+        "Difficile de persévérer, facile d'abandonner"
+      ]
+    }
   },
   {
     "id": 45,
@@ -3393,76 +2205,49 @@
     "trait_cn": "自律性",
     "text": "你有固定的作息吗？",
     "translations": {
-      "zh": {
-        "text": "你有固定的作息吗？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你有固定的作息吗？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你有固定的作息吗？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你有固定的作息吗？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你有固定的作息吗？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你有固定的作息吗？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你有固定的作息吗？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "有很强的自控力",
+        "基本能控制，偶尔失控",
+        "经常需要他人督促",
+        "很难坚持，容易放弃"
+      ],
+      "en": [
+        "Strong self-control",
+        "Basically can control, occasionally lose control",
+        "Often need others to urge",
+        "Hard to persist, easy to give up"
+      ],
+      "es": [
+        "Fuerte autocontrol",
+        "Básicamente puedo controlar, ocasionalmente perder el control",
+        "A menudo necesito que otros me impulsen",
+        "Difícil persistir, fácil abandonar"
+      ],
+      "ja": [
+        "強い自己管理能力",
+        "基本的にコントロール可能、時々制御不能",
+        "よく他人に促される必要がある",
+        "続けるのが難しく、簡単に諦める"
+      ],
+      "de": [
+        "Starke Selbstkontrolle",
+        "Grundsätzlich kontrollieren, gelegentlich Kontrolle verlieren",
+        "Oft brauchen anderen zu drängen",
+        "Schwer durchzuhalten, leicht aufzugeben"
+      ],
+      "ru": [
+        "Сильная самоконтроль",
+        "В основном могу контролировать, иногда теряю контроль",
+        "Часто нужно чтобы другие подгоняли",
+        "Трудно坚持， легко сдаться"
+      ],
+      "fr": [
+        "Fort autocontrôle",
+        "Fondamentalement peux contrôler, occasionnellement perdre le contrôle",
+        "Souvent besoin que d'autres m'encouragent",
+        "Difficile de persévérer, facile d'abandonner"
+      ]
+    }
   },
   {
     "id": 46,
@@ -3470,76 +2255,49 @@
     "trait_cn": "共情能力",
     "text": "别人难过时，你的反应是？",
     "translations": {
-      "zh": {
-        "text": "别人难过时，你的反应是？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 别人难过时，你的反应是？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 别人难过时，你的反应是？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 别人难过时，你的反应是？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 别人难过时，你的反应是？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 别人难过时，你的反应是？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 别人难过时，你的反应是？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "感同身受，全力帮助",
+        "理解但不知如何帮助",
+        "有些感同身受但不多表露",
+        "难以理解，保持距离"
+      ],
+      "en": [
+        "Deeply feel, help with all my strength",
+        "Understand but don't know how to help",
+        "Somewhat empathize but don't show much",
+        "Hard to understand, keep distance"
+      ],
+      "es": [
+        "Sentir profundamente, ayudar con toda mi fuerza",
+        "Entender pero no sé cómo ayudar",
+        "Algo empatizar pero no mostrar mucho",
+        "Difícil entender, mantener distancia"
+      ],
+      "ja": [
+        "深く感じ取り、全力で助ける",
+        "理解するがどう助ければいいか分からない",
+        "多少共感するが多弁しない",
+        "理解难以，距離を保つ"
+      ],
+      "de": [
+        "Tief fühlen, mit aller Kraft helfen",
+        "Verstehen aber nicht wissen wie helfen",
+        "Ein wenig empatieren aber nicht viel zeigen",
+        "Schwer verstehen, Distanz halten"
+      ],
+      "ru": [
+        "Глубоко чувствовать, помогать всей силой",
+        "Понимать но не знать как помочь",
+        "Немного сопереживать но не показывать",
+        "Трудно понять, держать дистанцию"
+      ],
+      "fr": [
+        "Profondément ressentir, aider de toute mon énergie",
+        "Comprendre mais ne pas savoir comment aider",
+        "Un peu empathiser mais pas montrer beaucoup",
+        "Difficile de comprendre, garder la distance"
+      ]
+    }
   },
   {
     "id": 47,
@@ -3547,76 +2305,49 @@
     "trait_cn": "共情能力",
     "text": "你能理解他人的感受吗？",
     "translations": {
-      "zh": {
-        "text": "你能理解他人的感受吗？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你能理解他人的感受吗？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你能理解他人的感受吗？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你能理解他人的感受吗？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你能理解他人的感受吗？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你能理解他人的感受吗？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你能理解他人的感受吗？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "感同身受，全力帮助",
+        "理解但不知如何帮助",
+        "有些感同身受但不多表露",
+        "难以理解，保持距离"
+      ],
+      "en": [
+        "Deeply feel, help with all my strength",
+        "Understand but don't know how to help",
+        "Somewhat empathize but don't show much",
+        "Hard to understand, keep distance"
+      ],
+      "es": [
+        "Sentir profundamente, ayudar con toda mi fuerza",
+        "Entender pero no sé cómo ayudar",
+        "Algo empatizar pero no mostrar mucho",
+        "Difícil entender, mantener distancia"
+      ],
+      "ja": [
+        "深く感じ取り、全力で助ける",
+        "理解するがどう助ければいいか分からない",
+        "多少共感するが多弁しない",
+        "理解难以，距離を保つ"
+      ],
+      "de": [
+        "Tief fühlen, mit aller Kraft helfen",
+        "Verstehen aber nicht wissen wie helfen",
+        "Ein wenig empatieren aber nicht viel zeigen",
+        "Schwer verstehen, Distanz halten"
+      ],
+      "ru": [
+        "Глубоко чувствовать, помогать всей силой",
+        "Понимать но не знать как помочь",
+        "Немного сопереживать но не показывать",
+        "Трудно понять, держать дистанцию"
+      ],
+      "fr": [
+        "Profondément ressentir, aider de toute mon énergie",
+        "Comprendre mais ne pas savoir comment aider",
+        "Un peu empathiser mais pas montrer beaucoup",
+        "Difficile de comprendre, garder la distance"
+      ]
+    }
   },
   {
     "id": 48,
@@ -3624,76 +2355,49 @@
     "trait_cn": "共情能力",
     "text": "面对他人的困境，你？",
     "translations": {
-      "zh": {
-        "text": "面对他人的困境，你？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 面对他人的困境，你？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 面对他人的困境，你？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 面对他人的困境，你？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 面对他人的困境，你？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 面对他人的困境，你？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 面对他人的困境，你？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "感同身受，全力帮助",
+        "理解但不知如何帮助",
+        "有些感同身受但不多表露",
+        "难以理解，保持距离"
+      ],
+      "en": [
+        "Deeply feel, help with all my strength",
+        "Understand but don't know how to help",
+        "Somewhat empathize but don't show much",
+        "Hard to understand, keep distance"
+      ],
+      "es": [
+        "Sentir profundamente, ayudar con toda mi fuerza",
+        "Entender pero no sé cómo ayudar",
+        "Algo empatizar pero no mostrar mucho",
+        "Difícil entender, mantener distancia"
+      ],
+      "ja": [
+        "深く感じ取り、全力で助ける",
+        "理解するがどう助ければいいか分からない",
+        "多少共感するが多弁しない",
+        "理解难以，距離を保つ"
+      ],
+      "de": [
+        "Tief fühlen, mit aller Kraft helfen",
+        "Verstehen aber nicht wissen wie helfen",
+        "Ein wenig empatieren aber nicht viel zeigen",
+        "Schwer verstehen, Distanz halten"
+      ],
+      "ru": [
+        "Глубоко чувствовать, помогать всей силой",
+        "Понимать но не знать как помочь",
+        "Немного сопереживать но не показывать",
+        "Трудно понять, держать дистанцию"
+      ],
+      "fr": [
+        "Profondément ressentir, aider de toute mon énergie",
+        "Comprendre mais ne pas savoir comment aider",
+        "Un peu empathiser mais pas montrer beaucoup",
+        "Difficile de comprendre, garder la distance"
+      ]
+    }
   },
   {
     "id": 49,
@@ -3701,76 +2405,49 @@
     "trait_cn": "共情能力",
     "text": "你容易与人产生共鸣吗？",
     "translations": {
-      "zh": {
-        "text": "你容易与人产生共鸣吗？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你容易与人产生共鸣吗？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你容易与人产生共鸣吗？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你容易与人产生共鸣吗？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你容易与人产生共鸣吗？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你容易与人产生共鸣吗？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你容易与人产生共鸣吗？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "感同身受，全力帮助",
+        "理解但不知如何帮助",
+        "有些感同身受但不多表露",
+        "难以理解，保持距离"
+      ],
+      "en": [
+        "Deeply feel, help with all my strength",
+        "Understand but don't know how to help",
+        "Somewhat empathize but don't show much",
+        "Hard to understand, keep distance"
+      ],
+      "es": [
+        "Sentir profundamente, ayudar con toda mi fuerza",
+        "Entender pero no sé cómo ayudar",
+        "Algo empatizar pero no mostrar mucho",
+        "Difícil entender, mantener distancia"
+      ],
+      "ja": [
+        "深く感じ取り、全力で助ける",
+        "理解するがどう助ければいいか分からない",
+        "多少共感するが多弁しない",
+        "理解难以，距離を保つ"
+      ],
+      "de": [
+        "Tief fühlen, mit aller Kraft helfen",
+        "Verstehen aber nicht wissen wie helfen",
+        "Ein wenig empatieren aber nicht viel zeigen",
+        "Schwer verstehen, Distanz halten"
+      ],
+      "ru": [
+        "Глубоко чувствовать, помогать всей силой",
+        "Понимать но не знать как помочь",
+        "Немного сопереживать но не показывать",
+        "Трудно понять, держать дистанцию"
+      ],
+      "fr": [
+        "Profondément ressentir, aider de toute mon énergie",
+        "Comprendre mais ne pas savoir comment aider",
+        "Un peu empathiser mais pas montrer beaucoup",
+        "Difficile de comprendre, garder la distance"
+      ]
+    }
   },
   {
     "id": 50,
@@ -3778,76 +2455,49 @@
     "trait_cn": "共情能力",
     "text": "看到不公平的事，你？",
     "translations": {
-      "zh": {
-        "text": "看到不公平的事，你？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 看到不公平的事，你？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 看到不公平的事，你？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 看到不公平的事，你？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 看到不公平的事，你？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 看到不公平的事，你？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 看到不公平的事，你？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "感同身受，全力帮助",
+        "理解但不知如何帮助",
+        "有些感同身受但不多表露",
+        "难以理解，保持距离"
+      ],
+      "en": [
+        "Deeply feel, help with all my strength",
+        "Understand but don't know how to help",
+        "Somewhat empathize but don't show much",
+        "Hard to understand, keep distance"
+      ],
+      "es": [
+        "Sentir profundamente, ayudar con toda mi fuerza",
+        "Entender pero no sé cómo ayudar",
+        "Algo empatizar pero no mostrar mucho",
+        "Difícil entender, mantener distancia"
+      ],
+      "ja": [
+        "深く感じ取り、全力で助ける",
+        "理解するがどう助ければいいか分からない",
+        "多少共感するが多弁しない",
+        "理解难以，距離を保つ"
+      ],
+      "de": [
+        "Tief fühlen, mit aller Kraft helfen",
+        "Verstehen aber nicht wissen wie helfen",
+        "Ein wenig empatieren aber nicht viel zeigen",
+        "Schwer verstehen, Distanz halten"
+      ],
+      "ru": [
+        "Глубоко чувствовать, помогать всей силой",
+        "Понимать но не знать как помочь",
+        "Немного сопереживать но не показывать",
+        "Трудно понять, держать дистанцию"
+      ],
+      "fr": [
+        "Profondément ressentir, aider de toute mon énergie",
+        "Comprendre mais ne pas savoir comment aider",
+        "Un peu empathiser mais pas montrer beaucoup",
+        "Difficile de comprendre, garder la distance"
+      ]
+    }
   },
   {
     "id": 51,
@@ -3855,76 +2505,49 @@
     "trait_cn": "野心",
     "text": "你对成功的定义是？",
     "translations": {
-      "zh": {
-        "text": "你对成功的定义是？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你对成功的定义是？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你对成功的定义是？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你对成功的定义是？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你对成功的定义是？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你对成功的定义是？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你对成功的定义是？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "功成名就，改变世界",
+        "有所成就，但不强求",
+        "安稳生活，知足常乐",
+        "随遇而安，不追求成功"
+      ],
+      "en": [
+        "Achieve fame and success, change the world",
+        "Achieve something, but not insist",
+        "Stable life, content with what I have",
+        "Go with the flow, don't pursue success"
+      ],
+      "es": [
+        "Lograr fama y éxito, cambiar el mundo",
+        "Lograr algo, pero no insistir",
+        "Vida estable, contento con lo que tengo",
+        "Ir sobre la marcha, no perseguir el éxito"
+      ],
+      "ja": [
+        "成功を収め、世界を変える",
+        "何か成し遂げるが、無理しない",
+        "安穏な生活、知足楽観",
+        "流れに任せる、成功を追求しない"
+      ],
+      "de": [
+        "Ruhm und Erfolg erreichen, die Welt verändern",
+        "Etwas erreichen, aber nicht darauf bestehen",
+        "Stabiles Leben, zufrieden mit dem was ich habe",
+        "Mit dem Strom gehen, Erfolg nicht verfolgen"
+      ],
+      "ru": [
+        "Достичь славы и успеха, изменить мир",
+        "Достичь чего-то, но не настаивать",
+        "Стабильная жизнь, доволен тем что имею",
+        "Идти по течению, не преследовать успех"
+      ],
+      "fr": [
+        "Atteindre la gloire et le succès, changer le monde",
+        "Atteindre quelque chose, mais pas insister",
+        "Vie stable, content de ce que j'ai",
+        "Suivre le courant, ne pas poursuivre le succès"
+      ]
+    }
   },
   {
     "id": 52,
@@ -3932,76 +2555,49 @@
     "trait_cn": "野心",
     "text": "你愿意为了目标牺牲什么？",
     "translations": {
-      "zh": {
-        "text": "你愿意为了目标牺牲什么？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你愿意为了目标牺牲什么？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你愿意为了目标牺牲什么？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你愿意为了目标牺牲什么？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你愿意为了目标牺牲什么？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你愿意为了目标牺牲什么？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你愿意为了目标牺牲什么？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "功成名就，改变世界",
+        "有所成就，但不强求",
+        "安稳生活，知足常乐",
+        "随遇而安，不追求成功"
+      ],
+      "en": [
+        "Achieve fame and success, change the world",
+        "Achieve something, but not insist",
+        "Stable life, content with what I have",
+        "Go with the flow, don't pursue success"
+      ],
+      "es": [
+        "Lograr fama y éxito, cambiar el mundo",
+        "Lograr algo, pero no insistir",
+        "Vida estable, contento con lo que tengo",
+        "Ir sobre la marcha, no perseguir el éxito"
+      ],
+      "ja": [
+        "成功を収め、世界を変える",
+        "何か成し遂げるが、無理しない",
+        "安穏な生活、知足楽観",
+        "流れに任せる、成功を追求しない"
+      ],
+      "de": [
+        "Ruhm und Erfolg erreichen, die Welt verändern",
+        "Etwas erreichen, aber nicht darauf bestehen",
+        "Stabiles Leben, zufrieden mit dem was ich habe",
+        "Mit dem Strom gehen, Erfolg nicht verfolgen"
+      ],
+      "ru": [
+        "Достичь славы и успеха, изменить мир",
+        "Достичь чего-то, но не настаивать",
+        "Стабильная жизнь, доволен тем что имею",
+        "Идти по течению, не преследовать успех"
+      ],
+      "fr": [
+        "Atteindre la gloire et le succès, changer le monde",
+        "Atteindre quelque chose, mais pas insister",
+        "Vie stable, content de ce que j'ai",
+        "Suivre le courant, ne pas poursuivre le succès"
+      ]
+    }
   },
   {
     "id": 53,
@@ -4009,76 +2605,49 @@
     "trait_cn": "野心",
     "text": "面对失败，你的态度是？",
     "translations": {
-      "zh": {
-        "text": "面对失败，你的态度是？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 面对失败，你的态度是？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 面对失败，你的态度是？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 面对失败，你的态度是？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 面对失败，你的态度是？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 面对失败，你的态度是？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 面对失败，你的态度是？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "功成名就，改变世界",
+        "有所成就，但不强求",
+        "安稳生活，知足常乐",
+        "随遇而安，不追求成功"
+      ],
+      "en": [
+        "Achieve fame and success, change the world",
+        "Achieve something, but not insist",
+        "Stable life, content with what I have",
+        "Go with the flow, don't pursue success"
+      ],
+      "es": [
+        "Lograr fama y éxito, cambiar el mundo",
+        "Lograr algo, pero no insistir",
+        "Vida estable, contento con lo que tengo",
+        "Ir sobre la marcha, no perseguir el éxito"
+      ],
+      "ja": [
+        "成功を収め、世界を変える",
+        "何か成し遂げるが、無理しない",
+        "安穏な生活、知足楽観",
+        "流れに任せる、成功を追求しない"
+      ],
+      "de": [
+        "Ruhm und Erfolg erreichen, die Welt verändern",
+        "Etwas erreichen, aber nicht darauf bestehen",
+        "Stabiles Leben, zufrieden mit dem was ich habe",
+        "Mit dem Strom gehen, Erfolg nicht verfolgen"
+      ],
+      "ru": [
+        "Достичь славы и успеха, изменить мир",
+        "Достичь чего-то, но не настаивать",
+        "Стабильная жизнь, доволен тем что имею",
+        "Идти по течению, не преследовать успех"
+      ],
+      "fr": [
+        "Atteindre la gloire et le succès, changer le monde",
+        "Atteindre quelque chose, mais pas insister",
+        "Vie stable, content de ce que j'ai",
+        "Suivre le courant, ne pas poursuivre le succès"
+      ]
+    }
   },
   {
     "id": 54,
@@ -4086,76 +2655,49 @@
     "trait_cn": "野心",
     "text": "你更想要安稳还是成就？",
     "translations": {
-      "zh": {
-        "text": "你更想要安稳还是成就？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你更想要安稳还是成就？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你更想要安稳还是成就？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你更想要安稳还是成就？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你更想要安稳还是成就？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你更想要安稳还是成就？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你更想要安稳还是成就？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "功成名就，改变世界",
+        "有所成就，但不强求",
+        "安稳生活，知足常乐",
+        "随遇而安，不追求成功"
+      ],
+      "en": [
+        "Achieve fame and success, change the world",
+        "Achieve something, but not insist",
+        "Stable life, content with what I have",
+        "Go with the flow, don't pursue success"
+      ],
+      "es": [
+        "Lograr fama y éxito, cambiar el mundo",
+        "Lograr algo, pero no insistir",
+        "Vida estable, contento con lo que tengo",
+        "Ir sobre la marcha, no perseguir el éxito"
+      ],
+      "ja": [
+        "成功を収め、世界を変える",
+        "何か成し遂げるが、無理しない",
+        "安穏な生活、知足楽観",
+        "流れに任せる、成功を追求しない"
+      ],
+      "de": [
+        "Ruhm und Erfolg erreichen, die Welt verändern",
+        "Etwas erreichen, aber nicht darauf bestehen",
+        "Stabiles Leben, zufrieden mit dem was ich habe",
+        "Mit dem Strom gehen, Erfolg nicht verfolgen"
+      ],
+      "ru": [
+        "Достичь славы и успеха, изменить мир",
+        "Достичь чего-то, но не настаивать",
+        "Стабильная жизнь, доволен тем что имею",
+        "Идти по течению, не преследовать успех"
+      ],
+      "fr": [
+        "Atteindre la gloire et le succès, changer le monde",
+        "Atteindre quelque chose, mais pas insister",
+        "Vie stable, content de ce que j'ai",
+        "Suivre le courant, ne pas poursuivre le succès"
+      ]
+    }
   },
   {
     "id": 55,
@@ -4163,76 +2705,49 @@
     "trait_cn": "野心",
     "text": "你对自己的期望是？",
     "translations": {
-      "zh": {
-        "text": "你对自己的期望是？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你对自己的期望是？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你对自己的期望是？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你对自己的期望是？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你对自己的期望是？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你对自己的期望是？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你对自己的期望是？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "功成名就，改变世界",
+        "有所成就，但不强求",
+        "安稳生活，知足常乐",
+        "随遇而安，不追求成功"
+      ],
+      "en": [
+        "Achieve fame and success, change the world",
+        "Achieve something, but not insist",
+        "Stable life, content with what I have",
+        "Go with the flow, don't pursue success"
+      ],
+      "es": [
+        "Lograr fama y éxito, cambiar el mundo",
+        "Lograr algo, pero no insistir",
+        "Vida estable, contento con lo que tengo",
+        "Ir sobre la marcha, no perseguir el éxito"
+      ],
+      "ja": [
+        "成功を収め、世界を変える",
+        "何か成し遂げるが、無理しない",
+        "安穏な生活、知足楽観",
+        "流れに任せる、成功を追求しない"
+      ],
+      "de": [
+        "Ruhm und Erfolg erreichen, die Welt verändern",
+        "Etwas erreichen, aber nicht darauf bestehen",
+        "Stabiles Leben, zufrieden mit dem was ich habe",
+        "Mit dem Strom gehen, Erfolg nicht verfolgen"
+      ],
+      "ru": [
+        "Достичь славы и успеха, изменить мир",
+        "Достичь чего-то, но не настаивать",
+        "Стабильная жизнь, доволен тем что имею",
+        "Идти по течению, не преследовать успех"
+      ],
+      "fr": [
+        "Atteindre la gloire et le succès, changer le monde",
+        "Atteindre quelque chose, mais pas insister",
+        "Vie stable, content de ce que j'ai",
+        "Suivre le courant, ne pas poursuivre le succès"
+      ]
+    }
   },
   {
     "id": 56,
@@ -4240,76 +2755,49 @@
     "trait_cn": "韧性",
     "text": "遇到重大挫折后，你能恢复吗？",
     "translations": {
-      "zh": {
-        "text": "遇到重大挫折后，你能恢复吗？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 遇到重大挫折后，你能恢复吗？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 遇到重大挫折后，你能恢复吗？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 遇到重大挫折后，你能恢复吗？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 遇到重大挫折后，你能恢复吗？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 遇到重大挫折后，你能恢复吗？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 遇到重大挫折后，你能恢复吗？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "很快恢复，愈挫愈勇",
+        "需要时间但能恢复",
+        "恢复较慢，偶尔消沉",
+        "难以恢复，一蹶不振"
+      ],
+      "en": [
+        "Recover quickly, stronger after setbacks",
+        "Need time but can recover",
+        "Recover slowly, occasionally depressed",
+        "Hard to recover, crushed"
+      ],
+      "es": [
+        "Recuperarme rápido, más fuerte después de contratiempos",
+        "Necesito tiempo pero puedo recuperarme",
+        "Recuperarme lento, ocasionalmente deprimido",
+        "Difícil recuperarme, derrotado"
+      ],
+      "ja": [
+        "すぐに回復し、挫折後に強くなる",
+        "時間がかかるが回復できる",
+        "ゆっくり回復し、 occasionally 憂うつ",
+        "回復难以，打ちのめされる"
+      ],
+      "de": [
+        "Schnell erholen, stärker nach Rückschlägen",
+        "Brauche Zeit aber kann erholen",
+        "Langsam erholen, gelegentlich depressiv",
+        "Schwer erholen, niedergeschlagen"
+      ],
+      "ru": [
+        "Быстро восстановиться, сильнее после поражений",
+        "Нужно время но могу восстановиться",
+        "Медленно восстановиться, иногда подавлен",
+        "Трудно восстановиться, раздавлен"
+      ],
+      "fr": [
+        "Récupérer vite, plus fort après les revers",
+        "Besoin de temps mais peux récupérer",
+        "Récupérer lentement, occasionnellement dépressif",
+        "Difficile de récupérer, écrasé"
+      ]
+    }
   },
   {
     "id": 57,
@@ -4317,76 +2805,49 @@
     "trait_cn": "韧性",
     "text": "面对连续失败，你会？",
     "translations": {
-      "zh": {
-        "text": "面对连续失败，你会？",
-        "options": [
-          "非常同意",
-          "比较同意",
-          "不太同意",
-          "完全不同意"
-        ]
-      },
-      "en": {
-        "text": "[EN] 面对连续失败，你会？",
-        "options": [
-          "[EN] 非常同意",
-          "[EN] 比较同意",
-          "[EN] 不太同意",
-          "[EN] 完全不同意"
-        ]
-      },
-      "es": {
-        "text": "[ES] 面对连续失败，你会？",
-        "options": [
-          "[ES] 非常同意",
-          "[ES] 比较同意",
-          "[ES] 不太同意",
-          "[ES] 完全不同意"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 面对连续失败，你会？",
-        "options": [
-          "[JA] 非常同意",
-          "[JA] 比较同意",
-          "[JA] 不太同意",
-          "[JA] 完全不同意"
-        ]
-      },
-      "de": {
-        "text": "[DE] 面对连续失败，你会？",
-        "options": [
-          "[DE] 非常同意",
-          "[DE] 比较同意",
-          "[DE] 不太同意",
-          "[DE] 完全不同意"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 面对连续失败，你会？",
-        "options": [
-          "[RU] 非常同意",
-          "[RU] 比较同意",
-          "[RU] 不太同意",
-          "[RU] 完全不同意"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 面对连续失败，你会？",
-        "options": [
-          "[FR] 非常同意",
-          "[FR] 比较同意",
-          "[FR] 不太同意",
-          "[FR] 完全不同意"
-        ]
-      }
-    },
-    "options": [
-      "非常同意",
-      "比较同意",
-      "不太同意",
-      "完全不同意"
-    ]
+      "zh": [
+        "很快恢复，愈挫愈勇",
+        "需要时间但能恢复",
+        "恢复较慢，偶尔消沉",
+        "难以恢复，一蹶不振"
+      ],
+      "en": [
+        "Recover quickly, stronger after setbacks",
+        "Need time but can recover",
+        "Recover slowly, occasionally depressed",
+        "Hard to recover, crushed"
+      ],
+      "es": [
+        "Recuperarme rápido, más fuerte después de contratiempos",
+        "Necesito tiempo pero puedo recuperarme",
+        "Recuperarme lento, ocasionalmente deprimido",
+        "Difícil recuperarme, derrotado"
+      ],
+      "ja": [
+        "すぐに回復し、挫折後に強くなる",
+        "時間がかかるが回復できる",
+        "ゆっくり回復し、 occasionally 憂うつ",
+        "回復难以，打ちのめされる"
+      ],
+      "de": [
+        "Schnell erholen, stärker nach Rückschlägen",
+        "Brauche Zeit aber kann erholen",
+        "Langsam erholen, gelegentlich depressiv",
+        "Schwer erholen, niedergeschlagen"
+      ],
+      "ru": [
+        "Быстро восстановиться, сильнее после поражений",
+        "Нужно время но могу восстановиться",
+        "Медленно восстановиться, иногда подавлен",
+        "Трудно восстановиться, раздавлен"
+      ],
+      "fr": [
+        "Récupérer vite, plus fort après les revers",
+        "Besoin de temps mais peux récupérer",
+        "Récupérer lentement, occasionnellement dépressif",
+        "Difficile de récupérer, écrasé"
+      ]
+    }
   },
   {
     "id": 58,
@@ -4394,76 +2855,49 @@
     "trait_cn": "韧性",
     "text": "困难时期，你的态度是？",
     "translations": {
-      "zh": {
-        "text": "困难时期，你的态度是？",
-        "options": [
-          "非常符合",
-          "比较符合",
-          "不太符合",
-          "完全不符合"
-        ]
-      },
-      "en": {
-        "text": "[EN] 困难时期，你的态度是？",
-        "options": [
-          "[EN] 非常符合",
-          "[EN] 比较符合",
-          "[EN] 不太符合",
-          "[EN] 完全不符合"
-        ]
-      },
-      "es": {
-        "text": "[ES] 困难时期，你的态度是？",
-        "options": [
-          "[ES] 非常符合",
-          "[ES] 比较符合",
-          "[ES] 不太符合",
-          "[ES] 完全不符合"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 困难时期，你的态度是？",
-        "options": [
-          "[JA] 非常符合",
-          "[JA] 比较符合",
-          "[JA] 不太符合",
-          "[JA] 完全不符合"
-        ]
-      },
-      "de": {
-        "text": "[DE] 困难时期，你的态度是？",
-        "options": [
-          "[DE] 非常符合",
-          "[DE] 比较符合",
-          "[DE] 不太符合",
-          "[DE] 完全不符合"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 困难时期，你的态度是？",
-        "options": [
-          "[RU] 非常符合",
-          "[RU] 比较符合",
-          "[RU] 不太符合",
-          "[RU] 完全不符合"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 困难时期，你的态度是？",
-        "options": [
-          "[FR] 非常符合",
-          "[FR] 比较符合",
-          "[FR] 不太符合",
-          "[FR] 完全不符合"
-        ]
-      }
-    },
-    "options": [
-      "非常符合",
-      "比较符合",
-      "不太符合",
-      "完全不符合"
-    ]
+      "zh": [
+        "很快恢复，愈挫愈勇",
+        "需要时间但能恢复",
+        "恢复较慢，偶尔消沉",
+        "难以恢复，一蹶不振"
+      ],
+      "en": [
+        "Recover quickly, stronger after setbacks",
+        "Need time but can recover",
+        "Recover slowly, occasionally depressed",
+        "Hard to recover, crushed"
+      ],
+      "es": [
+        "Recuperarme rápido, más fuerte después de contratiempos",
+        "Necesito tiempo pero puedo recuperarme",
+        "Recuperarme lento, ocasionalmente deprimido",
+        "Difícil recuperarme, derrotado"
+      ],
+      "ja": [
+        "すぐに回復し、挫折後に強くなる",
+        "時間がかかるが回復できる",
+        "ゆっくり回復し、 occasionally 憂うつ",
+        "回復难以，打ちのめされる"
+      ],
+      "de": [
+        "Schnell erholen, stärker nach Rückschlägen",
+        "Brauche Zeit aber kann erholen",
+        "Langsam erholen, gelegentlich depressiv",
+        "Schwer erholen, niedergeschlagen"
+      ],
+      "ru": [
+        "Быстро восстановиться, сильнее после поражений",
+        "Нужно время но могу восстановиться",
+        "Медленно восстановиться, иногда подавлен",
+        "Трудно восстановиться, раздавлен"
+      ],
+      "fr": [
+        "Récupérer vite, plus fort après les revers",
+        "Besoin de temps mais peux récupérer",
+        "Récupérer lentement, occasionnellement dépressif",
+        "Difficile de récupérer, écrasé"
+      ]
+    }
   },
   {
     "id": 59,
@@ -4471,76 +2905,49 @@
     "trait_cn": "韧性",
     "text": "你容易从打击中恢复吗？",
     "translations": {
-      "zh": {
-        "text": "你容易从打击中恢复吗？",
-        "options": [
-          "总是",
-          "经常",
-          "偶尔",
-          "从不"
-        ]
-      },
-      "en": {
-        "text": "[EN] 你容易从打击中恢复吗？",
-        "options": [
-          "[EN] 总是",
-          "[EN] 经常",
-          "[EN] 偶尔",
-          "[EN] 从不"
-        ]
-      },
-      "es": {
-        "text": "[ES] 你容易从打击中恢复吗？",
-        "options": [
-          "[ES] 总是",
-          "[ES] 经常",
-          "[ES] 偶尔",
-          "[ES] 从不"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 你容易从打击中恢复吗？",
-        "options": [
-          "[JA] 总是",
-          "[JA] 经常",
-          "[JA] 偶尔",
-          "[JA] 从不"
-        ]
-      },
-      "de": {
-        "text": "[DE] 你容易从打击中恢复吗？",
-        "options": [
-          "[DE] 总是",
-          "[DE] 经常",
-          "[DE] 偶尔",
-          "[DE] 从不"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 你容易从打击中恢复吗？",
-        "options": [
-          "[RU] 总是",
-          "[RU] 经常",
-          "[RU] 偶尔",
-          "[RU] 从不"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 你容易从打击中恢复吗？",
-        "options": [
-          "[FR] 总是",
-          "[FR] 经常",
-          "[FR] 偶尔",
-          "[FR] 从不"
-        ]
-      }
-    },
-    "options": [
-      "总是",
-      "经常",
-      "偶尔",
-      "从不"
-    ]
+      "zh": [
+        "很快恢复，愈挫愈勇",
+        "需要时间但能恢复",
+        "恢复较慢，偶尔消沉",
+        "难以恢复，一蹶不振"
+      ],
+      "en": [
+        "Recover quickly, stronger after setbacks",
+        "Need time but can recover",
+        "Recover slowly, occasionally depressed",
+        "Hard to recover, crushed"
+      ],
+      "es": [
+        "Recuperarme rápido, más fuerte después de contratiempos",
+        "Necesito tiempo pero puedo recuperarme",
+        "Recuperarme lento, ocasionalmente deprimido",
+        "Difícil recuperarme, derrotado"
+      ],
+      "ja": [
+        "すぐに回復し、挫折後に強くなる",
+        "時間がかかるが回復できる",
+        "ゆっくり回復し、 occasionally 憂うつ",
+        "回復难以，打ちのめされる"
+      ],
+      "de": [
+        "Schnell erholen, stärker nach Rückschlägen",
+        "Brauche Zeit aber kann erholen",
+        "Langsam erholen, gelegentlich depressiv",
+        "Schwer erholen, niedergeschlagen"
+      ],
+      "ru": [
+        "Быстро восстановиться, сильнее после поражений",
+        "Нужно время но могу восстановиться",
+        "Медленно восстановиться, иногда подавлен",
+        "Трудно восстановиться, раздавлен"
+      ],
+      "fr": [
+        "Récupérer vite, plus fort après les revers",
+        "Besoin de temps mais peux récupérer",
+        "Récupérer lentement, occasionnellement dépressif",
+        "Difficile de récupérer, écrasé"
+      ]
+    }
   },
   {
     "id": 60,
@@ -4548,75 +2955,48 @@
     "trait_cn": "韧性",
     "text": "对于逆境，你通常？",
     "translations": {
-      "zh": {
-        "text": "对于逆境，你通常？",
-        "options": [
-          "非常积极",
-          "比较积极",
-          "不太积极",
-          "完全不积极"
-        ]
-      },
-      "en": {
-        "text": "[EN] 对于逆境，你通常？",
-        "options": [
-          "[EN] 非常积极",
-          "[EN] 比较积极",
-          "[EN] 不太积极",
-          "[EN] 完全不积极"
-        ]
-      },
-      "es": {
-        "text": "[ES] 对于逆境，你通常？",
-        "options": [
-          "[ES] 非常积极",
-          "[ES] 比较积极",
-          "[ES] 不太积极",
-          "[ES] 完全不积极"
-        ]
-      },
-      "ja": {
-        "text": "[JA] 对于逆境，你通常？",
-        "options": [
-          "[JA] 非常积极",
-          "[JA] 比较积极",
-          "[JA] 不太积极",
-          "[JA] 完全不积极"
-        ]
-      },
-      "de": {
-        "text": "[DE] 对于逆境，你通常？",
-        "options": [
-          "[DE] 非常积极",
-          "[DE] 比较积极",
-          "[DE] 不太积极",
-          "[DE] 完全不积极"
-        ]
-      },
-      "ru": {
-        "text": "[RU] 对于逆境，你通常？",
-        "options": [
-          "[RU] 非常积极",
-          "[RU] 比较积极",
-          "[RU] 不太积极",
-          "[RU] 完全不积极"
-        ]
-      },
-      "fr": {
-        "text": "[FR] 对于逆境，你通常？",
-        "options": [
-          "[FR] 非常积极",
-          "[FR] 比较积极",
-          "[FR] 不太积极",
-          "[FR] 完全不积极"
-        ]
-      }
-    },
-    "options": [
-      "非常积极",
-      "比较积极",
-      "不太积极",
-      "完全不积极"
-    ]
+      "zh": [
+        "很快恢复，愈挫愈勇",
+        "需要时间但能恢复",
+        "恢复较慢，偶尔消沉",
+        "难以恢复，一蹶不振"
+      ],
+      "en": [
+        "Recover quickly, stronger after setbacks",
+        "Need time but can recover",
+        "Recover slowly, occasionally depressed",
+        "Hard to recover, crushed"
+      ],
+      "es": [
+        "Recuperarme rápido, más fuerte después de contratiempos",
+        "Necesito tiempo pero puedo recuperarme",
+        "Recuperarme lento, ocasionalmente deprimido",
+        "Difícil recuperarme, derrotado"
+      ],
+      "ja": [
+        "すぐに回復し、挫折後に強くなる",
+        "時間がかかるが回復できる",
+        "ゆっくり回復し、 occasionally 憂うつ",
+        "回復难以，打ちのめされる"
+      ],
+      "de": [
+        "Schnell erholen, stärker nach Rückschlägen",
+        "Brauche Zeit aber kann erholen",
+        "Langsam erholen, gelegentlich depressiv",
+        "Schwer erholen, niedergeschlagen"
+      ],
+      "ru": [
+        "Быстро восстановиться, сильнее после поражений",
+        "Нужно время но могу восстановиться",
+        "Медленно восстановиться, иногда подавлен",
+        "Трудно восстановиться, раздавлен"
+      ],
+      "fr": [
+        "Récupérer vite, plus fort après les revers",
+        "Besoin de temps mais peux récupérer",
+        "Récupérer lentement, occasionnellement dépressif",
+        "Difficile de récupérer, écrasé"
+      ]
+    }
   }
 ]
