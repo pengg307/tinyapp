@@ -1229,7 +1229,7 @@
         
         async function loadQuiz() {
             try {
-                const response = await fetch(`${API_BASE}/api/quiz`);
+                const response = await fetch(`${API_BASE}/api/quiz?language=${currentLang}`);
                 const data = await response.json();
                 questions = data.questions;
             } catch (e) {
