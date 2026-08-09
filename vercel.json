@@ -23,5 +23,8 @@
       "src": "/(.*)",
       "dest": "prophets/static/$1"
     }
-  ]
+  ],
+  "env": {
+    "PYTHONPATH": "prophets"
+  }
 }
