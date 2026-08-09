@@ -797,38 +797,38 @@
                     <div class="card__subtitle" data-i18n="payment_subtitle">完成支付后即可开始性格分析</div>
                 </div>
                 
-                <!-- Payment Choice -->
-                <div class="payment-choice">
-                    <button class="payment-choice__btn payment-choice__btn--paid" onclick="choosePaid()">
-                        <span class="payment-choice__icon">💳</span>
-                        <span class="payment-choice__title" data-i18n="pay_choice_paid">付费解锁</span>
-                        <span class="payment-choice__desc" data-i18n="pay_choice_paid_desc">¥9.90 一次性付费</span>
-                    </button>
-                    <button class="payment-choice__btn payment-choice__btn--ad" onclick="chooseAd()">
-                        <span class="payment-choice__icon">📺</span>
-                        <span class="payment-choice__title" data-i18n="pay_choice_ad">观看广告</span>
-                        <span class="payment-choice__desc" data-i18n="pay_choice_ad_desc">观看30秒广告免费解锁</span>
-                    </button>
+                <!-- Payment QR (original) -->
+                <div class="payment__price">¥9<span>.90</span></div>
+                <div id="qr-container" class="text-center">
+                    <div class="qr-wrap">
+                        <img id="qr-code" src="" alt="支付二维码" />
+                    </div>
+                    <p style="color: var(--ink-muted); font-size: 0.875rem; margin-top: var(--space-md);" data-i18n="payment_qr_hint">
+                        微信扫码支付 · 24小时内有效
+                    </p>
+                </div>
+                <div style="background: var(--gold-soft); border: 1px solid #fde68a; border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); margin-bottom: var(--space-lg); font-size: 0.875rem; color: #92400e;" data-i18n="payment_validity">
+                    ⏰ 支付后 24 小时内有效，请及时完成测试
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn--secondary" onclick="simulatePayment()" data-i18n="payment_test_mode">测试模式</button>
+                    <button class="btn btn--primary" onclick="checkPaymentStatus()" data-i18n="payment_paid">我已支付</button>
                 </div>
                 
-                <!-- Payment QR (shown after choosing paid) -->
-                <div id="payment-qr" class="hidden">
-                    <div class="payment__price">¥9<span>.90</span></div>
-                    <div id="qr-container" class="text-center">
-                        <div class="qr-wrap">
-                            <img id="qr-code" src="" alt="支付二维码" />
-                        </div>
-                        <p style="color: var(--ink-muted); font-size: 0.875rem; margin-top: var(--space-md);" data-i18n="payment_qr_hint">
-                            微信扫码支付 · 24小时内有效
-                        </p>
-                    </div>
-                    <div style="background: var(--gold-soft); border: 1px solid #fde68a; border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); margin-bottom: var(--space-lg); font-size: 0.875rem; color: #92400e;" data-i18n="payment_validity">
-                        ⏰ 支付后 24 小时内有效，请及时完成测试
-                    </div>
-                    <div class="btn-group">
-                        <button class="btn btn--secondary" onclick="simulatePayment()" data-i18n="payment_test_mode">测试模式</button>
-                        <button class="btn btn--primary" onclick="checkPaymentStatus()" data-i18n="payment_paid">我已支付</button>
-                    </div>
+                <!-- Divider -->
+                <div class="text-center" style="margin: var(--space-xl) 0; color: var(--ink-faint); font-size: 0.875rem;">
+                    <span data-i18n="payment_or">或</span>
+                </div>
+                
+                <!-- Ad Option -->
+                <div class="text-center">
+                    <button class="btn btn--outline" onclick="chooseAd()" style="width: 100%;">
+                        <span style="font-size: 1.25rem; margin-right: 8px;">📺</span>
+                        <span data-i18n="pay_choice_ad">观看广告免费解锁</span>
+                    </button>
+                    <p style="color: var(--ink-muted); font-size: 0.8125rem; margin-top: var(--space-sm);" data-i18n="pay_choice_ad_desc">
+                        观看30秒广告即可免费开始测试
+                    </p>
                 </div>
             </div>
         </div>
@@ -995,8 +995,9 @@
                 direction_降低: '降低',
                 pay_choice_paid: '付费解锁',
                 pay_choice_paid_desc: '¥9.90 一次性付费',
-                pay_choice_ad: '观看广告',
-                pay_choice_ad_desc: '观看30秒广告免费解锁',
+                pay_choice_ad: '观看广告免费解锁',
+                pay_choice_ad_desc: '观看30秒广告即可免费开始测试',
+                payment_or: '或',
                 ad_loading: '正在加载广告...',
                 ad_countdown: '广告倒计时: {seconds}秒',
                 trait_names: {
@@ -1044,8 +1045,9 @@
                 direction_降低: 'Reduce',
                 pay_choice_paid: 'Pay to Unlock',
                 pay_choice_paid_desc: '¥9.90 one-time payment',
-                pay_choice_ad: 'Watch Ad',
-                pay_choice_ad_desc: 'Watch 30s ad to unlock for free',
+                pay_choice_ad: 'Watch Ad to Unlock Free',
+                pay_choice_ad_desc: 'Watch 30s ad to start for free',
+                payment_or: 'or',
                 ad_loading: 'Loading ad...',
                 ad_countdown: 'Ad countdown: {seconds}s',
                 trait_names: {
@@ -1093,8 +1095,9 @@
                 direction_降低: 'Reducir',
                 pay_choice_paid: 'Pagar para desbloquear',
                 pay_choice_paid_desc: '¥9.90 pago único',
-                pay_choice_ad: 'Ver anuncio',
-                pay_choice_ad_desc: 'Ver anuncio de 30s para desbloquear gratis',
+                pay_choice_ad: 'Ver Anuncio Gratis',
+                pay_choice_ad_desc: 'Ver 30s de anuncio para empezar gratis',
+                payment_or: 'o',
                 ad_loading: 'Cargando anuncio...',
                 ad_countdown: 'Cuenta regresiva: {seconds}s',
                 trait_names: {
@@ -1142,8 +1145,9 @@
                 direction_降低: '低下',
                 pay_choice_paid: '有料解除',
                 pay_choice_paid_desc: '¥9.90 一括払い',
-                pay_choice_ad: '広告を見る',
-                pay_choice_ad_desc: '30秒の広告を見て無料解除',
+                pay_choice_ad: '広告を見て無料解除',
+                pay_choice_ad_desc: '30秒の広告を見て無料で開始',
+                payment_or: 'または',
                 ad_loading: '広告を読み込み中...',
                 ad_countdown: 'カウントダウン: {seconds}秒',
                 trait_names: {
@@ -1191,8 +1195,9 @@
                 direction_降低: 'Reduzieren',
                 pay_choice_paid: 'Bezahlen zum Freischalten',
                 pay_choice_paid_desc: '¥9.90 einmalige Zahlung',
-                pay_choice_ad: 'Werbung ansehen',
-                pay_choice_ad_desc: '30s Werbung ansehen zum kostenlosen Freischalten',
+                pay_choice_ad: 'Werbung ansehen zum Kostenlos',
+                pay_choice_ad_desc: '30s Werbung ansehen zum kostenlosen Start',
+                payment_or: 'oder',
                 ad_loading: 'Werbung wird geladen...',
                 ad_countdown: 'Countdown: {seconds}s',
                 trait_names: {
@@ -1240,8 +1245,9 @@
                 direction_降低: 'Снизить',
                 pay_choice_paid: 'Оплатить для разблокировки',
                 pay_choice_paid_desc: '¥9.90 разовый платеж',
-                pay_choice_ad: 'Смотреть рекламу',
-                pay_choice_ad_desc: 'Посмотреть 30-секундную рекламу бесплатно',
+                pay_choice_ad: 'Смотреть рекламу бесплатно',
+                pay_choice_ad_desc: 'Посмотреть 30-секундную рекламу для старта',
+                payment_or: 'или',
                 ad_loading: 'Загрузка рекламы...',
                 ad_countdown: 'Обратный отсчет: {seconds}с',
                 trait_names: {
@@ -1289,8 +1295,9 @@
                 direction_降低: 'Réduire',
                 pay_choice_paid: 'Payer pour débloquer',
                 pay_choice_paid_desc: '¥9.90 paiement unique',
-                pay_choice_ad: 'Regarder la pub',
-                pay_choice_ad_desc: 'Regarder 30s de pub pour débloquer gratuitement',
+                pay_choice_ad: 'Regarder la pub gratuitement',
+                pay_choice_ad_desc: 'Regarder 30s de pub pour commencer gratuitement',
+                payment_or: 'ou',
                 ad_loading: 'Chargement de la pub...',
                 ad_countdown: 'Compte à rebours: {seconds}s',
                 trait_names: {
@@ -1752,10 +1759,6 @@
                 input.style.borderColor = '#ef4444';
                 input.setAttribute('placeholder', '输入错误，请重试');
             }
-        }
-        
-        function choosePaid() {
-            document.getElementById('payment-qr').classList.remove('hidden');
         }
         
         function chooseAd() {
