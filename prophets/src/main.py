@@ -1,8 +1,7 @@
 """Prophets - 历史人物性格匹配引擎"""
 import logging
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
 from pathlib import Path
 
 # Configure logging
@@ -31,7 +30,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# 静态文件服务
+# 静态文件路径
 static_path = Path(__file__).parent.parent / "static"
 
 # 路由挂载
@@ -57,6 +56,12 @@ async def root():
         raise HTTPException(status_code=404, detail="前端文件不存在")
     return HTMLResponse(content=open(html_path, encoding="utf-8").read())
 
+@app.get("/favicon.ico")
+async def favicon():
+    """返回空的 favicon 避免 404 错误"""
+    from fastapi.responses import Response
+    return Response(content="", media_type="image/x-icon")
+
 @app.get("/chart.min.js")
 async def serve_chart_js():
     """提供本地Chart.js文件"""
@@ -65,9 +70,3 @@ async def serve_chart_js():
     if chart_path.exists():
         return FileResponse(chart_path, media_type="application/javascript")
     return {"error": "Chart.js file not found"}
-
-@app.get("/favicon.ico")
-async def favicon():
-    """返回空的 favicon 避免 404 错误"""
-    from fastapi.responses import Response
-    return Response(content="", media_type="image/x-icon")
