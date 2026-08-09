@@ -14,8 +14,6 @@ PAYMENT_LINK_TEMPLATE = "https://pay.example.com/order/{order_id}"
 @router.get("/api/payment/qr/{order_id}")
 async def get_payment_qr(order_id: str):
     """生成支付二维码"""
-    import sys
-    sys.path.insert(0, "E:/aiprojects/tinyapp/prophets")
     from src.api.payment import _payment_sessions
     
     # 检查订单是否存在
@@ -43,8 +41,6 @@ async def get_payment_qr(order_id: str):
 @router.get("/api/payment/mock_qr/{user_id}")
 async def get_mock_payment_qr(user_id: str):
     """获取模拟支付二维码（测试用）"""
-    import sys
-    sys.path.insert(0, "E:/aiprojects/tinyapp/prophets")
     from src.api.payment import _payment_sessions, create_payment, PaymentRequest
     
     # 创建订单
