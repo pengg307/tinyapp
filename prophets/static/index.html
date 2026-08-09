@@ -620,6 +620,68 @@
             border-color: var(--accent);
         }
         
+        /* ── Ad Banner ── */
+        .ad-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #2d2d44 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            padding: 0 16px;
+            z-index: 1000;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        
+        .ad-banner.collapsed {
+            transform: translateY(100%);
+        }
+        
+        .ad-banner__content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            max-width: 728px;
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .ad-banner__label {
+            font-size: 0.75rem;
+            color: rgba(255,255,255,0.5);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .ad-banner__close {
+            position: absolute;
+            top: -10px;
+            right: 10px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            border: none;
+            color: rgba(255,255,255,0.6);
+            cursor: pointer;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+        
+        .ad-banner__close:hover {
+            background: rgba(255,255,255,0.2);
+            color: #fff;
+        }
+        
         /* ── Utilities ── */
         .text-center { text-align: center; }
         .mt-lg { margin-top: var(--space-lg); }
@@ -782,6 +844,29 @@
             <div class="text-center mt-lg">
                 <button class="btn btn--secondary" onclick="restartQuiz()" data-i18n="btn_restart">重新测试</button>
             </div>
+        </div>
+    </div>
+    
+    <!-- Ad Banner -->
+    <div id="ad-banner" class="ad-banner">
+        <button class="ad-banner__close" onclick="closeAd()" aria-label="关闭广告">✕</button>
+        <div class="ad-banner__content">
+            <span class="ad-banner__label">广告</span>
+            <!-- TODO: 在此处插入您的广告代码 -->
+            <!-- 示例：Google AdSense -->
+            <!--
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                 data-ad-slot="XXXXXXXXXX"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            -->
+            <!-- 示例：自定义推广链接 -->
+            <a href="#" class="ad-banner__link" style="color: rgba(255,255,255,0.9); text-decoration: none; font-size: 0.9rem;">
+                🎯 发现更多历史人物故事 →
+            </a>
         </div>
     </div>
     
