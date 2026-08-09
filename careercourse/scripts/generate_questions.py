@@ -1,0 +1,128 @@
+#!/usr/bin/env python3
+"""生成20道职业评估题"""
+QUESTIONS = [
+    {"id": 1, "category": "education", "question": "你目前的教育/技能状况如何？", "options": [
+        {"text": "正在学习，积累知识", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.4, "risk_taking": 0.3, "rationality": 0.5, "discipline": 0.7, "empathy": 0.5, "ambition": 0.7, "resilience": 0.6}},
+        {"text": "自学在线/独立学习", "vector": {"openness": 0.8, "conscientiousness": 0.8, "extraversion": 0.3, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.7, "discipline": 0.8, "empathy": 0.4, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "刚毕业，找第一份工作", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.5, "leadership": 0.5, "risk_taking": 0.4, "rationality": 0.6, "discipline": 0.6, "empathy": 0.5, "ambition": 0.8, "resilience": 0.6}},
+        {"text": "在职但想转行", "vector": {"openness": 0.7, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.6, "rationality": 0.6, "discipline": 0.6, "empathy": 0.5, "ambition": 0.8, "resilience": 0.7}},
+        {"text": "经验丰富的专业人士", "vector": {"openness": 0.5, "conscientiousness": 0.8, "extraversion": 0.6, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.5, "rationality": 0.8, "discipline": 0.8, "empathy": 0.6, "ambition": 0.9, "resilience": 0.7}}
+    ]},
+    {"id": 2, "category": "finance", "question": "你的财务状况如何？", "options": [
+        {"text": "资金非常有限，需要先生存", "vector": {"openness": 0.3, "conscientiousness": 0.8, "extraversion": 0.3, "agreeableness": 0.5, "neuroticism": 0.6, "leadership": 0.4, "risk_taking": 0.3, "rationality": 0.7, "discipline": 0.8, "empathy": 0.4, "ambition": 0.6, "resilience": 0.8}},
+        {"text": "有一定积蓄，可以承担一些风险", "vector": {"openness": 0.5, "conscientiousness": 0.7, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.7, "empathy": 0.5, "ambition": 0.7, "resilience": 0.6}},
+        {"text": "舒适，可以投资目标", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.6, "risk_taking": 0.6, "rationality": 0.7, "discipline": 0.7, "empathy": 0.5, "ambition": 0.7, "resilience": 0.6}},
+        {"text": "资金充足，追求雄心勃勃的项目", "vector": {"openness": 0.7, "conscientiousness": 0.7, "extraversion": 0.6, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.8, "rationality": 0.7, "discipline": 0.7, "empathy": 0.4, "ambition": 0.9, "resilience": 0.7}}
+    ]},
+    {"id": 3, "category": "work", "question": "你目前的工作状况如何？", "options": [
+        {"text": "失业，寻找机会", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.4, "agreeableness": 0.5, "neuroticism": 0.6, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.5, "discipline": 0.6, "empathy": 0.5, "ambition": 0.8, "resilience": 0.7}},
+        {"text": "初级岗位，学习技能", "vector": {"openness": 0.7, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.4, "risk_taking": 0.4, "rationality": 0.5, "discipline": 0.6, "empathy": 0.5, "ambition": 0.6, "resilience": 0.5}},
+        {"text": "中级岗位，感到瓶颈", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.5, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.6, "rationality": 0.6, "discipline": 0.7, "empathy": 0.5, "ambition": 0.8, "resilience": 0.6}},
+        {"text": "管理团队或经营企业", "vector": {"openness": 0.6, "conscientiousness": 0.8, "extraversion": 0.7, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.8, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.8, "empathy": 0.5, "ambition": 0.9, "resilience": 0.7}}
+    ]},
+    {"id": 4, "category": "location", "question": "你目前在哪里？", "options": [
+        {"text": "农村/小城市，机会有限", "vector": {"openness": 0.4, "conscientiousness": 0.7, "extraversion": 0.3, "agreeableness": 0.6, "neuroticism": 0.5, "leadership": 0.4, "risk_taking": 0.5, "rationality": 0.5, "discipline": 0.7, "empathy": 0.5, "ambition": 0.8, "resilience": 0.7}},
+        {"text": "中等城市，有一些机会", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.6, "empathy": 0.5, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "大城市，机会很多", "vector": {"openness": 0.6, "conscientiousness": 0.6, "extraversion": 0.6, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.6, "rationality": 0.6, "discipline": 0.6, "empathy": 0.5, "ambition": 0.7, "resilience": 0.6}},
+        {"text": "全球/可以搬迁", "vector": {"openness": 0.8, "conscientiousness": 0.6, "extraversion": 0.7, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.6, "empathy": 0.6, "ambition": 0.8, "resilience": 0.7}}
+    ]},
+    {"id": 5, "category": "network", "question": "你的专业人脉如何？", "options": [
+        {"text": "几乎没有业内联系", "vector": {"openness": 0.4, "conscientiousness": 0.6, "extraversion": 0.3, "agreeableness": 0.5, "neuroticism": 0.5, "leadership": 0.4, "risk_taking": 0.4, "rationality": 0.5, "discipline": 0.6, "empathy": 0.5, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "有些熟人，联系有限", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.4, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.5, "discipline": 0.6, "empathy": 0.5, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "良好人脉，可以获得引荐", "vector": {"openness": 0.6, "conscientiousness": 0.6, "extraversion": 0.6, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.6, "risk_taking": 0.6, "rationality": 0.6, "discipline": 0.6, "empathy": 0.6, "ambition": 0.7, "resilience": 0.6}},
+        {"text": "强大网络，有影响力的人", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.7, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.7, "rationality": 0.6, "discipline": 0.7, "empathy": 0.6, "ambition": 0.8, "resilience": 0.7}}
+    ]},
+    {"id": 6, "category": "risk", "question": "你对风险的接受度如何？", "options": [
+        {"text": "非常风险厌恶，偏好稳定", "vector": {"openness": 0.3, "conscientiousness": 0.9, "extraversion": 0.3, "agreeableness": 0.7, "neuroticism": 0.6, "leadership": 0.4, "risk_taking": 0.2, "rationality": 0.8, "discipline": 0.8, "empathy": 0.6, "ambition": 0.5, "resilience": 0.5}},
+        {"text": "有些谨慎，但可以承担计算过的风险", "vector": {"openness": 0.5, "conscientiousness": 0.7, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.4, "rationality": 0.7, "discipline": 0.7, "empathy": 0.5, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "愿意赌大回报", "vector": {"openness": 0.7, "conscientiousness": 0.5, "extraversion": 0.7, "agreeableness": 0.4, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.8, "rationality": 0.6, "discipline": 0.6, "empathy": 0.4, "ambition": 0.8, "resilience": 0.7}},
+        {"text": "追求刺激，喜欢高风险决策", "vector": {"openness": 0.8, "conscientiousness": 0.4, "extraversion": 0.8, "agreeableness": 0.3, "neuroticism": 0.2, "leadership": 0.8, "risk_taking": 0.95, "rationality": 0.6, "discipline": 0.5, "empathy": 0.3, "ambition": 0.9, "resilience": 0.8}}
+    ]},
+    {"id": 7, "category": "mentorship", "question": "你有导师吗？", "options": [
+        {"text": "没有导师，从书本/网络学习", "vector": {"openness": 0.7, "conscientiousness": 0.7, "extraversion": 0.3, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.7, "discipline": 0.8, "empathy": 0.4, "ambition": 0.7, "resilience": 0.8}},
+        {"text": "一两个非正式指导", "vector": {"openness": 0.6, "conscientiousness": 0.6, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.7, "empathy": 0.5, "ambition": 0.6, "resilience": 0.7}},
+        {"text": "多个不同领域的导师", "vector": {"openness": 0.7, "conscientiousness": 0.7, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.6, "rationality": 0.7, "discipline": 0.7, "empathy": 0.6, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "强大的导师网络，定期指导", "vector": {"openness": 0.7, "conscientiousness": 0.8, "extraversion": 0.6, "agreeableness": 0.7, "neuroticism": 0.3, "leadership": 0.8, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.8, "empathy": 0.6, "ambition": 0.8, "resilience": 0.7}}
+    ]},
+    {"id": 8, "category": "time", "question": "你能投入多少时间？", "options": [
+        {"text": "时间有限，有其他责任", "vector": {"openness": 0.4, "conscientiousness": 0.8, "extraversion": 0.3, "agreeableness": 0.6, "neuroticism": 0.5, "leadership": 0.4, "risk_taking": 0.3, "rationality": 0.6, "discipline": 0.9, "empathy": 0.4, "ambition": 0.6, "resilience": 0.7}},
+        {"text": "兼职，晚上和周末", "vector": {"openness": 0.5, "conscientiousness": 0.7, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.4, "rationality": 0.6, "discipline": 0.8, "empathy": 0.5, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "全职，但有其他义务", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.7, "empathy": 0.5, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "时间无限，完全投入", "vector": {"openness": 0.7, "conscientiousness": 0.7, "extraversion": 0.6, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.7, "empathy": 0.5, "ambition": 0.9, "resilience": 0.8}}
+    ]},
+    {"id": 9, "category": "family", "question": "你的家庭状况如何？", "options": [
+        {"text": "有依赖者，需要稳定收入", "vector": {"openness": 0.3, "conscientiousness": 0.8, "extraversion": 0.3, "agreeableness": 0.6, "neuroticism": 0.5, "leadership": 0.4, "risk_taking": 0.3, "rationality": 0.7, "discipline": 0.8, "empathy": 0.5, "ambition": 0.6, "resilience": 0.7}},
+        {"text": "伴侣/支持家庭，有些灵活性", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.6, "empathy": 0.6, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "独立，没有主要依赖", "vector": {"openness": 0.6, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.6, "risk_taking": 0.7, "rationality": 0.6, "discipline": 0.6, "empathy": 0.5, "ambition": 0.8, "resilience": 0.7}},
+        {"text": "家庭企业/支持系统到位", "vector": {"openness": 0.5, "conscientiousness": 0.7, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.6, "rationality": 0.7, "discipline": 0.7, "empathy": 0.5, "ambition": 0.8, "resilience": 0.7}}
+    ]},
+    {"id": 10, "category": "failure", "question": "你如何处理过去的失败？", "options": [
+        {"text": "从未面临重大挫折", "vector": {"openness": 0.4, "conscientiousness": 0.6, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.6, "leadership": 0.4, "risk_taking": 0.4, "rationality": 0.5, "discipline": 0.6, "empathy": 0.5, "ambition": 0.6, "resilience": 0.4}},
+        {"text": "有挫折但快速恢复", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.6, "empathy": 0.5, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "多次失败，每次都有收获", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.5, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.6, "risk_taking": 0.6, "rationality": 0.8, "discipline": 0.7, "empathy": 0.5, "ambition": 0.8, "resilience": 0.9}},
+        {"text": "从重复失败中建立成功", "vector": {"openness": 0.7, "conscientiousness": 0.8, "extraversion": 0.5, "agreeableness": 0.5, "neuroticism": 0.2, "leadership": 0.7, "risk_taking": 0.7, "rationality": 0.85, "discipline": 0.8, "empathy": 0.5, "ambition": 0.9, "resilience": 0.95}}
+    ]},
+    {"id": 11, "category": "goal", "question": "你的主要职业目标是什么？", "options": [
+        {"text": "财务稳定和安全", "vector": {"openness": 0.3, "conscientiousness": 0.9, "extraversion": 0.3, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.4, "risk_taking": 0.3, "rationality": 0.9, "discipline": 0.9, "empathy": 0.4, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "创意表达和创新", "vector": {"openness": 0.9, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.6, "rationality": 0.6, "discipline": 0.6, "empathy": 0.6, "ambition": 0.7, "resilience": 0.6}},
+        {"text": "权力和影响力", "vector": {"openness": 0.5, "conscientiousness": 0.7, "extraversion": 0.7, "agreeableness": 0.3, "neuroticism": 0.3, "leadership": 0.9, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.7, "empathy": 0.3, "ambition": 0.95, "resilience": 0.7}},
+        {"text": "改变世界", "vector": {"openness": 0.7, "conscientiousness": 0.7, "extraversion": 0.6, "agreeableness": 0.8, "neuroticism": 0.4, "leadership": 0.7, "risk_taking": 0.5, "rationality": 0.7, "discipline": 0.7, "empathy": 0.9, "ambition": 0.8, "resilience": 0.8}}
+    ]},
+    {"id": 12, "category": "learning", "question": "你更喜欢如何学习？", "options": [
+        {"text": "正规教育和结构化课程", "vector": {"openness": 0.5, "conscientiousness": 0.9, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.5, "risk_taking": 0.3, "rationality": 0.9, "discipline": 0.8, "empathy": 0.4, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "通过书籍和在线自学", "vector": {"openness": 0.8, "conscientiousness": 0.8, "extraversion": 0.3, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.5, "risk_taking": 0.4, "rationality": 0.8, "discipline": 0.7, "empathy": 0.4, "ambition": 0.7, "resilience": 0.6}},
+        {"text": "在实践中学习和实验", "vector": {"openness": 0.7, "conscientiousness": 0.6, "extraversion": 0.6, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.6, "empathy": 0.5, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "导师指导和实践", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.5, "agreeableness": 0.7, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.5, "rationality": 0.7, "discipline": 0.7, "empathy": 0.7, "ambition": 0.7, "resilience": 0.6}}
+    ]},
+    {"id": 13, "category": "age", "question": "你的年龄段？", "options": [
+        {"text": "25岁以下 - 职业探索期", "vector": {"openness": 0.8, "conscientiousness": 0.6, "extraversion": 0.6, "agreeableness": 0.6, "neuroticism": 0.5, "leadership": 0.5, "risk_taking": 0.6, "rationality": 0.5, "discipline": 0.6, "empathy": 0.6, "ambition": 0.7, "resilience": 0.6}},
+        {"text": "25-35岁 - 建立基础", "vector": {"openness": 0.7, "conscientiousness": 0.7, "extraversion": 0.6, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.7, "rationality": 0.6, "discipline": 0.7, "empathy": 0.5, "ambition": 0.8, "resilience": 0.6}},
+        {"text": "35-50岁 - 中期转型或晋升", "vector": {"openness": 0.6, "conscientiousness": 0.8, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.5, "rationality": 0.8, "discipline": 0.8, "empathy": 0.6, "ambition": 0.8, "resilience": 0.7}},
+        {"text": "50岁以上 - 智慧和传承", "vector": {"openness": 0.6, "conscientiousness": 0.9, "extraversion": 0.5, "agreeableness": 0.7, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.4, "rationality": 0.9, "discipline": 0.9, "empathy": 0.7, "ambition": 0.7, "resilience": 0.8}}
+    ]},
+    {"id": 14, "category": "style", "question": "你喜欢什么样的工作方式？", "options": [
+        {"text": "独自工作，独立项目", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.3, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.7, "discipline": 0.7, "empathy": 0.4, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "小团队，密切合作", "vector": {"openness": 0.6, "conscientiousness": 0.6, "extraversion": 0.6, "agreeableness": 0.7, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.6, "empathy": 0.7, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "大型组织，结构化成长", "vector": {"openness": 0.5, "conscientiousness": 0.8, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.6, "risk_taking": 0.4, "rationality": 0.7, "discipline": 0.8, "empathy": 0.5, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "领导团队，建立组织", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.8, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.9, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.7, "empathy": 0.5, "ambition": 0.8, "resilience": 0.7}}
+    ]},
+    {"id": 15, "category": "geography", "question": "你想在哪里发展职业生涯？", "options": [
+        {"text": "本地社区，靠近家", "vector": {"openness": 0.3, "conscientiousness": 0.7, "extraversion": 0.4, "agreeableness": 0.7, "neuroticism": 0.4, "leadership": 0.4, "risk_taking": 0.3, "rationality": 0.6, "discipline": 0.7, "empathy": 0.7, "ambition": 0.5, "resilience": 0.6}},
+        {"text": "全国机会，愿意搬迁", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.6, "empathy": 0.5, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "国际，开放全球流动", "vector": {"openness": 0.9, "conscientiousness": 0.6, "extraversion": 0.7, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.6, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.6, "empathy": 0.6, "ambition": 0.8, "resilience": 0.7}},
+        {"text": "无边界， anywhere远程", "vector": {"openness": 0.8, "conscientiousness": 0.6, "extraversion": 0.6, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.5, "risk_taking": 0.6, "rationality": 0.7, "discipline": 0.6, "empathy": 0.5, "ambition": 0.7, "resilience": 0.7}}
+    ]},
+    {"id": 16, "category": "resilience", "question": "你如何处理批评？", "options": [
+        {"text": "个人化接受，难以释怀", "vector": {"openness": 0.4, "conscientiousness": 0.5, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.8, "leadership": 0.4, "risk_taking": 0.3, "rationality": 0.5, "discipline": 0.5, "empathy": 0.7, "ambition": 0.5, "resilience": 0.3}},
+        {"text": "从中学习但感到沮丧", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.6, "leadership": 0.5, "risk_taking": 0.4, "rationality": 0.6, "discipline": 0.6, "empathy": 0.6, "ambition": 0.6, "resilience": 0.5}},
+        {"text": "将其作为证明自己的动力", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.6, "agreeableness": 0.4, "neuroticism": 0.4, "leadership": 0.7, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.7, "empathy": 0.4, "ambition": 0.8, "resilience": 0.8}},
+        {"text": "欢迎反馈，持续改进", "vector": {"openness": 0.9, "conscientiousness": 0.8, "extraversion": 0.6, "agreeableness": 0.7, "neuroticism": 0.2, "leadership": 0.8, "risk_taking": 0.6, "rationality": 0.85, "discipline": 0.8, "empathy": 0.7, "ambition": 0.8, "resilience": 0.9}}
+    ]},
+    {"id": 17, "category": "resources", "question": "你有哪些资源可用？", "options": [
+        {"text": "非常有限 - 从零开始", "vector": {"openness": 0.5, "conscientiousness": 0.7, "extraversion": 0.3, "agreeableness": 0.5, "neuroticism": 0.5, "leadership": 0.5, "risk_taking": 0.4, "rationality": 0.6, "discipline": 0.8, "empathy": 0.4, "ambition": 0.7, "resilience": 0.8}},
+        {"text": "有一些积蓄和基本工具", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.6, "empathy": 0.5, "ambition": 0.6, "resilience": 0.6}},
+        {"text": "资源良好，可以战略投资", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.6, "risk_taking": 0.6, "rationality": 0.7, "discipline": 0.7, "empathy": 0.5, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "资源丰富，可以下大注", "vector": {"openness": 0.7, "conscientiousness": 0.7, "extraversion": 0.6, "agreeableness": 0.5, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.8, "rationality": 0.7, "discipline": 0.7, "empathy": 0.5, "ambition": 0.9, "resilience": 0.8}}
+    ]},
+    {"id": 18, "category": "pressure", "question": "你感到多大时间压力？", "options": [
+        {"text": "紧急 - 必须尽快成功", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.6, "agreeableness": 0.4, "neuroticism": 0.6, "leadership": 0.7, "risk_taking": 0.6, "rationality": 0.6, "discipline": 0.6, "empathy": 0.4, "ambition": 0.9, "resilience": 0.7}},
+        {"text": "适度 - 可以花几年", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.5, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.5, "rationality": 0.7, "discipline": 0.7, "empathy": 0.5, "ambition": 0.7, "resilience": 0.6}},
+        {"text": "轻松 - 长期视角", "vector": {"openness": 0.6, "conscientiousness": 0.8, "extraversion": 0.4, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.6, "risk_taking": 0.4, "rationality": 0.8, "discipline": 0.8, "empathy": 0.6, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "无压力 - 探索可能性", "vector": {"openness": 0.8, "conscientiousness": 0.5, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.5, "risk_taking": 0.4, "rationality": 0.6, "discipline": 0.5, "empathy": 0.6, "ambition": 0.5, "resilience": 0.6}}
+    ]},
+    {"id": 19, "category": "rolemodel", "question": "哪种成功类型激励你？", "options": [
+        {"text": "商业大亨和亿万富翁", "vector": {"openness": 0.5, "conscientiousness": 0.7, "extraversion": 0.6, "agreeableness": 0.4, "neuroticism": 0.3, "leadership": 0.8, "risk_taking": 0.8, "rationality": 0.7, "discipline": 0.7, "empathy": 0.4, "ambition": 0.95, "resilience": 0.8}},
+        {"text": "科学家和创新者", "vector": {"openness": 0.9, "conscientiousness": 0.8, "extraversion": 0.3, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.5, "risk_taking": 0.5, "rationality": 0.9, "discipline": 0.8, "empathy": 0.5, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "政治领袖和变革者", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.7, "agreeableness": 0.5, "neuroticism": 0.4, "leadership": 0.9, "risk_taking": 0.6, "rationality": 0.7, "discipline": 0.7, "empathy": 0.6, "ambition": 0.9, "resilience": 0.8}},
+        {"text": "艺术家和文化人物", "vector": {"openness": 0.95, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.6, "neuroticism": 0.5, "leadership": 0.4, "risk_taking": 0.6, "rationality": 0.6, "discipline": 0.6, "empathy": 0.8, "ambition": 0.6, "resilience": 0.6}}
+    ]},
+    {"id": 20, "category": "support", "question": "你的支持系统如何？", "options": [
+        {"text": "独自一人，从零开始", "vector": {"openness": 0.5, "conscientiousness": 0.8, "extraversion": 0.3, "agreeableness": 0.5, "neuroticism": 0.5, "leadership": 0.6, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.8, "empathy": 0.4, "ambition": 0.7, "resilience": 0.9}},
+        {"text": "周围有一些支持的人", "vector": {"openness": 0.5, "conscientiousness": 0.6, "extraversion": 0.5, "agreeableness": 0.7, "neuroticism": 0.4, "leadership": 0.6, "risk_taking": 0.5, "rationality": 0.6, "discipline": 0.6, "empathy": 0.6, "ambition": 0.6, "resilience": 0.7}},
+        {"text": "强大的盟友和导师网络", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.6, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.7, "rationality": 0.7, "discipline": 0.7, "empathy": 0.6, "ambition": 0.7, "resilience": 0.7}},
+        {"text": "内置支持系统，资源就绪", "vector": {"openness": 0.6, "conscientiousness": 0.7, "extraversion": 0.6, "agreeableness": 0.6, "neuroticism": 0.3, "leadership": 0.7, "risk_taking": 0.8, "rationality": 0.7, "discipline": 0.7, "empathy": 0.6, "ambition": 0.8, "resilience": 0.8}}
+    ]}
+]
+
+if __name__ == "__main__":
+    print(f"Created {len(QUESTIONS)} questions")
