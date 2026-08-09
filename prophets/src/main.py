@@ -3,11 +3,23 @@ Prophets - 历史人物性格匹配引擎
 FastAPI 应用入口
 """
 import logging
+import sys
 from pathlib import Path
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# 动态调整 Python 路径以支持多种部署方式：
+# 1. Vercel Root Directory = prophets → PYTHONPATH=. → src 在当前目录
+# 2. Vercel Root Directory = 空 → PYTHONPATH=prophets → src 在父目录
+_script = Path(__file__).resolve()
+# 如果 prophets/src/main.py，添加 prophets/src 到路径
+if _script.parent.name == "src" and _script.parent.parent.name == "prophets":
+    sys.path.insert(0, str(_script.parent))
+# 如果 src/main.py，添加当前目录到路径
+elif _script.parent.name == "src" and _script.parent.parent.name != "prophets":
+    sys.path.insert(0, str(_script.parent.parent))
 
 # 导入路由
 from src.api.quiz import router as quiz_router
