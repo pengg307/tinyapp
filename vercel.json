@@ -26,10 +26,5 @@
   ],
   "env": {
     "PYTHONPATH": "prophets"
-  },
-  "functions": {
-    "prophets/src/main.py": {
-      "maxDuration": 10
-    }
   }
 }

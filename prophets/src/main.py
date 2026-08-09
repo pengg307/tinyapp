@@ -3,9 +3,12 @@ Prophets - 历史人物性格匹配引擎
 FastAPI 应用入口
 """
 import logging
+import sys
 from pathlib import Path
-from fastapi import FastAPI, HTTPException
-from fastapi.middleware.cors import CORSMiddleware
+
+# 添加 prophets/src 到 Python 路径
+_prophets_src = Path(__file__).parent
+sys.path.insert(0, str(_prophets_src))
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)
@@ -15,6 +18,9 @@ from src.api.quiz import router as quiz_router
 from src.api.match import router as match_router
 from src.api.payment import router as payment_router
 from src.api.qr import router as qr_router
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse, Response
 
 # 创建 FastAPI 应用
 app = FastAPI(
@@ -34,12 +40,6 @@ app.add_middleware(
 
 # 静态文件路径
 static_path = Path(__file__).parent.parent / "static"
-
-# 注册路由
-app.include_router(quiz_router, prefix="/api")
-app.include_router(match_router, prefix="/api")
-app.include_router(payment_router, prefix="/api")
-app.include_router(qr_router, prefix="/api")
 
 
 @app.get("/api/health")
@@ -73,5 +73,11 @@ async def chart_js():
 @app.get("/favicon.ico")
 async def favicon():
     """返回空的 favicon"""
-    from fastapi.responses import Response
     return Response(content="", media_type="image/x-icon")
+
+
+# 注册路由
+app.include_router(quiz_router, prefix="/api")
+app.include_router(match_router, prefix="/api")
+app.include_router(payment_router, prefix="/api")
+app.include_router(qr_router, prefix="/api")
