@@ -1,5 +1,6 @@
 """支付相关接口"""
 
+import logging
 from typing import Any
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
@@ -7,6 +8,8 @@ import time
 import json
 from pathlib import Path
 from datetime import datetime, timedelta
+
+logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
@@ -48,6 +51,8 @@ class PaymentVerifyResponse(BaseModel):
 @router.post("/api/payment", response_model=PaymentResponse)
 async def create_payment(req: PaymentRequest):
     """创建支付订单"""
+    logger.info(f"Creating payment for user: {req.user_id}")
+    
     order_id = f"ORD{int(time.time())}{hash(req.user_id) % 10000:04d}"
     expire_at = datetime.now() + timedelta(hours=PAYMENT_EXPIRE_HOURS)
     
@@ -59,6 +64,8 @@ async def create_payment(req: PaymentRequest):
         "expire_at": expire_at.isoformat(),
         "paid_at": None
     }
+    
+    logger.info(f"Created order: {order_id}")
     
     return PaymentResponse(
         success=True,
@@ -72,9 +79,12 @@ async def create_payment(req: PaymentRequest):
 @router.post("/api/payment/verify", response_model=PaymentVerifyResponse)
 async def verify_payment(req: PaymentVerifyRequest):
     """验证支付状态"""
+    logger.info(f"Verifying payment for order: {req.order_id}")
+    
     session = _payment_sessions.get(req.order_id)
     
     if not session:
+        logger.warning(f"Order not found: {req.order_id}")
         raise HTTPException(status_code=404, detail="订单不存在")
     
     if session["status"] != "paid":
@@ -97,11 +107,15 @@ async def verify_payment(req: PaymentVerifyRequest):
 @router.post("/api/payment/mock_pay")
 async def mock_payment(req: PaymentRequest):
     """模拟支付（仅用于测试）"""
+    logger.info(f"Mock payment for user: {req.user_id}")
+    
     # 查找该用户的待支付订单
     for order_id, session in _payment_sessions.items():
         if session["user_id"] == req.user_id and session["status"] == "pending":
             session["status"] = "paid"
             session["paid_at"] = datetime.now().isoformat()
+            
+            logger.info(f"Mock payment successful for order: {order_id}")
             
             return {
                 "success": True,
@@ -119,12 +133,15 @@ async def mock_payment(req: PaymentRequest):
 @router.get("/api/payment/status/{user_id}")
 async def get_payment_status(user_id: str):
     """查询用户支付状态"""
+    logger.info(f"Checking payment status for user: {user_id}")
+    
     for order_id, session in _payment_sessions.items():
         if session["user_id"] == user_id and session["status"] == "paid":
             expire_at = datetime.fromisoformat(session["expire_at"])
             remaining = (expire_at - datetime.now()).total_seconds() / 3600
             
             if remaining > 0:
+                logger.info(f"User {user_id} has paid order: {order_id}")
                 return {
                     "paid": True,
                     "order_id": order_id,
@@ -132,4 +149,5 @@ async def get_payment_status(user_id: str):
                     "remaining_hours": round(remaining, 1)
                 }
     
+    logger.info(f"User {user_id} has not paid")
     return {"paid": False, "message": "未支付或已过期"}

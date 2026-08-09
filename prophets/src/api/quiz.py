@@ -4,6 +4,7 @@ GET /api/quiz - 获取题目列表（支持语言选择）
 """
 
 import json
+import os
 from typing import Any
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
@@ -18,25 +19,56 @@ SUPPORTED_LANGUAGES = ["zh", "en", "es", "ja", "de", "ru", "fr"]
 _questions_data: list[dict[str, Any]] | None = None
 
 
+def _find_data_file() -> Path:
+    """Find the questions.json file with multiple fallback paths"""
+    # Try different possible locations
+    possible_paths = [
+        # Current working directory based
+        Path("src/data/questions.json"),
+        Path("prophets/src/data/questions.json"),
+        Path("data/questions.json"),
+        # Based on __file__
+        Path(__file__).parent.parent / "data" / "questions.json",
+        Path(__file__).parent.parent.parent / "prophets" / "src" / "data" / "questions.json",
+        Path(__file__).parent / "data" / "questions.json",
+        # Absolute paths for debugging
+        Path("/home/vercel/project/src/data/questions.json"),
+        Path("/var/task/src/data/questions.json"),
+    ]
+    
+    for path in possible_paths:
+        resolved = path.resolve()
+        if resolved.exists():
+            print(f"DEBUG: Found questions.json at {resolved}")
+            return resolved
+    
+    # Last resort: search from project root
+    project_root = Path(__file__).resolve().parent.parent.parent.parent
+    fallback = project_root / "prophets" / "src" / "data" / "questions.json"
+    if fallback.exists():
+        print(f"DEBUG: Found questions.json at fallback path {fallback}")
+        return fallback
+    
+    raise HTTPException(status_code=503, detail="题目数据文件不存在")
+
+
 def _load_questions() -> list[dict[str, Any]]:
     """加载题目数据"""
     global _questions_data
     if _questions_data is not None:
         return _questions_data
 
-    data_path = Path(__file__).parent.parent / "data" / "questions.json"
-
-    if not data_path.exists():
-        data_path = Path(__file__).parent.parent.parent / "prophets" / "src" / "data" / "questions.json"
-
-    if not data_path.exists():
-        raise HTTPException(status_code=503, detail="题目数据文件不存在")
-
     try:
+        data_path = _find_data_file()
+        print(f"DEBUG: Loading questions from {data_path}")
+        
         with open(data_path, "r", encoding="utf-8") as f:
             _questions_data = json.load(f)
+        
+        print(f"DEBUG: Loaded {len(_questions_data)} questions")
         return _questions_data
     except Exception as e:
+        print(f"DEBUG: Error loading questions: {e}")
         raise HTTPException(status_code=500, detail=f"加载题目数据失败: {e}")
 
 
@@ -57,22 +89,15 @@ class QuizResponse(BaseModel):
 async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$")):
     """
     获取测评题目列表
-    
-    - language: 语言代码 (zh/en/es/ja/de/ru/fr)，默认中文
-    - 返回指定语言的题目和选项
     """
     try:
         questions = _load_questions()
 
         sanitized_questions = []
         for q in questions:
-            # 新格式: translations = {"zh": {"text": "...", "options": [...]}, ...}
             translations = q.get("translations", {})
-            
-            # 获取当前语言的数据
             lang_data = translations.get(language, translations.get("zh", {}))
             
-            # 提取文本和选项
             question_text = lang_data.get("text", q.get("text", ""))
             lang_options = lang_data.get("options", [])
 
@@ -80,7 +105,7 @@ async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$
                 id=q.get("id"),
                 trait=q.get("trait", ""),
                 text=question_text,
-                options=lang_options[:4]  # 最多4个选项
+                options=lang_options[:4]
             ))
 
         return QuizResponse(
@@ -92,6 +117,7 @@ async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$
     except HTTPException:
         raise
     except Exception as e:
+        print(f"DEBUG: Error in get_quiz: {e}")
         raise HTTPException(status_code=500, detail=f"获取题目失败: {e}")
 
 
@@ -99,9 +125,6 @@ async def get_quiz(language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$
 async def get_question(question_id: int, language: str = Query("zh", pattern="^(zh|en|es|ja|de|ru|fr)$")):
     """
     获取单道题目详情
-    
-    - question_id: 题目ID
-    - language: 语言代码
     """
     try:
         questions = _load_questions()
@@ -132,4 +155,5 @@ async def get_question(question_id: int, language: str = Query("zh", pattern="^(
     except HTTPException:
         raise
     except Exception as e:
+        print(f"DEBUG: Error in get_question: {e}")
         raise HTTPException(status_code=500, detail=f"获取题目失败: {e}")
