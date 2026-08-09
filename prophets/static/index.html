@@ -1716,50 +1716,7 @@
             showSection('quiz-section');
             renderQuestion();
         }
-        
-        // ── Payment Functions ──
-        async function loadQRCode() {
-            try {
-                const resp = await fetch(`${API_BASE}/api/payment/qrcode`);
-                const data = await resp.json();
-                if (data.success && data.data.qr_url) {
-                    document.getElementById('qr-code').src = data.data.qr_url;
-                    paymentOrder = data.data.order_id;
-                }
-            } catch (e) {
-                console.error('Failed to load QR code:', e);
-            }
-        }
-        
-        async function checkPaymentStatus() {
-            try {
-                const resp = await fetch(`${API_BASE}/api/payment/status/anonymous`);
-                const data = await resp.json();
-                if (data.paid) {
-                    showSection('start-section');
-                } else {
-                    alert(t('payment_not_paid'));
-                }
-            } catch (e) {
-                showSection('start-section');
-            }
-        }
-        
-        function simulatePayment() {
-            document.getElementById('payment-confirm-modal').classList.add('active');
-        }
-        
-        function confirmPayment() {
-            const input = document.getElementById('payment-confirm-input');
-            if (input.value === 'qwe') {
-                document.getElementById('payment-confirm-modal').classList.remove('active');
-                showSection('start-section');
-            } else {
-                input.style.borderColor = '#ef4444';
-                input.setAttribute('placeholder', '输入错误，请重试');
-            }
-        }
-        
+
         function chooseAd() {
             showAdAndUnlock();
         }
