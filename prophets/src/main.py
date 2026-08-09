@@ -3,17 +3,13 @@ Prophets - 历史人物性格匹配引擎
 FastAPI 应用入口
 """
 import logging
-import sys
 from pathlib import Path
-
-# 添加 prophets/src 到 Python 路径
-_prophets_src = Path(__file__).parent
-sys.path.insert(0, str(_prophets_src))
 
 # 配置日志
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# 导入路由
 from src.api.quiz import router as quiz_router
 from src.api.match import router as match_router
 from src.api.payment import router as payment_router
