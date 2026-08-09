@@ -2,29 +2,29 @@
   "version": 2,
   "builds": [
     {
-      "src": "prophets/src/main.py",
+      "src": "src/main.py",
       "use": "@vercel/python"
     },
     {
-      "src": "prophets/static/**",
+      "src": "static/**",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "prophets/src/main.py"
+      "dest": "src/main.py"
     },
     {
       "src": "/chart.min.js",
-      "dest": "prophets/static/chart.min.js"
+      "dest": "static/chart.min.js"
     },
     {
       "src": "/(.*)",
-      "dest": "prophets/static/$1"
+      "dest": "static/$1"
     }
   ],
   "env": {
-    "PYTHONPATH": "prophets"
+    "PYTHONPATH": "."
   }
 }
