@@ -567,6 +567,72 @@
             height: 180px;
         }
         
+        /* ── Payment Choice ── */
+        .payment-choice {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--space-md);
+            margin: var(--space-xl) 0;
+        }
+        
+        .payment-choice__btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: var(--space-sm);
+            padding: var(--space-xl) var(--space-lg);
+            border: 2px solid var(--border-strong);
+            border-radius: var(--radius-lg);
+            background: var(--surface-elevated);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-family: var(--sans);
+        }
+        
+        .payment-choice__btn:hover {
+            border-color: var(--accent);
+            background: var(--accent-soft);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .payment-choice__icon {
+            font-size: 2.5rem;
+            line-height: 1;
+        }
+        
+        .payment-choice__title {
+            font-family: var(--serif);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--ink);
+        }
+        
+        .payment-choice__desc {
+            font-size: 0.8125rem;
+            color: var(--ink-muted);
+            text-align: center;
+            line-height: 1.5;
+        }
+        
+        .payment-choice__btn--paid .payment-choice__icon {
+            color: var(--accent);
+        }
+        
+        .payment-choice__btn--ad .payment-choice__icon {
+            color: var(--gold);
+        }
+        
+        .payment-choice__btn--paid:hover {
+            border-color: var(--accent);
+            background: var(--accent-soft);
+        }
+        
+        .payment-choice__btn--ad:hover {
+            border-color: var(--gold);
+            background: var(--gold-soft);
+        }
+        
         /* ── Modal ── */
         .modal {
             position: fixed;
@@ -730,21 +796,39 @@
                     <div class="card__title" data-i18n="payment_title">付费测试</div>
                     <div class="card__subtitle" data-i18n="payment_subtitle">完成支付后即可开始性格分析</div>
                 </div>
-                <div class="payment__price">¥9<span>.90</span></div>
-                <div id="qr-container" class="text-center">
-                    <div class="qr-wrap">
-                        <img id="qr-code" src="" alt="支付二维码" />
+                
+                <!-- Payment Choice -->
+                <div class="payment-choice">
+                    <button class="payment-choice__btn payment-choice__btn--paid" onclick="choosePaid()">
+                        <span class="payment-choice__icon">💳</span>
+                        <span class="payment-choice__title" data-i18n="pay_choice_paid">付费解锁</span>
+                        <span class="payment-choice__desc" data-i18n="pay_choice_paid_desc">¥9.90 一次性付费</span>
+                    </button>
+                    <button class="payment-choice__btn payment-choice__btn--ad" onclick="chooseAd()">
+                        <span class="payment-choice__icon">📺</span>
+                        <span class="payment-choice__title" data-i18n="pay_choice_ad">观看广告</span>
+                        <span class="payment-choice__desc" data-i18n="pay_choice_ad_desc">观看30秒广告免费解锁</span>
+                    </button>
+                </div>
+                
+                <!-- Payment QR (shown after choosing paid) -->
+                <div id="payment-qr" class="hidden">
+                    <div class="payment__price">¥9<span>.90</span></div>
+                    <div id="qr-container" class="text-center">
+                        <div class="qr-wrap">
+                            <img id="qr-code" src="" alt="支付二维码" />
+                        </div>
+                        <p style="color: var(--ink-muted); font-size: 0.875rem; margin-top: var(--space-md);" data-i18n="payment_qr_hint">
+                            微信扫码支付 · 24小时内有效
+                        </p>
                     </div>
-                    <p style="color: var(--ink-muted); font-size: 0.875rem; margin-top: var(--space-md);" data-i18n="payment_qr_hint">
-                        微信扫码支付 · 24小时内有效
-                    </p>
-                </div>
-                <div style="background: var(--gold-soft); border: 1px solid #fde68a; border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); margin-bottom: var(--space-lg); font-size: 0.875rem; color: #92400e;" data-i18n="payment_validity">
-                    ⏰ 支付后 24 小时内有效，请及时完成测试
-                </div>
-                <div class="btn-group">
-                    <button class="btn btn--secondary" onclick="simulatePayment()" data-i18n="payment_test_mode">测试模式</button>
-                    <button class="btn btn--primary" onclick="checkPaymentStatus()" data-i18n="payment_paid">我已支付</button>
+                    <div style="background: var(--gold-soft); border: 1px solid #fde68a; border-radius: var(--radius-md); padding: var(--space-md) var(--space-lg); margin-bottom: var(--space-lg); font-size: 0.875rem; color: #92400e;" data-i18n="payment_validity">
+                        ⏰ 支付后 24 小时内有效，请及时完成测试
+                    </div>
+                    <div class="btn-group">
+                        <button class="btn btn--secondary" onclick="simulatePayment()" data-i18n="payment_test_mode">测试模式</button>
+                        <button class="btn btn--primary" onclick="checkPaymentStatus()" data-i18n="payment_paid">我已支付</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -909,6 +993,16 @@
                 direction_提升: '提升',
                 direction_调整: '调整',
                 direction_降低: '降低',
+                pay_choice_paid: '有料解除',
+                pay_choice_paid_desc: '¥9.90 一括払い',
+                pay_choice_ad: '広告を見る',
+                pay_choice_ad_desc: '30秒の広告を見て無料解除',
+                ad_loading: '広告を読み込み中...',
+                ad_countdown: 'カウントダウン: {seconds}秒',
+                pay_choice_ad: '观看广告',
+                pay_choice_ad_desc: '观看30秒广告免费解锁',
+                ad_loading: '正在加载广告...',
+                ad_countdown: '广告倒计时: {seconds}秒',
                 trait_names: {
                     openness: '开放性', conscientiousness: '尽责性', extraversion: '外向性',
                     agreeableness: '宜人性', neuroticism: '情绪稳定', leadership: '领导力',
@@ -952,6 +1046,12 @@
                 direction_提升: 'Improve',
                 direction_调整: 'Adjust',
                 direction_降低: 'Reduce',
+                pay_choice_paid: 'Pay to Unlock',
+                pay_choice_paid_desc: '¥9.90 one-time payment',
+                pay_choice_ad: 'Watch Ad',
+                pay_choice_ad_desc: 'Watch 30s ad to unlock for free',
+                ad_loading: 'Loading ad...',
+                ad_countdown: 'Ad countdown: {seconds}s',
                 trait_names: {
                     openness: 'Openness', conscientiousness: 'Conscientiousness', extraversion: 'Extraversion',
                     agreeableness: 'Agreeableness', neuroticism: 'Emotional Stability', leadership: 'Leadership',
@@ -1583,6 +1683,83 @@
             if (!questions.length) { loadQuiz().then(() => showSection('quiz-section')); return; }
             showSection('quiz-section');
             renderQuestion();
+        }
+        
+        // ── Payment Functions ──
+        async function loadQRCode() {
+            try {
+                const resp = await fetch(`${API_BASE}/api/payment/qrcode`);
+                const data = await resp.json();
+                if (data.success && data.data.qr_url) {
+                    document.getElementById('qr-code').src = data.data.qr_url;
+                    paymentOrder = data.data.order_id;
+                }
+            } catch (e) {
+                console.error('Failed to load QR code:', e);
+            }
+        }
+        
+        async function checkPaymentStatus() {
+            try {
+                const resp = await fetch(`${API_BASE}/api/payment/status/anonymous`);
+                const data = await resp.json();
+                if (data.paid) {
+                    showSection('start-section');
+                } else {
+                    alert(t('payment_not_paid'));
+                }
+            } catch (e) {
+                showSection('start-section');
+            }
+        }
+        
+        function simulatePayment() {
+            document.getElementById('payment-confirm-modal').classList.add('active');
+        }
+        
+        function confirmPayment() {
+            const input = document.getElementById('payment-confirm-input');
+            if (input.value === 'qwe') {
+                document.getElementById('payment-confirm-modal').classList.remove('active');
+                showSection('start-section');
+            } else {
+                input.style.borderColor = '#ef4444';
+                input.setAttribute('placeholder', '输入错误，请重试');
+            }
+        }
+        
+        function choosePaid() {
+            document.getElementById('payment-qr').classList.remove('hidden');
+        }
+        
+        function chooseAd() {
+            showAdAndUnlock();
+        }
+        
+        function showAdAndUnlock() {
+            // 模拟广告播放（实际可替换为真实广告SDK）
+            const countdownEl = document.createElement('div');
+            countdownEl.id = 'ad-countdown';
+            countdownEl.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(26,26,46,0.95);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:2000;color:white;';
+            countdownEl.innerHTML = `
+                <div style="font-size:1.5rem;margin-bottom:1rem;">${t('ad_loading')}</div>
+                <div id="ad-timer" style="font-size:3rem;font-weight:700;color:#f59e0b;">30</div>
+                <div style="font-size:0.875rem;margin-top:1rem;opacity:0.7;">${t('ad_countdown', {seconds: 30})}</div>
+            `;
+            document.body.appendChild(countdownEl);
+            
+            let seconds = 30;
+            const timer = setInterval(() => {
+                seconds--;
+                const timerEl = document.getElementById('ad-timer');
+                if (timerEl) timerEl.textContent = seconds;
+                
+                if (seconds <= 0) {
+                    clearInterval(timer);
+                    document.body.removeChild(countdownEl);
+                    showSection('start-section');
+                }
+            }, 1000);
         }
         
         function restartQuiz() {
