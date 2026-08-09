@@ -1,10 +1,13 @@
-"""Prophets - 历史人物性格匹配引擎"""
+"""
+Prophets - 历史人物性格匹配引擎
+FastAPI 应用入口
+"""
 import logging
+from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from pathlib import Path
 
-# Configure logging
+# 配置日志
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -13,12 +16,11 @@ from src.api.match import router as match_router
 from src.api.payment import router as payment_router
 from src.api.qr import router as qr_router
 
+# 创建 FastAPI 应用
 app = FastAPI(
     title="Prophets API",
     description="历史人物性格匹配引擎",
     version="0.1.0",
-    docs_url="/api/docs",
-    redoc_url="/api/redoc",
 )
 
 # CORS 配置
@@ -33,40 +35,43 @@ app.add_middleware(
 # 静态文件路径
 static_path = Path(__file__).parent.parent / "static"
 
-# 路由挂载
-app.include_router(quiz_router, prefix="/api", tags=["quiz"])
-app.include_router(match_router, prefix="/api", tags=["match"])
-app.include_router(payment_router, tags=["payment"])
-app.include_router(qr_router, tags=["qr"])
+# 注册路由
+app.include_router(quiz_router, prefix="/api")
+app.include_router(match_router, prefix="/api")
+app.include_router(payment_router, prefix="/api")
+app.include_router(qr_router, prefix="/api")
+
 
 @app.get("/api/health")
 async def health_check():
-    """健康检查"""
-    logger.info("Health check requested")
-    return {"status": "ok", "version": "0.1.0"}
+    """健康检查端点"""
+    logger.info("Health check called")
+    return {"status": "ok"}
+
 
 @app.get("/")
 async def root():
-    """根路径返回HTML前端"""
-    logger.info("Serving index.html")
-    from fastapi.responses import HTMLResponse
+    """返回前端页面"""
     html_path = static_path / "index.html"
     if not html_path.exists():
         logger.error(f"HTML file not found: {html_path}")
-        raise HTTPException(status_code=404, detail="前端文件不存在")
-    return HTMLResponse(content=open(html_path, encoding="utf-8").read())
+        raise HTTPException(status_code=404, detail="Frontend not found")
+    
+    with open(html_path, "r", encoding="utf-8") as f:
+        return f.read()
 
-@app.get("/favicon.ico")
-async def favicon():
-    """返回空的 favicon 避免 404 错误"""
-    from fastapi.responses import Response
-    return Response(content="", media_type="image/x-icon")
 
 @app.get("/chart.min.js")
-async def serve_chart_js():
-    """提供本地Chart.js文件"""
-    from fastapi.responses import FileResponse
+async def chart_js():
+    """提供 Chart.js 文件"""
     chart_path = static_path / "chart.min.js"
     if chart_path.exists():
         return FileResponse(chart_path, media_type="application/javascript")
-    return {"error": "Chart.js file not found"}
+    return HTTPException(status_code=404, detail="Chart.js not found")
+
+
+@app.get("/favicon.ico")
+async def favicon():
+    """返回空的 favicon"""
+    from fastapi.responses import Response
+    return Response(content="", media_type="image/x-icon")
