@@ -1594,6 +1594,31 @@
             document.getElementById('suggestion-section').style.display = 'none';
             showSection('start-section');
         }
+        
+        // ── Ad Banner ──
+        function closeAd() {
+            const banner = document.getElementById('ad-banner');
+            banner.classList.add('collapsed');
+            localStorage.setItem('ad_closed', 'true');
+            document.body.style.paddingBottom = '0';
+        }
+        
+        function openAd() {
+            const banner = document.getElementById('ad-banner');
+            banner.classList.remove('collapsed');
+            document.body.style.paddingBottom = '60px';
+        }
+        
+        function initAd() {
+            const adClosed = localStorage.getItem('ad_closed');
+            if (adClosed === 'true') {
+                document.getElementById('ad-banner').classList.add('collapsed');
+            } else {
+                document.body.style.paddingBottom = '60px';
+            }
+        }
+        
+        window.addEventListener('DOMContentLoaded', initAd);
     </script>
 </body>
 </html>
