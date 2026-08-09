@@ -48,7 +48,7 @@ class PaymentVerifyResponse(BaseModel):
     remaining_hours: float | None
 
 
-@router.post("/api/payment", response_model=PaymentResponse)
+@router.post("/payment", response_model=PaymentResponse)
 async def create_payment(req: PaymentRequest):
     """创建支付订单"""
     logger.info(f"Creating payment for user: {req.user_id}")
@@ -76,7 +76,7 @@ async def create_payment(req: PaymentRequest):
     )
 
 
-@router.post("/api/payment/verify", response_model=PaymentVerifyResponse)
+@router.post("/payment/verify", response_model=PaymentVerifyResponse)
 async def verify_payment(req: PaymentVerifyRequest):
     """验证支付状态"""
     logger.info(f"Verifying payment for order: {req.order_id}")
@@ -104,7 +104,7 @@ async def verify_payment(req: PaymentVerifyRequest):
     )
 
 
-@router.post("/api/payment/mock_pay")
+@router.post("/payment/mock_pay")
 async def mock_payment(req: PaymentRequest):
     """模拟支付（仅用于测试）"""
     logger.info(f"Mock payment for user: {req.user_id}")
@@ -130,7 +130,7 @@ async def mock_payment(req: PaymentRequest):
     return await create_payment(req)
 
 
-@router.get("/api/payment/status/{user_id}")
+@router.get("/payment/status/{user_id}")
 async def get_payment_status(user_id: str):
     """查询用户支付状态"""
     logger.info(f"Checking payment status for user: {user_id}")
