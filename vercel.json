@@ -3,10 +3,6 @@
     {
       "src": "career_course/src/main.py",
       "use": "@vercel/python"
-    },
-    {
-      "src": "career_course/static/**",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
