@@ -1,5 +1,5 @@
 """
-GenProphets - 历史人物接口
+CareerProphet - 历史人物接口
 """
 from fastapi import APIRouter
 from src.engine.matcher import load_figures

@@ -1,5 +1,5 @@
 """
-GenProphets - 匹配接口
+CareerProphet - 匹配接口
 """
 from fastapi import APIRouter
 from pydantic import BaseModel

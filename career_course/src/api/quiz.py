@@ -1,5 +1,5 @@
 """
-GenProphets - 题目接口
+CareerProphet - 题目接口
 """
 from fastapi import APIRouter
 from src.engine.matcher import load_questions
