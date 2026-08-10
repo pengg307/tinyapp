@@ -24,7 +24,16 @@
       "early_career": "剑桥大学三一学院学生，受疫情隔离影响深度专注数学与自然哲学。",
       "early_actions": "在隔离期间发展出微积分与运动学的核心思想。",
       "breakthrough": "发表《自然哲学的数学原理》，确立经典力学体系。",
-      "key_lesson": "Standing on the shoulders of giants; 严谨与专注胜过天赋。"
+      "key_lesson": "Standing on the shoulders of giants; 严谨与专注胜过天赋。",
+      "names": {
+        "zh": "牛顿",
+        "en": "Isaac Newton",
+        "es": "Isaac Newton",
+        "ja": "アイザック・ニュートン",
+        "de": "Isaac Newton",
+        "ru": "Исаак Ньютон",
+        "fr": "Isaac Newton"
+      }
     },
     {
       "id": "einstein",
@@ -50,7 +59,16 @@
       "early_career": "瑞士专利局低级职员，业余深耕电磁理论。",
       "early_actions": "在常规工作中坚持思想实验，质疑经典时空观。",
       "breakthrough": "提出狭义与广义相对论，改变人类对宇宙认知。",
-      "key_lesson": "Imagination is more important than knowledge; 保持好奇，敢于质疑权威。"
+      "key_lesson": "Imagination is more important than knowledge; 保持好奇，敢于质疑权威。",
+      "names": {
+        "zh": "爱因斯坦",
+        "en": "Albert Einstein",
+        "es": "Albert Einstein",
+        "ja": "アルバート・アインシュタイン",
+        "de": "Albert Einstein",
+        "ru": "Альберт Эйнштейн",
+        "fr": "Albert Einstein"
+      }
     },
     {
       "id": "tesla",
@@ -76,7 +94,16 @@
       "early_career": "自学成才，在交流电系统领域开创性研究。",
       "early_actions": "与爱迪生展开电流大战，建立特斯拉线圈。",
       "breakthrough": "发明交流电系统，奠定现代电力工业基础。",
-      "key_lesson": "Focus on innovation, not competition; 远见比竞争更重要。"
+      "key_lesson": "Focus on innovation, not competition; 远见比竞争更重要。",
+      "names": {
+        "zh": "特斯拉",
+        "en": "Nikola Tesla",
+        "es": "Nikola Tesla",
+        "ja": "ニコラ・テスラ",
+        "de": "Nikola Tesla",
+        "ru": "Никола Тесла",
+        "fr": "Nikola Tesla"
+      }
     },
     {
       "id": "galileo",
@@ -102,7 +129,16 @@
       "early_career": "医学世家出身，自学数学与天文学。",
       "early_actions": "改进望远镜，观测天体运动。",
       "breakthrough": "支持日心说，奠定现代观测天文学基础。",
-      "key_lesson": "Evidence over authority; 证据优于权威。"
+      "key_lesson": "Evidence over authority; 证据优于权威。",
+      "names": {
+        "zh": "伽利略",
+        "en": "Galileo Galilei",
+        "es": "Galileo Galilei",
+        "ja": "ガリレオ・ガリレイ",
+        "de": "Galileo Galilei",
+        "ru": "Галилео Галилей",
+        "fr": "Galileo Galilei"
+      }
     },
     {
       "id": "mozart",
@@ -128,7 +164,16 @@
       "early_career": "神童时期巡回演出，展现惊人音乐天赋。",
       "early_actions": "创作大量交响乐、歌剧与室内乐。",
       "breakthrough": "创作《魔笛》《费加罗的婚礼》等经典歌剧。",
-      "key_lesson": "Creativity thrives on freedom; 创造力需要自由。"
+      "key_lesson": "Creativity thrives on freedom; 创造力需要自由。",
+      "names": {
+        "zh": "莫扎特",
+        "en": "Wolfgang Amadeus Mozart",
+        "es": "Wolfgang Amadeus Mozart",
+        "ja": "ヴォルフガング・アマデウス・モーツァルト",
+        "de": "Wolfgang Amadeus Mozart",
+        "ru": "Вольфганг Амадей Моцарт",
+        "fr": "Wolfgang Amadeus Mozart"
+      }
     },
     {
       "id": "shakespeare",
@@ -154,7 +199,16 @@
       "early_career": " Stratford小镇出身，伦敦剧院演员兼编剧。",
       "early_actions": "创作大量戏剧与十四行诗。",
       "breakthrough": "写出《哈姆雷特》《麦克白》等经典剧作。",
-      "key_lesson": "All the world's a stage; 洞察人性是永恒主题。"
+      "key_lesson": "All the world's a stage; 洞察人性是永恒主题。",
+      "names": {
+        "zh": "莎士比亚",
+        "en": "William Shakespeare",
+        "es": "William Shakespeare",
+        "ja": "ウィリアム・シェイクスピア",
+        "de": "William Shakespeare",
+        "ru": "Уильям Шекспир",
+        "fr": "William Shakespeare"
+      }
     },
     {
       "id": "curie",
@@ -180,7 +234,16 @@
       "early_career": "波兰出身，巴黎大学艰苦求学。",
       "early_actions": "深入研究放射性物质。",
       "breakthrough": "发现钋和镭，两次获得诺贝尔奖。",
-      "key_lesson": "Nothing in life is to be feared; 专注与坚韧可以改变世界。"
+      "key_lesson": "Nothing in life is to be feared; 专注与坚韧可以改变世界。",
+      "names": {
+        "zh": "居里夫人",
+        "en": "Marie Curie",
+        "es": "Marie Curie",
+        "ja": "マリー・キュリー",
+        "de": "Marie Curie",
+        "ru": "Мария Кюри",
+        "fr": "Marie Curie"
+      }
     },
     {
       "id": "lincoln",
@@ -206,7 +269,16 @@
       "early_career": "贫苦出身，自学法律成为律师。",
       "early_actions": "领导废奴运动，应对南北战争。",
       "breakthrough": "颁布《解放宣言》，维护美国统一。",
-      "key_lesson": "A house divided against itself cannot stand; 坚持信念，勇于担当。"
+      "key_lesson": "A house divided against itself cannot stand; 坚持信念，勇于担当。",
+      "names": {
+        "zh": "林肯",
+        "en": "Abraham Lincoln",
+        "es": "Abraham Lincoln",
+        "ja": "エイブラハム・リンカーン",
+        "de": "Abraham Lincoln",
+        "ru": "Авраам Линкольн",
+        "fr": "Abraham Lincoln"
+      }
     },
     {
       "id": "steve_jobs",
@@ -232,7 +304,16 @@
       "early_career": "辍学后自学书法，创立苹果公司。",
       "early_actions": "推出Macintosh，后创立NeXT与Pixar。",
       "breakthrough": "重新定义个人电脑、音乐与手机产业。",
-      "key_lesson": "Stay hungry, stay foolish; 创新改变世界。"
+      "key_lesson": "Stay hungry, stay foolish; 创新改变世界。",
+      "names": {
+        "zh": "史蒂夫·乔布斯",
+        "en": "Steve Jobs",
+        "es": "Steve Jobs",
+        "ja": "スティーブ・ジョブズ",
+        "de": "Steve Jobs",
+        "ru": "Стив Джобс",
+        "fr": "Steve Jobs"
+      }
     },
     {
       "id": "elon_musk",
@@ -258,7 +339,16 @@
       "early_career": "南非出身，移民美国创办Zip2与PayPal。",
       "early_actions": "创立SpaceX与Tesla，收购Twitter。",
       "breakthrough": "推动电动汽车与太空探索商业化。",
-      "key_lesson": "First principles thinking; 从第一性原理出发。"
+      "key_lesson": "First principles thinking; 从第一性原理出发。",
+      "names": {
+        "zh": "埃隆·马斯克",
+        "en": "Elon Musk",
+        "es": "Elon Musk",
+        "ja": "イーロン・マスク",
+        "de": "Elon Musk",
+        "ru": "Илон Маск",
+        "fr": "Elon Musk"
+      }
     },
     {
       "id": "mark_zuckerberg",
