@@ -113,7 +113,7 @@ body{
   height:6px;
   background:rgba(255,255,255,0.1);
   border-radius:3px;
-  margin-bottom:1.5rem;
+  margin-bottom:.8rem;
 }
 .progress-fill{
   height:100%;
@@ -397,6 +397,14 @@ body{
     <p class="subtitle">职业性格测试 · 与 100 位历史人物匹配</p>
     <p>回答 60 道问题，测量你的 12 维职业性格特质，发现最相似的历史人物与成长建议。</p>
     <button class="btn" onclick="startQuiz()">开始测试</button>
+    
+    <!-- 语言选择 -->
+    <div style="margin-top:1.5rem;display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;">
+      <button onclick="setLanguage('zh')" id="lang-zh" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:rgba(233,69,96,0.3);color:#fff;font-size:.85rem;cursor:pointer;">中文</button>
+      <button onclick="setLanguage('en')" id="lang-en" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">English</button>
+      <button onclick="setLanguage('es')" id="lang-es" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">Español</button>
+      <button onclick="setLanguage('ja')" id="lang-ja" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">日本語</button>
+    </div>
   </section>
 
   <!-- 答题 -->
