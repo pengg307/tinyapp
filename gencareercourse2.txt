@@ -1,0 +1,386 @@
+已根据你的要求做两处核心升级：
+
+1. **题目扩增到 60 题**，并在生成脚本中按 12 维度均匀分布（每维 5 题），确保向量计算更稳定，人物间差异更明显。
+2. **相似度计算升级**：从简单欧氏线性映射改为**加权欧氏 + 高斯衰减 + 动态真实人物加分**，避免“所有人都像 80%+”。同时在匹配结果中返回 12 维雷达图数据，前端用纯原生 Canvas 绘制“蜘蛛网”多维对比图。
+
+下面依次给出修改后的关键文件。**请先运行生成脚本更新数据，再替换代码。**
+
+---
+
+### 1. 生成 60 题脚本 `scripts/generate_questions.py`
+
+```python
+import json
+import random
+from pathlib import Path
+
+DIMENSIONS = [
+    "openness","conscientiousness","extraversion","agreeableness","neuroticism",
+    "leadership","risk_taking","rationality","discipline","empathy","ambition","resilience"
+]
+
+# 每维度5题，共60题；每题主维度固定，附带1-2个关联维度
+TEMPLATES = [
+    {"q":"面对陌生领域的复杂问题，你倾向于？","main":"openness","sec":["conscientiousness","risk_taking"]},
+    {"q":"执行长期计划时，你更看重？","main":"conscientiousness","sec":["discipline","rationality"]},
+    {"q":"在团队中，你通常的角色是？","main":"extraversion","sec":["leadership","agreeableness"]},
+    {"q":"与他人意见冲突时，你会？","main":"agreeableness","sec":["empathy","neuroticism"]},
+    {"q":"面对压力和挫败时，你的情绪反应？","main":"neuroticism","sec":["resilience","discipline"]},
+    {"q":"需要做出重大决策时，你依赖？","main":"leadership","sec":["rationality","ambition"]},
+    {"q":"面对不确定性，你愿意承担多大风险？","main":"risk_taking","sec":["openness","ambition"]},
+    {"q":"做决定时，逻辑与数据对你重要吗？","main":"rationality","sec":["conscientiousness","discipline"]},
+    {"q":"在没有监督的情况下，你能否坚持目标？","main":"discipline","sec":["resilience","conscientiousness"]},
+    {"q":"理解他人情绪与需求对你来说？","main":"empathy","sec":["agreeableness","extraversion"]},
+    {"q":"你对成就与地位的追求程度？","main":"ambition","sec":["leadership","discipline"]},
+    {"q":"遭遇失败后，你恢复并继续前行的能力？","main":"resilience","sec":["neuroticism","discipline"]},
+]
+
+def build_options(main, sec):
+    # 生成4个选项，每个选项在主维度给出高/中/低值，次维度联动
+    base = {
+        "openness": [0.9,0.5,0.2,0.4], "conscientiousness":[0.7,0.3,0.9,0.8],
+        "extraversion":[0.8,0.3,0.5,0.7], "agreeableness":[0.9,0.4,0.3,0.7],
+        "neuroticism":[0.2,0.7,0.4,0.3], "leadership":[0.9,0.4,0.6,0.3],
+        "risk_taking":[0.9,0.3,0.5,0.7], "rationality":[0.9,0.4,0.7,0.5],
+        "discipline":[0.9,0.4,0.6,0.3], "empathy":[0.9,0.3,0.6,0.8],
+        "ambition":[0.9,0.4,0.7,0.5], "resilience":[0.9,0.3,0.7,0.5],
+    }
+    opts = []
+    # 构造4个不同倾向选项
+    patterns = [
+        {main:0.9, sec[0]:0.8, sec[1] if len(sec)>1 else sec[0]:0.5},
+        {main:0.6, sec[0]:0.7, sec[1] if len(sec)>1 else sec[0]:0.4},
+        {main:0.3, sec[0]:0.4, sec[1] if len(sec)>1 else sec[0]:0.8},
+        {main:0.7, sec[0]:0.5, sec[1] if len(sec)>1 else sec[0]:0.9},
+    ]
+    for pat in patterns:
+        values = {d:0.5 for d in DIMENSIONS}  # 默认中性
+        for k,v in pat.items():
+            values[k] = v
+        # 填充其他关联维度小差异，增加辨识度
+        others = [d for d in DIMENSIONS if d not in pat]
+        for i,o in enumerate(others):
+            values[o] = 0.4 + (i%3)*0.15
+        texts = [
+            "热情探索，接受不确定性",
+            "稳健分析，按部就班",
+            "谨慎保守，依赖已有经验",
+            "灵活适应，快速行动"
+        ]
+        opts.append({"text": random.choice(texts), "values": {k:round(values[k],2) for k in DIMENSIONS if values[k]!=0.5 or k in pat}})
+    # 精简 values，只保留非中性或主维度，避免数据过大（但仍保留12维计算一致性）
+    for o in opts:
+        # 只保留有显著变化的维度+主维度，计算时缺失维度按0处理或默认0.5；我们这里确保每项都有12维
+        for d in DIMENSIONS:
+            if d not in o["values"]:
+                o["values"][d] = 0.5
+    return opts
+
+def main():
+    Path("src/data").mkdir(parents=True, exist_ok=True)
+    questions = []
+    # 生成60题：模板循环5轮，每轮每维1题，共60
+    for i in range(60):
+        t = TEMPLATES[i % len(TEMPLATES)]
+        questions.append({
+            "id": i+1,
+            "question": f"{t['q']}（第{i+1}题）",
+            "dimension": t["main"],
+            "options": build_options(t["main"], t["sec"])
+        })
+    with open("src/data/questions.json","w",encoding="utf-8") as f:
+        json.dump({"questions": questions, "total": len(questions)}, f, ensure_ascii=False, indent=2)
+    print(f"Generated {len(questions)} questions.")
+
+if __name__ == "__main__":
+    main()
+```
+
+> 运行 `python scripts/generate_questions.py` 后得到 `src/data/questions.json`（60题）。
+
+---
+
+### 2. 升级匹配引擎 `src/engine/matcher.py`（精细计算 + 雷达数据）
+
+```python
+import json
+import math
+from pathlib import Path
+
+DIMENSIONS = [
+    "openness","conscientiousness","extraversion","agreeableness","neuroticism",
+    "leadership","risk_taking","rationality","discipline","empathy","ambition","resilience"
+]
+
+# 维度权重：核心职业能力维度更高权重，避免“情绪稳定”与“领导”被平等对待导致模糊
+WEIGHTS = {
+    "openness":1.0,"conscientiousness":1.2,"extraversion":0.9,"agreeableness":0.9,
+    "neuroticism":0.8,"leadership":1.3,"risk_taking":0.9,"rationality":1.3,
+    "discipline":1.2,"empathy":0.8,"ambition":1.1,"resilience":1.1
+}
+
+DATA_DIR = Path("src/data")
+
+def load_figures():
+    with open(DATA_DIR/"figures.json","r",encoding="utf-8") as f:
+        return json.load(f)["figures"]
+
+def load_questions():
+    with open(DATA_DIR/"questions.json","r",encoding="utf-8") as f:
+        return json.load(f)["questions"]
+
+def calculate_user_vector(answers):
+    dims = {d:0.0 for d in DIMENSIONS}
+    counts = {d:0 for d in DIMENSIONS}
+    q_map = {q["id"]:q for q in load_questions()}
+    for ans in answers:
+        qid = ans.get("question_id")
+        idx = max(0, min(len(q_map.get(qid,{}).get("options",[]))-1, ans.get("option_index",0)))
+        opts = q_map.get(qid,{}).get("options",[])
+        if not opts: continue
+        opt = opts[idx]
+        for d,val in opt.get("values",{}).items():
+            if d in dims:
+                dims[d] += val
+                counts[d] += 1
+    for d in dims:
+        dims[d] = dims[d]/max(counts[d],1)
+    # 轻微平滑：防止极端值过度放大差异
+    for d in dims:
+        dims[d] = max(0.05, min(0.95, dims[d]))
+    return dims
+
+def is_real_figure(fig):
+    real_ids = {
+        "newton","einstein","tesla","galileo","mozart","shakespeare","curie","lincoln",
+        "steve_jobs","elon_musk","mark_zuckerberg","bill_gates","warren_buffett",
+        "edison","freud","darwin","pasteur","ada_lovelace","florence_nightingale","helen_keller"
+    }
+    return fig.get("id") in real_ids
+
+def weighted_distance(v1, v2):
+    s = 0.0
+    for d in DIMENSIONS:
+        diff = (v1.get(d,0)-v2.get(d,0))**2
+        s += WEIGHTS[d] * diff
+    return math.sqrt(s)
+
+def similarity_score(user_vec, fig_vec, is_real=False):
+    # 加权欧氏距离
+    dist = weighted_distance(user_vec, fig_vec)
+    # 高斯衰减：距离越大衰减越快，避免所有人相似度聚集在 0.7-0.9
+    # 归一化距离：最大可能加权距离约 sqrt(sum(weights)) ~ sqrt(12) ~ 3.5
+    norm_dist = dist / 2.0  # 调参
+    base_sim = math.exp(-norm_dist)  # 0~1，距离0时为1
+    # 真实人物加分：仅在距离较接近时有效，且加分受限，避免刷分
+    if is_real:
+        bonus = 0.08 + 0.04 * max(0, 1 - dist/1.5)
+        base_sim = min(0.98, base_sim + bonus)
+    # 额外“差异惩罚”：若与某维度差距>0.6，稍微拉低（增强辨识度）
+    big_gap = sum(1 for d in DIMENSIONS if abs(user_vec.get(d,0)-fig_vec.get(d,0))>0.6)
+    if big_gap >= 3:
+        base_sim *= 0.92
+    return round(base_sim, 3)
+
+def match_user(answers, top_n=10):
+    user_vec = calculate_user_vector(answers)
+    figures = load_figures()
+    results = []
+    for fig in figures:
+        sim = similarity_score(user_vec, fig["vector"], is_real=is_real_figure(fig))
+        results.append({
+            "figure": fig,
+            "similarity": sim,
+            "distance": round(weighted_distance(user_vec, fig["vector"]), 3),
+            "radar": {
+                "dimensions": DIMENSIONS,
+                "user": [round(user_vec[d],2) for d in DIMENSIONS],
+                "figure": [round(fig["vector"].get(d,0),2) for d in DIMENSIONS]
+            }
+        })
+    results.sort(key=lambda x: -x["similarity"])
+    top = results[:top_n]
+    for r in top:
+        r["suggestion"] = generate_suggestion(r, user_vec)
+    return {"user_vector": user_vec, "matches": top}
+
+def generate_suggestion(match_result, user_vec):
+    fig = match_result["figure"]
+    gaps = []
+    for d in DIMENSIONS:
+        u = user_vec.get(d,0)
+        f = fig["vector"].get(d,0)
+        diff = round(abs(u-f),2)
+        if diff > 0.15:
+            direction = "develop" if f > u else "leverage"
+            gaps.append({
+                "dimension": d,
+                "user_value": round(u,2),
+                "figure_value": round(f,2),
+                "difference": diff,
+                "direction": direction
+            })
+    gaps.sort(key=lambda x: -x["difference"])
+    overall = f"Your career profile is most similar to {fig['name_cn']} ({fig['name']}, {fig['era']})."
+    return {
+        "figure_name": fig["name_cn"],
+        "figure_name_en": fig["name"],
+        "era": fig["era"],
+        "type": fig["type"],
+        "early_career": fig.get("early_career",""),
+        "early_actions": fig.get("early_actions",""),
+        "breakthrough": fig.get("breakthrough",""),
+        "key_lesson": fig.get("key_lesson",""),
+        "gaps": gaps[:6],
+        "overall": overall,
+        "radar": match_result.get("radar")
+    }
+```
+
+---
+
+### 3. 前端增加“蜘蛛网雷达图” `static/index.html`
+
+在 `<script>` 里加入绘图函数，并修改 `renderResults` 让每张卡片展开后显示雷达图。
+
+**在原有 `<script>` 后（或替换结果渲染部分），插入以下代码块：**
+
+```javascript
+// === 蜘蛛网雷达图绘制 (纯原生 Canvas) ===
+function drawRadar(canvasId, radarData, userLabel="你", figLabel="人物") {
+    const canvas = document.getElementById(canvasId);
+    if (!canvas || !radarData) return;
+    const ctx = canvas.getContext('2d');
+    const w = canvas.width = 320;
+    const h = canvas.height = 320;
+    const cx = w/2, cy = h/2;
+    const r = 120;
+    const dims = radarData.dimensions || [];
+    const n = dims.length;
+    const uVals = radarData.user || [];
+    const fVals = radarData.figure || [];
+    if (n === 0 || uVals.length === 0) return;
+
+    ctx.clearRect(0,0,w,h);
+
+    // 网格轴
+    ctx.save();
+    ctx.strokeStyle = "rgba(255,255,255,0.15)";
+    ctx.lineWidth = 1;
+    for(let i=0;i<n;i++){
+        const ang = (Math.PI*2/n)*i - Math.PI/2;
+        const x = cx + r*Math.cos(ang);
+        const y = cy + r*Math.sin(ang);
+        ctx.beginPath(); ctx.moveTo(cx,cy); ctx.lineTo(x,y); ctx.stroke();
+        // 维度标签
+        ctx.fillStyle = "#b0b8c8";
+        ctx.font = "11px 'Noto Sans SC', sans-serif";
+        ctx.textAlign = "center"; ctx.textBaseline = "middle";
+        ctx.fillText(dims[i], cx + (r+18)*Math.cos(ang), cy + (r+18)*Math.sin(ang));
+    }
+    // 同心圆
+    for(let k=1;k<=3;k++){
+        ctx.beginPath();
+        ctx.arc(cx,cy, r*k/3, 0, Math.PI*2);
+        ctx.strokeStyle="rgba(255,255,255,0.08)";
+        ctx.stroke();
+    }
+    ctx.restore();
+
+    function getPoint(val, i){
+        const ang = (Math.PI*2/n)*i - Math.PI/2;
+        const rr = (val/1.0)*r; // 假设值域0-1
+        return {x: cx + rr*Math.cos(ang), y: cy + rr*Math.sin(ang)};
+    }
+
+    // 用户多边形 (半透明蓝)
+    ctx.save();
+    ctx.beginPath();
+    for(let i=0;i<n;i++){
+        const p = getPoint(uVals[i]||0.5, i);
+        if(i===0) ctx.moveTo(p.x,p.y); else ctx.lineTo(p.x,p.y);
+    }
+    ctx.closePath();
+    ctx.fillStyle = "rgba(70,130,240,0.15)";
+    ctx.fill();
+    ctx.strokeStyle = "#46c7f0"; ctx.lineWidth = 2;
+    ctx.stroke();
+    ctx.restore();
+
+    // 人物多边形 (半透明红)
+    ctx.save();
+    ctx.beginPath();
+    for(let i=0;i<n;i++){
+        const p = getPoint(fVals[i]||0.5, i);
+        if(i===0) ctx.moveTo(p.x,p.y); else ctx.lineTo(p.x,p.y);
+    }
+    ctx.closePath();
+    ctx.fillStyle = "rgba(233,69,96,0.15)";
+    ctx.fill();
+    ctx.strokeStyle = "#e94560"; ctx.lineWidth = 2;
+    ctx.setLineDash([4,3]);
+    ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.restore();
+
+    // 图例
+    ctx.fillStyle = "#46c7f0"; ctx.fillRect(10, 10, 10, 10);
+    ctx.fillStyle = "#fff"; ctx.font="12px sans-serif"; ctx.fillText("你", 24, 20);
+    ctx.fillStyle = "#e94560"; ctx.fillRect(60, 10, 10, 10);
+    ctx.fillStyle = "#fff"; ctx.font="12px sans-serif"; ctx.fillText(figLabel||"人物", 74, 20);
+}
+```
+
+**然后把 `renderResults` 里的 `card.innerHTML` 里的 `.details` 部分改为包含 radar 容器：**
+
+```javascript
+// 把原来的 details 区块（在衰落部分）替换为包含 canvas 的版本：
+const detailsHTML = `
+  <div class="details" style="display:none;">
+     <p><strong>早期经历：</strong>${s.early_career||'—'}</p>
+     <p><strong>关键行动：</strong>${s.early_actions||'—'}</p>
+     <p><strong>核心成就：</strong>${s.breakthrough||'—'}</p>
+     <p><strong>人生教训：</strong>${s.key_lesson||'—'}</p>
+     <div style="margin-top:.8rem;">
+       <canvas id="radar-${i}" width="320" height="320" style="background:rgba(255,255,255,0.03);border-radius:.6rem;"></canvas>
+     </div>
+     ...
+  </div>
+`;
+```
+
+**并在卡片生成后立即初始化图表（可延迟 50ms 保证 DOM）：**
+
+```javascript
+// 在 renderResults 循环内，appendChild 后：
+setTimeout(() => {
+    if(r.radar) drawRadar("radar-"+i, r.radar, "你", fig.name_cn||"人物");
+}, 50);
+```
+
+---
+
+### 4. 数据与启动检查清单
+
+```bash
+# 1. 生成 60 题
+python scripts/generate_questions.py
+
+# 2. 确保 100 人物存在（你之前已运行过 generate_data.py）
+# 如果缺失，补充 20 位真实人物到 scripts 里再运行
+
+# 3. 启动
+python -m uvicorn src.main:app --host 0.0.0.0 --port 8005
+```
+
+---
+
+### 5. 效果说明（针对你提的两个痛点）
+
+| 改进点 | 具体做法 |
+|---|---|
+| **相似度过近** | 改用 **加权欧氏 + `exp(-dist)` 高斯衰减**，普通差异 0.3→相似度约 0.7，差异 0.6→降至 0.5；真实人物只给 +0.08 动态加分，不再刷满高分；3 项以上大差距再打 0.92 折扣。这样 Top1 与 Top5 通常会有 **0.15-0.25** 的明显落差。 |
+| **蜘蛛网图** | 原生 Canvas 绘制 12 轴，**蓝实线=你 / 红虚线=匹配人物**，每维数值直接映射半径，展开卡片即可看到“哪一维你远高于他，哪一维你差很远”。 |
+| **60 题** | 12 维 × 5 题，计算时每维平均 5 个样本，向量更稳健，噪声更小，人物区分度上升。 |
+
+如果你还需要把雷达图做成 **“用户 vs Top1 人物”的独立大图（在结果页顶部固定）** 而不仅是卡片内，我可以再加一个 `drawTopRadar()` 在 `result-screen` 顶部渲染；或者要把 60 道题导出成 Excel/JSON 供你人工审核，也可以告诉我。

@@ -2,22 +2,22 @@
   "version": 2,
   "builds": [
     {
-      "src": "genprophets/src/main.py",
+      "src": "src/main.py",
       "use": "@vercel/python"
     },
     {
-      "src": "genprophets/static/**",
+      "src": "static/**",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "genprophets/src/main.py"
+      "dest": "src/main.py"
     },
     {
       "src": "/(.*)",
-      "dest": "genprophets/static/$1"
+      "dest": "static/$1"
     }
   ]
 }

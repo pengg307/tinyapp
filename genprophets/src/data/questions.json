@@ -1,0 +1,4505 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "面对陌生领域的复杂问题，你倾向于？（第1题）",
+      "dimension": "openness",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.9,
+            "conscientiousness": 0.8,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.5,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.6,
+            "conscientiousness": 0.7,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.3,
+            "conscientiousness": 0.4,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.8,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.5,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.9,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "执行长期计划时，你更看重？（第2题）",
+      "dimension": "conscientiousness",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.6,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.3,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "在团队中，你通常的角色是？（第3题）",
+      "dimension": "extraversion",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.8,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.6,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.7,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.3,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.7,
+            "leadership": 0.5,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "与他人意见冲突时，你会？（第4题）",
+      "dimension": "agreeableness",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.5,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.8,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.6,
+            "neuroticism": 0.4,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.3,
+            "neuroticism": 0.8,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.7,
+            "neuroticism": 0.9,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.5,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "面对压力和挫败时，你的情绪反应？（第5题）",
+      "dimension": "neuroticism",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.9,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.6,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.3,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "需要做出重大决策时，你依赖？（第6题）",
+      "dimension": "leadership",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.9,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.6,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.3,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "面对不确定性，你愿意承担多大风险？（第7题）",
+      "dimension": "risk_taking",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.8,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.9,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.6,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.3,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.5,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "做决定时，逻辑与数据对你重要吗？（第8题）",
+      "dimension": "rationality",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.6,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.3,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.9,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "在没有监督的情况下，你能否坚持目标？（第9题）",
+      "dimension": "discipline",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.6,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.3,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "理解他人情绪与需求对你来说？（第10题）",
+      "dimension": "empathy",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.5,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.9,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.4,
+            "agreeableness": 0.7,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.6,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.8,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.3,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "你对成就与地位的追求程度？（第11题）",
+      "dimension": "ambition",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.8,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.6,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.4,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.3,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.5,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "遭遇失败后，你恢复并继续前行的能力？（第12题）",
+      "dimension": "resilience",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.8,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.9
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.6
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.3
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.5,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "面对陌生领域的复杂问题，你倾向于？（第13题）",
+      "dimension": "openness",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.9,
+            "conscientiousness": 0.8,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.5,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.6,
+            "conscientiousness": 0.7,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.3,
+            "conscientiousness": 0.4,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.8,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.5,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.9,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "执行长期计划时，你更看重？（第14题）",
+      "dimension": "conscientiousness",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.6,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.3,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "在团队中，你通常的角色是？（第15题）",
+      "dimension": "extraversion",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.8,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.6,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.7,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.3,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.7,
+            "leadership": 0.5,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "与他人意见冲突时，你会？（第16题）",
+      "dimension": "agreeableness",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.5,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.8,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.6,
+            "neuroticism": 0.4,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.3,
+            "neuroticism": 0.8,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.7,
+            "neuroticism": 0.9,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.5,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "面对压力和挫败时，你的情绪反应？（第17题）",
+      "dimension": "neuroticism",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.9,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.6,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.3,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "需要做出重大决策时，你依赖？（第18题）",
+      "dimension": "leadership",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.9,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.6,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.3,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "面对不确定性，你愿意承担多大风险？（第19题）",
+      "dimension": "risk_taking",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.8,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.9,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.6,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.3,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.5,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "做决定时，逻辑与数据对你重要吗？（第20题）",
+      "dimension": "rationality",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.6,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.3,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.9,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "在没有监督的情况下，你能否坚持目标？（第21题）",
+      "dimension": "discipline",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.6,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.3,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "理解他人情绪与需求对你来说？（第22题）",
+      "dimension": "empathy",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.5,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.9,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.4,
+            "agreeableness": 0.7,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.6,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.8,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.3,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "你对成就与地位的追求程度？（第23题）",
+      "dimension": "ambition",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.8,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.6,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.4,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.3,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.5,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "遭遇失败后，你恢复并继续前行的能力？（第24题）",
+      "dimension": "resilience",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.8,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.9
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.6
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.3
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.5,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "面对陌生领域的复杂问题，你倾向于？（第25题）",
+      "dimension": "openness",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.9,
+            "conscientiousness": 0.8,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.5,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.6,
+            "conscientiousness": 0.7,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.3,
+            "conscientiousness": 0.4,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.8,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.5,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.9,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "执行长期计划时，你更看重？（第26题）",
+      "dimension": "conscientiousness",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.6,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.3,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "question": "在团队中，你通常的角色是？（第27题）",
+      "dimension": "extraversion",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.8,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.6,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.7,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.3,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.7,
+            "leadership": 0.5,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "question": "与他人意见冲突时，你会？（第28题）",
+      "dimension": "agreeableness",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.5,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.8,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.6,
+            "neuroticism": 0.4,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.3,
+            "neuroticism": 0.8,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.7,
+            "neuroticism": 0.9,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.5,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "question": "面对压力和挫败时，你的情绪反应？（第29题）",
+      "dimension": "neuroticism",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.9,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.6,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.3,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "question": "需要做出重大决策时，你依赖？（第30题）",
+      "dimension": "leadership",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.9,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.6,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.3,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "question": "面对不确定性，你愿意承担多大风险？（第31题）",
+      "dimension": "risk_taking",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.8,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.9,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.6,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.3,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.5,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "question": "做决定时，逻辑与数据对你重要吗？（第32题）",
+      "dimension": "rationality",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.6,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.3,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.9,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "question": "在没有监督的情况下，你能否坚持目标？（第33题）",
+      "dimension": "discipline",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.6,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.3,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "question": "理解他人情绪与需求对你来说？（第34题）",
+      "dimension": "empathy",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.5,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.9,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.4,
+            "agreeableness": 0.7,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.6,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.8,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.3,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "question": "你对成就与地位的追求程度？（第35题）",
+      "dimension": "ambition",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.8,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.6,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.4,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.3,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.5,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "question": "遭遇失败后，你恢复并继续前行的能力？（第36题）",
+      "dimension": "resilience",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.8,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.9
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.6
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.3
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.5,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "question": "面对陌生领域的复杂问题，你倾向于？（第37题）",
+      "dimension": "openness",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.9,
+            "conscientiousness": 0.8,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.5,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.6,
+            "conscientiousness": 0.7,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.3,
+            "conscientiousness": 0.4,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.8,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.5,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.9,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "question": "执行长期计划时，你更看重？（第38题）",
+      "dimension": "conscientiousness",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.6,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.3,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "question": "在团队中，你通常的角色是？（第39题）",
+      "dimension": "extraversion",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.8,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.6,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.7,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.3,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.7,
+            "leadership": 0.5,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "question": "与他人意见冲突时，你会？（第40题）",
+      "dimension": "agreeableness",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.5,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.8,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.6,
+            "neuroticism": 0.4,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.3,
+            "neuroticism": 0.8,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.7,
+            "neuroticism": 0.9,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.5,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "question": "面对压力和挫败时，你的情绪反应？（第41题）",
+      "dimension": "neuroticism",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.9,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.6,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.3,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "question": "需要做出重大决策时，你依赖？（第42题）",
+      "dimension": "leadership",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.9,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.6,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.3,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "question": "面对不确定性，你愿意承担多大风险？（第43题）",
+      "dimension": "risk_taking",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.8,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.9,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.6,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.3,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.5,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "question": "做决定时，逻辑与数据对你重要吗？（第44题）",
+      "dimension": "rationality",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.6,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.3,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.9,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "question": "在没有监督的情况下，你能否坚持目标？（第45题）",
+      "dimension": "discipline",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.6,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.3,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "question": "理解他人情绪与需求对你来说？（第46题）",
+      "dimension": "empathy",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.5,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.9,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.4,
+            "agreeableness": 0.7,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.6,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.8,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.3,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "question": "你对成就与地位的追求程度？（第47题）",
+      "dimension": "ambition",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.8,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.6,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.4,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.3,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.5,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "question": "遭遇失败后，你恢复并继续前行的能力？（第48题）",
+      "dimension": "resilience",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.8,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.9
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.6
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.3
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.5,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "question": "面对陌生领域的复杂问题，你倾向于？（第49题）",
+      "dimension": "openness",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.9,
+            "conscientiousness": 0.8,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.5,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.6,
+            "conscientiousness": 0.7,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.3,
+            "conscientiousness": 0.4,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.8,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.5,
+            "extraversion": 0.4,
+            "agreeableness": 0.55,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.9,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "question": "执行长期计划时，你更看重？（第50题）",
+      "dimension": "conscientiousness",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.6,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.3,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "question": "在团队中，你通常的角色是？（第51题）",
+      "dimension": "extraversion",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.8,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.6,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.7,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.3,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.7,
+            "leadership": 0.5,
+            "risk_taking": 0.4,
+            "rationality": 0.55,
+            "discipline": 0.7,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "question": "与他人意见冲突时，你会？（第52题）",
+      "dimension": "agreeableness",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.9,
+            "neuroticism": 0.5,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.8,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.6,
+            "neuroticism": 0.4,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.3,
+            "neuroticism": 0.8,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.7,
+            "neuroticism": 0.9,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.5,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "question": "面对压力和挫败时，你的情绪反应？（第53题）",
+      "dimension": "neuroticism",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.9,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.6,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.3,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "question": "需要做出重大决策时，你依赖？（第54题）",
+      "dimension": "leadership",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.9,
+            "risk_taking": 0.7,
+            "rationality": 0.8,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.6,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.3,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.5,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "question": "面对不确定性，你愿意承担多大风险？（第55题）",
+      "dimension": "risk_taking",
+      "options": [
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.8,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.9,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.5,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.7,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.6,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.4,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.3,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.8,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.5,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "question": "做决定时，逻辑与数据对你重要吗？（第56题）",
+      "dimension": "rationality",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.9,
+            "discipline": 0.5,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.7,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.6,
+            "discipline": 0.4,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.3,
+            "discipline": 0.8,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.7,
+            "discipline": 0.9,
+            "empathy": 0.4,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "question": "在没有监督的情况下，你能否坚持目标？（第57题）",
+      "dimension": "discipline",
+      "options": [
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.5,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.8
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.4,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.6,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.8,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.3,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.4
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.9,
+            "extraversion": 0.55,
+            "agreeableness": 0.7,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.7,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.5
+          }
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "question": "理解他人情绪与需求对你来说？（第58题）",
+      "dimension": "empathy",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.5,
+            "agreeableness": 0.8,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.9,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.4,
+            "agreeableness": 0.7,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.6,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.8,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.3,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.9,
+            "agreeableness": 0.5,
+            "neuroticism": 0.7,
+            "leadership": 0.4,
+            "risk_taking": 0.55,
+            "rationality": 0.7,
+            "discipline": 0.4,
+            "empathy": 0.7,
+            "ambition": 0.55,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "question": "你对成就与地位的追求程度？（第59题）",
+      "dimension": "ambition",
+      "options": [
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.8,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.9,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.7,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.6,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.4,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.3,
+            "resilience": 0.7
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.55,
+            "leadership": 0.5,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "question": "遭遇失败后，你恢复并继续前行的能力？（第60题）",
+      "dimension": "resilience",
+      "options": [
+        {
+          "text": "灵活适应，快速行动",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.8,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.5,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.9
+          }
+        },
+        {
+          "text": "热情探索，接受不确定性",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.7,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.4,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.6
+          }
+        },
+        {
+          "text": "稳健分析，按部就班",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.4,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.8,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.3
+          }
+        },
+        {
+          "text": "谨慎保守，依赖已有经验",
+          "values": {
+            "openness": 0.4,
+            "conscientiousness": 0.55,
+            "extraversion": 0.7,
+            "agreeableness": 0.4,
+            "neuroticism": 0.5,
+            "leadership": 0.55,
+            "risk_taking": 0.7,
+            "rationality": 0.4,
+            "discipline": 0.9,
+            "empathy": 0.55,
+            "ambition": 0.7,
+            "resilience": 0.7
+          }
+        }
+      ]
+    }
+  ],
+  "total": 60
+}

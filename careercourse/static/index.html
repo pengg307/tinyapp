@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCourse - 历史人物职业指导</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #fff;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .subtitle {
+            text-align: center;
+            color: #aaa;
+            margin-bottom: 40px;
+        }
+        .start-btn {
+            display: block;
+            margin: 40px auto;
+            padding: 15px 50px;
+            font-size: 1.2em;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            border: none;
+            border-radius: 30px;
+            color: #fff;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .start-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(233, 69, 96, 0.4);
+        }
+        .question-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+        .question-title {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+        .option-btn {
+            display: block;
+            width: 100%;
+            padding: 15px 20px;
+            margin-bottom: 10px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            color: #fff;
+            text-align: left;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .option-btn:hover {
+            background: rgba(233, 69, 96, 0.3);
+            border-color: #e94560;
+        }
+        .progress-bar {
+            height: 6px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 3px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            transition: width 0.3s;
+        }
+        .result-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 15px;
+            backdrop-filter: blur(10px);
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .result-card:hover {
+            transform: translateX(5px);
+        }
+        .result-card.expanded {
+            background: rgba(255, 255, 255, 0.15);
+        }
+        .result-card h4 {
+            color: #e94560;
+            margin-bottom: 10px;
+        }
+        .meta {
+            color: #aaa;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .similarity {
+            font-size: 1.2em;
+            color: #4ecca3;
+            margin-bottom: 15px;
+        }
+        .achievement {
+            color: #ffd700;
+            margin-bottom: 15px;
+        }
+        .detail {
+            display: none;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .result-card.expanded .detail {
+            display: block;
+        }
+        .detail-section {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .detail-section strong {
+            color: #e94560;
+        }
+        .hidden {
+            display: none;
+        }
+        .loading {
+            text-align: center;
+            padding: 50px;
+        }
+        .loading::after {
+            content: '...';
+            animation: dots 1.5s infinite;
+        }
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60%, 100% { content: '...'; }
+        }
+        .trait-bar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+        .trait-name {
+            width: 100px;
+            font-size: 0.9em;
+        }
+        .trait-fill {
+            height: 8px;
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            border-radius: 4px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CareerCourse</h1>
+        <p class="subtitle">探索历史伟人的职业路径，找到你的方向</p>
+        
+        <!-- Start Page -->
+        <div id="start-page">
+            <p style="text-align: center; color: #ccc; margin-bottom: 30px;">
+                通过20道题目，我们将为你匹配10位最适合的历史人物<br>
+                看看他们在你这个阶段是如何成长的
+            </p>
+            <button class="start-btn" onclick="startQuiz()">开始测试</button>
+        </div>
+
+        <!-- Quiz Page -->
+        <div id="quiz-page" class="hidden">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <div id="question-container"></div>
+        </div>
+
+        <!-- Loading Page -->
+        <div id="loading-page" class="hidden">
+            <div class="loading">正在分析你的职业性格</div>
+        </div>
+
+        <!-- Result Page -->
+        <div id="result-page" class="hidden">
+            <h2 style="text-align: center; margin-bottom: 30px;">你的历史人物匹配</h2>
+            <div id="results-container"></div>
+            <button class="start-btn" onclick="resetQuiz()" style="margin-top: 30px;">重新测试</button>
+        </div>
+    </div>
+
+    <script>
+        let questions = [];
+        let answers = [];
+        let currentQuestion = 0;
+
+        async function startQuiz() {
+            document.getElementById('start-page').classList.add('hidden');
+            document.getElementById('quiz-page').classList.remove('hidden');
+            
+            const resp = await fetch('/api/questions');
+            questions = await resp.json();
+            renderQuestion();
+        }
+
+        function renderQuestion() {
+            const q = questions[currentQuestion];
+            const progress = ((currentQuestion + 1) / questions.length) * 100;
+            document.getElementById('progress-fill').style.width = progress + '%';
+            
+            let html = `<div class="question-card">
+                <div class="question-title">第 ${currentQuestion + 1} 题: ${q.question}</div>`;
+            
+            q.options.forEach((opt, i) => {
+                html += `<button class="option-btn" onclick="selectOption(${i})">${opt}</button>`;
+            });
+            
+            html += '</div>';
+            document.getElementById('question-container').innerHTML = html;
+        }
+
+        function selectOption(index) {
+            answers[currentQuestion] = {
+                question_id: questions[currentQuestion].id,
+                option_index: index
+            };
+
+            if (currentQuestion < questions.length - 1) {
+                currentQuestion++;
+                renderQuestion();
+            } else {
+                submitAnswers();
+            }
+        }
+
+        async function submitAnswers() {
+            console.log('=== submitAnswers START ===');
+            console.log('answers length:', answers.length);
+            console.log('answers:', JSON.stringify(answers));
+            
+            document.getElementById('quiz-page').classList.add('hidden');
+            document.getElementById('loading-page').classList.remove('hidden');
+
+            try {
+                console.log('Fetching /api/match...');
+                const body = JSON.stringify({ answers, top_n: 10 });
+                console.log('Request body:', body);
+                
+                const res = await fetch('/api/match', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: body
+                });
+                console.log('Fetch response status:', res.status);
+                console.log('Fetch response OK:', res.ok);
+                
+                const text = await res.text();
+                console.log('Response text:', text.substring(0, 500));
+                
+                const data = JSON.parse(text);
+                console.log('Parsed data keys:', Object.keys(data));
+                console.log('data.matches exists:', 'matches' in data);
+                console.log('data.matches length:', data.matches ? data.matches.length : 'N/A');
+                
+                if (!data.matches || data.matches.length === 0) {
+                    console.log('匹配失败，返回开始页面');
+                    resetQuiz();
+                    return;
+                }
+                
+                console.log('Calling renderResults with', data.matches.length, 'matches');
+                renderResults(data.matches);
+                console.log('=== submitAnswers END (success) ===');
+            } catch(e) {
+                console.error('=== submitAnswers ERROR ===');
+                console.error('Error type:', e.constructor.name);
+                console.error('Error message:', e.message);
+                resetQuiz();
+            }
+        }
+
+        function renderResults(matches) {
+            document.getElementById('loading-page').classList.add('hidden');
+            document.getElementById('result-page').classList.remove('hidden');
+
+            const container = document.getElementById('results-container');
+            container.innerHTML = '';
+
+            matches.forEach((match, idx) => {
+                const fig = match.figure;
+                const sug = match.suggestion;
+                
+                const card = document.createElement('div');
+                card.className = 'result-card';
+                card.innerHTML = `
+                    <h4>${idx + 1}. ${fig.name_cn}</h4>
+                    <div class="meta">${fig.era} · ${fig.type}</div>
+                    <div class="similarity">相似度: ${(match.similarity * 100).toFixed(1)}%</div>
+                    <div class="achievement">🏆 ${fig.breakthrough}</div>
+                    <div class="detail">
+                        <div class="detail-section"><strong>早期经历:</strong> ${sug.early_career}</div>
+                        <div class="detail-section"><strong>关键行动:</strong> ${sug.early_actions}</div>
+                        <div class="detail-section"><strong>核心成就:</strong> ${sug.breakthrough}</div>
+                        <div class="detail-section"><strong>人生教训:</strong> ${sug.key_lesson}</div>
+                        ${sug.gaps && sug.gaps.length > 0 ? `
+                        <div class="detail-section">
+                            <strong>成长建议:</strong><br>
+                            ${sug.gaps.slice(0, 3).map(g => `· ${getTraitName(g.dimension)}: ${g.direction === 'develop' ? '需要提升' : '保持现状'}`).join('<br>')}
+                        </div>` : ''}
+                    </div>
+                `;
+                card.onclick = () => card.classList.toggle('expanded');
+                container.appendChild(card);
+            });
+        }
+
+        function getTraitName(dim) {
+            const names = {
+                openness: '开放性',
+                conscientiousness: '尽责性',
+                extraversion: '外向性',
+                agreeableness: '宜人性',
+                neuroticism: '情绪稳定性',
+                leadership: '领导力',
+                risk_taking: '风险承担',
+                rationality: '理性',
+                discipline: '自律',
+                empathy: '共情',
+                ambition: '野心',
+                resilience: '韧性'
+            };
+            return names[dim] || dim;
+        }
+
+        function resetQuiz() {
+            document.getElementById('result-page').classList.add('hidden');
+            document.getElementById('loading-page').classList.add('hidden');
+            document.getElementById('quiz-page').classList.add('hidden');
+            document.getElementById('start-page').classList.remove('hidden');
+            answers = [];
+            currentQuestion = 0;
+        }
+    </script>
+</body>
+</html>

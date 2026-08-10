@@ -1,0 +1,32 @@
+把 `index.html` 里这行删掉：
+
+```html
+<style>
+/* 删掉这行 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&family=Noto+Sans+SC:wght@300;500;900&display=swap');
+</style>
+```
+
+然后把 CSS 里的 `font-family` 全部替换成下面这套**系统字体栈**（Windows / macOS / Linux / 安卓 几乎都能渲染）：
+
+```css
+/* 中文无衬线 */
+font-family: "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "WenQuanYi Micro Hei", sans-serif;
+
+/* 中文衬线（标题） */
+font-family: "Noto Serif SC", "SimSun", "STSong", "Georgia", "Times New Roman", "serif";
+```
+
+具体替换位置（在你现有的 `<style>` 里）：
+
+```css
+/* 原来的 */
+h1,h2,h3{font-family:'Noto Serif SC', serif; letter-spacing:0.06em;}
+body{font-family:'Noto Sans SC','Segoe UI',sans-serif; ... }
+
+/* 改成 */
+h1,h2,h3{font-family:"Noto Serif SC","SimSun","STSong","Georgia","Times New Roman","serif"; letter-spacing:0.06em;}
+body{font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB","Noto Sans SC","WenQuanYi Micro Hei","Segoe UI",sans-serif; ... }
+```
+
+这样即使离线 / 运营商拦截 Google Fonts，页面也会正常显示中文，**不会有字体缺失或回退到奇怪字体**。你直接在 `static/index.html` 里搜索替换即可。

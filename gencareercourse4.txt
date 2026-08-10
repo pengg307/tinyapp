@@ -1,0 +1,367 @@
+已改为 **手机友好单列布局**：
+
+- **顶部**：大图 + 当前人物名/相似度（明显显示）
+- **中间**：人物列表（点击切换）
+- **底部**：完整详情（早期经历、行动、成就、教训、差距表）
+
+直接覆盖 `static/index.html` 即可，JS 里 `showDetail()` 会同步更新上方图和下方内容。
+
+```html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CareerCourse - 职业性格测试</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700&family=Noto+Sans+SC:wght@300;500;900&display=swap');
+
+:root{
+  --bg: linear-gradient(160deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);
+  --card: rgba(255,255,255,0.07);
+  --accent: linear-gradient(135deg,#e94560,#ff6b6b);
+  --text:#f2f2f2;
+  --muted:#a8b0c8;
+}
+
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Noto Sans SC','Segoe UI',sans-serif;
+  background:var(--bg); color:var(--text); min-height:100vh;
+}
+.container{max-width:720px;margin:0 auto;padding:1.5rem 1rem;}
+
+h1,h2,h3{font-family:'Noto Serif SC',serif; letter-spacing:0.06em;}
+h1{font-size:2.2rem;background:linear-gradient(to right,#ff6b6b,#ffd166);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.subtitle{color:var(--muted);margin-top:.4rem;font-size:.95rem;}
+
+.screen{display:none;animation:fadeIn .5s ease;}
+.screen.active{display:block;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+
+.card{
+  background:var(--card);
+  backdrop-filter:blur(14px) saturate(140%);
+  -webkit-backdrop-filter:blur(14px) saturate(140%);
+  border:1px solid rgba(255,255,255,0.09);
+  border-radius:1.2rem;
+  padding:1.2rem;
+  box-shadow:0 12px 40px rgba(0,0,0,0.3);
+  margin-bottom:1.2rem;
+}
+
+.btn{
+  display:inline-block;padding:.85rem 2rem;border:none;border-radius:50px;
+  background:var(--accent); color:#fff; font-weight:900; font-size:1rem;
+  cursor:pointer; box-shadow:0 8px 24px rgba(233,69,96,.35); transition:.2s;
+}
+.btn:hover{transform:translateY(-2px); box-shadow:0 12px 26px rgba(233,69,96,.5);}
+
+.progress-wrap{width:100%;height:10px;background:rgba(255,255,255,0.1);border-radius:10px;margin:1rem 0;overflow:hidden;}
+.progress-fill{height:100%;width:0%;background:linear-gradient(90deg,#e94560,#ff6b6b);border-radius:10px;transition:width .4s ease;}
+
+.option-btn{
+  display:block;width:100%;text-align:left;padding:1rem 1.2rem;margin:.5rem 0;
+  background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);
+  border-radius:.8rem;color:var(--text);font-size:1rem;cursor:pointer;transition:.2s;
+}
+.option-btn:hover{background:rgba(255,255,255,0.12);border-color:#e94560;}
+.option-btn.selected{border-color:#e94560;background:rgba(233,69,96,0.18);}
+
+/* ===== 结果页：上图 / 中列表 / 下详情 ===== */
+.hero-visual{
+  position:relative; border-radius:1.2rem; overflow:hidden;
+  min-height:300px; background:linear-gradient(135deg,#2a0a2a 0%,#0f3460 70%,#1a1a2e 100%);
+  display:flex; flex-direction:column; align-items:center; justify-content:flex-end;
+  padding:2.5rem 1.5rem 1.5rem; text-align:center;
+  box-shadow:0 12px 40px rgba(0,0,0,.35), inset 0 0 80px rgba(233,69,96,.15);
+}
+.hero-avatar{
+  width:110px; height:110px; border-radius:50%;
+  border:4px solid rgba(255,255,255,0.25);
+  background:linear-gradient(135deg,#e94560,#ff6b6b);
+  box-shadow:0 8px 30px rgba(233,69,96,.5);
+  display:grid; place-items:center; font-size:3rem; font-weight:900; color:#fff;
+  margin-bottom:1rem; flex-shrink:0;
+  letter-spacing:-2px;
+}
+.hero-visual h2{font-size:1.8rem;margin-bottom:.25rem;}
+.hero-visual .sub-info{color:var(--muted);font-size:.9rem;}
+
+/* 中部：人物列表（点击切换） */
+.selector-list{display:flex; flex-direction:column; gap:.5rem;}
+.selector-item{
+  display:flex; align-items:center; gap:.8rem;
+  padding:.7rem .9rem; border-radius:.7rem;
+  background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.07);
+  cursor:pointer; transition:.2s;
+}
+.selector-item:hover{background:rgba(233,69,96,0.1); border-color:#e94560;}
+.selector-item.active{background:rgba(233,69,96,0.18); border-color:#e94560;}
+.selector-thumb{
+  width:44px; height:44px; border-radius:50%;
+  background:linear-gradient(135deg,#e94560,#8e2de2); display:grid; place-items:center;
+  font-weight:900; font-size:1rem; flex-shrink:0;
+}
+.selector-info{flex:1; min-width:0;}
+.selector-info .name{font-weight:700; font-family:'Noto Serif SC',serif;}
+.selector-info .meta{font-size:.8rem; color:var(--muted);}
+.selector-sim{font-weight:900; color:#ff6b6b; font-size:.95rem;}
+
+/* 下部：详细内容 */
+.detail-block{margin-top:.5rem;}
+.detail-block h3{
+  font-family:'Noto Serif SC',serif; font-size:1.1rem;
+  border-left:4px solid #e94560; padding-left:.5rem; margin-bottom:.5rem;
+}
+.detail-block p{line-height:1.7; color:#e8e9f0; font-size:.95rem;}
+.gap-table{width:100%; border-collapse:collapse; margin-top:.6rem; font-size:.85rem;}
+.gap-table th{text-align:left;padding:.4rem .3rem;background:rgba(255,255,255,0.06);color:var(--muted);font-weight:500;}
+.gap-table td{padding:.35rem .3rem;border-bottom:1px solid rgba(255,255,255,0.08);}
+
+@media(min-width:640px){
+  .hero-visual{min-height:360px;}
+  .hero-avatar{width:130px;height:130px;font-size:3.5rem;}
+}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <section id="start-screen" class="screen active">
+    <div style="text-align:center;padding:3.5rem 0;">
+      <h1>CareerCourse</h1>
+      <p class="subtitle">职业性格测试 · 与 100 位历史人物匹配</p>
+      <p style="margin-top:1rem;color:var(--muted);font-size:.92rem;max-width:520px;margin-left:auto;margin-right:auto;">
+        回答 20 道问题，测量 12 维职业性格特质，发现最相似的历史人物与成长建议。
+      </p>
+      <button class="btn" onclick="startQuiz()" style="margin-top:2rem;">开始测试</button>
+    </div>
+  </section>
+
+  <section id="quiz-screen" class="screen">
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <h3>第 <span id="q-num">1</span> / 20 题</h3>
+        <span style="font-size:.85rem;color:#ff6b6b;font-weight:700;" id="q-dim">openness</span>
+      </div>
+      <div class="progress-wrap"><div class="progress-fill" id="progress-fill"></div></div>
+      <h2 id="q-text" style="margin-bottom:1.2rem;font-size:1.2rem;">问题内容...</h2>
+      <div id="options-area"></div>
+    </div>
+  </section>
+
+  <section id="loading-screen" class="screen">
+    <div class="card" style="text-align:center;padding:4rem 2rem;">
+      <h2>正在分析你的职业性格...</h2>
+      <p style="color:var(--muted);margin-top:1rem;">基于 12 维向量与 100 位历史人物进行相似度计算</p>
+      <div style="margin-top:2rem;width:60px;height:60px;border:4px solid rgba(255,255,255,0.1);border-top-color:#e94560;border-radius:50%;animation:spin 1s linear infinite;margin-left:auto;margin-right:auto;"></div>
+    </div>
+  </section>
+  <style>@keyframes spin{to{transform:rotate(360deg);}}</style>
+
+  <!-- 结果：上图 / 中列表 / 下详情 -->
+  <section id="result-screen" class="screen">
+    <div style="text-align:center;margin-bottom:1rem;">
+      <h1>匹配结果</h1>
+      <p class="subtitle">点击下方列表切换人物，图与数据同步更新</p>
+    </div>
+
+    <!-- 上：大图和当前人物 -->
+    <div class="hero-visual card" id="hero-visual" style="margin-bottom:1rem;">
+      <div class="hero-avatar" id="hero-avatar">?</div>
+      <h2 id="hero-name">请选择人物</h2>
+      <p class="sub-info" id="hero-sub">点击下方列表查看完整职业经历与建议</p>
+      <div style="margin-top:.8rem;font-size:2rem;font-weight:900;color:#ff6b6b;" id="hero-sim">0%</div>
+    </div>
+
+    <!-- 中：人物列表 -->
+    <div class="selector-list" id="selector-list">
+      <!-- JS 填充 -->
+    </div>
+
+    <!-- 下：详细信息 -->
+    <div class="card detail-block" id="detail-card">
+      <div class="detail-block">
+        <h3>早期经历</h3>
+        <p id="d-early">—</p>
+      </div>
+      <div class="detail-block">
+        <h3>关键行动</h3>
+        <p id="d-actions">—</p>
+      </div>
+      <div class="detail-block">
+        <h3>核心成就</h3>
+        <p id="d-break">—</p>
+      </div>
+      <div class="detail-block">
+        <h3>人生教训</h3>
+        <p id="d-lesson">—</p>
+      </div>
+      <div class="detail-block">
+        <h3>你与他的特质差距（建议发展方向）</h3>
+        <table class="gap-table" id="d-gaps">
+          <thead><tr><th>维度</th><th>你</th><th>他</th><th>方向</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="detail-block">
+        <h3>整体评价</h3>
+        <p id="d-overall" style="color:#ff6b6b;font-weight:700;">—</p>
+      </div>
+    </div>
+
+    <div style="text-align:center;margin-top:1.5rem;">
+      <button class="btn" onclick="resetAll()">重新测试</button>
+    </div>
+  </section>
+
+</div>
+
+<script>
+const API_BASE = '';
+
+let questions = [];
+let current = 0;
+let answers = [];
+let matchData = null;
+
+async function loadQuestions(){
+  try{
+    const r = await fetch('/api/questions');
+    const d = await r.json();
+    questions = d.questions || [];
+  }catch(e){ alert('无法加载题目'); }
+}
+
+function startQuiz(){
+  answers = []; current = 0;
+  document.getElementById('start-screen').classList.remove('active');
+  document.getElementById('quiz-screen').classList.add('active');
+  loadQuestions().then(()=>showQuestion());
+}
+
+function showQuestion(){
+  if(current >= questions.length){ submitAnswers(); return; }
+  const q = questions[current];
+  document.getElementById('q-num').textContent = current+1;
+  document.getElementById('q-dim').textContent = q.dimension || '维度';
+  document.getElementById('q-text').textContent = q.question;
+  document.getElementById('progress-fill').style.width = ((current+1)/questions.length*100)+'%';
+
+  const area = document.getElementById('options-area');
+  area.innerHTML = '';
+  (q.options||[]).forEach((opt, idx)=>{
+    const btn = document.createElement('button');
+    btn.className = 'option-btn';
+    btn.textContent = opt.text;
+    btn.onclick = ()=>{
+      answers.push({question_id: q.id, option_index: idx});
+      current++;
+      setTimeout(showQuestion, 250);
+    };
+    area.appendChild(btn);
+  });
+}
+
+async function submitAnswers(){
+  document.getElementById('quiz-screen').classList.remove('active');
+  document.getElementById('loading-screen').classList.add('active');
+  try{
+    const r = await fetch('/api/match', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({answers, top_n:10})
+    });
+    const data = await r.json();
+    matchData = data;
+    renderResultPage(data);
+    document.getElementById('loading-screen').classList.remove('active');
+    document.getElementById('result-screen').classList.add('active');
+    window.scrollTo({top:0,behavior:'smooth'});
+  }catch(e){
+    alert('匹配失败，返回开始页'); resetAll();
+  }
+}
+
+/* 渲染列表 + 默认选中第一个 */
+function renderResultPage(data){
+  const list = document.getElementById('selector-list');
+  list.innerHTML = '';
+  const matches = (data.matches || []).slice(0,10);
+
+  matches.forEach((m, idx)=>{
+    const fig = m.figure || {};
+    const s = m.suggestion || {};
+    const item = document.createElement('div');
+    item.className = 'selector-item' + (idx===0 ? ' active' : '');
+    item.innerHTML = `
+      <div class="selector-thumb">${(fig.name_cn||fig.name||'?').charAt(0)}</div>
+      <div class="selector-info">
+        <div class="name">${s.figure_name || fig.name_cn || '未知'}</div>
+        <div class="meta">${fig.name||''} · ${fig.era||''} · ${fig.type||''}</div>
+      </div>
+      <div class="selector-sim">${(m.similarity*100).toFixed(0)}%</div>
+    `;
+    item.onclick = ()=>{
+      document.querySelectorAll('.selector-item').forEach(x=>x.classList.remove('active'));
+      item.classList.add('active');
+      updateHeroAndDetails(m);
+    };
+    list.appendChild(item);
+  });
+
+  if(matches.length > 0){
+    updateHeroAndDetails(matches[0]);
+  }
+}
+
+function updateHeroAndDetails(m){
+  const fig = m.figure || {};
+  const s = m.suggestion || {};
+  // 顶部大图/视觉
+  document.getElementById('hero-avatar').textContent = (fig.name_cn||fig.name||'?').charAt(0);
+  document.getElementById('hero-name').textContent = s.figure_name || fig.name_cn || '人物';
+  document.getElementById('hero-sub').textContent = `${fig.name||''} · ${fig.era||''} · ${fig.type||''}`;
+  document.getElementById('hero-sim').textContent = (m.similarity*100).toFixed(0)+'%';
+
+  // 底部详情
+  document.getElementById('d-early').textContent = s.early_career || fig.early_career || '—';
+  document.getElementById('d-actions').textContent = s.early_actions || fig.early_actions || '—';
+  document.getElementById('d-break').textContent = s.breakthrough || fig.breakthrough || '—';
+  document.getElementById('d-lesson').textContent = s.key_lesson || fig.key_lesson || '—';
+  document.getElementById('d-overall').textContent = s.overall || '—';
+
+  // 差距表
+  const tbody = document.querySelector('#d-gaps tbody');
+  tbody.innerHTML = '';
+  (s.gaps||[]).forEach(g=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${g.dimension||''}</td><td>${g.user_value}</td><td>${g.figure_value}</td><td style="color:#ff6b6b;font-weight:700;">${g.direction||''}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
+function resetAll(){
+  current = 0; answers = []; matchData = null;
+  document.getElementById('start-screen').classList.add('active');
+  document.getElementById('quiz-screen').classList.remove('active');
+  document.getElementById('loading-screen').classList.remove('active');
+  document.getElementById('result-screen').classList.remove('active');
+  document.getElementById('selector-list').innerHTML = '';
+}
+</script>
+
+</body>
+</html>
+```
+
+**关键改动说明**：
+- `result-screen` 现在是 **单列**：`hero-visual`（图在上）→ `selector-list`（点击列表在中）→ `detail-block`（详情在下）
+- 点击 `selector-item` 只调用 `updateHeroAndDetails()`，同步刷新上方大图和下方内容，无需重新渲染整个页面
+- 手机端 `max-width:720px`，图片、字、列表都紧凑适配，滚动自然
+
+把文件覆盖后刷新 `http://localhost:8005` 测试即可。若需要把“图”换成真实图片URL，直接在 `match.py` 返回的 `figure` 里加 `"avatar":"https://..."`，然后把 `updateHeroAndDetails` 里 `hero-avatar` 改为 `<img src="${fig.avatar||''}">` 即可。
