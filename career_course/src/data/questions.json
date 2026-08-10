@@ -105,7 +105,10 @@
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第1题）",
       "question_en": "When facing complex problems in unfamiliar fields, you tend to?",
       "question_es": "When facing complex problems in unfamiliar fields, you tend to?",
-      "question_ja": "When facing complex problems in unfamiliar fields, you tend to?"
+      "question_ja": "When facing complex problems in unfamiliar fields, you tend to?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 2,
@@ -212,7 +215,10 @@
       "question_zh": "执行长期计划时，你更看重？（第2题）",
       "question_en": "When handling conflicts, you value more?",
       "question_es": "When handling conflicts, you value more?",
-      "question_ja": "When handling conflicts, you value more?"
+      "question_ja": "When handling conflicts, you value more?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 3,
@@ -319,7 +325,10 @@
       "question_zh": "在团队中，你通常的角色是？（第3题）",
       "question_en": "When making plans, your style is?",
       "question_es": "When making plans, your style is?",
-      "question_ja": "When making plans, your style is?"
+      "question_ja": "When making plans, your style is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 4,
@@ -426,7 +435,10 @@
       "question_zh": "与他人意见冲突时，你会？（第4题）",
       "question_en": "In team cooperation, you usually play?",
       "question_es": "In team cooperation, you usually play?",
-      "question_ja": "In team cooperation, you usually play?"
+      "question_ja": "In team cooperation, you usually play?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 5,
@@ -533,7 +545,10 @@
       "question_zh": "面对压力和挫败时，你的情绪反应？（第5题）",
       "question_en": "When facing pressure, your reaction is?",
       "question_es": "When facing pressure, your reaction is?",
-      "question_ja": "When facing pressure, your reaction is?"
+      "question_ja": "When facing pressure, your reaction is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 6,
@@ -640,7 +655,10 @@
       "question_zh": "需要做出重大决策时，你依赖？（第6题）",
       "question_en": "When making decisions, you rely more on?",
       "question_es": "When making decisions, you rely more on?",
-      "question_ja": "When making decisions, you rely more on?"
+      "question_ja": "When making decisions, you rely more on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 7,
@@ -747,7 +765,10 @@
       "question_zh": "面对不确定性，你愿意承担多大风险？（第7题）",
       "question_en": "When learning new skills, you prefer?",
       "question_es": "When learning new skills, you prefer?",
-      "question_ja": "When learning new skills, you prefer?"
+      "question_ja": "When learning new skills, you prefer?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 8,
@@ -854,7 +875,10 @@
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第8题）",
       "question_en": "When handling multiple tasks, your approach is?",
       "question_es": "When handling multiple tasks, your approach is?",
-      "question_ja": "When handling multiple tasks, your approach is?"
+      "question_ja": "When handling multiple tasks, your approach is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 9,
@@ -961,7 +985,10 @@
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第9题）",
       "question_en": "When facing failure, you would?",
       "question_es": "When facing failure, you would?",
-      "question_ja": "When facing failure, you would?"
+      "question_ja": "When facing failure, you would?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 10,
@@ -1068,7 +1095,10 @@
       "question_zh": "理解他人情绪与需求对你来说？（第10题）",
       "question_en": "In a team, you tend to?",
       "question_es": "In a team, you tend to?",
-      "question_ja": "In a team, you tend to?"
+      "question_ja": "In a team, you tend to?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 11,
@@ -1175,7 +1205,10 @@
       "question_zh": "你对成就与地位的追求程度？（第11题）",
       "question_en": "When facing uncertainty, your attitude is?",
       "question_es": "When facing uncertainty, your attitude is?",
-      "question_ja": "When facing uncertainty, your attitude is?"
+      "question_ja": "When facing uncertainty, your attitude is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 12,
@@ -1282,7 +1315,10 @@
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第12题）",
       "question_en": "When solving problems, you are better at?",
       "question_es": "When solving problems, you are better at?",
-      "question_ja": "When solving problems, you are better at?"
+      "question_ja": "When solving problems, you are better at?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 13,
@@ -1389,7 +1425,10 @@
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第13题）",
       "question_en": "When interacting with others, you focus more on?",
       "question_es": "When interacting with others, you focus more on?",
-      "question_ja": "When interacting with others, you focus more on?"
+      "question_ja": "When interacting with others, you focus more on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 14,
@@ -1496,7 +1535,10 @@
       "question_zh": "执行长期计划时，你更看重？（第14题）",
       "question_en": "When setting goals, your style is?",
       "question_es": "When setting goals, your style is?",
-      "question_ja": "When setting goals, your style is?"
+      "question_ja": "When setting goals, your style is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 15,
@@ -1603,7 +1645,10 @@
       "question_zh": "在团队中，你通常的角色是？（第15题）",
       "question_en": "When facing challenges, your reaction is?",
       "question_es": "When facing challenges, your reaction is?",
-      "question_ja": "When facing challenges, your reaction is?"
+      "question_ja": "When facing challenges, your reaction is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 16,
@@ -1710,7 +1755,10 @@
       "question_zh": "与他人意见冲突时，你会？（第16题）",
       "question_en": "When processing information, you prefer?",
       "question_es": "When processing information, you prefer?",
-      "question_ja": "When processing information, you prefer?"
+      "question_ja": "When processing information, you prefer?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 17,
@@ -1817,7 +1865,10 @@
       "question_zh": "面对压力和挫败时，你的情绪反应？（第17题）",
       "question_en": "In team decision-making, your role is?",
       "question_es": "In team decision-making, your role is?",
-      "question_ja": "In team decision-making, your role is?"
+      "question_ja": "In team decision-making, your role is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 18,
@@ -1924,7 +1975,10 @@
       "question_zh": "需要做出重大决策时，你依赖？（第18题）",
       "question_en": "When facing criticism, your attitude is?",
       "question_es": "When facing criticism, your attitude is?",
-      "question_ja": "When facing criticism, your attitude is?"
+      "question_ja": "When facing criticism, your attitude is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 19,
@@ -2031,7 +2085,10 @@
       "question_zh": "面对不确定性，你愿意承担多大风险？（第19题）",
       "question_en": "When learning new knowledge, you like?",
       "question_es": "When learning new knowledge, you like?",
-      "question_ja": "When learning new knowledge, you like?"
+      "question_ja": "When learning new knowledge, you like?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 20,
@@ -2138,7 +2195,10 @@
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第20题）",
       "question_en": "When handling conflicts, you tend to?",
       "question_es": "When handling conflicts, you tend to?",
-      "question_ja": "When handling conflicts, you tend to?"
+      "question_ja": "When handling conflicts, you tend to?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 21,
@@ -2245,7 +2305,10 @@
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第21题）",
       "question_en": "When making plans, you focus more on?",
       "question_es": "When making plans, you focus more on?",
-      "question_ja": "When making plans, you focus more on?"
+      "question_ja": "When making plans, you focus more on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 22,
@@ -2352,7 +2415,10 @@
       "question_zh": "理解他人情绪与需求对你来说？（第22题）",
       "question_en": "In team cooperation, you value more?",
       "question_es": "In team cooperation, you value more?",
-      "question_ja": "In team cooperation, you value more?"
+      "question_ja": "In team cooperation, you value more?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 23,
@@ -2459,7 +2525,10 @@
       "question_zh": "你对成就与地位的追求程度？（第23题）",
       "question_en": "When facing pressure, your approach is?",
       "question_es": "When facing pressure, your approach is?",
-      "question_ja": "When facing pressure, your approach is?"
+      "question_ja": "When facing pressure, your approach is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 24,
@@ -2566,7 +2635,10 @@
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第24题）",
       "question_en": "When making decisions, you rely on?",
       "question_es": "When making decisions, you rely on?",
-      "question_ja": "When making decisions, you rely on?"
+      "question_ja": "When making decisions, you rely on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 25,
@@ -2673,7 +2745,10 @@
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第25题）",
       "question_en": "When learning new things, you prefer?",
       "question_es": "When learning new things, you prefer?",
-      "question_ja": "When learning new things, you prefer?"
+      "question_ja": "When learning new things, you prefer?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 26,
@@ -2780,7 +2855,10 @@
       "question_zh": "执行长期计划时，你更看重？（第26题）",
       "question_en": "When handling multiple tasks, your style is?",
       "question_es": "When handling multiple tasks, your style is?",
-      "question_ja": "When handling multiple tasks, your style is?"
+      "question_ja": "When handling multiple tasks, your style is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 27,
@@ -2887,7 +2965,10 @@
       "question_zh": "在团队中，你通常的角色是？（第27题）",
       "question_en": "When facing failure, your attitude is?",
       "question_es": "When facing failure, your attitude is?",
-      "question_ja": "When facing failure, your attitude is?"
+      "question_ja": "When facing failure, your attitude is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 28,
@@ -2994,7 +3075,10 @@
       "question_zh": "与他人意见冲突时，你会？（第28题）",
       "question_en": "In a team, what role do you play?",
       "question_es": "In a team, what role do you play?",
-      "question_ja": "In a team, what role do you play?"
+      "question_ja": "In a team, what role do you play?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 29,
@@ -3101,7 +3185,10 @@
       "question_zh": "面对压力和挫败时，你的情绪反应？（第29题）",
       "question_en": "When facing uncertainty, your reaction is?",
       "question_es": "When facing uncertainty, your reaction is?",
-      "question_ja": "When facing uncertainty, your reaction is?"
+      "question_ja": "When facing uncertainty, your reaction is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 30,
@@ -3208,7 +3295,10 @@
       "question_zh": "需要做出重大决策时，你依赖？（第30题）",
       "question_en": "When solving problems, your strategy is?",
       "question_es": "When solving problems, your strategy is?",
-      "question_ja": "When solving problems, your strategy is?"
+      "question_ja": "When solving problems, your strategy is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 31,
@@ -3315,7 +3405,10 @@
       "question_zh": "面对不确定性，你愿意承担多大风险？（第31题）",
       "question_en": "When interacting with others, what do you focus on?",
       "question_es": "When interacting with others, what do you focus on?",
-      "question_ja": "When interacting with others, what do you focus on?"
+      "question_ja": "When interacting with others, what do you focus on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 32,
@@ -3422,7 +3515,10 @@
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第32题）",
       "question_en": "When setting goals, your method is?",
       "question_es": "When setting goals, your method is?",
-      "question_ja": "When setting goals, your method is?"
+      "question_ja": "When setting goals, your method is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 33,
@@ -3529,7 +3625,10 @@
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第33题）",
       "question_en": "When facing challenges, your mindset is?",
       "question_es": "When facing challenges, your mindset is?",
-      "question_ja": "When facing challenges, your mindset is?"
+      "question_ja": "When facing challenges, your mindset is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 34,
@@ -3636,7 +3735,10 @@
       "question_zh": "理解他人情绪与需求对你来说？（第34题）",
       "question_en": "When processing information, your preferred way is?",
       "question_es": "When processing information, your preferred way is?",
-      "question_ja": "When processing information, your preferred way is?"
+      "question_ja": "When processing information, your preferred way is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 35,
@@ -3743,7 +3845,10 @@
       "question_zh": "你对成就与地位的追求程度？（第35题）",
       "question_en": "In team decision-making, your role is?",
       "question_es": "In team decision-making, your role is?",
-      "question_ja": "In team decision-making, your role is?"
+      "question_ja": "In team decision-making, your role is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 36,
@@ -3850,7 +3955,10 @@
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第36题）",
       "question_en": "When facing criticism, your attitude is?",
       "question_es": "When facing criticism, your attitude is?",
-      "question_ja": "When facing criticism, your attitude is?"
+      "question_ja": "When facing criticism, your attitude is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 37,
@@ -3957,7 +4065,10 @@
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第37题）",
       "question_en": "When learning new knowledge, your preferred way is?",
       "question_es": "When learning new knowledge, your preferred way is?",
-      "question_ja": "When learning new knowledge, your preferred way is?"
+      "question_ja": "When learning new knowledge, your preferred way is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 38,
@@ -4064,7 +4175,10 @@
       "question_zh": "执行长期计划时，你更看重？（第38题）",
       "question_en": "When handling conflicts, you tend to?",
       "question_es": "When handling conflicts, you tend to?",
-      "question_ja": "When handling conflicts, you tend to?"
+      "question_ja": "When handling conflicts, you tend to?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 39,
@@ -4171,7 +4285,10 @@
       "question_zh": "在团队中，你通常的角色是？（第39题）",
       "question_en": "When making plans, you focus more on?",
       "question_es": "When making plans, you focus more on?",
-      "question_ja": "When making plans, you focus more on?"
+      "question_ja": "When making plans, you focus more on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 40,
@@ -4278,7 +4395,10 @@
       "question_zh": "与他人意见冲突时，你会？（第40题）",
       "question_en": "In team cooperation, you value more?",
       "question_es": "In team cooperation, you value more?",
-      "question_ja": "In team cooperation, you value more?"
+      "question_ja": "In team cooperation, you value more?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 41,
@@ -4385,7 +4505,10 @@
       "question_zh": "面对压力和挫败时，你的情绪反应？（第41题）",
       "question_en": "When facing pressure, your reaction is?",
       "question_es": "When facing pressure, your reaction is?",
-      "question_ja": "When facing pressure, your reaction is?"
+      "question_ja": "When facing pressure, your reaction is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 42,
@@ -4492,7 +4615,10 @@
       "question_zh": "需要做出重大决策时，你依赖？（第42题）",
       "question_en": "When making decisions, you rely more on?",
       "question_es": "When making decisions, you rely more on?",
-      "question_ja": "When making decisions, you rely more on?"
+      "question_ja": "When making decisions, you rely more on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 43,
@@ -4599,7 +4725,10 @@
       "question_zh": "面对不确定性，你愿意承担多大风险？（第43题）",
       "question_en": "When learning new skills, you prefer?",
       "question_es": "When learning new skills, you prefer?",
-      "question_ja": "When learning new skills, you prefer?"
+      "question_ja": "When learning new skills, you prefer?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 44,
@@ -4706,7 +4835,10 @@
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第44题）",
       "question_en": "When handling multiple tasks, your approach is?",
       "question_es": "When handling multiple tasks, your approach is?",
-      "question_ja": "When handling multiple tasks, your approach is?"
+      "question_ja": "When handling multiple tasks, your approach is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 45,
@@ -4813,7 +4945,10 @@
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第45题）",
       "question_en": "When facing failure, what would you do?",
       "question_es": "When facing failure, what would you do?",
-      "question_ja": "When facing failure, what would you do?"
+      "question_ja": "When facing failure, what would you do?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 46,
@@ -4920,7 +5055,10 @@
       "question_zh": "理解他人情绪与需求对你来说？（第46题）",
       "question_en": "In a team, you tend to?",
       "question_es": "In a team, you tend to?",
-      "question_ja": "In a team, you tend to?"
+      "question_ja": "In a team, you tend to?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 47,
@@ -5027,7 +5165,10 @@
       "question_zh": "你对成就与地位的追求程度？（第47题）",
       "question_en": "When facing uncertainty, your attitude is?",
       "question_es": "When facing uncertainty, your attitude is?",
-      "question_ja": "When facing uncertainty, your attitude is?"
+      "question_ja": "When facing uncertainty, your attitude is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 48,
@@ -5134,7 +5275,10 @@
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第48题）",
       "question_en": "When solving problems, you are better at?",
       "question_es": "When solving problems, you are better at?",
-      "question_ja": "When solving problems, you are better at?"
+      "question_ja": "When solving problems, you are better at?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 49,
@@ -5241,7 +5385,10 @@
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第49题）",
       "question_en": "When interacting with others, you focus more on?",
       "question_es": "When interacting with others, you focus more on?",
-      "question_ja": "When interacting with others, you focus more on?"
+      "question_ja": "When interacting with others, you focus more on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 50,
@@ -5348,7 +5495,10 @@
       "question_zh": "执行长期计划时，你更看重？（第50题）",
       "question_en": "When setting goals, your style is?",
       "question_es": "When setting goals, your style is?",
-      "question_ja": "When setting goals, your style is?"
+      "question_ja": "When setting goals, your style is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 51,
@@ -5455,7 +5605,10 @@
       "question_zh": "在团队中，你通常的角色是？（第51题）",
       "question_en": "When facing challenges, your reaction is?",
       "question_es": "When facing challenges, your reaction is?",
-      "question_ja": "When facing challenges, your reaction is?"
+      "question_ja": "When facing challenges, your reaction is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 52,
@@ -5562,7 +5715,10 @@
       "question_zh": "与他人意见冲突时，你会？（第52题）",
       "question_en": "When processing information, you prefer?",
       "question_es": "When processing information, you prefer?",
-      "question_ja": "When processing information, you prefer?"
+      "question_ja": "When processing information, you prefer?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 53,
@@ -5669,7 +5825,10 @@
       "question_zh": "面对压力和挫败时，你的情绪反应？（第53题）",
       "question_en": "In team decision-making, your role is?",
       "question_es": "In team decision-making, your role is?",
-      "question_ja": "In team decision-making, your role is?"
+      "question_ja": "In team decision-making, your role is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 54,
@@ -5776,7 +5935,10 @@
       "question_zh": "需要做出重大决策时，你依赖？（第54题）",
       "question_en": "When facing criticism, your attitude is?",
       "question_es": "When facing criticism, your attitude is?",
-      "question_ja": "When facing criticism, your attitude is?"
+      "question_ja": "When facing criticism, your attitude is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 55,
@@ -5883,7 +6045,10 @@
       "question_zh": "面对不确定性，你愿意承担多大风险？（第55题）",
       "question_en": "When learning new knowledge, you like?",
       "question_es": "When learning new knowledge, you like?",
-      "question_ja": "When learning new knowledge, you like?"
+      "question_ja": "When learning new knowledge, you like?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 56,
@@ -5990,7 +6155,10 @@
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第56题）",
       "question_en": "When handling conflicts, you tend to?",
       "question_es": "When handling conflicts, you tend to?",
-      "question_ja": "When handling conflicts, you tend to?"
+      "question_ja": "When handling conflicts, you tend to?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 57,
@@ -6097,7 +6265,10 @@
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第57题）",
       "question_en": "When making plans, you focus more on?",
       "question_es": "When making plans, you focus more on?",
-      "question_ja": "When making plans, you focus more on?"
+      "question_ja": "When making plans, you focus more on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 58,
@@ -6204,7 +6375,10 @@
       "question_zh": "理解他人情绪与需求对你来说？（第58题）",
       "question_en": "In team cooperation, you value more?",
       "question_es": "In team cooperation, you value more?",
-      "question_ja": "In team cooperation, you value more?"
+      "question_ja": "In team cooperation, you value more?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 59,
@@ -6311,7 +6485,10 @@
       "question_zh": "你对成就与地位的追求程度？（第59题）",
       "question_en": "When facing pressure, your approach is?",
       "question_es": "When facing pressure, your approach is?",
-      "question_ja": "When facing pressure, your approach is?"
+      "question_ja": "When facing pressure, your approach is?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     },
     {
       "id": 60,
@@ -6418,7 +6595,10 @@
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第60题）",
       "question_en": "When making decisions, you rely on?",
       "question_es": "When making decisions, you rely on?",
-      "question_ja": "When making decisions, you rely on?"
+      "question_ja": "When making decisions, you rely on?",
+      "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
+      "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
     }
   ],
   "total": 60
