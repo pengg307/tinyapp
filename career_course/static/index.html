@@ -504,19 +504,23 @@ let currentLanguage = 'zh';
 
 // 语言切换
 function setLanguage(lang) {
-  currentLanguage = lang;
-  // 更新按钮样式
-  ['zh','en','es','ja'].forEach(l => {
-    const btn = document.getElementById('lang-' + l);
-    if (btn) {
-      btn.style.background = l === lang ? 'rgba(233,69,96,0.3)' : 'transparent';
-      btn.style.color = l === lang ? '#fff' : 'var(--muted)';
-    }
-  });
-  // 如果已经在答题中，刷新题目
-  if (document.getElementById('quiz-screen').classList.contains('active')) {
-    loadQuestions();
+currentLanguage = lang;
+// 更新按钮样式
+['zh','en','es','ja'].forEach(l => {
+  const btn = document.getElementById('lang-' + l);
+  if (btn) {
+    btn.style.background = l === lang ? 'rgba(233,69,96,0.3)' : 'transparent';
+    btn.style.color = l === lang ? '#fff' : 'var(--muted)';
   }
+});
+// 如果已经在答题中，刷新题目
+if (document.getElementById('quiz-screen').classList.contains('active')) {
+  loadQuestions();
+}
+// 如果已经在结果页，重新渲染
+if (document.getElementById('result-screen').classList.contains('active') && currentData) {
+  renderResults(currentData);
+}
 }
 
 // ===== 雷达图 =====
