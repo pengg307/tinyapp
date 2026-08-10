@@ -37,7 +37,11 @@ DIM_NAMES = {
     "fr": {"openness": "Ouverture", "conscientiousness": "Consciencieusité", "extraversion": "Extraversion",
            "agreeableness": "Agrément", "neuroticism": "Stabilité émotionnelle", "leadership": "Leadership",
            "risk_taking": "Prise de risque", "rationality": "Rationalité", "discipline": "Discipline",
-           "empathy": "Empathie", "ambition": "Ambition", "resilience": "Résilience"}
+           "empathy": "Empathie", "ambition": "Ambition", "resilience": "Résilience"},
+    "ko": {"openness": "개방성", "conscientiousness": "성실성", "extraversion": "외향성",
+           "agreeableness": "친화성", "neuroticism": "정서적 안정", "leadership": "리더십",
+           "risk_taking": "위험 감수", "rationality": "합리성", "discipline": "자율성",
+           "empathy": "공감력", "ambition": "야망", "resilience": "회복력"}
 }
 
 ANSWER_WEIGHTS = [0.38, 0.29, 0.22, 0.11]
