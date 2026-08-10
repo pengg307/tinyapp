@@ -2,22 +2,22 @@
   "version": 2,
   "builds": [
     {
-      "src": "career_course/src/main.py",
+      "src": "src/main.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "career_course/src/main.py"
+      "dest": "src/main.py"
     },
     {
       "src": "/health",
-      "dest": "career_course/src/main.py"
+      "dest": "src/main.py"
     },
     {
       "src": "/",
-      "dest": "career_course/src/main.py"
+      "dest": "src/main.py"
     }
   ]
 }
