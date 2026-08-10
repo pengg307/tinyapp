@@ -374,7 +374,16 @@
       "early_career": "哈佛学生，宿舍创建Facebook。",
       "early_actions": "将Facebook发展为全球社交平台。",
       "breakthrough": "开创社交网络时代，连接数十亿人。",
-      "key_lesson": "Move fast and break things; 快速迭代，拥抱变化。"
+      "key_lesson": "Move fast and break things; 快速迭代，拥抱变化。",
+      "names": {
+        "zh": "马克·扎克伯格",
+        "en": "Mark Zuckerberg",
+        "es": "Mark Zuckerberg",
+        "ja": "マーク・ザッカーバーグ",
+        "de": "Mark Zuckerberg",
+        "ru": "Марк Цукерберг",
+        "fr": "Mark Zuckerberg"
+      }
     },
     {
       "id": "bill_gates",
@@ -400,7 +409,16 @@
       "early_career": "哈佛辍学，与保罗·艾伦创立微软。",
       "early_actions": "开创个人电脑软件时代。",
       "breakthrough": "Windows操作系统改变世界，后投身慈善。",
-      "key_lesson": "Success is a lousy teacher; 成功不能让人自满。"
+      "key_lesson": "Success is a lousy teacher; 成功不能让人自满。",
+      "names": {
+        "zh": "比尔·盖茨",
+        "en": "Bill Gates",
+        "es": "Bill Gates",
+        "ja": "ビル・ゲイツ",
+        "de": "Bill Gates",
+        "ru": "Билл Гейтс",
+        "fr": "Bill Gates"
+      }
     },
     {
       "id": "warren_buffett",
@@ -426,7 +444,16 @@
       "early_career": "价值投资理念奠基者，伯克希尔·哈撒韦CEO。",
       "early_actions": "长期价值投资策略，收购优质企业。",
       "breakthrough": "成为世界最成功投资者之一，践行价值投资。",
-      "key_lesson": "Price is what you pay; value is what you get; 价格与价值不同。"
+      "key_lesson": "Price is what you pay; value is what you get; 价格与价值不同。",
+      "names": {
+        "zh": "沃伦·巴菲特",
+        "en": "Warren Buffett",
+        "es": "Warren Buffett",
+        "ja": "ウォーレン・バッフェット",
+        "de": "Warren Buffett",
+        "ru": "Уоррен Баффет",
+        "fr": "Warren Buffett"
+      }
     },
     {
       "id": "edison",
@@ -452,7 +479,16 @@
       "early_career": "自学成才，童年被老师认为「太笨」。",
       "early_actions": "建立门洛帕克实验室，系统创新。",
       "breakthrough": "发明电灯、留声机等改变世界的产品。",
-      "key_lesson": "Genius is one percent inspiration; 天才是百分之一的灵感。"
+      "key_lesson": "Genius is one percent inspiration; 天才是百分之一的灵感。",
+      "names": {
+        "zh": "爱迪生",
+        "en": "Thomas Edison",
+        "es": "Thomas Edison",
+        "ja": "トーマス・エジソン",
+        "de": "Thomas Edison",
+        "ru": "Томас Эдисон",
+        "fr": "Thomas Edison"
+      }
     },
     {
       "id": "freud",
@@ -478,7 +514,16 @@
       "early_career": "维也纳医生，研究神经学。",
       "early_actions": "创立精神分析学派。",
       "breakthrough": "提出潜意识理论，开创心理分析。",
-      "key_lesson": "The unconscious is the true psychic reality; 潜意识决定行为。"
+      "key_lesson": "The unconscious is the true psychic reality; 潜意识决定行为。",
+      "names": {
+        "zh": "弗洛伊德",
+        "en": "Sigmund Freud",
+        "es": "Sigmund Freud",
+        "ja": "ジークムント・フロイト",
+        "de": "Sigmund Freud",
+        "ru": "Зигмунд Фрейд",
+        "fr": "Sigmund Freud"
+      }
     },
     {
       "id": "darwin",
@@ -504,7 +549,16 @@
       "early_career": "贝格尔号航行，环球考察。",
       "early_actions": "收集物种样本，研究自然选择。",
       "breakthrough": "提出进化论，发表《物种起源》。",
-      "key_lesson": "It is not the strongest that survive; 适者生存。"
+      "key_lesson": "It is not the strongest that survive; 适者生存。",
+      "names": {
+        "zh": "达尔文",
+        "en": "Charles Darwin",
+        "es": "Charles Darwin",
+        "ja": "チャールズ・ダーウィン",
+        "de": "Charles Darwin",
+        "ru": "Чарльз Дарвин",
+        "fr": "Charles Darwin"
+      }
     },
     {
       "id": "pasteur",
@@ -530,7 +584,16 @@
       "early_career": "化学家出身，研究发酵与微生物。",
       "early_actions": "发明巴氏消毒法，研发狂犬病疫苗。",
       "breakthrough": "奠定微生物学基础，拯救无数生命。",
-      "key_lesson": "Chance favors the prepared mind; 机遇偏爱有准备的头脑。"
+      "key_lesson": "Chance favors the prepared mind; 机遇偏爱有准备的头脑。",
+      "names": {
+        "zh": "巴斯德",
+        "en": "Louis Pasteur",
+        "es": "Louis Pasteur",
+        "ja": "ルイ・パスツール",
+        "de": "Louis Pasteur",
+        "ru": "Луи Пастер",
+        "fr": "Louis Pasteur"
+      }
     },
     {
       "id": "ada_lovelace",
@@ -556,7 +619,16 @@
       "early_career": "数学家拜伦之女，自学数学与机械。",
       "early_actions": "为巴贝奇分析机编写算法。",
       "breakthrough": "写出世界上第一个计算机程序，预见计算机的未来。",
-      "key_lesson": "The Analytical Engine weaves algebraic patterns; 诗意与逻辑可以结合。"
+      "key_lesson": "The Analytical Engine weaves algebraic patterns; 诗意与逻辑可以结合。",
+      "names": {
+        "zh": "Ada Lovelace",
+        "en": "Ada Lovelace",
+        "es": "Ada Lovelace",
+        "ja": "アーダ・ラブレス",
+        "de": "Ada Lovelace",
+        "ru": "Ада Лавлейс",
+        "fr": "Ada Lovelace"
+      }
     },
     {
       "id": "florence_nightingale",
@@ -582,7 +654,16 @@
       "early_career": "贵族出身，违背家庭意愿成为护士。",
       "early_actions": "克里米亚战争护理伤员。",
       "breakthrough": "建立现代护理学，创立南丁格尔统计方法。",
-      "key_lesson": "The art of nursing is... the application of science; 科学服务于人道。"
+      "key_lesson": "The art of nursing is... the application of science; 科学服务于人道。",
+      "names": {
+        "zh": "南丁格尔",
+        "en": "Florence Nightingale",
+        "es": "Florence Nightingale",
+        "ja": "フローレンス・ナイチンゲール",
+        "de": "Florence Nightingale",
+        "ru": "Флоренс Найтингейл",
+        "fr": "Florence Nightingale"
+      }
     },
     {
       "id": "helen_keller",
@@ -608,7 +689,16 @@
       "early_career": "幼年失明失聪，在莎莉文老师帮助下学习。",
       "early_actions": "克服障碍，考入哈佛大学。",
       "breakthrough": "成为著名作家与社会活动家，推动残障权益。",
-      "key_lesson": "Optimism is the faith that leads to achievement; 乐观是成就的信仰。"
+      "key_lesson": "Optimism is the faith that leads to achievement; 乐观是成就的信仰。",
+      "names": {
+        "zh": "海伦·凯勒",
+        "en": "Helen Keller",
+        "es": "Helen Keller",
+        "ja": "ヘレン・ケラー",
+        "de": "Helen Keller",
+        "ru": "Хелен Келлер",
+        "fr": "Helen Keller"
+      }
     },
     {
       "id": "figure_3030",
@@ -634,7 +724,16 @@
       "early_career": "学徒于韦罗基奥工作室，绘制《基督受洗》",
       "early_actions": "研究解剖、光学、飞行器，创作《最后的晚餐》",
       "breakthrough": "《蒙娜丽莎》成为史上最著名画作",
-      "key_lesson": "艺术与科学的融合是创造力的源泉"
+      "key_lesson": "艺术与科学的融合是创造力的源泉",
+      "names": {
+        "zh": "达·芬奇",
+        "en": "达·芬奇",
+        "es": "达·芬奇",
+        "ja": "达·芬奇",
+        "de": "达·芬奇",
+        "ru": "达·芬奇",
+        "fr": "达·芬奇"
+      }
     },
     {
       "id": "figure_6960",
@@ -660,7 +759,16 @@
       "early_career": "剑桥三一学院研究光学与微积分",
       "early_actions": "发现万有引力定律，建立经典力学体系",
       "breakthrough": "《自然哲学的数学原理》奠定近代科学基础",
-      "key_lesson": "站在巨人肩膀上看得更远"
+      "key_lesson": "站在巨人肩膀上看得更远",
+      "names": {
+        "zh": "牛顿",
+        "en": "牛顿",
+        "es": "牛顿",
+        "ja": "牛顿",
+        "de": "牛顿",
+        "ru": "牛顿",
+        "fr": "牛顿"
+      }
     },
     {
       "id": "figure_6672",
@@ -686,7 +794,16 @@
       "early_career": "专利局职员期间发表奇迹年论文",
       "early_actions": "提出相对论，解释光电效应",
       "breakthrough": "E=mc²改变人类对宇宙的认知",
-      "key_lesson": "想象力比知识更重要"
+      "key_lesson": "想象力比知识更重要",
+      "names": {
+        "zh": "爱因斯坦",
+        "en": "爱因斯坦",
+        "es": "爱因斯坦",
+        "ja": "爱因斯坦",
+        "de": "爱因斯坦",
+        "ru": "爱因斯坦",
+        "fr": "爱因斯坦"
+      }
     },
     {
       "id": "figure_4670",
@@ -712,7 +829,16 @@
       "early_career": "巴黎理化学校研究放射性物质",
       "early_actions": "发现钋和镭，开创放射性理论",
       "breakthrough": "两获诺贝尔奖，唯一跨物理学和化学",
-      "key_lesson": "坚韧不拔是科学的基石"
+      "key_lesson": "坚韧不拔是科学的基石",
+      "names": {
+        "zh": "居里夫人",
+        "en": "居里夫人",
+        "es": "居里夫人",
+        "ja": "居里夫人",
+        "de": "居里夫人",
+        "ru": "居里夫人",
+        "fr": "居里夫人"
+      }
     },
     {
       "id": "figure_5458",
@@ -738,7 +864,16 @@
       "early_career": "记者出身，后进入政坛",
       "early_actions": "二战期间领导英国抵抗纳粹",
       "breakthrough": "赢得二战，发表《铁幕演说》",
-      "key_lesson": "永不言败是胜利的关键"
+      "key_lesson": "永不言败是胜利的关键",
+      "names": {
+        "zh": "丘吉尔",
+        "en": "丘吉尔",
+        "es": "丘吉尔",
+        "ja": "丘吉尔",
+        "de": "丘吉尔",
+        "ru": "丘吉尔",
+        "fr": "丘吉尔"
+      }
     },
     {
       "id": "figure_9163",
@@ -764,7 +899,16 @@
       "early_career": "律师，反对种族隔离运动",
       "early_actions": "27年监禁中坚持抗争",
       "breakthrough": "成为南非首位黑人总统",
-      "key_lesson": "宽恕比复仇更有力量"
+      "key_lesson": "宽恕比复仇更有力量",
+      "names": {
+        "zh": "曼德拉",
+        "en": "曼德拉",
+        "es": "曼德拉",
+        "ja": "曼德拉",
+        "de": "曼德拉",
+        "ru": "曼德拉",
+        "fr": "曼德拉"
+      }
     },
     {
       "id": "figure_5770",
@@ -790,7 +934,16 @@
       "early_career": "创立苹果电脑公司",
       "early_actions": "推出Macintosh，创建皮克斯",
       "breakthrough": "iPhone重新定义智能手机",
-      "key_lesson": "保持饥饿，保持愚蠢"
+      "key_lesson": "保持饥饿，保持愚蠢",
+      "names": {
+        "zh": "乔布斯",
+        "en": "乔布斯",
+        "es": "乔布斯",
+        "ja": "乔布斯",
+        "de": "乔布斯",
+        "ru": "乔布斯",
+        "fr": "乔布斯"
+      }
     },
     {
       "id": "figure_1974",
@@ -816,7 +969,16 @@
       "early_career": "电报员出身，创立门洛帕克实验室",
       "early_actions": "发明留声机、改进电灯",
       "breakthrough": "建立第一个工业研究实验室",
-      "key_lesson": "天才就是1%灵感加99%汗水"
+      "key_lesson": "天才就是1%灵感加99%汗水",
+      "names": {
+        "zh": "爱迪生",
+        "en": "爱迪生",
+        "es": "爱迪生",
+        "ja": "爱迪生",
+        "de": "爱迪生",
+        "ru": "爱迪生",
+        "fr": "爱迪生"
+      }
     },
     {
       "id": "figure_6626",
@@ -842,7 +1004,16 @@
       "early_career": "自学法律，进入政坛",
       "early_actions": "领导南北战争，废除奴隶制",
       "breakthrough": "葛底斯堡演说定义民主精神",
-      "key_lesson": "民有、民治、民享的政府"
+      "key_lesson": "民有、民治、民享的政府",
+      "names": {
+        "zh": "林肯",
+        "en": "林肯",
+        "es": "林肯",
+        "ja": "林肯",
+        "de": "林肯",
+        "ru": "林肯",
+        "fr": "林肯"
+      }
     },
     {
       "id": "figure_6738",
@@ -868,7 +1039,16 @@
       "early_career": "医学院辍学，转向数学物理",
       "early_actions": "改进望远镜，发现木星卫星",
       "breakthrough": "支持日心说，现代观测天文学之父",
-      "key_lesson": "自然之书用数学语言书写"
+      "key_lesson": "自然之书用数学语言书写",
+      "names": {
+        "zh": "伽利略",
+        "en": "伽利略",
+        "es": "伽利略",
+        "ja": "伽利略",
+        "de": "伽利略",
+        "ru": "伽利略",
+        "fr": "伽利略"
+      }
     },
     {
       "id": "figure_6186",
@@ -894,7 +1074,16 @@
       "early_career": "拜伦之女，自学数学",
       "early_actions": "为分析机编写第一个算法",
       "breakthrough": "预见计算机的普遍用途",
-      "key_lesson": "想象力的边界决定创新的极限"
+      "key_lesson": "想象力的边界决定创新的极限",
+      "names": {
+        "zh": "洛夫莱斯",
+        "en": "洛夫莱斯",
+        "es": "洛夫莱斯",
+        "ja": "洛夫莱斯",
+        "de": "洛夫莱斯",
+        "ru": "洛夫莱斯",
+        "fr": "洛夫莱斯"
+      }
     },
     {
       "id": "figure_7601",
@@ -920,7 +1109,16 @@
       "early_career": "放弃上流社会生活，学习护理",
       "early_actions": "克里米亚战争改革护理制度",
       "breakthrough": "现代护理学奠基人",
-      "key_lesson": "细节决定生命的价值"
+      "key_lesson": "细节决定生命的价值",
+      "names": {
+        "zh": "南丁格尔",
+        "en": "南丁格尔",
+        "es": "南丁格尔",
+        "ja": "南丁格尔",
+        "de": "南丁格尔",
+        "ru": "南丁格尔",
+        "fr": "南丁格尔"
+      }
     },
     {
       "id": "figure_2502",
@@ -946,7 +1144,16 @@
       "early_career": "失明失聪后学习手语和盲文",
       "early_actions": "哈佛拉德克利夫学院毕业",
       "breakthrough": "《我的人生故事》激励全世界",
-      "key_lesson": "乐观是信念成功的钥匙"
+      "key_lesson": "乐观是信念成功的钥匙",
+      "names": {
+        "zh": "海伦·凯勒",
+        "en": "海伦·凯勒",
+        "es": "海伦·凯勒",
+        "ja": "海伦·凯勒",
+        "de": "海伦·凯勒",
+        "ru": "海伦·凯勒",
+        "fr": "海伦·凯勒"
+      }
     },
     {
       "id": "figure_4378",
@@ -972,7 +1179,16 @@
       "early_career": "神童演出，后成为宫廷乐师",
       "early_actions": "创作41部交响曲、27部钢琴协奏曲",
       "breakthrough": "《费加罗的婚礼》《魔笛》永垂不朽",
-      "key_lesson": "音乐是心灵的直接语言"
+      "key_lesson": "音乐是心灵的直接语言",
+      "names": {
+        "zh": "莫扎特",
+        "en": "莫扎特",
+        "es": "莫扎特",
+        "ja": "莫扎特",
+        "de": "莫扎特",
+        "ru": "莫扎特",
+        "fr": "莫扎特"
+      }
     },
     {
       "id": "figure_984",
@@ -998,7 +1214,16 @@
       "early_career": "剧团演员，开始创作戏剧",
       "early_actions": "写作37部戏剧、154首十四行诗",
       "breakthrough": "《哈姆雷特》《李尔王》成为永恒",
-      "key_lesson": "文字可以穿越时间"
+      "key_lesson": "文字可以穿越时间",
+      "names": {
+        "zh": "莎士比亚",
+        "en": "莎士比亚",
+        "es": "莎士比亚",
+        "ja": "莎士比亚",
+        "de": "莎士比亚",
+        "ru": "莎士比亚",
+        "fr": "莎士比亚"
+      }
     },
     {
       "id": "figure_1284",
@@ -1024,7 +1249,16 @@
       "early_career": "小猎犬号环球航行考察",
       "early_actions": "研究物种变异，提出自然选择",
       "breakthrough": "《物种起源》改变人类自我认知",
-      "key_lesson": "适应者生存，而非最强者"
+      "key_lesson": "适应者生存，而非最强者",
+      "names": {
+        "zh": "达尔文",
+        "en": "达尔文",
+        "es": "达尔文",
+        "ja": "达尔文",
+        "de": "达尔文",
+        "ru": "达尔文",
+        "fr": "达尔文"
+      }
     },
     {
       "id": "figure_1850",
@@ -1050,7 +1284,16 @@
       "early_career": "化学家，研究发酵与微生物",
       "early_actions": "发明巴氏消毒法，研发狂犬疫苗",
       "breakthrough": "微生物学奠基人，挽救百万生命",
-      "key_lesson": "机遇偏爱有准备的头脑"
+      "key_lesson": "机遇偏爱有准备的头脑",
+      "names": {
+        "zh": "巴斯德",
+        "en": "巴斯德",
+        "es": "巴斯德",
+        "ja": "巴斯德",
+        "de": "巴斯德",
+        "ru": "巴斯德",
+        "fr": "巴斯德"
+      }
     },
     {
       "id": "figure_7330",
@@ -1076,7 +1319,16 @@
       "early_career": "维也纳神经学家，研究癔症",
       "early_actions": "创立精神分析学派",
       "breakthrough": "潜意识理论改变心理学",
-      "key_lesson": "梦是通往潜意识的皇家大道"
+      "key_lesson": "梦是通往潜意识的皇家大道",
+      "names": {
+        "zh": "弗洛伊德",
+        "en": "弗洛伊德",
+        "es": "弗洛伊德",
+        "ja": "弗洛伊德",
+        "de": "弗洛伊德",
+        "ru": "弗洛伊德",
+        "fr": "弗洛伊德"
+      }
     },
     {
       "id": "figure_9302",
@@ -1102,7 +1354,16 @@
       "early_career": "哈佛学生创建Facebook",
       "early_actions": "扩张社交平台，收购Instagram",
       "breakthrough": "连接数十亿用户，重塑社交方式",
-      "key_lesson": "移动优先是全球化的关键"
+      "key_lesson": "移动优先是全球化的关键",
+      "names": {
+        "zh": "扎克伯格",
+        "en": "扎克伯格",
+        "es": "扎克伯格",
+        "ja": "扎克伯格",
+        "de": "扎克伯格",
+        "ru": "扎克伯格",
+        "fr": "扎克伯格"
+      }
     },
     {
       "id": "figure_7656",
@@ -1128,7 +1389,16 @@
       "early_career": "印刷工出身，自学科学",
       "early_actions": "风筝实验证明雷电本质，创立图书馆",
       "breakthrough": "发明避雷针，参与美国独立宣言",
-      "key_lesson": "知识就是力量"
+      "key_lesson": "知识就是力量",
+      "names": {
+        "zh": "富兰克林",
+        "en": "富兰克林",
+        "es": "富兰克林",
+        "ja": "富兰克林",
+        "de": "富兰克林",
+        "ru": "富兰克林",
+        "fr": "富兰克林"
+      }
     },
     {
       "id": "figure_6981",
@@ -1154,7 +1424,16 @@
       "early_career": "学徒于韦罗基奥工作室",
       "early_actions": "研究解剖、光学、飞行器设计",
       "breakthrough": "《最后的晚餐》《蒙娜丽莎》",
-      "key_lesson": "艺术需要科学基础"
+      "key_lesson": "艺术需要科学基础",
+      "names": {
+        "zh": "达芬奇",
+        "en": "达芬奇",
+        "es": "达芬奇",
+        "ja": "达芬奇",
+        "de": "达芬奇",
+        "ru": "达芬奇",
+        "fr": "达芬奇"
+      }
     },
     {
       "id": "figure_6350",
@@ -1180,7 +1459,16 @@
       "early_career": "工程师，研究电磁学",
       "early_actions": "发明交流电机、特斯拉线圈",
       "breakthrough": "现代电力系统奠基人",
-      "key_lesson": "想象未来而不是回忆过去"
+      "key_lesson": "想象未来而不是回忆过去",
+      "names": {
+        "zh": "特斯拉",
+        "en": "特斯拉",
+        "es": "特斯拉",
+        "ja": "特斯拉",
+        "de": "特斯拉",
+        "ru": "特斯拉",
+        "fr": "特斯拉"
+      }
     },
     {
       "id": "figure_5121",
@@ -1206,7 +1494,16 @@
       "early_career": "周朝史官，后成为教育家",
       "early_actions": "周游列国传播儒家思想",
       "breakthrough": "《论语》影响东亚两千年",
-      "key_lesson": "有教无类，因材施教"
+      "key_lesson": "有教无类，因材施教",
+      "names": {
+        "zh": "孔子",
+        "en": "孔子",
+        "es": "孔子",
+        "ja": "孔子",
+        "de": "孔子",
+        "ru": "孔子",
+        "fr": "孔子"
+      }
     },
     {
       "id": "figure_3290",
@@ -1232,7 +1529,16 @@
       "early_career": "柏拉图学生，亚历山大导师",
       "early_actions": "建立逻辑学、生物学、物理学体系",
       "breakthrough": "西方哲学奠基人",
-      "key_lesson": "吾爱吾师，吾更爱真理"
+      "key_lesson": "吾爱吾师，吾更爱真理",
+      "names": {
+        "zh": "亚里士多德",
+        "en": "亚里士多德",
+        "es": "亚里士多德",
+        "ja": "亚里士多德",
+        "de": "亚里士多德",
+        "ru": "亚里士多德",
+        "fr": "亚里士多德"
+      }
     },
     {
       "id": "figure_4203",
@@ -1258,7 +1564,16 @@
       "early_career": "雅典街头辩论者",
       "early_actions": "开创问答式教学法",
       "breakthrough": "认识你自己",
-      "key_lesson": "未经审视的人生不值得过"
+      "key_lesson": "未经审视的人生不值得过",
+      "names": {
+        "zh": "苏格拉底",
+        "en": "苏格拉底",
+        "es": "苏格拉底",
+        "ja": "苏格拉底",
+        "de": "苏格拉底",
+        "ru": "苏格拉底",
+        "fr": "苏格拉底"
+      }
     },
     {
       "id": "figure_4000",
@@ -1284,7 +1599,16 @@
       "early_career": "苏格拉底学生，创立学园",
       "early_actions": "写作《理想国》《会饮篇》",
       "breakthrough": "理念论影响整个西方哲学",
-      "key_lesson": "知识即回忆"
+      "key_lesson": "知识即回忆",
+      "names": {
+        "zh": "柏拉图",
+        "en": "柏拉图",
+        "es": "柏拉图",
+        "ja": "柏拉图",
+        "de": "柏拉图",
+        "ru": "柏拉图",
+        "fr": "柏拉图"
+      }
     },
     {
       "id": "figure_7139",
@@ -1310,7 +1634,16 @@
       "early_career": "喜剧作家，雅典剧场",
       "early_actions": "创作《云》《蛙》等喜剧",
       "breakthrough": "旧喜剧代表人物",
-      "key_lesson": "幽默是智慧的表达"
+      "key_lesson": "幽默是智慧的表达",
+      "names": {
+        "zh": "阿里斯托芬",
+        "en": "阿里斯托芬",
+        "es": "阿里斯托芬",
+        "ja": "阿里斯托芬",
+        "de": "阿里斯托芬",
+        "ru": "阿里斯托芬",
+        "fr": "阿里斯托芬"
+      }
     },
     {
       "id": "figure_9254",
@@ -1336,7 +1669,16 @@
       "early_career": "盲诗人，游吟歌手",
       "early_actions": "传唱《伊利亚特》《奥德赛》",
       "breakthrough": "西方文学奠基人",
-      "key_lesson": "故事永恒流传"
+      "key_lesson": "故事永恒流传",
+      "names": {
+        "zh": "荷马",
+        "en": "荷马",
+        "es": "荷马",
+        "ja": "荷马",
+        "de": "荷马",
+        "ru": "荷马",
+        "fr": "荷马"
+      }
     },
     {
       "id": "figure_1422",
@@ -1362,7 +1704,16 @@
       "early_career": "罗马诗人，受奥古斯都庇护",
       "early_actions": "写作《埃涅阿斯纪》",
       "breakthrough": "罗马民族史诗",
-      "key_lesson": "使命高于个人"
+      "key_lesson": "使命高于个人",
+      "names": {
+        "zh": "维吉尔",
+        "en": "维吉尔",
+        "es": "维吉尔",
+        "ja": "维吉尔",
+        "de": "维吉尔",
+        "ru": "维吉尔",
+        "fr": "维吉尔"
+      }
     },
     {
       "id": "figure_7845",
@@ -1388,7 +1739,16 @@
       "early_career": "律师出身，后从政",
       "early_actions": "演说反对喀提林阴谋",
       "breakthrough": "罗马修辞学大师",
-      "key_lesson": "语言是权力的工具"
+      "key_lesson": "语言是权力的工具",
+      "names": {
+        "zh": "西塞罗",
+        "en": "西塞罗",
+        "es": "西塞罗",
+        "ja": "西塞罗",
+        "de": "西塞罗",
+        "ru": "西塞罗",
+        "fr": "西塞罗"
+      }
     },
     {
       "id": "figure_406",
@@ -1414,7 +1774,16 @@
       "early_career": "军队崛起，征服高卢",
       "early_actions": "跨越卢比孔河，独裁罗马",
       "breakthrough": "凯撒历法沿用至今",
-      "key_lesson": "我来，我见，我征服"
+      "key_lesson": "我来，我见，我征服",
+      "names": {
+        "zh": "凯撒",
+        "en": "凯撒",
+        "es": "凯撒",
+        "ja": "凯撒",
+        "de": "凯撒",
+        "ru": "凯撒",
+        "fr": "凯撒"
+      }
     },
     {
       "id": "figure_3635",
@@ -1440,7 +1809,16 @@
       "early_career": "师从亚里士多德",
       "early_actions": "东征波斯，建立庞大帝国",
       "breakthrough": "希腊化时代开创者",
-      "key_lesson": "世界是我的祖国"
+      "key_lesson": "世界是我的祖国",
+      "names": {
+        "zh": "亚历山大大帝",
+        "en": "亚历山大大帝",
+        "es": "亚历山大大帝",
+        "ja": "亚历山大大帝",
+        "de": "亚历山大大帝",
+        "ru": "亚历山大大帝",
+        "fr": "亚历山大大帝"
+      }
     },
     {
       "id": "figure_4156",
@@ -1466,7 +1844,16 @@
       "early_career": "埃及女王，精通多国语言",
       "early_actions": "与凯撒、安东尼结盟",
       "breakthrough": "最后一位法老",
-      "key_lesson": "智慧胜于武力"
+      "key_lesson": "智慧胜于武力",
+      "names": {
+        "zh": "克娄巴特拉",
+        "en": "克娄巴特拉",
+        "es": "克娄巴特拉",
+        "ja": "克娄巴特拉",
+        "de": "克娄巴特拉",
+        "ru": "克娄巴特拉",
+        "fr": "克娄巴特拉"
+      }
     },
     {
       "id": "figure_1920",
@@ -1492,7 +1879,16 @@
       "early_career": "凯撒养子，内战胜利",
       "early_actions": "建立元首制，开创罗马和平",
       "breakthrough": "罗马帝国奠基人",
-      "key_lesson": "找到纸屋留下大理石"
+      "key_lesson": "找到纸屋留下大理石",
+      "names": {
+        "zh": "奥古斯都",
+        "en": "奥古斯都",
+        "es": "奥古斯都",
+        "ja": "奥古斯都",
+        "de": "奥古斯都",
+        "ru": "奥古斯都",
+        "fr": "奥古斯都"
+      }
     },
     {
       "id": "figure_3797",
@@ -1518,7 +1914,16 @@
       "early_career": "军团将领，后成为皇帝",
       "early_actions": "扩张帝国版图至最大",
       "breakthrough": "图拉真柱纪念功绩",
-      "key_lesson": "最好的君主是公民第一"
+      "key_lesson": "最好的君主是公民第一",
+      "names": {
+        "zh": "图拉真",
+        "en": "图拉真",
+        "es": "图拉真",
+        "ja": "图拉真",
+        "de": "图拉真",
+        "ru": "图拉真",
+        "fr": "图拉真"
+      }
     },
     {
       "id": "figure_80",
@@ -1544,7 +1949,16 @@
       "early_career": "斯多葛学派学生，后成为皇帝",
       "early_actions": "写作《沉思录》",
       "breakthrough": "哲人王典范",
-      "key_lesson": "控制你能控制的"
+      "key_lesson": "控制你能控制的",
+      "names": {
+        "zh": "马可·奥勒留",
+        "en": "马可·奥勒留",
+        "es": "马可·奥勒留",
+        "ja": "马可·奥勒留",
+        "de": "马可·奥勒留",
+        "ru": "马可·奥勒留",
+        "fr": "马可·奥勒留"
+      }
     },
     {
       "id": "figure_1188",
@@ -1570,7 +1984,16 @@
       "early_career": "军人出身，热爱希腊文化",
       "early_actions": "修建哈德良长城",
       "breakthrough": "罗马黄金时代统治者",
-      "key_lesson": "建设比征服更难"
+      "key_lesson": "建设比征服更难",
+      "names": {
+        "zh": "哈德良",
+        "en": "哈德良",
+        "es": "哈德良",
+        "ja": "哈德良",
+        "de": "哈德良",
+        "ru": "哈德良",
+        "fr": "哈德良"
+      }
     },
     {
       "id": "figure_7524",
@@ -1596,7 +2019,16 @@
       "early_career": "军团将领，统一帝国",
       "early_actions": "颁布米兰敕令",
       "breakthrough": "基督教合法化",
-      "key_lesson": "信仰统一帝国"
+      "key_lesson": "信仰统一帝国",
+      "names": {
+        "zh": "君士坦丁",
+        "en": "君士坦丁",
+        "es": "君士坦丁",
+        "ja": "君士坦丁",
+        "de": "君士坦丁",
+        "ru": "君士坦丁",
+        "fr": "君士坦丁"
+      }
     },
     {
       "id": "figure_3958",
@@ -1622,7 +2054,16 @@
       "early_career": "法兰克国王，统一西欧",
       "early_actions": "建立加洛林帝国",
       "breakthrough": "欧洲之父",
-      "key_lesson": "知识照亮权力"
+      "key_lesson": "知识照亮权力",
+      "names": {
+        "zh": "查理曼",
+        "en": "查理曼",
+        "es": "查理曼",
+        "ja": "查理曼",
+        "de": "查理曼",
+        "ru": "查理曼",
+        "fr": "查理曼"
+      }
     },
     {
       "id": "figure_5715",
@@ -1648,7 +2089,16 @@
       "early_career": "商人家庭，北非学习数学",
       "early_actions": "引入印度-阿拉伯数字",
       "breakthrough": "斐波那契数列",
-      "key_lesson": "数学是宇宙的语言"
+      "key_lesson": "数学是宇宙的语言",
+      "names": {
+        "zh": "斐波那契",
+        "en": "斐波那契",
+        "es": "斐波那契",
+        "ja": "斐波那契",
+        "de": "斐波那契",
+        "ru": "斐波那契",
+        "fr": "斐波那契"
+      }
     },
     {
       "id": "figure_8932",
@@ -1674,7 +2124,16 @@
       "early_career": "修道院学习，后成为神学家",
       "early_actions": "写作《神学大全》",
       "breakthrough": "经院哲学集大成者",
-      "key_lesson": "信仰与理性和谐"
+      "key_lesson": "信仰与理性和谐",
+      "names": {
+        "zh": "阿奎那",
+        "en": "阿奎那",
+        "es": "阿奎那",
+        "ja": "阿奎那",
+        "de": "阿奎那",
+        "ru": "阿奎那",
+        "fr": "阿奎那"
+      }
     },
     {
       "id": "figure_7411",
@@ -1700,7 +2159,16 @@
       "early_career": "佛罗伦萨诗人，后流放",
       "early_actions": "写作《神曲》",
       "breakthrough": "意大利语文学奠基人",
-      "key_lesson": "跟随你的星"
+      "key_lesson": "跟随你的星",
+      "names": {
+        "zh": "但丁",
+        "en": "但丁",
+        "es": "但丁",
+        "ja": "但丁",
+        "de": "但丁",
+        "ru": "但丁",
+        "fr": "但丁"
+      }
     },
     {
       "id": "figure_2403",
@@ -1726,7 +2194,16 @@
       "early_career": "学者，收集古典手稿",
       "early_actions": "创作十四行诗",
       "breakthrough": "人文主义之父",
-      "key_lesson": "回归古典智慧"
+      "key_lesson": "回归古典智慧",
+      "names": {
+        "zh": "彼特拉克",
+        "en": "彼特拉克",
+        "es": "彼特拉克",
+        "ja": "彼特拉克",
+        "de": "彼特拉克",
+        "ru": "彼特拉克",
+        "fr": "彼特拉克"
+      }
     },
     {
       "id": "figure_9218",
@@ -1752,7 +2229,16 @@
       "early_career": "商人子弟，后成为作家",
       "early_actions": "写作《十日谈》",
       "breakthrough": "短篇小说奠基人",
-      "key_lesson": "人性是永恒的题材"
+      "key_lesson": "人性是永恒的题材",
+      "names": {
+        "zh": "薄伽丘",
+        "en": "薄伽丘",
+        "es": "薄伽丘",
+        "ja": "薄伽丘",
+        "de": "薄伽丘",
+        "ru": "薄伽丘",
+        "fr": "薄伽丘"
+      }
     },
     {
       "id": "figure_9868",
@@ -1778,7 +2264,16 @@
       "early_career": "佛罗伦萨外交官",
       "early_actions": "写作《君主论》",
       "breakthrough": "现代政治学奠基人",
-      "key_lesson": "目的证明手段正当"
+      "key_lesson": "目的证明手段正当",
+      "names": {
+        "zh": "马基雅维利",
+        "en": "马基雅维利",
+        "es": "马基雅维利",
+        "ja": "马基雅维利",
+        "de": "马基雅维利",
+        "ru": "马基雅维利",
+        "fr": "马基雅维利"
+      }
     },
     {
       "id": "figure_271",
@@ -1804,7 +2299,16 @@
       "early_career": "教士，研究天文学",
       "early_actions": "提出日心说",
       "breakthrough": "《天体运行论》",
-      "key_lesson": "真理需要勇气"
+      "key_lesson": "真理需要勇气",
+      "names": {
+        "zh": "哥白尼",
+        "en": "哥白尼",
+        "es": "哥白尼",
+        "ja": "哥白尼",
+        "de": "哥白尼",
+        "ru": "哥白尼",
+        "fr": "哥白尼"
+      }
     },
     {
       "id": "figure_3175",
@@ -1830,7 +2334,16 @@
       "early_career": "丹麦贵族，建造天文台",
       "early_actions": "精确观测行星运动",
       "breakthrough": "第谷体系",
-      "key_lesson": "细节决定科学"
+      "key_lesson": "细节决定科学",
+      "names": {
+        "zh": "第谷",
+        "en": "第谷",
+        "es": "第谷",
+        "ja": "第谷",
+        "de": "第谷",
+        "ru": "第谷",
+        "fr": "第谷"
+      }
     },
     {
       "id": "figure_96",
@@ -1856,7 +2369,16 @@
       "early_career": "牧师之子，研究数学",
       "early_actions": "发现行星运动三定律",
       "breakthrough": "《新天文学》",
-      "key_lesson": "宇宙遵循数学定律"
+      "key_lesson": "宇宙遵循数学定律",
+      "names": {
+        "zh": "开普勒",
+        "en": "开普勒",
+        "es": "开普勒",
+        "ja": "开普勒",
+        "de": "开普勒",
+        "ru": "开普勒",
+        "fr": "开普勒"
+      }
     },
     {
       "id": "figure_5599",
@@ -1882,7 +2404,16 @@
       "early_career": "修道士，后成为哲学家",
       "early_actions": "支持日心说，提出无限宇宙",
       "breakthrough": "为科学自由殉道",
-      "key_lesson": "思想不能被束缚"
+      "key_lesson": "思想不能被束缚",
+      "names": {
+        "zh": "布鲁诺",
+        "en": "布鲁诺",
+        "es": "布鲁诺",
+        "ja": "布鲁诺",
+        "de": "布鲁诺",
+        "ru": "布鲁诺",
+        "fr": "布鲁诺"
+      }
     },
     {
       "id": "figure_1688",
@@ -1908,7 +2439,16 @@
       "early_career": "律师，后成为哲学家",
       "early_actions": "提出归纳法",
       "breakthrough": "《新工具》",
-      "key_lesson": "知识就是力量"
+      "key_lesson": "知识就是力量",
+      "names": {
+        "zh": "培根",
+        "en": "培根",
+        "es": "培根",
+        "ja": "培根",
+        "de": "培根",
+        "ru": "培根",
+        "fr": "培根"
+      }
     },
     {
       "id": "figure_1348",
@@ -1934,7 +2474,16 @@
       "early_career": "贵族，研究数学哲学",
       "early_actions": "创立解析几何",
       "breakthrough": "我思故我在",
-      "key_lesson": "怀疑一切"
+      "key_lesson": "怀疑一切",
+      "names": {
+        "zh": "笛卡尔",
+        "en": "笛卡尔",
+        "es": "笛卡尔",
+        "ja": "笛卡尔",
+        "de": "笛卡尔",
+        "ru": "笛卡尔",
+        "fr": "笛卡尔"
+      }
     },
     {
       "id": "figure_5072",
@@ -1960,7 +2509,16 @@
       "early_career": "神童，研究数学物理",
       "early_actions": "发明计算器，研究概率",
       "breakthrough": "《思想录》",
-      "key_lesson": "心灵有理性不知晓的理由"
+      "key_lesson": "心灵有理性不知晓的理由",
+      "names": {
+        "zh": "帕斯卡",
+        "en": "帕斯卡",
+        "es": "帕斯卡",
+        "ja": "帕斯卡",
+        "de": "帕斯卡",
+        "ru": "帕斯卡",
+        "fr": "帕斯卡"
+      }
     },
     {
       "id": "figure_7125",
@@ -1986,7 +2544,16 @@
       "early_career": "剑桥研究微积分光学",
       "early_actions": "发现万有引力，建立力学",
       "breakthrough": "《自然哲学的数学原理》",
-      "key_lesson": "站在巨人肩膀上"
+      "key_lesson": "站在巨人肩膀上",
+      "names": {
+        "zh": "牛顿",
+        "en": "牛顿",
+        "es": "牛顿",
+        "ja": "牛顿",
+        "de": "牛顿",
+        "ru": "牛顿",
+        "fr": "牛顿"
+      }
     },
     {
       "id": "figure_7411",
@@ -2012,7 +2579,16 @@
       "early_career": "律师，研究数学哲学",
       "early_actions": "独立发明微积分",
       "breakthrough": "二进制原理",
-      "key_lesson": "宇宙是最佳可能世界"
+      "key_lesson": "宇宙是最佳可能世界",
+      "names": {
+        "zh": "莱布尼茨",
+        "en": "莱布尼茨",
+        "es": "莱布尼茨",
+        "ja": "莱布尼茨",
+        "de": "莱布尼茨",
+        "ru": "莱布尼茨",
+        "fr": "莱布尼茨"
+      }
     },
     {
       "id": "figure_6294",
@@ -2038,7 +2614,16 @@
       "early_career": "贵族，研究光学力学",
       "early_actions": "发明摆钟，发现土星环",
       "breakthrough": "波动光学奠基人",
-      "key_lesson": "观察创造科学"
+      "key_lesson": "观察创造科学",
+      "names": {
+        "zh": "惠更斯",
+        "en": "惠更斯",
+        "es": "惠更斯",
+        "ja": "惠更斯",
+        "de": "惠更斯",
+        "ru": "惠更斯",
+        "fr": "惠更斯"
+      }
     },
     {
       "id": "figure_6972",
@@ -2064,7 +2649,16 @@
       "early_career": "皇家学会实验负责人",
       "early_actions": "发现胡克定律，观察细胞",
       "breakthrough": "《显微图谱》",
-      "key_lesson": "细节揭示真理"
+      "key_lesson": "细节揭示真理",
+      "names": {
+        "zh": "胡克",
+        "en": "胡克",
+        "es": "胡克",
+        "ja": "胡克",
+        "de": "胡克",
+        "ru": "胡克",
+        "fr": "胡克"
+      }
     },
     {
       "id": "figure_4388",
@@ -2090,7 +2684,16 @@
       "early_career": "数学家家族，研究流体力学",
       "early_actions": "发现伯努利原理",
       "breakthrough": "概率论奠基",
-      "key_lesson": "数学描述自然"
+      "key_lesson": "数学描述自然",
+      "names": {
+        "zh": "伯努利",
+        "en": "伯努利",
+        "es": "伯努利",
+        "ja": "伯努利",
+        "de": "伯努利",
+        "ru": "伯努利",
+        "fr": "伯努利"
+      }
     },
     {
       "id": "figure_8031",
@@ -2116,7 +2719,16 @@
       "early_career": "巴塞尔神童，后去圣彼得堡",
       "early_actions": "建立分析学，图论，拓扑",
       "breakthrough": "最多产的数学家",
-      "key_lesson": "读读欧拉，读读欧拉"
+      "key_lesson": "读读欧拉，读读欧拉",
+      "names": {
+        "zh": "欧拉",
+        "en": "欧拉",
+        "es": "欧拉",
+        "ja": "欧拉",
+        "de": "欧拉",
+        "ru": "欧拉",
+        "fr": "欧拉"
+      }
     },
     {
       "id": "figure_5248",
@@ -2142,7 +2754,16 @@
       "early_career": "都灵学者，后去柏林",
       "early_actions": "创立分析力学",
       "breakthrough": "《分析力学》",
-      "key_lesson": "纯粹分析的力量"
+      "key_lesson": "纯粹分析的力量",
+      "names": {
+        "zh": "拉格朗日",
+        "en": "拉格朗日",
+        "es": "拉格朗日",
+        "ja": "拉格朗日",
+        "de": "拉格朗日",
+        "ru": "拉格朗日",
+        "fr": "拉格朗日"
+      }
     },
     {
       "id": "figure_8204",
@@ -2168,7 +2789,16 @@
       "early_career": "神学院学生，转向数学",
       "early_actions": "研究天体力学，提出星云说",
       "breakthrough": "《天体力学》",
-      "key_lesson": "确定性的宇宙"
+      "key_lesson": "确定性的宇宙",
+      "names": {
+        "zh": "拉普拉斯",
+        "en": "拉普拉斯",
+        "es": "拉普拉斯",
+        "ja": "拉普拉斯",
+        "de": "拉普拉斯",
+        "ru": "拉普拉斯",
+        "fr": "拉普拉斯"
+      }
     },
     {
       "id": "figure_7766",
@@ -2194,7 +2824,16 @@
       "early_career": "神职人员，后研究数学物理",
       "early_actions": "提出傅里叶分析",
       "breakthrough": "《热的解析理论》",
-      "key_lesson": "任何函数都可展开"
+      "key_lesson": "任何函数都可展开",
+      "names": {
+        "zh": "傅里叶",
+        "en": "傅里叶",
+        "es": "傅里叶",
+        "ja": "傅里叶",
+        "de": "傅里叶",
+        "ru": "傅里叶",
+        "fr": "傅里叶"
+      }
     },
     {
       "id": "figure_9905",
@@ -2220,7 +2859,16 @@
       "early_career": "神童，哥廷根教授",
       "early_actions": "数论、代数、几何、分析全才",
       "breakthrough": "《算术研究》",
-      "key_lesson": "数学是科学之王"
+      "key_lesson": "数学是科学之王",
+      "names": {
+        "zh": "高斯",
+        "en": "高斯",
+        "es": "高斯",
+        "ja": "高斯",
+        "de": "高斯",
+        "ru": "高斯",
+        "fr": "高斯"
+      }
     },
     {
       "id": "figure_179",
@@ -2246,7 +2894,16 @@
       "early_career": "神职人员，研究数学逻辑",
       "early_actions": "分析严格化先驱",
       "breakthrough": "悖论研究",
-      "key_lesson": "逻辑需要精确"
+      "key_lesson": "逻辑需要精确",
+      "names": {
+        "zh": "波尔扎诺",
+        "en": "波尔扎诺",
+        "es": "波尔扎诺",
+        "ja": "波尔扎诺",
+        "de": "波尔扎诺",
+        "ru": "波尔扎诺",
+        "fr": "波尔扎诺"
+      }
     },
     {
       "id": "figure_4343",
@@ -2272,7 +2929,16 @@
       "early_career": "哥廷根学者，研究几何",
       "early_actions": "创立黎曼几何",
       "breakthrough": "《论几何基础的假设》",
-      "key_lesson": "空间可以是弯曲的"
+      "key_lesson": "空间可以是弯曲的",
+      "names": {
+        "zh": "黎曼",
+        "en": "黎曼",
+        "es": "黎曼",
+        "ja": "黎曼",
+        "de": "黎曼",
+        "ru": "黎曼",
+        "fr": "黎曼"
+      }
     },
     {
       "id": "figure_8381",
@@ -2298,7 +2964,16 @@
       "early_career": "都柏林学者，研究力学",
       "early_actions": "发明四元数",
       "breakthrough": "分析动力学",
-      "key_lesson": "数学发现而非发明"
+      "key_lesson": "数学发现而非发明",
+      "names": {
+        "zh": "哈密顿",
+        "en": "哈密顿",
+        "es": "哈密顿",
+        "ja": "哈密顿",
+        "de": "哈密顿",
+        "ru": "哈密顿",
+        "fr": "哈密顿"
+      }
     },
     {
       "id": "figure_8070",
@@ -2324,7 +2999,16 @@
       "early_career": "自学成才，研究逻辑",
       "early_actions": "创立布尔代数",
       "breakthrough": "《思维的规律》",
-      "key_lesson": "逻辑可计算"
+      "key_lesson": "逻辑可计算",
+      "names": {
+        "zh": "布尔",
+        "en": "布尔",
+        "es": "布尔",
+        "ja": "布尔",
+        "de": "布尔",
+        "ru": "布尔",
+        "fr": "布尔"
+      }
     },
     {
       "id": "figure_8391",
@@ -2350,7 +3034,16 @@
       "early_career": "哥廷根学者，研究数论",
       "early_actions": "创立集合论",
       "breakthrough": "无穷有不同的等级",
-      "key_lesson": "我的理论的时代终于来临"
+      "key_lesson": "我的理论的时代终于来临",
+      "names": {
+        "zh": "康托尔",
+        "en": "康托尔",
+        "es": "康托尔",
+        "ja": "康托尔",
+        "de": "康托尔",
+        "ru": "康托尔",
+        "fr": "康托尔"
+      }
     },
     {
       "id": "figure_1140",
@@ -2376,7 +3069,16 @@
       "early_career": "工程师，后成为数学家",
       "early_actions": "拓扑学奠基，混沌理论先驱",
       "breakthrough": "《科学与假设》",
-      "key_lesson": "直觉是数学发现的钥匙"
+      "key_lesson": "直觉是数学发现的钥匙",
+      "names": {
+        "zh": "庞加莱",
+        "en": "庞加莱",
+        "es": "庞加莱",
+        "ja": "庞加莱",
+        "de": "庞加莱",
+        "ru": "庞加莱",
+        "fr": "庞加莱"
+      }
     },
     {
       "id": "figure_7985",
@@ -2402,7 +3104,16 @@
       "early_career": "哥廷根学派领袖",
       "early_actions": "提出23个问题",
       "breakthrough": "公理化方法",
-      "key_lesson": "我们必须知道，我们必将知道"
+      "key_lesson": "我们必须知道，我们必将知道",
+      "names": {
+        "zh": "希尔伯特",
+        "en": "希尔伯特",
+        "es": "希尔伯特",
+        "ja": "希尔伯特",
+        "de": "希尔伯特",
+        "ru": "希尔伯特",
+        "fr": "希尔伯特"
+      }
     },
     {
       "id": "figure_8158",
@@ -2428,7 +3139,16 @@
       "early_career": "哥廷根学者，研究代数",
       "early_actions": "创立抽象代数，诺特定理",
       "breakthrough": "爱因斯坦称她改变物理学",
-      "key_lesson": "对称决定守恒"
+      "key_lesson": "对称决定守恒",
+      "names": {
+        "zh": "诺特",
+        "en": "诺特",
+        "es": "诺特",
+        "ja": "诺特",
+        "de": "诺特",
+        "ru": "诺特",
+        "fr": "诺特"
+      }
     },
     {
       "id": "figure_5188",
@@ -2454,7 +3174,16 @@
       "early_career": "维也纳学者，研究逻辑",
       "early_actions": "证明不完备定理",
       "breakthrough": "改变数学基础",
-      "key_lesson": "系统不能证明自身一致性"
+      "key_lesson": "系统不能证明自身一致性",
+      "names": {
+        "zh": "哥德尔",
+        "en": "哥德尔",
+        "es": "哥德尔",
+        "ja": "哥德尔",
+        "de": "哥德尔",
+        "ru": "哥德尔",
+        "fr": "哥德尔"
+      }
     },
     {
       "id": "figure_6434",
@@ -2480,7 +3209,16 @@
       "early_career": "剑桥学者，研究逻辑",
       "early_actions": "提出图灵机，破解恩尼格玛",
       "breakthrough": "人工智能之父",
-      "key_lesson": "机器能思考吗？"
+      "key_lesson": "机器能思考吗？",
+      "names": {
+        "zh": "图灵",
+        "en": "图灵",
+        "es": "图灵",
+        "ja": "图灵",
+        "de": "图灵",
+        "ru": "图灵",
+        "fr": "图灵"
+      }
     },
     {
       "id": "figure_3195",
@@ -2506,7 +3244,16 @@
       "early_career": "布达佩斯神童，后去美国",
       "early_actions": "量子力学、博弈论、计算机",
       "breakthrough": "存储程序计算机",
-      "key_lesson": "数学无处不在"
+      "key_lesson": "数学无处不在",
+      "names": {
+        "zh": "冯·诺依曼",
+        "en": "冯·诺依曼",
+        "es": "冯·诺依曼",
+        "ja": "冯·诺依曼",
+        "de": "冯·诺依曼",
+        "ru": "冯·诺依曼",
+        "fr": "冯·诺依曼"
+      }
     },
     {
       "id": "figure_788",
@@ -2532,7 +3279,16 @@
       "early_career": "剑桥学者，二战密码破译",
       "early_actions": "提出图灵机模型",
       "breakthrough": "图灵测试定义人工智能",
-      "key_lesson": "机器能思考吗"
+      "key_lesson": "机器能思考吗",
+      "names": {
+        "zh": "阿兰·图灵",
+        "en": "阿兰·图灵",
+        "es": "阿兰·图灵",
+        "ja": "阿兰·图灵",
+        "de": "阿兰·图灵",
+        "ru": "阿兰·图灵",
+        "fr": "阿兰·图灵"
+      }
     },
     {
       "id": "figure_4919",
@@ -2558,7 +3314,16 @@
       "early_career": "MIT学者，研究开关电路",
       "early_actions": "创立信息论",
       "breakthrough": "《通信的数学理论》",
-      "key_lesson": "信息是可量化的"
+      "key_lesson": "信息是可量化的",
+      "names": {
+        "zh": "香农",
+        "en": "香农",
+        "es": "香农",
+        "ja": "香农",
+        "de": "香农",
+        "ru": "香农",
+        "fr": "香农"
+      }
     },
     {
       "id": "figure_8061",
@@ -2584,7 +3349,16 @@
       "early_career": "神童，研究控制论",
       "early_actions": "创立控制论",
       "breakthrough": "《控制论》",
-      "key_lesson": "反馈决定行为"
+      "key_lesson": "反馈决定行为",
+      "names": {
+        "zh": "维纳",
+        "en": "维纳",
+        "es": "维纳",
+        "ja": "维纳",
+        "de": "维纳",
+        "ru": "维纳",
+        "fr": "维纳"
+      }
     },
     {
       "id": "figure_2124",
@@ -2610,7 +3384,16 @@
       "early_career": "计算机科学最高荣誉",
       "early_actions": "奖励杰出贡献",
       "breakthrough": "计算机领域的诺贝尔奖",
-      "key_lesson": "纪念图灵的贡献"
+      "key_lesson": "纪念图灵的贡献",
+      "names": {
+        "zh": "图灵奖",
+        "en": "图灵奖",
+        "es": "图灵奖",
+        "ja": "图灵奖",
+        "de": "图灵奖",
+        "ru": "图灵奖",
+        "fr": "图灵奖"
+      }
     },
     {
       "id": "figure_1208",
@@ -2636,7 +3419,16 @@
       "early_career": "巴塞尔神童，后去圣彼得堡",
       "early_actions": "分析学奠基，图论开创",
       "breakthrough": "最多产的数学家，Euler公式",
-      "key_lesson": "读读欧拉，读读欧拉"
+      "key_lesson": "读读欧拉，读读欧拉",
+      "names": {
+        "zh": "欧拉",
+        "en": "欧拉",
+        "es": "欧拉",
+        "ja": "欧拉",
+        "de": "欧拉",
+        "ru": "欧拉",
+        "fr": "欧拉"
+      }
     },
     {
       "id": "figure_223",
@@ -2662,7 +3454,16 @@
       "early_career": "哥廷根学者，数论研究",
       "early_actions": "《算术研究》《天体运动论》",
       "breakthrough": "最小二乘法，正态分布",
-      "key_lesson": "数学是科学之王"
+      "key_lesson": "数学是科学之王",
+      "names": {
+        "zh": "高斯",
+        "en": "高斯",
+        "es": "高斯",
+        "ja": "高斯",
+        "de": "高斯",
+        "ru": "高斯",
+        "fr": "高斯"
+      }
     },
     {
       "id": "figure_9335",
@@ -2688,7 +3489,16 @@
       "early_career": "哥廷根学者，研究几何",
       "early_actions": "创立黎曼几何",
       "breakthrough": "《论几何基础的假设》",
-      "key_lesson": "空间可以是弯曲的"
+      "key_lesson": "空间可以是弯曲的",
+      "names": {
+        "zh": "黎曼",
+        "en": "黎曼",
+        "es": "黎曼",
+        "ja": "黎曼",
+        "de": "黎曼",
+        "ru": "黎曼",
+        "fr": "黎曼"
+      }
     }
   ]
 }
