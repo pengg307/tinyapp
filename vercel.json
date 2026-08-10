@@ -16,8 +16,17 @@
       "dest": "career_course/src/main.py"
     },
     {
+      "src": "/health",
+      "dest": "career_course/src/main.py"
+    },
+    {
+      "src": "/",
+      "dest": "career_course/static/index.html"
+    },
+    {
       "src": "/(.*)",
       "dest": "career_course/static/$1"
     }
-  ]
+  ],
+  "outputDirectory": "career_course/static"
 }
