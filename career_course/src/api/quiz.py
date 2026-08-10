@@ -22,7 +22,7 @@ async def get_questions(language: str = "zh"):
         # 替换题目文本
         if lang_key in q and q[lang_key]:
             q["question"] = q[lang_key]
-        # 替换选项文本
+        # 替换选项文本 - 使用对应语言的翻译
         for opt in q.get("options", []):
             if text_key in opt and opt[text_key]:
                 opt["text"] = opt[text_key]
