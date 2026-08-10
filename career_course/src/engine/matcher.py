@@ -7,7 +7,6 @@ DIMENSIONS = [
     "leadership","risk_taking","rationality","discipline","empathy","ambition","resilience"
 ]
 
-# 维度权重：核心职业能力维度更高权重
 WEIGHTS = {
     "openness":1.0,"conscientiousness":1.2,"extraversion":0.9,"agreeableness":0.9,
     "neuroticism":0.8,"leadership":1.3,"risk_taking":0.9,"rationality":1.3,
@@ -15,6 +14,26 @@ WEIGHTS = {
 }
 
 DATA_DIR = Path(__file__).parent.parent / "data"
+
+# 维度名称多语言映射
+DIM_NAMES = {
+    "zh": {"openness": "开放性", "conscientiousness": "尽责性", "extraversion": "外向性", 
+           "agreeableness": "宜人性", "neuroticism": "神经质", "leadership": "领导力",
+           "risk_taking": "冒险性", "rationality": "理性", "discipline": "自律性",
+           "empathy": "共情力", "ambition": "进取心", "resilience": "坚韧性"},
+    "en": {"openness": "Openness", "conscientiousness": "Conscientiousness", "extraversion": "Extraversion",
+           "agreeableness": "Agreeableness", "neuroticism": "Neuroticism", "leadership": "Leadership",
+           "risk_taking": "Risk Taking", "rationality": "Rationality", "discipline": "Discipline",
+           "empathy": "Empathy", "ambition": "Ambition", "resilience": "Resilience"},
+    "es": {"openness": "Apertura", "conscientiousness": "Responsabilidad", "extraversion": "Extraversión",
+           "agreeableness": "Amabilidad", "neuroticism": "Neuroticismo", "leadership": "Liderazgo",
+           "risk_taking": "Toma de Riesgos", "rationality": "Racionalidad", "discipline": "Disciplina",
+           "empathy": "Empatía", "ambition": "Ambición", "resilience": "Resiliencia"},
+    "ja": {"openness": "開放性", "conscientiousness": "誠実性", "extraversion": "外向性",
+           "agreeableness": "協調性", "neuroticism": "神経症性", "leadership": "リーダーシップ",
+           "risk_taking": "リスクTaking", "rationality": "合理性", "discipline": "規律",
+           "empathy": "共感", "ambition": "野心", "resilience": "回復力"},
+}
 
 def load_figures():
     with open(DATA_DIR / "figures.json", "r", encoding="utf-8") as f:
@@ -74,56 +93,52 @@ def similarity_score(user_vec, fig_vec, is_real=False):
         base_sim *= 0.92
     return round(base_sim, 3)
 
-def match_user(answers, top_n=10):
+def match_user(answers, top_n=10, language="zh"):
     user_vec = calculate_user_vector(answers)
     figures = load_figures()
     results = []
+    
     for fig in figures:
-        sim = similarity_score(user_vec, fig["vector"], is_real=is_real_figure(fig))
+        if not is_real_figure(fig):
+            continue
+        fig_vec = fig.get("vector", {})
+        sim = similarity_score(user_vec, fig_vec, is_real=True)
+        gaps = []
+        for d in DIMENSIONS:
+            user_val = user_vec.get(d, 0.5)
+            fig_val = fig_vec.get(d, 0.5)
+            gap = round(fig_val - user_val, 2)
+            if abs(gap) > 0.15:
+                gaps.append({"trait": d, "gap": gap, "direction": "up" if gap > 0 else "down"})
+        gaps.sort(key=lambda x: abs(x["gap"]), reverse=True)
+        
+        # 多语言名字
+        names = fig.get("names", {})
+        figure_name = names.get(language, names.get("zh", fig.get("name_cn", "")))
+        
         results.append({
             "figure": fig,
             "similarity": sim,
-            "distance": round(weighted_distance(user_vec, fig["vector"]), 3),
-            "radar": {
-                "dimensions": DIMENSIONS,
-                "user": [round(user_vec[d], 2) for d in DIMENSIONS],
-                "figure": [round(fig["vector"].get(d, 0), 2) for d in DIMENSIONS]
+            "distance": round(weighted_distance(user_vec, fig_vec), 3),
+            "suggestion": {
+                "figure_name": figure_name,
+                "names": names,
+                "era": fig.get("era", ""),
+                "type": fig.get("type", ""),
+                "early_career": fig.get("early_career", ""),
+                "early_actions": fig.get("early_actions", ""),
+                "breakthrough": fig.get("breakthrough", ""),
+                "key_lesson": fig.get("key_lesson", ""),
+                "gaps": gaps,
+                "overall": f"{figure_name}との類似度は{int(sim*100)}%です" if language == "ja" else 
+                          f"您与{figure_name}的匹配度为 {int(sim*100)}%" if language == "zh" else
+                          f"Your match with {figure_name} is {int(sim*100)}%",
+                "radar": {
+                    "user": [user_vec.get(d, 0) for d in DIMENSIONS],
+                    "figure": [fig_vec.get(d, 0) for d in DIMENSIONS]
+                }
             }
         })
-    results.sort(key=lambda x: -x["similarity"])
-    top = results[:top_n]
-    for r in top:
-        r["suggestion"] = generate_suggestion(r, user_vec)
-    return {"user_vector": user_vec, "matches": top}
-
-def generate_suggestion(match_result, user_vec):
-    fig = match_result["figure"]
-    gaps = []
-    for d in DIMENSIONS:
-        u = user_vec.get(d, 0)
-        f = fig["vector"].get(d, 0)
-        diff = round(abs(u - f), 2)
-        if diff > 0.15:
-            direction = "develop" if f > u else "leverage"
-            gaps.append({
-                "dimension": d,
-                "user_value": round(u, 2),
-                "figure_value": round(f, 2),
-                "difference": diff,
-                "direction": direction
-            })
-    gaps.sort(key=lambda x: -x["difference"])
-    overall = f"Your career profile is most similar to {fig['name_cn']} ({fig['name']}, {fig['era']})."
-    return {
-        "figure_name": fig["name_cn"],
-        "figure_name_en": fig["name"],
-        "era": fig["era"],
-        "type": fig["type"],
-        "early_career": fig.get("early_career", ""),
-        "early_actions": fig.get("early_actions", ""),
-        "breakthrough": fig.get("breakthrough", ""),
-        "key_lesson": fig.get("key_lesson", ""),
-        "gaps": gaps[:6],
-        "overall": overall,
-        "radar": match_result.get("radar")
-    }
+    
+    results.sort(key=lambda x: x["similarity"], reverse=True)
+    return {"matches": results[:top_n], "total": len(results)}
