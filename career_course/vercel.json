@@ -19,5 +19,8 @@
       "src": "/",
       "dest": "src/main.py"
     }
-  ]
+  ],
+  "github": {
+    "silent": true
+  }
 }
