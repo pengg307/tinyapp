@@ -744,7 +744,7 @@ function showDetail(m){
   });
   
   const radar = s.radar || {};
-  if(radar.dimensions && radar.user && radar.figure){
+  if(radar.user && radar.figure){
     console.log('Drawing radar with', radar.user.length, 'dimensions');
     drawRadar(radar.user, radar.figure);
   } else {
