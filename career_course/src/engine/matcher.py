@@ -26,7 +26,7 @@ DIM_NAMES = {
            "agreeableness": "協調性", "neuroticism": "感情の安定", "leadership": "リーダーシップ",
            "risk_taking": "リスクテイク", "rationality": "合理性", "discipline": "自制心",
            "empathy": "共感力", "ambition": "野心", "resilience": "回復力"},
-    "de": {"openness": "Offenheit", "conscientiousness": "Gewissenhaftigkeit", "extraversion": "Extraversion",
+    "de": {"openness": "Offenheit", "conscientiousness": "Gewissenhaftigkeit", "extraversion": "Extravertiertheit",
            "agreeableness": "Verträglichkeit", "neuroticism": "Emotionale Stabilität", "leadership": "Führung",
            "risk_taking": "Risikobereitschaft", "rationality": "Rationalität", "discipline": "Disziplin",
            "empathy": "Empathie", "ambition": "Ambition", "resilience": "Widerstandsfähigkeit"},
