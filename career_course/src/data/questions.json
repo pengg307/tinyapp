@@ -24,7 +24,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -45,7 +48,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -66,7 +72,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "灵活适应，快速行动",
@@ -87,7 +96,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第1题）",
@@ -119,7 +131,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "稳健分析，按部就班",
@@ -140,7 +155,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "稳健分析，按部就班",
@@ -161,7 +179,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -182,7 +203,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第2题）",
@@ -214,7 +238,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -235,7 +262,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -256,7 +286,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "灵活适应，快速行动",
@@ -277,7 +310,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第3题）",
@@ -309,7 +345,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -330,7 +369,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -351,7 +393,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -372,7 +417,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第4题）",
@@ -404,7 +452,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -425,7 +476,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "灵活适应，快速行动",
@@ -446,7 +500,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -467,7 +524,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第5题）",
@@ -499,7 +559,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -520,7 +583,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -541,7 +607,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -562,7 +631,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第6题）",
@@ -594,7 +666,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -615,7 +690,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -636,7 +714,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -657,7 +738,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第7题）",
@@ -689,7 +773,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -710,7 +797,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -731,7 +821,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "灵活适应，快速行动",
@@ -752,7 +845,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第8题）",
@@ -784,7 +880,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -805,7 +904,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "灵活适应，快速行动",
@@ -826,7 +928,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -847,7 +952,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第9题）",
@@ -879,7 +987,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "稳健分析，按部就班",
@@ -900,7 +1011,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "灵活适应，快速行动",
@@ -921,7 +1035,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -942,7 +1059,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第10题）",
@@ -974,7 +1094,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -995,7 +1118,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1016,7 +1142,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1037,7 +1166,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第11题）",
@@ -1069,7 +1201,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1090,7 +1225,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1111,7 +1249,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1132,7 +1273,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第12题）",
@@ -1164,7 +1308,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1185,7 +1332,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1206,7 +1356,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1227,7 +1380,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第13题）",
@@ -1259,7 +1415,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1280,7 +1439,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1301,7 +1463,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -1322,7 +1487,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第14题）",
@@ -1354,7 +1522,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1375,7 +1546,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1396,7 +1570,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1417,7 +1594,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第15题）",
@@ -1449,7 +1629,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1470,7 +1653,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1491,7 +1677,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1512,7 +1701,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第16题）",
@@ -1544,7 +1736,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1565,7 +1760,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1586,7 +1784,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1607,7 +1808,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第17题）",
@@ -1639,7 +1843,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1660,7 +1867,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1681,7 +1891,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1702,7 +1915,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第18题）",
@@ -1734,7 +1950,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1755,7 +1974,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -1776,7 +1998,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1797,7 +2022,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第19题）",
@@ -1829,7 +2057,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1850,7 +2081,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -1871,7 +2105,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1892,7 +2129,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第20题）",
@@ -1924,7 +2164,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1945,7 +2188,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1966,7 +2212,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -1987,7 +2236,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第21题）",
@@ -2019,7 +2271,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2040,7 +2295,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2061,7 +2319,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2082,7 +2343,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第22题）",
@@ -2114,7 +2378,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2135,7 +2402,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -2156,7 +2426,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2177,7 +2450,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第23题）",
@@ -2209,7 +2485,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2230,7 +2509,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2251,7 +2533,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2272,7 +2557,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第24题）",
@@ -2304,7 +2592,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2325,7 +2616,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2346,7 +2640,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "稳健分析，按部就班",
@@ -2367,7 +2664,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第25题）",
@@ -2399,7 +2699,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2420,7 +2723,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2441,7 +2747,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2462,7 +2771,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第26题）",
@@ -2494,7 +2806,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2515,7 +2830,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2536,7 +2854,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2557,7 +2878,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第27题）",
@@ -2589,7 +2913,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2610,7 +2937,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2631,7 +2961,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2652,7 +2985,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第28题）",
@@ -2684,7 +3020,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2705,7 +3044,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2726,7 +3068,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2747,7 +3092,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第29题）",
@@ -2779,7 +3127,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2800,7 +3151,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2821,7 +3175,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -2842,7 +3199,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第30题）",
@@ -2874,7 +3234,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2895,7 +3258,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2916,7 +3282,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2937,7 +3306,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第31题）",
@@ -2969,7 +3341,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2990,7 +3365,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3011,7 +3389,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3032,7 +3413,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第32题）",
@@ -3064,7 +3448,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3085,7 +3472,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "稳健分析，按部就班",
@@ -3106,7 +3496,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3127,7 +3520,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第33题）",
@@ -3159,7 +3555,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3180,7 +3579,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "稳健分析，按部就班",
@@ -3201,7 +3603,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3222,7 +3627,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第34题）",
@@ -3254,7 +3662,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3275,7 +3686,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3296,7 +3710,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3317,7 +3734,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第35题）",
@@ -3349,7 +3769,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3370,7 +3793,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3391,7 +3817,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3412,7 +3841,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第36题）",
@@ -3444,7 +3876,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3465,7 +3900,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3486,7 +3924,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3507,7 +3948,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第37题）",
@@ -3539,7 +3983,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "稳健分析，按部就班",
@@ -3560,7 +4007,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3581,7 +4031,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3602,7 +4055,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第38题）",
@@ -3634,7 +4090,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3655,7 +4114,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3676,7 +4138,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3697,7 +4162,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第39题）",
@@ -3729,7 +4197,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3750,7 +4221,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3771,7 +4245,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "稳健分析，按部就班",
@@ -3792,7 +4269,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第40题）",
@@ -3824,7 +4304,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3845,7 +4328,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3866,7 +4352,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3887,7 +4376,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第41题）",
@@ -3919,7 +4411,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3940,7 +4435,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3961,7 +4459,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3982,7 +4483,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第42题）",
@@ -4014,7 +4518,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4035,7 +4542,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4056,7 +4566,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4077,7 +4590,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第43题）",
@@ -4109,7 +4625,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4130,7 +4649,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4151,7 +4673,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4172,7 +4697,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第44题）",
@@ -4204,7 +4732,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4225,7 +4756,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4246,7 +4780,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4267,7 +4804,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第45题）",
@@ -4299,7 +4839,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4320,7 +4863,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4341,7 +4887,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4362,7 +4911,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第46题）",
@@ -4394,7 +4946,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4415,7 +4970,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4436,7 +4994,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4457,7 +5018,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第47题）",
@@ -4489,7 +5053,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4510,7 +5077,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4531,7 +5101,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4552,7 +5125,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第48题）",
@@ -4584,7 +5160,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4605,7 +5184,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4626,7 +5208,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4647,7 +5232,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第49题）",
@@ -4679,7 +5267,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4700,7 +5291,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4721,7 +5315,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4742,7 +5339,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第50题）",
@@ -4774,7 +5374,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4795,7 +5398,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4816,7 +5422,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4837,7 +5446,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第51题）",
@@ -4869,7 +5481,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4890,7 +5505,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4911,7 +5529,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4932,7 +5553,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第52题）",
@@ -4964,7 +5588,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4985,7 +5612,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5006,7 +5636,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5027,7 +5660,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第53题）",
@@ -5059,7 +5695,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5080,7 +5719,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5101,7 +5743,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -5122,7 +5767,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第54题）",
@@ -5154,7 +5802,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5175,7 +5826,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -5196,7 +5850,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5217,7 +5874,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第55题）",
@@ -5249,7 +5909,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "灵活适应，快速行动",
@@ -5270,7 +5933,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "灵活适应，快速行动",
@@ -5291,7 +5957,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5312,7 +5981,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第56题）",
@@ -5344,7 +6016,10 @@
           "text_zh": "灵活适应，快速行动",
           "text_en": "Adapt flexibly and act quickly",
           "text_es": "Adaptarse con flexibilidad y actuar rápidamente",
-          "text_ja": "柔軟に適応し素早く行動する"
+          "text_ja": "柔軟に適応し素早く行動する",
+          "text_de": "Flexibel anpassen und schnell handeln",
+          "text_ru": "Гибко адаптироваться и быстро действовать",
+          "text_fr": "S'adapter flexiblement et agir rapidement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5365,7 +6040,10 @@
           "text_zh": "深入分析，谨慎决策",
           "text_en": "Analyze deeply and decide cautiously",
           "text_es": "Analizar profundamente y decidir con cautela",
-          "text_ja": "深く分析し慎重に決定する"
+          "text_ja": "深く分析し慎重に決定する",
+          "text_de": "Tief analysieren und vorsichtig entscheiden",
+          "text_ru": "Глубоко анализировать и осторожно принимать решения",
+          "text_fr": "Analyser profondément et décider prudemment"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5386,7 +6064,10 @@
           "text_zh": "热情探索，接受不确定性",
           "text_en": "Explore enthusiastically and accept uncertainty",
           "text_es": "Explorar entusiastamente y aceptar la incertidumbre",
-          "text_ja": "情熱的に探求し不確実性を受け入れる"
+          "text_ja": "情熱的に探求し不確実性を受け入れる",
+          "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
+          "text_ru": "Энтузиастично исследовать и принимать неопределенность",
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5407,7 +6088,10 @@
           "text_zh": "遵循传统，稳中求进",
           "text_en": "Follow tradition and progress steadily",
           "text_es": "Seguir la tradición y progresar con estabilidad",
-          "text_ja": "伝統に従い着実に前進する"
+          "text_ja": "伝統に従い着実に前進する",
+          "text_de": "Der Tradition folgen und stetig vorankommen",
+          "text_ru": "Следовать традициям и steadily прогрессировать",
+          "text_fr": "Suivre la tradition et progresser steadily"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第57题）",
@@ -5439,7 +6123,10 @@
           "text_zh": "主动沟通，寻求共识",
           "text_en": "Communicate proactively and seek consensus",
           "text_es": "Comunicarse proactivamente y buscar consenso",
-          "text_ja": "主体的にコミュニケーションし合意を求める"
+          "text_ja": "主体的にコミュニケーションし合意を求める",
+          "text_de": "Proaktiv kommunizieren und Konsens suchen",
+          "text_ru": "Проактивно коммуницировать и искать консенсус",
+          "text_fr": "Communiquer proactivement et chercher le consensus"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5460,7 +6147,10 @@
           "text_zh": "避免冲突，保持和谐",
           "text_en": "Avoid conflict and maintain harmony",
           "text_es": "Evitar conflictos y mantener la armonía",
-          "text_ja": "対立を避け調和を保つ"
+          "text_ja": "対立を避け調和を保つ",
+          "text_de": "Konflikte vermeiden und Harmonie wahren",
+          "text_ru": "Избегать конфликтов и сохранять гармонию",
+          "text_fr": "Éviter les conflits et maintenir l'harmonie"
         },
         {
           "text": "灵活适应，快速行动",
@@ -5481,7 +6171,10 @@
           "text_zh": "坚持原则，据理力争",
           "text_en": "Stick to principles and argue firmly",
           "text_es": "Mantener principios y argumentar firmemente",
-          "text_ja": "原則を坚守し強く主張する"
+          "text_ja": "原則を坚守し強く主張する",
+          "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
+          "text_ru": "Придерживаться принципов и твердо аргументировать",
+          "text_fr": "S'en tenir aux principes et argumenter fermement"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5502,7 +6195,10 @@
           "text_zh": "灵活变通，以和为贵",
           "text_en": "Be flexible and prioritize harmony",
           "text_es": "Ser flexible y priorizar la armonía",
-          "text_ja": "柔軟に対応し和を重視する"
+          "text_ja": "柔軟に対応し和を重視する",
+          "text_de": "Flexibel sein und Harmonie priorisieren",
+          "text_ru": "Быть гибким и приоритизировать гармонию",
+          "text_fr": "Être flexible et privilégier l'harmonie"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第58题）",
@@ -5534,7 +6230,10 @@
           "text_zh": "制定详细计划，严格执行",
           "text_en": "Make detailed plans and execute strictly",
           "text_es": "Hacer planes detallados y ejecutar estrictamente",
-          "text_ja": "詳細な計画を立て厳格に実行する"
+          "text_ja": "詳細な計画を立て厳格に実行する",
+          "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
+          "text_ru": "Создавать детальные планы и строго выполнять",
+          "text_fr": "Créer des plans détaillés et exécuter strictement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5555,7 +6254,10 @@
           "text_zh": "制定大致框架，灵活调整",
           "text_en": "Create general framework and adjust flexibly",
           "text_es": "Crear marco general y ajustar flexiblemente",
-          "text_ja": "概略的な枠組みを作り柔軟に調整する"
+          "text_ja": "概略的な枠組みを作り柔軟に調整する",
+          "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
+          "text_ru": "Создать общий框架 и гибко адаптировать",
+          "text_fr": "Créer un cadre général et ajuster flexiblement"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5576,7 +6278,10 @@
           "text_zh": "边做边调整，随机应变",
           "text_en": "Adjust while doing and adapt to changes",
           "text_es": "Ajustar mientras se hace y adaptarse a cambios",
-          "text_ja": "作りながら調整し変化に対応する"
+          "text_ja": "作りながら調整し変化に対応する",
+          "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
+          "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5597,7 +6302,10 @@
           "text_zh": "跟随直觉，自然发展",
           "text_en": "Follow intuition and let nature develop",
           "text_es": "Seguir la intuición y dejar que la naturaleza se desarrolle",
-          "text_ja": "直感に従い自然に発展させる"
+          "text_ja": "直感に従い自然に発展させる",
+          "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
+          "text_ru": "Следовать интуиции и позволить природе развиваться",
+          "text_fr": "Suivre l'intuition et laisser la nature se développer"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第59题）",
@@ -5629,7 +6337,10 @@
           "text_zh": "领导者，推动团队前进",
           "text_en": "Leader, drive the team forward",
           "text_es": "Líder, impulsar al equipo hacia adelante",
-          "text_ja": "リーダーとしてチームを推進する"
+          "text_ja": "リーダーとしてチームを推進する",
+          "text_de": "Führer, das Team voranbringen",
+          "text_ru": "Лидер, продвигать команду вперед",
+          "text_fr": "Leader, pousser l'équipe vers l'avant"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5650,7 +6361,10 @@
           "text_zh": "执行者，高效完成任务",
           "text_en": "Executor, complete tasks efficiently",
           "text_es": "Ejecutor, completar tareas eficientemente",
-          "text_ja": "実行者として効率的に任務を完了する"
+          "text_ja": "実行者として効率的に任務を完了する",
+          "text_de": "Ausführer, Aufgaben effizient abschließen",
+          "text_ru": "Исполнитель, эффективно завершать задачи",
+          "text_fr": "Exécutant, compléter les tâches efficacement"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5671,7 +6385,10 @@
           "text_zh": "协调者，促进团队和谐",
           "text_en": "Coordinator, promote team harmony",
           "text_es": "Coordinador, promover la armonía del equipo",
-          "text_ja": "調整者としてチームの調和を促進する"
+          "text_ja": "調整者としてチームの調和を促進する",
+          "text_de": "Koordinator, Teamharmonie fördern",
+          "text_ru": "Координатор, способствовать командной гармонии",
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5692,7 +6409,10 @@
           "text_zh": "支持者，配合团队工作",
           "text_en": "Supporter, cooperate with team work",
           "text_es": "Soportador, cooperar con el trabajo del equipo",
-          "text_ja": "支援者としてチーム作業に協力する"
+          "text_ja": "支援者としてチーム作業に協力する",
+          "text_de": "Unterstützer, mit Teamarbeit kooperieren",
+          "text_ru": "Помощник, сотрудничать с командной работой",
+          "text_fr": "Soutien, coopérer avec le travail d'équipe"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第60题）",
