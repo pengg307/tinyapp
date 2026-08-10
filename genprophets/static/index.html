@@ -198,7 +198,7 @@ body{
   background:var(--card);
   border:1px solid rgba(255,255,255,0.1);
   border-radius:1.2rem;
-  overflow:hidden;
+  overflow:visible;
 }
 .hero-visual{
   height:160px;
@@ -715,7 +715,10 @@ function showDetail(m){
   
   const radar = s.radar || {};
   if(radar.dimensions && radar.user && radar.figure){
+    console.log('Drawing radar with', radar.user.length, 'dimensions');
     drawRadar(radar.user, radar.figure);
+  } else {
+    console.error('No radar data:', radar);
   }
 }
 
