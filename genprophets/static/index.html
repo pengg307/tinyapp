@@ -233,10 +233,15 @@ body{
   padding:1rem;
   display:flex;
   justify-content:center;
+  background:rgba(0,0,0,0.2);
+  border-radius:0 0 1rem 1rem;
 }
 #radar-canvas{
-  max-width:260px;
-  max-height:260px;
+  width:260px;
+  height:260px;
+  max-width:100%;
+  background:#1a1a2e;
+  border-radius:0.5rem;
 }
 
 /* Selector */
@@ -491,7 +496,7 @@ let currentData = null;
 // ===== 雷达图 =====
 const canvas = document.getElementById('radar-canvas');
 const ctx = canvas.getContext('2d');
-const SIZE = 260;
+const SIZE = canvas.width;  // Use actual canvas width
 const CX = SIZE/2;
 const CY = SIZE/2;
 const R = SIZE/2 - 35;
@@ -576,14 +581,14 @@ function drawRadar(userVals, figVals){
   }
   
   // 图例
-  ctx.font = '10px Microsoft YaHei, sans-serif';
+  ctx.font = 'bold 11px Microsoft YaHei, sans-serif';
   ctx.textAlign = 'left';
   ctx.fillStyle = '#64b4ff';
-  ctx.fillRect(10, SIZE-22, 10, 10);
-  ctx.fillText('你', 24, SIZE-15);
+  ctx.fillRect(10, SIZE-28, 12, 12);
+  ctx.fillText('你', 28, SIZE-19);
   ctx.fillStyle = '#e94560';
-  ctx.fillRect(50, SIZE-22, 10, 10);
-  ctx.fillText('人物', 64, SIZE-15);
+  ctx.fillRect(60, SIZE-28, 12, 12);
+  ctx.fillText('人物', 78, SIZE-19);
 }
 
 // ===== 页面切换 =====
