@@ -173,18 +173,19 @@ def generate_overall(figure_name, gaps, language, suggestions_map):
     first = gaps[0]
     trait = first["trait"]  # Use original trait for suggestions map lookup
     direction = first["direction"]
+    dim_name = first["dimension"]  # Use translated dimension name
     
     trait_suggestions = suggestions_map.get(trait, {}).get(direction, [])
     suggestion_text = "，".join(trait_suggestions[:2]) if trait_suggestions else ""
     
     templates = {
-        "zh": f"你与{figure_name}的差距主要集中在{first['dimension']}维度，建议：{suggestion_text}",
-        "en": f"Your main gap with {figure_name} is in {first['dimension']}, suggested: {suggestion_text}",
-        "es": f"Tu principal diferencia con {figure_name} está en {first['dimension']}, sugerido: {suggestion_text}",
-        "ja": f"{figure_name}との主なギャップは{first['dimension']}です。提案：{suggestion_text}",
-        "de": f"Ihre Hauptlücke mit {figure_name} ist in {first['dimension']}, empfohlen: {suggestion_text}",
-        "ru": f"Ваша основная разница с {figure_name} в {first['dimension']}, рекомендуется: {suggestion_text}",
-        "fr": f"Votre principale différence avec {figure_name} est dans {first['dimension']}, suggéré: {suggestion_text}"
+        "zh": f"你与{figure_name}的差距主要集中在{dim_name}维度，建议：{suggestion_text}",
+        "en": f"Your main gap with {figure_name} is in {dim_name}, suggested: {suggestion_text}",
+        "es": f"Tu principal diferencia con {figure_name} está en {dim_name}, sugerido: {suggestion_text}",
+        "ja": f"{figure_name}との主なギャップは{dim_name}です。提案：{suggestion_text}",
+        "de": f"Ihre Hauptlücke mit {figure_name} ist in {dim_name}, empfohlen: {suggestion_text}",
+        "ru": f"Ваша основная разница с {figure_name} в {dim_name}, рекомендуется: {suggestion_text}",
+        "fr": f"Votre principale différence avec {figure_name} est dans {dim_name}, suggéré: {suggestion_text}"
     }
     
     return templates.get(language, templates["en"])
