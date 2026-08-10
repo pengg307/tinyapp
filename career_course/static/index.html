@@ -5,22 +5,30 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<title>CareerProphet - 职业性格测试</title>
+<title>CareerProphet - Discover Your Career Destiny</title>
 <style>
 :root{
-  --bg: linear-gradient(160deg,#0f0c29,#302b63,#24243e);
-  --card: rgba(255,255,255,0.08);
-  --accent: linear-gradient(135deg,#e94560,#ff6b6b);
-  --text:#f2f2f2;
-  --muted:#a8b0c8;
+  --bg: #0a0a0f;
+  --surface: rgba(255,255,255,0.04);
+  --surface-elevated: rgba(255,255,255,0.08);
+  --accent: #e94560;
+  --accent-soft: rgba(233,69,96,0.15);
+  --text: #f5f5f7;
+  --muted: #8e8e93;
+  --border: rgba(255,255,255,0.08);
+  --radius: 16px;
+  --radius-sm: 10px;
+  --radius-pill: 999px;
 }
 
 *{box-sizing:border-box;margin:0;padding:0;}
 html,body{height:100%;overflow:hidden;}
 body{
-  font-family:"Microsoft YaHei","PingFang SC","Hiragino Sans GB","Noto Sans SC","WenQuanYi Micro Hei","Segoe UI",sans-serif;
-  background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
   -webkit-tap-highlight-color:transparent;
+  -webkit-font-smoothing:antialiased;
 }
 
 .container{
@@ -30,9 +38,10 @@ body{
   height:100dvh;
   overflow:hidden;
   position:relative;
+  background:linear-gradient(180deg,#0a0a0f 0%,#12121a 100%);
 }
 
-/* Screen management - ONLY ONE VISIBLE AT A TIME */
+/* Screen management */
 .screen{
   position:absolute;
   top:0;left:0;right:0;bottom:0;
@@ -40,138 +49,261 @@ body{
   flex-direction:column;
   overflow:hidden;
 }
-.screen.active{
-  display:flex;
-}
+.screen.active{display:flex;}
 
-/* ===== 开始页 ===== */
+/* ===== Start Screen ===== */
 #start-screen{
   justify-content:center;
   align-items:center;
-  padding:2rem;
+  padding:2rem 1.5rem;
   text-align:center;
+  gap:1.5rem;
 }
-#start-screen h1{
-  font-size:2.2rem;
-  background:linear-gradient(135deg,#e94560,#ffd166);
+
+.logo{
+  width:72px;
+  height:72px;
+  background:linear-gradient(135deg,var(--accent),#ff6b6b);
+  border-radius:20px;
+  display:grid;
+  place-items:center;
+  font-size:2rem;
+  font-weight:800;
+  color:#fff;
+  box-shadow:0 8px 32px rgba(233,69,96,0.3);
+}
+
+h1{
+  font-size:2.5rem;
+  font-weight:800;
+  letter-spacing:-0.02em;
+  background:linear-gradient(135deg,#fff 0%,#a8b0c8 100%);
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
-  margin-bottom:.5rem;
 }
-#start-screen .subtitle{color:var(--muted);font-size:.95rem;}
-#start-screen p{
-  margin-top:1rem;
-  color:var(--muted);
-  font-size:.9rem;
-  line-height:1.6;
-  max-width:340px;
-}
-.btn{
-  padding:.9rem 2.5rem;
-  border:none;
-  border-radius:50px;
-  background:var(--accent);
-  color:#fff;
-  font-weight:900;
-  font-size:1rem;
-  cursor:pointer;
-  box-shadow:0 4px 16px rgba(233,69,96,.4);
-  transition:all .2s;
-  margin-top:2rem;
-}
-.btn:active{transform:scale(0.95);}
 
-/* ===== 答题页 ===== */
-#quiz-screen{padding:.8rem;}
-.quiz-card{
-  background:var(--card);
-  backdrop-filter:blur(14px);
-  border:1px solid rgba(255,255,255,0.1);
-  border-radius:1.2rem;
-  padding:1.2rem;
-  flex:1;
-  display:flex;
-  flex-direction:column;
+.subtitle{
+  font-size:1rem;
+  color:var(--accent);
+  font-weight:600;
+  letter-spacing:0.05em;
+  text-transform:uppercase;
 }
+
+.description{
+  color:var(--muted);
+  font-size:0.95rem;
+  line-height:1.7;
+  max-width:320px;
+}
+
+.stats{
+  display:flex;
+  gap:2rem;
+  padding:1.5rem 0;
+}
+
+.stat{
+  text-align:center;
+}
+
+.stat-value{
+  font-size:1.75rem;
+  font-weight:800;
+  color:var(--text);
+}
+
+.stat-label{
+  font-size:0.75rem;
+  color:var(--muted);
+  text-transform:uppercase;
+  letter-spacing:0.05em;
+  margin-top:0.25rem;
+}
+
+.btn-primary{
+  padding:1.1rem 3rem;
+  border:none;
+  border-radius:var(--radius-pill);
+  background:linear-gradient(135deg,var(--accent),#ff6b6b);
+  color:#fff;
+  font-weight:700;
+  font-size:1.05rem;
+  cursor:pointer;
+  box-shadow:0 4px 24px rgba(233,69,96,0.4);
+  transition:transform 0.2s,box-shadow 0.2s;
+  width:100%;
+  max-width:280px;
+}
+
+.btn-primary:active{
+  transform:scale(0.98);
+  box-shadow:0 2px 12px rgba(233,69,96,0.3);
+}
+
+/* Language selector */
+.lang-selector{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:0.5rem;
+  margin-top:1rem;
+  max-width:360px;
+}
+
+.lang-btn{
+  padding:0.5rem 1rem;
+  border:1px solid var(--border);
+  border-radius:var(--radius-pill);
+  background:transparent;
+  color:var(--muted);
+  font-size:0.85rem;
+  cursor:pointer;
+  transition:all 0.2s;
+}
+
+.lang-btn.active{
+  background:var(--accent-soft);
+  border-color:var(--accent);
+  color:var(--accent);
+}
+
+.lang-btn:hover{
+  border-color:var(--accent);
+  color:var(--text);
+}
+
+/* ===== Quiz Screen ===== */
+#quiz-screen{
+  background:var(--bg);
+}
+
 .quiz-header{
+  padding:1.5rem 1.5rem 1rem;
   display:flex;
   justify-content:space-between;
   align-items:center;
-  margin-bottom:.8rem;
-}
-.quiz-header h3{font-size:.95rem;font-weight:500;}
-.dim-badge{
-  background:rgba(233,69,96,0.2);
-  color:#ff6b6b;
-  padding:.2rem .6rem;
-  border-radius:20px;
-  font-size:.75rem;
-  font-weight:700;
-}
-.progress-wrap{
-  width:100%;
-  height:6px;
-  background:rgba(255,255,255,0.1);
-  border-radius:3px;
-  margin-bottom:.8rem;
-}
-.progress-fill{
-  height:100%;
-  width:0%;
-  background:linear-gradient(90deg,#e94560,#ffd166);
-  border-radius:3px;
-  transition:width .4s ease;
-}
-#q-text{
-  font-size:1.1rem;
-  font-weight:700;
-  margin-bottom:.8rem;
-  line-height:1.5;
-  flex:1;
-}
-.option-btn{
-  display:block;
-  width:100%;
-  text-align:left;
-  padding:.9rem;
-  margin:.3rem 0;
-  background:rgba(255,255,255,0.05);
-  border:1px solid rgba(255,255,255,0.1);
-  border-radius:.8rem;
-  color:var(--text);
-  font-size:.95rem;
-  cursor:pointer;
-  transition:all .2s;
-}
-.option-btn:active{
-  background:rgba(233,69,96,0.2);
-  border-color:#e94560;
 }
 
-/* ===== 加载页 ===== */
+.quiz-header h3{
+  font-size:0.9rem;
+  font-weight:600;
+  color:var(--muted);
+}
+
+.dim-badge{
+  background:var(--accent-soft);
+  color:var(--accent);
+  padding:0.35rem 0.75rem;
+  border-radius:var(--radius-pill);
+  font-size:0.75rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:0.05em;
+}
+
+.progress-wrap{
+  width:100%;
+  height:4px;
+  background:var(--surface-elevated);
+  border-radius:2px;
+  margin:0 1.5rem 1.5rem;
+}
+
+.progress-fill{
+  height:100%;
+  background:linear-gradient(90deg,var(--accent),#ff6b6b);
+  border-radius:2px;
+  transition:width 0.4s cubic-bezier(0.4,0,0.2,1);
+}
+
+.quiz-card{
+  flex:1;
+  padding:0 1.5rem 2rem;
+  display:flex;
+  flex-direction:column;
+  gap:1.5rem;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+}
+
+.question-text{
+  font-size:1.35rem;
+  font-weight:700;
+  line-height:1.5;
+  color:var(--text);
+}
+
+.options{
+  display:flex;
+  flex-direction:column;
+  gap:0.75rem;
+}
+
+.option-btn{
+  width:100%;
+  text-align:left;
+  padding:1.1rem 1.25rem;
+  background:var(--surface);
+  border:1.5px solid var(--border);
+  border-radius:var(--radius);
+  color:var(--text);
+  font-size:1rem;
+  cursor:pointer;
+  transition:all 0.2s;
+  line-height:1.5;
+}
+
+.option-btn:active{
+  background:var(--accent-soft);
+  border-color:var(--accent);
+  transform:scale(0.99);
+}
+
+.option-btn:hover{
+  border-color:var(--accent);
+  background:var(--surface-elevated);
+}
+
+/* ===== Loading Screen ===== */
 #loading-screen{
   justify-content:center;
   align-items:center;
   padding:2rem;
   text-align:center;
+  gap:2rem;
 }
-#loading-screen h2{font-size:1.3rem;margin-bottom:.5rem;}
-#loading-screen p{color:var(--muted);font-size:.9rem;}
+
+.loading-content h2{
+  font-size:1.5rem;
+  font-weight:700;
+  margin-bottom:0.5rem;
+}
+
+.loading-content p{
+  color:var(--muted);
+  font-size:0.9rem;
+  line-height:1.6;
+}
+
 .spinner{
-  width:50px;height:50px;
-  border:4px solid rgba(255,255,255,0.1);
-  border-top-color:#e94560;
+  width:48px;
+  height:48px;
+  border:3px solid var(--surface-elevated);
+  border-top-color:var(--accent);
   border-radius:50%;
   animation:spin 1s linear infinite;
-  margin:2rem auto 0;
 }
+
 @keyframes spin{to{transform:rotate(360deg);}}
 
-/* ===== 结果页 ===== */
+/* ===== Result Screen ===== */
 #result-screen{
   overflow-y:auto;
   -webkit-overflow-scrolling:touch;
+  background:var(--bg);
 }
+
 .result-inner{
   flex:1;
   display:flex;
@@ -180,189 +312,273 @@ body{
   gap:1rem;
 }
 
-/* Desktop two-column layout */
-.left-panel{
-  display:flex;
-  flex-direction:column;
-  gap:1rem;
-  flex:1;
-  min-width:0;
-}
-.detail-section{
-  flex:1;
-  min-width:0;
+/* Hero Card */
+.hero-card{
+  background:var(--surface-elevated);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  overflow:hidden;
 }
 
-/* Hero */
-.hero-card{
-  background:var(--card);
-  border:1px solid rgba(255,255,255,0.1);
-  border-radius:1.2rem;
-  overflow:visible;
-}
 .hero-visual{
-  height:160px;
-  background:linear-gradient(135deg,#2d1b4e,#0f3460);
+  height:140px;
+  background:linear-gradient(135deg,#1a1a2e,#16213e);
   display:flex;
   align-items:center;
-  padding:1.2rem;
+  padding:1.25rem;
+  position:relative;
 }
+
 .hero-avatar{
-  width:60px;height:60px;
+  width:56px;
+  height:56px;
   border-radius:50%;
-  border:3px solid rgba(255,255,255,0.3);
-  background:linear-gradient(135deg,#e94560,#ff6b6b);
-  display:grid;place-items:center;
-  font-size:1.8rem;font-weight:900;color:#fff;
+  background:linear-gradient(135deg,var(--accent),#ff6b6b);
+  display:grid;
+  place-items:center;
+  font-size:1.5rem;
+  font-weight:800;
+  color:#fff;
   margin-right:1rem;
   flex-shrink:0;
+  box-shadow:0 4px 16px rgba(233,69,96,0.4);
 }
-.hero-text h2{font-size:1.2rem;margin-bottom:.2rem;}
-.hero-text p{color:var(--muted);font-size:.75rem;}
+
+.hero-text h2{
+  font-size:1.1rem;
+  font-weight:700;
+  margin-bottom:0.25rem;
+}
+
+.hero-text p{
+  color:var(--muted);
+  font-size:0.8rem;
+}
+
 .sim-badge{
   display:inline-block;
-  background:rgba(233,69,96,0.3);
-  color:#ff6b6b;
-  padding:.15rem .5rem;
-  border-radius:20px;
-  font-size:.75rem;
+  background:var(--accent-soft);
+  color:var(--accent);
+  padding:0.25rem 0.6rem;
+  border-radius:var(--radius-pill);
+  font-size:0.75rem;
   font-weight:700;
-  margin-top:.3rem;
+  margin-top:0.5rem;
 }
+
 .radar-wrap{
   padding:1rem;
   display:flex;
   justify-content:center;
   background:rgba(0,0,0,0.2);
-  border-radius:0 0 1rem 1rem;
 }
+
 #radar-canvas{
-  width:260px;
-  height:260px;
+  width:240px;
+  height:240px;
   max-width:100%;
-  background:#1a1a2e;
-  border-radius:0.5rem;
 }
 
 /* Selector */
 .selector-section{
-  background:var(--card);
-  border:1px solid rgba(255,255,255,0.08);
-  border-radius:1rem;
-  padding:.8rem;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:1rem;
 }
+
 .selector-section h3{
-  font-size:.85rem;
+  font-size:0.85rem;
   color:var(--muted);
-  margin-bottom:.6rem;
-  padding-left:.4rem;
-  border-left:3px solid #e94560;
+  margin-bottom:0.75rem;
+  padding-bottom:0.5rem;
+  border-bottom:1px solid var(--border);
+  text-transform:uppercase;
+  letter-spacing:0.05em;
+  font-weight:600;
 }
+
 .selector-list{
   display:flex;
   flex-direction:column;
-  gap:.4rem;
-  max-height:180px;
+  gap:0.5rem;
+  max-height:200px;
   overflow-y:auto;
 }
+
 .selector-item{
   display:flex;
   align-items:center;
-  gap:.6rem;
-  padding:.6rem .7rem;
-  border-radius:.7rem;
-  background:rgba(255,255,255,0.04);
-  border:1px solid rgba(255,255,255,0.06);
+  gap:0.75rem;
+  padding:0.75rem;
+  border-radius:var(--radius-sm);
+  background:var(--surface-elevated);
+  border:1px solid transparent;
   cursor:pointer;
-  transition:all .2s;
+  transition:all 0.2s;
 }
-.selector-item:active{background:rgba(233,69,96,0.15);}
+
+.selector-item:active{
+  background:var(--accent-soft);
+}
+
 .selector-item.active{
-  background:rgba(233,69,96,0.18);
-  border-color:#e94560;
+  background:var(--accent-soft);
+  border-color:var(--accent);
 }
+
 .selector-thumb{
-  width:32px;height:32px;
+  width:36px;
+  height:36px;
   border-radius:50%;
-  background:linear-gradient(135deg,#e94560,#7b2cbf);
-  display:grid;place-items:center;
-  font-weight:900;font-size:.85rem;
+  background:linear-gradient(135deg,var(--accent),#7b2cbf);
+  display:grid;
+  place-items:center;
+  font-weight:800;
+  font-size:0.9rem;
+  color:#fff;
   flex-shrink:0;
 }
-.selector-info{flex:1;min-width:0;}
-.selector-info .name{font-weight:700;font-size:.88rem;}
-.selector-info .meta{font-size:.7rem;color:var(--muted);}
-.selector-sim{font-weight:900;color:#ff6b6b;font-size:.8rem;}
 
-/* Detail */
+.selector-info{
+  flex:1;
+  min-width:0;
+}
+
+.selector-info .name{
+  font-weight:700;
+  font-size:0.9rem;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.selector-info .meta{
+  font-size:0.75rem;
+  color:var(--muted);
+}
+
+.selector-sim{
+  font-weight:800;
+  color:var(--accent);
+  font-size:0.85rem;
+}
+
+/* Detail Cards */
 .detail-section{
   display:flex;
   flex-direction:column;
-  gap:.6rem;
+  gap:0.75rem;
 }
+
 .detail-card{
-  background:var(--card);
-  border:1px solid rgba(255,255,255,0.08);
-  border-radius:1rem;
-  padding:.9rem;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:1rem 1.15rem;
 }
+
 .detail-card h3{
-  font-size:.9rem;
-  border-left:3px solid #e94560;
-  padding-left:.4rem;
-  margin-bottom:.4rem;
-  font-family:"Noto Serif SC","SimSun",serif;
+  font-size:0.9rem;
+  font-weight:700;
+  margin-bottom:0.6rem;
+  color:var(--text);
+  display:flex;
+  align-items:center;
+  gap:0.5rem;
 }
+
+.detail-card h3::before{
+  content:"";
+  width:3px;
+  height:16px;
+  background:var(--accent);
+  border-radius:2px;
+}
+
 .detail-card p{
-  font-size:.82rem;
-  line-height:1.6;
+  font-size:0.88rem;
+  line-height:1.7;
   color:#d0d4e8;
 }
+
 .gap-table{
   width:100%;
   border-collapse:collapse;
-  font-size:.75rem;
+  font-size:0.8rem;
 }
+
 .gap-table th{
   text-align:left;
-  padding:.3rem;
-  background:rgba(255,255,255,0.05);
+  padding:0.4rem 0.5rem;
+  background:var(--surface-elevated);
   color:var(--muted);
-  font-weight:500;
+  font-weight:600;
+  font-size:0.75rem;
+  text-transform:uppercase;
+  letter-spacing:0.03em;
 }
-.gap-table td{
-  padding:.3rem;
-  border-bottom:1px solid rgba(255,255,255,0.05);
-}
-.gap-table .direction{color:#ff6b6b;font-weight:700;}
-.overall-text{color:#ff6b6b;font-weight:700;font-size:.88rem;}
 
-/* Bottom button */
-.bottom-bar{
-  padding:.8rem 1rem;
-  border-top:1px solid rgba(255,255,255,0.06);
-  background:rgba(0,0,0,0.2);
+.gap-table td{
+  padding:0.5rem;
+  border-bottom:1px solid var(--border);
 }
+
+.gap-table tr:last-child td{
+  border-bottom:none;
+}
+
+.gap-table .direction{
+  color:var(--accent);
+  font-weight:700;
+}
+
+.overall-text{
+  color:var(--accent);
+  font-weight:600;
+  font-size:0.95rem;
+  line-height:1.7;
+}
+
+/* Bottom bar */
+.bottom-bar{
+  padding:1rem 1.5rem;
+  border-top:1px solid var(--border);
+  background:rgba(0,0,0,0.3);
+}
+
 .btn-full{
   width:100%;
-  padding:.9rem;
+  padding:1rem;
   border:none;
-  border-radius:50px;
-  background:var(--accent);
+  border-radius:var(--radius-pill);
+  background:linear-gradient(135deg,var(--accent),#ff6b6b);
   color:#fff;
-  font-weight:900;
+  font-weight:700;
   font-size:1rem;
   cursor:pointer;
+  box-shadow:0 4px 16px rgba(233,69,96,0.3);
+  transition:all 0.2s;
+}
+
+.btn-full:active{
+  transform:scale(0.98);
 }
 
 /* Desktop */
 @media(min-width:768px){
-  .container{max-width:600px;}
-  .hero-visual{height:180px;}
-  .hero-avatar{width:70px;height:70px;font-size:2rem;}
-  #radar-canvas{max-width:280px;max-height:280px;}
-  .selector-list{max-height:220px;}
+  .container{
+    max-width:600px;
+    border-radius:24px;
+    overflow:hidden;
+    box-shadow:0 24px 80px rgba(0,0,0,0.5);
+  }
+  .hero-visual{height:160px;}
+  .hero-avatar{width:64px;height:64px;font-size:1.75rem;}
+  #radar-canvas{max-width:260px;max-height:260px;}
+  .selector-list{max-height:240px;}
 }
+
 @media(min-width:1024px){
   .container{
     max-width:1200px;
@@ -380,8 +596,8 @@ body{
   .hero-card{flex:1;min-width:0;}
   .selector-section{flex:1;min-width:0;}
   .detail-section{flex:1.2;min-width:0;}
-  .hero-visual{height:240px;}
-  .hero-avatar{width:90px;height:90px;font-size:2.5rem;}
+  .hero-visual{height:220px;}
+  .hero-avatar{width:80px;height:80px;font-size:2.25rem;}
   .selector-list{max-height:none;}
   .bottom-bar{display:none;}
 }
@@ -391,59 +607,76 @@ body{
 
 <div class="container">
 
-  <!-- 开始 -->
+  <!-- Start Screen -->
   <section id="start-screen" class="screen active">
+    <div class="logo">P</div>
     <h1>CareerProphet</h1>
-    <p class="subtitle">职业性格测试 · 与 100 位历史人物匹配</p>
-    <p>回答 60 道问题，测量你的 12 维职业性格特质，发现最相似的历史人物与成长建议。</p>
-    <button class="btn" onclick="startQuiz()">开始测试</button>
+    <p class="subtitle">Discover Your Career Destiny</p>
+    <p class="description">Answer 60 questions to measure your 12-dimension career personality profile and find the historical figures most similar to you.</p>
     
-    <!-- 语言选择 -->
-    <div style="margin-top:1.5rem;display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;">
-      <button onclick="setLanguage('zh')" id="lang-zh" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:rgba(233,69,96,0.3);color:#fff;font-size:.85rem;cursor:pointer;">中文</button>
-      <button onclick="setLanguage('en')" id="lang-en" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">English</button>
-      <button onclick="setLanguage('es')" id="lang-es" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">Español</button>
-      <button onclick="setLanguage('ja')" id="lang-ja" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">日本語</button>
-      <button onclick="setLanguage('de')" id="lang-de" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">Deutsch</button>
-      <button onclick="setLanguage('ru')" id="lang-ru" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">Русский</button>
-      <button onclick="setLanguage('fr')" id="lang-fr" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">Français</button>
-      <button onclick="setLanguage('ko')" id="lang-ko" style="padding:.4rem 1rem;border-radius:20px;border:1px solid rgba(255,255,255,0.2);background:transparent;color:var(--muted);font-size:.85rem;cursor:pointer;">한국어</button>
-    </div>
-  </section>
-
-  <!-- 答题 -->
-  <section id="quiz-screen" class="screen">
-    <div class="quiz-card">
-      <div class="quiz-header">
-        <h3>第 <span id="q-num">1</span> / <span id="q-total">60</span> 题</h3>
-        <span class="dim-badge" id="q-dim">openness</span>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-value">100</div>
+        <div class="stat-label">Historical Figures</div>
       </div>
-      <div class="progress-wrap"><div class="progress-fill" id="progress-fill"></div></div>
-      <h2 id="q-text">问题内容...</h2>
-      <div id="options-area"></div>
+      <div class="stat">
+        <div class="stat-value">12</div>
+        <div class="stat-label">Dimensions</div>
+      </div>
+      <div class="stat">
+        <div class="stat-value">60</div>
+        <div class="stat-label">Questions</div>
+      </div>
+    </div>
+    
+    <button class="btn-primary" onclick="startQuiz()">Start Assessment</button>
+    
+    <div class="lang-selector">
+      <button class="lang-btn active" onclick="setLanguage('zh')">中文</button>
+      <button class="lang-btn" onclick="setLanguage('en')">English</button>
+      <button class="lang-btn" onclick="setLanguage('es')">Español</button>
+      <button class="lang-btn" onclick="setLanguage('ja')">日本語</button>
+      <button class="lang-btn" onclick="setLanguage('de')">Deutsch</button>
+      <button class="lang-btn" onclick="setLanguage('ru')">Русский</button>
+      <button class="lang-btn" onclick="setLanguage('fr')">Français</button>
+      <button class="lang-btn" onclick="setLanguage('ko')">한국어</button>
     </div>
   </section>
 
-  <!-- 加载 -->
+  <!-- Quiz Screen -->
+  <section id="quiz-screen" class="screen">
+    <div class="quiz-header">
+      <h3>Question <span id="q-num">1</span> of <span id="q-total">60</span></h3>
+      <span class="dim-badge" id="q-dim">openness</span>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-fill" id="progress-fill"></div>
+    </div>
+    <div class="quiz-card">
+      <h2 id="q-text">Question text...</h2>
+      <div class="options" id="options-area"></div>
+    </div>
+  </section>
+
+  <!-- Loading Screen -->
   <section id="loading-screen" class="screen">
-    <div>
-      <h2>正在分析你的职业性格...</h2>
-      <p>基于 12 维向量与 100 位历史人物进行相似度计算</p>
-      <div class="spinner"></div>
+    <div class="loading-content">
+      <h2>Analyzing Your Profile</h2>
+      <p>Matching your 12-dimension personality against 100 historical figures...</p>
     </div>
+    <div class="spinner"></div>
   </section>
 
-  <!-- 结果 -->
+  <!-- Result Screen -->
   <section id="result-screen" class="screen">
     <div class="result-inner">
-      <!-- 左侧：Hero + 雷达 + 列表 -->
       <div class="left-panel">
         <div class="hero-card">
           <div class="hero-visual">
             <div class="hero-avatar" id="hero-avatar">?</div>
             <div class="hero-text">
-              <h2 id="hero-name">请选择人物</h2>
-              <p id="hero-sub">点击列表查看详情</p>
+              <h2 id="hero-name">Select a Figure</h2>
+              <p id="hero-sub">Click list to view details</p>
               <span class="sim-badge" id="hero-sim">0%</span>
             </div>
           </div>
@@ -453,45 +686,44 @@ body{
         </div>
         
         <div class="selector-section">
-          <h3>TOP 匹配人物</h3>
+          <h3>Top Matches</h3>
           <div class="selector-list" id="selector-list"></div>
         </div>
       </div>
 
-      <!-- 右侧：详情 -->
       <div class="detail-section" id="detail-section">
         <div class="detail-card">
-          <h3>早期经历</h3>
+          <h3>Early Life</h3>
           <p id="r-early">—</p>
         </div>
         <div class="detail-card">
-          <h3>关键行动</h3>
+          <h3>Key Actions</h3>
           <p id="r-actions">—</p>
         </div>
         <div class="detail-card">
-          <h3>核心成就</h3>
+          <h3>Breakthrough</h3>
           <p id="r-break">—</p>
         </div>
         <div class="detail-card">
-          <h3>人生教训</h3>
+          <h3>Life Lesson</h3>
           <p id="r-lesson">—</p>
         </div>
         <div class="detail-card">
-          <h3>特质差距</h3>
+          <h3>Dimension Gap</h3>
           <table class="gap-table" id="r-gaps">
-            <thead><tr><th>维度</th><th>你</th><th>他</th><th>方向</th></tr></thead>
+            <thead><tr><th>Dimension</th><th>You</th><th>Them</th><th>Direction</th></tr></thead>
             <tbody></tbody>
           </table>
         </div>
         <div class="detail-card">
-          <h3>整体评价</h3>
+          <h3>Overall Assessment</h3>
           <p class="overall-text" id="r-overall">—</p>
         </div>
       </div>
     </div>
     
     <div class="bottom-bar">
-      <button class="btn-full" onclick="resetAll()">重新测试</button>
+      <button class="btn-full" onclick="resetAll()">Retake Assessment</button>
     </div>
   </section>
 
@@ -499,41 +731,43 @@ body{
 
 <script>
 const DIMENSIONS = ['openness','conscientiousness','extraversion','agreeableness','neuroticism','leadership','risk_taking','rationality','discipline','empathy','ambition','resilience'];
-const DIM_NAMES = ['开放','尽责','外向','亲和','情绪稳定','领导力','冒险','理性','自律','共情','进取','坚韧'];
 let questions = [];
 let current = 0;
 let answers = [];
 let currentData = null;
 let currentLanguage = 'zh';
 
-// 语言切换
-function setLanguage(lang) {
-currentLanguage = lang;
-// 更新按钮样式
-['zh','en','es','ja','de','ru','fr','ko'].forEach(l => {
-  const btn = document.getElementById('lang-' + l);
-  if (btn) {
-    btn.style.background = l === lang ? 'rgba(233,69,96,0.3)' : 'transparent';
-    btn.style.color = l === lang ? '#fff' : 'var(--muted)';
+// Language labels
+const LANG_LABELS = {
+  zh: '中文', en: 'English', es: 'Español', ja: '日本語',
+  de: 'Deutsch', ru: 'Русский', fr: 'Français', ko: '한국어'
+};
+
+const DIM_NAMES_ZH = ['开放','尽责','外向','亲和','情绪稳定','领导力','冒险','理性','自律','共情','进取','坚韧'];
+const DIM_NAMES_EN = ['Openness','Conscientiousness','Extraversion','Agreeableness','Emotional Stability','Leadership','Risk Taking','Rationality','Discipline','Empathy','Ambition','Resilience'];
+const DIM_NAMES = {zh: DIM_NAMES_ZH, en: DIM_NAMES_EN};
+
+function setLanguage(lang){
+  currentLanguage = lang;
+  document.querySelectorAll('.lang-btn').forEach(btn => {
+    btn.classList.remove('active');
+    if(btn.textContent === LANG_LABELS[lang]) btn.classList.add('active');
+  });
+  if(document.getElementById('quiz-screen').classList.contains('active')){
+    loadQuestions().then(()=>showQuestion());
   }
-});
-// 如果已经在答题中，刷新题目
-if (document.getElementById('quiz-screen').classList.contains('active')) {
-  loadQuestions();
-}
-// 如果已经在结果页，重新渲染
-if (document.getElementById('result-screen').classList.contains('active') && currentData) {
-  renderResults(currentData);
-}
+  if(document.getElementById('result-screen').classList.contains('active') && currentData){
+    renderResults(currentData);
+  }
 }
 
-// ===== 雷达图 =====
+// Radar chart
 const canvas = document.getElementById('radar-canvas');
 const ctx = canvas.getContext('2d');
-const SIZE = canvas.width;  // Use actual canvas width
+const SIZE = 260;
 const CX = SIZE/2;
 const CY = SIZE/2;
-const R = SIZE/2 - 35;
+const R = SIZE/2 - 30;
 
 function drawRadar(userVals, figVals){
   ctx.clearRect(0,0,SIZE,SIZE);
@@ -541,7 +775,7 @@ function drawRadar(userVals, figVals){
   const angleStep = (Math.PI*2)/n;
   const startAngle = -Math.PI/2;
   
-  // 网格
+  // Grid
   for(let level=1; level<=5; level++){
     const lr = R * level/5;
     ctx.beginPath();
@@ -552,22 +786,22 @@ function drawRadar(userVals, figVals){
       if(i===0) ctx.moveTo(x,y);
       else ctx.lineTo(x,y);
     }
-    ctx.strokeStyle = 'rgba(255,255,255,0.12)';
+    ctx.strokeStyle = 'rgba(255,255,255,0.08)';
     ctx.lineWidth = 1;
     ctx.stroke();
   }
   
-  // 轴线
+  // Axes
   for(let i=0; i<n; i++){
     const angle = startAngle + angleStep*i;
     ctx.beginPath();
     ctx.moveTo(CX,CY);
     ctx.lineTo(CX+R*Math.cos(angle), CY+R*Math.sin(angle));
-    ctx.strokeStyle = 'rgba(255,255,255,0.08)';
+    ctx.strokeStyle = 'rgba(255,255,255,0.05)';
     ctx.stroke();
   }
   
-  // 用户数据（蓝色）
+  // User data (blue)
   ctx.beginPath();
   for(let i=0; i<=n; i++){
     const idx = i%n;
@@ -578,13 +812,13 @@ function drawRadar(userVals, figVals){
     if(i===0) ctx.moveTo(x,y);
     else ctx.lineTo(x,y);
   }
-  ctx.fillStyle = 'rgba(100,180,255,0.25)';
+  ctx.fillStyle = 'rgba(100,180,255,0.2)';
   ctx.fill();
   ctx.strokeStyle = '#64b4ff';
   ctx.lineWidth = 2;
   ctx.stroke();
   
-  // 人物数据（红色）
+  // Figure data (red)
   ctx.beginPath();
   for(let i=0; i<=n; i++){
     const idx = i%n;
@@ -601,31 +835,31 @@ function drawRadar(userVals, figVals){
   ctx.lineWidth = 2;
   ctx.stroke();
   
-  // 标签
-  ctx.fillStyle = '#a8b0c8';
-  ctx.font = '10px Microsoft YaHei, sans-serif';
+  // Labels
+  const dimNames = DIM_NAMES[currentLanguage] || DIM_NAMES['zh'];
+  ctx.fillStyle = '#8e8e93';
+  ctx.font = '11px -apple-system, sans-serif';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'middle';
   for(let i=0; i<n; i++){
     const angle = startAngle + angleStep*i;
-    const labelR = R + 18;
+    const labelR = R + 20;
     const x = CX + labelR*Math.cos(angle);
     const y = CY + labelR*Math.sin(angle);
-    ctx.fillText(DIM_NAMES[i], x, y);
+    ctx.fillText(dimNames[i] || DIMENSIONS[i], x, y);
   }
   
-  // 图例
-  ctx.font = 'bold 11px Microsoft YaHei, sans-serif';
+  // Legend
+  ctx.font = 'bold 12px -apple-system, sans-serif';
   ctx.textAlign = 'left';
   ctx.fillStyle = '#64b4ff';
-  ctx.fillRect(10, SIZE-28, 12, 12);
-  ctx.fillText('你', 28, SIZE-19);
+  ctx.fillRect(10, SIZE-30, 14, 14);
+  ctx.fillText('You', 32, SIZE-19);
   ctx.fillStyle = '#e94560';
-  ctx.fillRect(60, SIZE-28, 12, 12);
-  ctx.fillText('人物', 78, SIZE-19);
+  ctx.fillRect(80, SIZE-30, 14, 14);
+  ctx.fillText(currentLanguage === 'zh' ? 'Figure' : 'Figure', 102, SIZE-19);
 }
 
-// ===== 页面切换 =====
 function showScreen(id){
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
@@ -638,7 +872,7 @@ async function loadQuestions(){
     questions = d.questions || [];
     document.getElementById('q-total').textContent = questions.length;
   }catch(e){
-    alert('无法加载题目');
+    alert('Failed to load questions');
   }
 }
 
@@ -655,9 +889,10 @@ function showQuestion(){
     return;
   }
   const q = questions[current];
+  const key = `question_${currentLanguage}`;
   document.getElementById('q-num').textContent = current+1;
-  document.getElementById('q-dim').textContent = q.dimension || '维度';
-  document.getElementById('q-text').textContent = q.question;
+  document.getElementById('q-dim').textContent = q.dimension || 'Dimension';
+  document.getElementById('q-text').textContent = q[key] || q.question || 'Question';
   document.getElementById('progress-fill').style.width = ((current+1)/questions.length*100)+'%';
 
   const area = document.getElementById('options-area');
@@ -665,11 +900,12 @@ function showQuestion(){
   (q.options||[]).forEach((opt, idx)=>{
     const btn = document.createElement('button');
     btn.className = 'option-btn';
-    btn.textContent = opt.text;
+    const optKey = `text_${currentLanguage}`;
+    btn.textContent = opt[optKey] || opt.text || 'Option';
     btn.onclick = ()=>{
       answers.push({question_id: q.id, option_index: idx});
       current++;
-      setTimeout(showQuestion, 150);
+      setTimeout(showQuestion, 200);
     };
     area.appendChild(btn);
   });
@@ -681,14 +917,14 @@ async function submitAnswers(){
     const r = await fetch('/api/match', {
       method:'POST',
       headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({answers, top_n:10})
+      body:JSON.stringify({answers, top_n:10, language: currentLanguage})
     });
     const data = await r.json();
     currentData = data;
     renderResults(data);
     showScreen('result-screen');
   }catch(e){
-    alert('匹配失败');
+    alert('Match failed');
     showScreen('start-screen');
   }
 }
@@ -704,10 +940,10 @@ function renderResults(data){
     const item = document.createElement('div');
     item.className = 'selector-item' + (idx===0 ? ' active' : '');
     item.innerHTML = `
-      <div class="selector-thumb">${(fig.name_cn||fig.name||'?').charAt(0)}</div>
+      <div class="selector-thumb">${(fig.name||'?').charAt(0).toUpperCase()}</div>
       <div class="selector-info">
-        <div class="name">${s.figure_name || fig.name_cn || '未知'}</div>
-        <div class="meta">${fig.name||''} · ${fig.era||''}</div>
+        <div class="name">${s.figure_name || fig.name || 'Unknown'}</div>
+        <div class="meta">${fig.era || ''}</div>
       </div>
       <div class="selector-sim">${(m.similarity*100).toFixed(0)}%</div>
     `;
@@ -728,10 +964,10 @@ function showDetail(m){
   const fig = m.figure || {};
   const s = m.suggestion || {};
   
-  document.getElementById('hero-avatar').textContent = (fig.name_cn||fig.name||'?').charAt(0);
-  document.getElementById('hero-name').textContent = s.figure_name || fig.name_cn || '人物';
-  document.getElementById('hero-sub').textContent = `${fig.name||''} · ${fig.era||''} · ${fig.type||''}`;
-  document.getElementById('hero-sim').textContent = `${(m.similarity*100).toFixed(0)}%`;
+  document.getElementById('hero-avatar').textContent = (fig.name||'?').charAt(0).toUpperCase();
+  document.getElementById('hero-name').textContent = s.figure_name || fig.name || 'Figure';
+  document.getElementById('hero-sub').textContent = `${fig.era||''} ${fig.type||''}`.trim();
+  document.getElementById('hero-sim').textContent = `${(m.similarity*100).toFixed(0)}% Match`;
   
   document.getElementById('r-early').textContent = s.early_career || fig.early_career || '—';
   document.getElementById('r-actions').textContent = s.early_actions || fig.early_actions || '—';
@@ -749,10 +985,7 @@ function showDetail(m){
   
   const radar = s.radar || {};
   if(radar.user && radar.figure){
-    console.log('Drawing radar with', radar.user.length, 'dimensions');
     drawRadar(radar.user, radar.figure);
-  } else {
-    console.error('No radar data:', radar);
   }
 }
 
@@ -763,7 +996,6 @@ function resetAll(){
   ctx.clearRect(0,0,SIZE,SIZE);
 }
 
-// 初始化
 showScreen('start-screen');
 </script>
 
