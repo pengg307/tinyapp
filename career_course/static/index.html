@@ -625,7 +625,7 @@ function showScreen(id){
 
 async function loadQuestions(){
   try{
-    const r = await fetch('/api/questions');
+    const r = await fetch(`/api/questions?language=${currentLanguage}`);
     const d = await r.json();
     questions = d.questions || [];
     document.getElementById('q-total').textContent = questions.length;
