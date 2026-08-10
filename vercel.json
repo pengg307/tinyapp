@@ -4,6 +4,10 @@
     {
       "src": "career_course/src/main.py",
       "use": "@vercel/python"
+    },
+    {
+      "src": "career_course/static/**",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -14,10 +18,6 @@
     {
       "src": "/health",
       "dest": "career_course/src/main.py"
-    },
-    {
-      "src": "/",
-      "dest": "career_course/static/index.html"
     },
     {
       "src": "/(.*)",
