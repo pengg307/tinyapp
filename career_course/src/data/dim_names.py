@@ -103,3 +103,18 @@ DIM_NAMES_FR = {
     "ambition": "Ambition",
     "resilience": "Résilience"
 }
+
+DIM_NAMES_KO = {
+    "openness": "개방성",
+    "conscientiousness": "성실성",
+    "extraversion": "외향성",
+    "agreeableness": "친화성",
+    "neuroticism": "정서적 안정",
+    "leadership": "리더십",
+    "risk_taking": "위험 감수",
+    "rationality": "합리성",
+    "discipline": "자율성",
+    "empathy": "공감력",
+    "ambition": "야망",
+    "resilience": "회복력"
+}

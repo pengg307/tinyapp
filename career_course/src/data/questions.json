@@ -27,7 +27,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "유연하게 적응하고 빠르게 행동하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -51,7 +52,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "깊이 분석하고 신중히 결정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -75,7 +77,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "열정적으로 탐구하고 불확실성 수용하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -99,7 +102,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "전통을 따르고 안정적으로前進하기"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第1题）",
@@ -108,7 +112,8 @@
       "question_ja": "When facing complex problems in unfamiliar fields, you tend to?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "낯선 분야의 복잡한 문제에 직면했을 때, 당신은 어떻게향하는가?"
     },
     {
       "id": 2,
@@ -137,7 +142,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "직접 실행하고 빠르게 학습하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -161,7 +167,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "철저한 계획 후 행동하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -185,7 +192,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "다양한 접근 방식 시도하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -209,7 +217,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "경험자들의 조언 구하기"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第2题）",
@@ -218,7 +227,8 @@
       "question_ja": "When handling conflicts, you value more?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "새로운 프로젝트에 참여할 때, 당신은?"
     },
     {
       "id": 3,
@@ -247,7 +257,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "즉시 계획을 수정하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -271,7 +282,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "새로운 기회로 보기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -295,7 +307,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "우선 순위를 재설정하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -319,7 +332,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "안정적으로 기존 방식 유지하기"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第3题）",
@@ -328,7 +342,8 @@
       "question_ja": "When making plans, your style is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "예상치 못한 변화가 생겼을 때, 당신의 반응은?"
     },
     {
       "id": 4,
@@ -357,7 +372,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "즉시 시도해보고 실패 허용하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -381,7 +397,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "신중하게 분석한 후 시도하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -405,7 +422,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "다른 사람의 경험 참조하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -429,7 +447,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "단계적으로 접근하기"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第4题）",
@@ -438,7 +457,8 @@
       "question_ja": "In team cooperation, you usually play?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "새로운 아이디어를 시도할 때, 당신은?"
     },
     {
       "id": 5,
@@ -467,7 +487,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "새로운 방식 선호하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -491,7 +512,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "전통 방식 선호하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -515,7 +537,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "상황에 따라 선택하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -539,7 +562,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "실험적 접근 시도하기"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第5题）",
@@ -548,7 +572,8 @@
       "question_ja": "When facing pressure, your reaction is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "전통적인 방법과 새로운 방법을 비교할 때?"
     },
     {
       "id": 6,
@@ -577,7 +602,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "세부 사항까지 꼼꼼히 확인하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -601,7 +627,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "핵심 결과에 집중하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -625,7 +652,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "시간 제한 내 완료하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -649,7 +677,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "팀원과 협업하며 진행하기"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第6题）",
@@ -658,7 +687,8 @@
       "question_ja": "When making decisions, you rely more on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "중요한 업무를 처리할 때, 당신은?"
     },
     {
       "id": 7,
@@ -687,7 +717,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "완벽하게 준비한 후 시작하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -711,7 +742,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "시작하면서 조정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -735,7 +767,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "마감일까지 집중하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -759,7 +792,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "조금씩 꾸준히 진행하기"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第7题）",
@@ -768,7 +802,8 @@
       "question_ja": "When learning new skills, you prefer?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "기한이 있는 작업을 할 때, 당신의 태도는?"
     },
     {
       "id": 8,
@@ -797,7 +832,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "즉시 수정하고 교훈 얻기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -821,7 +857,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "작은 실수는 괜찮다고 생각하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -845,7 +882,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "상세한 검토 수행하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -869,7 +907,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "다른 사람에게 확인 요청하기"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第8题）",
@@ -878,7 +917,8 @@
       "question_ja": "When handling multiple tasks, your approach is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "작은 실수가 발견되었을 때?"
     },
     {
       "id": 9,
@@ -907,7 +947,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "새로운 계획으로 빠르게 전환하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -931,7 +972,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "기존 계획에 따라 진행하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -955,7 +997,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "영향을 평가한 후 결정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -979,7 +1022,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "일부만 조정하기"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第9题）",
@@ -988,7 +1032,8 @@
       "question_ja": "When facing failure, you would?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "계획이 갑자기 변경되었을 때?"
     },
     {
       "id": 10,
@@ -1017,7 +1062,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "체계적인 학습"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1041,7 +1087,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "네트워킹"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1065,7 +1112,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "실무 경험"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -1089,7 +1137,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "멘토링"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第10题）",
@@ -1098,7 +1147,8 @@
       "question_ja": "In a team, you tend to?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "자기 발전을 위해 어떤 것을 우선시하나요?"
     },
     {
       "id": 11,
@@ -1127,7 +1177,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "유연하게 적응하고 빠르게 행동하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -1151,7 +1202,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "깊이 분석하고 신중히 결정하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1175,7 +1227,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "열정적으로 탐구하고 불확실성 수용하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1199,7 +1252,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "전통을 따르고 안정적으로前進하기"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第11题）",
@@ -1208,7 +1262,8 @@
       "question_ja": "When facing uncertainty, your attitude is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "새로운 사람들을 만날 때, 당신은?"
     },
     {
       "id": 12,
@@ -1237,7 +1292,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "직접 실행하고 빠르게 학습하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1261,7 +1317,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "철저한 계획 후 행동하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1285,7 +1342,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "다양한 접근 방식 시도하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1309,7 +1367,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "경험자들의 조언 구하기"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第12题）",
@@ -1318,7 +1377,8 @@
       "question_ja": "When solving problems, you are better at?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "그룹 토론에서 당신의 역할은?"
     },
     {
       "id": 13,
@@ -1347,7 +1407,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "즉시 계획을 수정하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1371,7 +1432,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "새로운 기회로 보기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1395,7 +1457,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "우선 순위를 재설정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1419,7 +1482,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "안정적으로 기존 방식 유지하기"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第13题）",
@@ -1428,7 +1492,8 @@
       "question_ja": "When interacting with others, you focus more on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "혼자 일하는 것과 팀으로 일하는 것 중?"
     },
     {
       "id": 14,
@@ -1457,7 +1522,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "즉시 시도해보고 실패 허용하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1481,7 +1547,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "신중하게 분석한 후 시도하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1505,7 +1572,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "다른 사람의 경험 참조하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -1529,7 +1597,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "단계적으로 접근하기"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第14题）",
@@ -1538,7 +1607,8 @@
       "question_ja": "When setting goals, your style is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "사회적 모임에서あなたは?"
     },
     {
       "id": 15,
@@ -1567,7 +1637,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "새로운 방식 선호하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1591,7 +1662,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "전통 방식 선호하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1615,7 +1687,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "상황에 따라 선택하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1639,7 +1712,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "실험적 접근 시도하기"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第15题）",
@@ -1648,7 +1722,8 @@
       "question_ja": "When facing challenges, your reaction is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "타인의 평가에 대해?"
     },
     {
       "id": 16,
@@ -1677,7 +1752,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "세부 사항까지 꼼꼼히 확인하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -1701,7 +1777,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "핵심 결과에 집중하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1725,7 +1802,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "시간 제한 내 완료하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1749,7 +1827,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "팀원과 협업하며 진행하기"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第16题）",
@@ -1758,7 +1837,8 @@
       "question_ja": "When processing information, you prefer?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "동의하지 않는 의견에 직면했을 때?"
     },
     {
       "id": 17,
@@ -1787,7 +1867,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "완벽하게 준비한 후 시작하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1811,7 +1892,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "시작하면서 조정하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1835,7 +1917,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "마감일까지 집중하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1859,7 +1942,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "조금씩 꾸준히 진행하기"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第17题）",
@@ -1868,7 +1952,8 @@
       "question_ja": "In team decision-making, your role is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "팀 내 갈등이 생겼을 때?"
     },
     {
       "id": 18,
@@ -1897,7 +1982,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "즉시 수정하고 교훈 얻기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1921,7 +2007,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "작은 실수는 괜찮다고 생각하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -1945,7 +2032,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "상세한 검토 수행하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -1969,7 +2057,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "다른 사람에게 확인 요청하기"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第18题）",
@@ -1978,7 +2067,8 @@
       "question_ja": "When facing criticism, your attitude is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "타인의 실수를 발견했을 때?"
     },
     {
       "id": 19,
@@ -2007,7 +2097,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "새로운 계획으로 빠르게 전환하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2031,7 +2122,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "기존 계획에 따라 진행하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2055,7 +2147,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "영향을 평가한 후 결정하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -2079,7 +2172,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "일부만 조정하기"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第19题）",
@@ -2088,7 +2182,8 @@
       "question_ja": "When learning new knowledge, you like?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "경쟁 상황에서의 태도?"
     },
     {
       "id": 20,
@@ -2117,7 +2212,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "체계적인 학습"
         },
         {
           "text": "稳健分析，按部就班",
@@ -2141,7 +2237,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "네트워킹"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2165,7 +2262,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "실무 경험"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2189,7 +2287,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "멘토링"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第20题）",
@@ -2198,7 +2297,8 @@
       "question_ja": "When handling conflicts, you tend to?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "타인의 요청을 거절할 때?"
     },
     {
       "id": 21,
@@ -2227,7 +2327,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "유연하게 적응하고 빠르게 행동하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -2251,7 +2352,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "깊이 분석하고 신중히 결정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2275,7 +2377,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "열정적으로 탐구하고 불확실성 수용하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2299,7 +2402,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "전통을 따르고 안정적으로前進하기"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第21题）",
@@ -2308,7 +2412,8 @@
       "question_ja": "When making plans, you focus more on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "스트레스가 많은 상황에서 당신의 반응은?"
     },
     {
       "id": 22,
@@ -2337,7 +2442,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "직접 실행하고 빠르게 학습하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2361,7 +2467,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "철저한 계획 후 행동하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2385,7 +2492,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "다양한 접근 방식 시도하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2409,7 +2517,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "경험자들의 조언 구하기"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第22题）",
@@ -2418,7 +2527,8 @@
       "question_ja": "In team cooperation, you value more?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "실패를 경험했을 때?"
     },
     {
       "id": 23,
@@ -2447,7 +2557,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "즉시 계획을 수정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2471,7 +2582,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "새로운 기회로 보기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -2495,7 +2607,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "우선 순위를 재설정하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2519,7 +2632,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "안정적으로 기존 방식 유지하기"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第23题）",
@@ -2528,7 +2642,8 @@
       "question_ja": "When facing pressure, your approach is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "불확실한 미래에 대해?"
     },
     {
       "id": 24,
@@ -2557,7 +2672,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "즉시 시도해보고 실패 허용하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2581,7 +2697,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "신중하게 분석한 후 시도하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2605,7 +2722,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "다른 사람의 경험 참조하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2629,7 +2747,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "단계적으로 접근하기"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第24题）",
@@ -2638,7 +2757,8 @@
       "question_ja": "When making decisions, you rely on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "비판적인 피드백을 받았을 때?"
     },
     {
       "id": 25,
@@ -2667,7 +2787,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "새로운 방식 선호하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2691,7 +2812,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "전통 방식 선호하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2715,7 +2837,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "상황에 따라 선택하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -2739,7 +2862,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "실험적 접근 시도하기"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第25题）",
@@ -2748,7 +2872,8 @@
       "question_ja": "When learning new things, you prefer?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "위기 상황에서 당신의 감정적 반응은?"
     },
     {
       "id": 26,
@@ -2777,7 +2902,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "세부 사항까지 꼼꼼히 확인하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2801,7 +2927,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "핵심 결과에 집중하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2825,7 +2952,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "시간 제한 내 완료하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2849,7 +2977,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "팀원과 협업하며 진행하기"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第26题）",
@@ -2858,7 +2987,8 @@
       "question_ja": "When handling multiple tasks, your style is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "팀을 이끌어야 할 때, 당신은?"
     },
     {
       "id": 27,
@@ -2887,7 +3017,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "완벽하게 준비한 후 시작하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -2911,7 +3042,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "시작하면서 조정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -2935,7 +3067,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "마감일까지 집중하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -2959,7 +3092,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "조금씩 꾸준히 진행하기"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第27题）",
@@ -2968,7 +3102,8 @@
       "question_ja": "When facing failure, your attitude is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "의사결정 상황에서?"
     },
     {
       "id": 28,
@@ -2997,7 +3132,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "즉시 수정하고 교훈 얻기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3021,7 +3157,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "작은 실수는 괜찮다고 생각하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3045,7 +3182,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "상세한 검토 수행하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3069,7 +3207,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "다른 사람에게 확인 요청하기"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第28题）",
@@ -3078,7 +3217,8 @@
       "question_ja": "In a team, what role do you play?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "다른 사람의 의견을 이끌 때?"
     },
     {
       "id": 29,
@@ -3107,7 +3247,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "새로운 계획으로 빠르게 전환하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3131,7 +3272,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "기존 계획에 따라 진행하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3155,7 +3297,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "영향을 평가한 후 결정하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3179,7 +3322,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "일부만 조정하기"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第29题）",
@@ -3188,7 +3332,8 @@
       "question_ja": "When facing uncertainty, your reaction is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "책임이 큰 결정을 내려야 할 때?"
     },
     {
       "id": 30,
@@ -3217,7 +3362,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "체계적인 학습"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3241,7 +3387,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "네트워킹"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3265,7 +3412,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "실무 경험"
         },
         {
           "text": "稳健分析，按部就班",
@@ -3289,7 +3437,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "멘토링"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第30题）",
@@ -3298,7 +3447,8 @@
       "question_ja": "When solving problems, your strategy is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "영향력을 행사할 때?"
     },
     {
       "id": 31,
@@ -3327,7 +3477,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "유연하게 적응하고 빠르게 행동하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3351,7 +3502,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "깊이 분석하고 신중히 결정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3375,7 +3527,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "열정적으로 탐구하고 불확실성 수용하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3399,7 +3552,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "전통을 따르고 안정적으로前進하기"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第31题）",
@@ -3408,7 +3562,8 @@
       "question_ja": "When interacting with others, what do you focus on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "위험한 상황에서 당신의 선택은?"
     },
     {
       "id": 32,
@@ -3437,7 +3592,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "직접 실행하고 빠르게 학습하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3461,7 +3617,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "철저한 계획 후 행동하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3485,7 +3642,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "다양한 접근 방식 시도하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3509,7 +3667,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "경험자들의 조언 구하기"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第32题）",
@@ -3518,7 +3677,8 @@
       "question_ja": "When setting goals, your method is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "보수를 위한 안전을 선택할 때?"
     },
     {
       "id": 33,
@@ -3547,7 +3707,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "즉시 계획을 수정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3571,7 +3732,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "새로운 기회로 보기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -3595,7 +3757,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "우선 순위를 재설정하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3619,7 +3782,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "안정적으로 기존 방식 유지하기"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第33题）",
@@ -3628,7 +3792,8 @@
       "question_ja": "When facing challenges, your mindset is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "새로운 기회를 발견했을 때?"
     },
     {
       "id": 34,
@@ -3657,7 +3822,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "즉시 시도해보고 실패 허용하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3681,7 +3847,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "신중하게 분석한 후 시도하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -3705,7 +3872,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "다른 사람의 경험 참조하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3729,7 +3897,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "단계적으로 접근하기"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第34题）",
@@ -3738,7 +3907,8 @@
       "question_ja": "When processing information, your preferred way is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "불확실한 결정을 내려야 할 때?"
     },
     {
       "id": 35,
@@ -3767,7 +3937,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "새로운 방식 선호하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3791,7 +3962,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "전통 방식 선호하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3815,7 +3987,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "상황에 따라 선택하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3839,7 +4012,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "실험적 접근 시도하기"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第35题）",
@@ -3848,7 +4022,8 @@
       "question_ja": "In team decision-making, your role is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "도전을 받아들일 때?"
     },
     {
       "id": 36,
@@ -3877,7 +4052,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "세부 사항까지 꼼꼼히 확인하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -3901,7 +4077,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "핵심 결과에 집중하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -3925,7 +4102,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "시간 제한 내 완료하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -3949,7 +4127,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "팀원과 협업하며 진행하기"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第36题）",
@@ -3958,7 +4137,8 @@
       "question_ja": "When facing criticism, your attitude is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "결정을 내릴 때, 당신은?"
     },
     {
       "id": 37,
@@ -3987,7 +4167,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "완벽하게 준비한 후 시작하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4011,7 +4192,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "시작하면서 조정하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4035,7 +4217,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "마감일까지 집중하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4059,7 +4242,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "조금씩 꾸준히 진행하기"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第37题）",
@@ -4068,7 +4252,8 @@
       "question_ja": "When learning new knowledge, your preferred way is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "논리적 문제 해결 시?"
     },
     {
       "id": 38,
@@ -4097,7 +4282,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "즉시 수정하고 교훈 얻기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4121,7 +4307,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "작은 실수는 괜찮다고 생각하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4145,7 +4332,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "상세한 검토 수행하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4169,7 +4357,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "다른 사람에게 확인 요청하기"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第38题）",
@@ -4178,7 +4367,8 @@
       "question_ja": "When handling conflicts, you tend to?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "감정과 이성을 균형 잡을 때?"
     },
     {
       "id": 39,
@@ -4207,7 +4397,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "새로운 계획으로 빠르게 전환하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4231,7 +4422,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "기존 계획에 따라 진행하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4255,7 +4447,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "영향을 평가한 후 결정하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4279,7 +4472,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "일부만 조정하기"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第39题）",
@@ -4288,7 +4482,8 @@
       "question_ja": "When making plans, you focus more on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "데이터가 부족할 때?"
     },
     {
       "id": 40,
@@ -4317,7 +4512,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "체계적인 학습"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4341,7 +4537,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "네트워킹"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4365,7 +4562,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "실무 경험"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4389,7 +4587,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "멘토링"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第40题）",
@@ -4398,7 +4597,8 @@
       "question_ja": "In team cooperation, you value more?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "복잡한 문제를 분석할 때?"
     },
     {
       "id": 41,
@@ -4427,7 +4627,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "유연하게 적응하고 빠르게 행동하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4451,7 +4652,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "깊이 분석하고 신중히 결정하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4475,7 +4677,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "열정적으로 탐구하고 불확실성 수용하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4499,7 +4702,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "전통을 따르고 안정적으로前進하기"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第41题）",
@@ -4508,7 +4712,8 @@
       "question_ja": "When facing pressure, your reaction is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "자신에게 엄격할 때, 당신은?"
     },
     {
       "id": 42,
@@ -4537,7 +4742,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "직접 실행하고 빠르게 학습하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4561,7 +4767,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "철저한 계획 후 행동하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4585,7 +4792,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "다양한 접근 방식 시도하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4609,7 +4817,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "경험자들의 조언 구하기"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第42题）",
@@ -4618,7 +4827,8 @@
       "question_ja": "When making decisions, you rely more on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "습관을 유지할 때?"
     },
     {
       "id": 43,
@@ -4647,7 +4857,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "즉시 계획을 수정하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4671,7 +4882,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "새로운 기회로 보기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4695,7 +4907,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "우선 순위를 재설정하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4719,7 +4932,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "안정적으로 기존 방식 유지하기"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第43题）",
@@ -4728,7 +4942,8 @@
       "question_ja": "When learning new skills, you prefer?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "유혹에 대처할 때?"
     },
     {
       "id": 44,
@@ -4757,7 +4972,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "즉시 시도해보고 실패 허용하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4781,7 +4997,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "신중하게 분석한 후 시도하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4805,7 +5022,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "다른 사람의 경험 참조하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -4829,7 +5047,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "단계적으로 접근하기"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第44题）",
@@ -4838,7 +5057,8 @@
       "question_ja": "When handling multiple tasks, your approach is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "일관성을 유지할 때?"
     },
     {
       "id": 45,
@@ -4867,7 +5087,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "새로운 방식 선호하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -4891,7 +5112,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "전통 방식 선호하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -4915,7 +5137,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "상황에 따라 선택하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -4939,7 +5162,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "실험적 접근 시도하기"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第45题）",
@@ -4948,7 +5172,8 @@
       "question_ja": "When facing failure, what would you do?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "목표를 위해 인내할 때?"
     },
     {
       "id": 46,
@@ -4977,7 +5202,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "세부 사항까지 꼼꼼히 확인하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5001,7 +5227,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "핵심 결과에 집중하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5025,7 +5252,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "시간 제한 내 완료하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5049,7 +5277,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "팀원과 협업하며 진행하기"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第46题）",
@@ -5058,7 +5287,8 @@
       "question_ja": "In a team, you tend to?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "타인의 감정을 이해할 때, 당신은?"
     },
     {
       "id": 47,
@@ -5087,7 +5317,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "완벽하게 준비한 후 시작하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5111,7 +5342,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "시작하면서 조정하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -5135,7 +5367,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "마감일까지 집중하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5159,7 +5392,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "조금씩 꾸준히 진행하기"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第47题）",
@@ -5168,7 +5402,8 @@
       "question_ja": "When facing uncertainty, your attitude is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "감정적 지원이 필요할 때?"
     },
     {
       "id": 48,
@@ -5197,7 +5432,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "즉시 수정하고 교훈 얻기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5221,7 +5457,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "작은 실수는 괜찮다고 생각하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5245,7 +5482,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "상세한 검토 수행하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5269,7 +5507,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "다른 사람에게 확인 요청하기"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第48题）",
@@ -5278,7 +5517,8 @@
       "question_ja": "When solving problems, you are better at?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "타인의 입장을 이해할 때?"
     },
     {
       "id": 49,
@@ -5307,7 +5547,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "새로운 계획으로 빠르게 전환하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5331,7 +5572,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "기존 계획에 따라 진행하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5355,7 +5597,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "영향을 평가한 후 결정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5379,7 +5622,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "일부만 조정하기"
         }
       ],
       "question_zh": "面对陌生领域的复杂问题，你倾向于？（第49题）",
@@ -5388,7 +5632,8 @@
       "question_ja": "When interacting with others, you focus more on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "공감 능력이 중요할 때?"
     },
     {
       "id": 50,
@@ -5417,7 +5662,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "체계적인 학습"
         },
         {
           "text": "灵活适应，快速行动",
@@ -5441,7 +5687,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "네트워킹"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5465,7 +5712,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "실무 경험"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5489,7 +5737,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "멘토링"
         }
       ],
       "question_zh": "执行长期计划时，你更看重？（第50题）",
@@ -5498,7 +5747,8 @@
       "question_ja": "When setting goals, your style is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "감정적 연결을 만들 때?"
     },
     {
       "id": 51,
@@ -5527,7 +5777,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "유연하게 적응하고 빠르게 행동하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5551,7 +5802,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "깊이 분석하고 신중히 결정하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5575,7 +5827,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "열정적으로 탐구하고 불확실성 수용하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5599,7 +5852,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "전통을 따르고 안정적으로前進하기"
         }
       ],
       "question_zh": "在团队中，你通常的角色是？（第51题）",
@@ -5608,7 +5862,8 @@
       "question_ja": "When facing challenges, your reaction is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "성공에 대한 당신의 정의는?"
     },
     {
       "id": 52,
@@ -5637,7 +5892,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "직접 실행하고 빠르게 학습하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -5661,7 +5917,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "철저한 계획 후 행동하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5685,7 +5942,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "다양한 접근 방식 시도하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5709,7 +5967,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "경험자들의 조언 구하기"
         }
       ],
       "question_zh": "与他人意见冲突时，你会？（第52题）",
@@ -5718,7 +5977,8 @@
       "question_ja": "When processing information, you prefer?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "높은 목표를 설정할 때?"
     },
     {
       "id": 53,
@@ -5747,7 +6007,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "즉시 계획을 수정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5771,7 +6032,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "새로운 기회로 보기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5795,7 +6057,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "우선 순위를 재설정하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -5819,7 +6082,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "안정적으로 기존 방식 유지하기"
         }
       ],
       "question_zh": "面对压力和挫败时，你的情绪反应？（第53题）",
@@ -5828,7 +6092,8 @@
       "question_ja": "In team decision-making, your role is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "야망과 현실의 균형을 맞출 때?"
     },
     {
       "id": 54,
@@ -5857,7 +6122,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "즉시 시도해보고 실패 허용하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5881,7 +6147,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "신중하게 분석한 후 시도하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -5905,7 +6172,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "다른 사람의 경험 참조하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -5929,7 +6197,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "단계적으로 접근하기"
         }
       ],
       "question_zh": "需要做出重大决策时，你依赖？（第54题）",
@@ -5938,7 +6207,8 @@
       "question_ja": "When facing criticism, your attitude is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "도전적인 목표를 설정할 때?"
     },
     {
       "id": 55,
@@ -5967,7 +6237,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "새로운 방식 선호하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -5991,7 +6262,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "전통 방식 선호하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -6015,7 +6287,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "상황에 따라 선택하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -6039,7 +6312,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "실험적 접근 시도하기"
         }
       ],
       "question_zh": "面对不确定性，你愿意承担多大风险？（第55题）",
@@ -6048,7 +6322,8 @@
       "question_ja": "When learning new knowledge, you like?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "야망을 표현할 때?"
     },
     {
       "id": 56,
@@ -6077,7 +6352,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "세부 사항까지 꼼꼼히 확인하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -6101,7 +6377,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "핵심 결과에 집중하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -6125,7 +6402,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "시간 제한 내 완료하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -6149,7 +6427,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "팀원과 협업하며 진행하기"
         }
       ],
       "question_zh": "做决定时，逻辑与数据对你重要吗？（第56题）",
@@ -6158,7 +6437,8 @@
       "question_ja": "When handling conflicts, you tend to?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "좌절을 극복할 때, 당신은?"
     },
     {
       "id": 57,
@@ -6187,7 +6467,8 @@
           "text_ja": "柔軟に適応し素早く行動する",
           "text_de": "Flexibel anpassen und schnell handeln",
           "text_ru": "Гибко адаптироваться и быстро действовать",
-          "text_fr": "S'adapter flexiblement et agir rapidement"
+          "text_fr": "S'adapter flexiblement et agir rapidement",
+          "text_ko": "완벽하게 준비한 후 시작하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -6211,7 +6492,8 @@
           "text_ja": "深く分析し慎重に決定する",
           "text_de": "Tief analysieren und vorsichtig entscheiden",
           "text_ru": "Глубоко анализировать и осторожно принимать решения",
-          "text_fr": "Analyser profondément et décider prudemment"
+          "text_fr": "Analyser profondément et décider prudemment",
+          "text_ko": "시작하면서 조정하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -6235,7 +6517,8 @@
           "text_ja": "情熱的に探求し不確実性を受け入れる",
           "text_de": "Begeistert erforschen und Unsicherheit akzeptieren",
           "text_ru": "Энтузиастично исследовать и принимать неопределенность",
-          "text_fr": "Explorer enthousiaste et accepter l'incertitude"
+          "text_fr": "Explorer enthousiaste et accepter l'incertitude",
+          "text_ko": "마감일까지 집중하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -6259,7 +6542,8 @@
           "text_ja": "伝統に従い着実に前進する",
           "text_de": "Der Tradition folgen und stetig vorankommen",
           "text_ru": "Следовать традициям и steadily прогрессировать",
-          "text_fr": "Suivre la tradition et progresser steadily"
+          "text_fr": "Suivre la tradition et progresser steadily",
+          "text_ko": "조금씩 꾸준히 진행하기"
         }
       ],
       "question_zh": "在没有监督的情况下，你能否坚持目标？（第57题）",
@@ -6268,7 +6552,8 @@
       "question_ja": "When making plans, you focus more on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "어려운 시기를 보낼 때?"
     },
     {
       "id": 58,
@@ -6297,7 +6582,8 @@
           "text_ja": "主体的にコミュニケーションし合意を求める",
           "text_de": "Proaktiv kommunizieren und Konsens suchen",
           "text_ru": "Проактивно коммуницировать и искать консенсус",
-          "text_fr": "Communiquer proactivement et chercher le consensus"
+          "text_fr": "Communiquer proactivement et chercher le consensus",
+          "text_ko": "즉시 수정하고 교훈 얻기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -6321,7 +6607,8 @@
           "text_ja": "対立を避け調和を保つ",
           "text_de": "Konflikte vermeiden und Harmonie wahren",
           "text_ru": "Избегать конфликтов и сохранять гармонию",
-          "text_fr": "Éviter les conflits et maintenir l'harmonie"
+          "text_fr": "Éviter les conflits et maintenir l'harmonie",
+          "text_ko": "작은 실수는 괜찮다고 생각하기"
         },
         {
           "text": "灵活适应，快速行动",
@@ -6345,7 +6632,8 @@
           "text_ja": "原則を坚守し強く主張する",
           "text_de": "An Prinzipien festhalten und leidenschaftlich argumentieren",
           "text_ru": "Придерживаться принципов и твердо аргументировать",
-          "text_fr": "S'en tenir aux principes et argumenter fermement"
+          "text_fr": "S'en tenir aux principes et argumenter fermement",
+          "text_ko": "상세한 검토 수행하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -6369,7 +6657,8 @@
           "text_ja": "柔軟に対応し和を重視する",
           "text_de": "Flexibel sein und Harmonie priorisieren",
           "text_ru": "Быть гибким и приоритизировать гармонию",
-          "text_fr": "Être flexible et privilégier l'harmonie"
+          "text_fr": "Être flexible et privilégier l'harmonie",
+          "text_ko": "다른 사람에게 확인 요청하기"
         }
       ],
       "question_zh": "理解他人情绪与需求对你来说？（第58题）",
@@ -6378,7 +6667,8 @@
       "question_ja": "In team cooperation, you value more?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "변화에 적응할 때?"
     },
     {
       "id": 59,
@@ -6407,7 +6697,8 @@
           "text_ja": "詳細な計画を立て厳格に実行する",
           "text_de": "Detaillierte Pläne erstellen und strikt ausführen",
           "text_ru": "Создавать детальные планы и строго выполнять",
-          "text_fr": "Créer des plans détaillés et exécuter strictement"
+          "text_fr": "Créer des plans détaillés et exécuter strictement",
+          "text_ko": "새로운 계획으로 빠르게 전환하기"
         },
         {
           "text": "稳健分析，按部就班",
@@ -6431,7 +6722,8 @@
           "text_ja": "概略的な枠組みを作り柔軟に調整する",
           "text_de": "Allgemeinen Rahmen erstellen und flexibel anpassen",
           "text_ru": "Создать общий框架 и гибко адаптировать",
-          "text_fr": "Créer un cadre général et ajuster flexiblement"
+          "text_fr": "Créer un cadre général et ajuster flexiblement",
+          "text_ko": "기존 계획에 따라 진행하기"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -6455,7 +6747,8 @@
           "text_ja": "作りながら調整し変化に対応する",
           "text_de": "Während desmachens anpassen und auf Veränderungen reagieren",
           "text_ru": "Адаптировать во время выполнения и реагировать на изменения",
-          "text_fr": "Ajuster pendant l'exécution et réagir aux changements"
+          "text_fr": "Ajuster pendant l'exécution et réagir aux changements",
+          "text_ko": "영향을 평가한 후 결정하기"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -6479,7 +6772,8 @@
           "text_ja": "直感に従い自然に発展させる",
           "text_de": "Der Intuition folgen und die Natur entwickeln lassen",
           "text_ru": "Следовать интуиции и позволить природе развиваться",
-          "text_fr": "Suivre l'intuition et laisser la nature se développer"
+          "text_fr": "Suivre l'intuition et laisser la nature se développer",
+          "text_ko": "일부만 조정하기"
         }
       ],
       "question_zh": "你对成就与地位的追求程度？（第59题）",
@@ -6488,7 +6782,8 @@
       "question_ja": "When facing pressure, your approach is?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "압박 상황에서 견딜 때?"
     },
     {
       "id": 60,
@@ -6517,7 +6812,8 @@
           "text_ja": "リーダーとしてチームを推進する",
           "text_de": "Führer, das Team voranbringen",
           "text_ru": "Лидер, продвигать команду вперед",
-          "text_fr": "Leader, pousser l'équipe vers l'avant"
+          "text_fr": "Leader, pousser l'équipe vers l'avant",
+          "text_ko": "체계적인 학습"
         },
         {
           "text": "热情探索，接受不确定性",
@@ -6541,7 +6837,8 @@
           "text_ja": "実行者として効率的に任務を完了する",
           "text_de": "Ausführer, Aufgaben effizient abschließen",
           "text_ru": "Исполнитель, эффективно завершать задачи",
-          "text_fr": "Exécutant, compléter les tâches efficacement"
+          "text_fr": "Exécutant, compléter les tâches efficacement",
+          "text_ko": "네트워킹"
         },
         {
           "text": "稳健分析，按部就班",
@@ -6565,7 +6862,8 @@
           "text_ja": "調整者としてチームの調和を促進する",
           "text_de": "Koordinator, Teamharmonie fördern",
           "text_ru": "Координатор, способствовать командной гармонии",
-          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe"
+          "text_fr": "Coordinateur, promouvoir l'harmonie d'équipe",
+          "text_ko": "실무 경험"
         },
         {
           "text": "谨慎保守，依赖已有经验",
@@ -6589,7 +6887,8 @@
           "text_ja": "支援者としてチーム作業に協力する",
           "text_de": "Unterstützer, mit Teamarbeit kooperieren",
           "text_ru": "Помощник, сотрудничать с командной работой",
-          "text_fr": "Soutien, coopérer avec le travail d'équipe"
+          "text_fr": "Soutien, coopérer avec le travail d'équipe",
+          "text_ko": "멘토링"
         }
       ],
       "question_zh": "遭遇失败后，你恢复并继续前行的能力？（第60题）",
@@ -6598,7 +6897,8 @@
       "question_ja": "When making decisions, you rely on?",
       "question_de": "Wenn Sie komplexe Probleme in unbekannten Gebieten menghadapi, tendieren Sie zu?",
       "question_ru": "При столкновении со сложными проблемами в незнакомых областях, вы倾向于?",
-      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?"
+      "question_fr": "Lorsque vous êtes confronté à des problèmes complexes dans des domaines inconnus, vous avez tendance à?",
+      "question_ko": "실패 이후 다시 시작할 때?"
     }
   ],
   "total": 60

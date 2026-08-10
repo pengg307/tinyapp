@@ -191,6 +191,33 @@ SUGGESTIONS_FR = {
                    "down": ["Plus vulnérable", "Besoin de soutien", "Apprenez à demander de l'aide"]}
 }
 
+
+SUGGESTIONS_KO = {
+    "openness": {"up": ["새로운 것 시도하고 호기심 유지", "다른 분야의 책 읽기", "여행이나 새로운 문화 체험"],
+                 "down": ["변화를 두려워하지 마세요", "새로운 사고방식 시도", "불확실성 받아들이기"]},
+    "conscientiousness": {"up": ["자세한 계획 세우기", "시간 관리 습관 기르기", "세부 사항에 주의"],
+                          "down": ["더 유연하게", "放手를 배우기", "불완전함 받아들이기"]},
+    "extraversion": {"up": ["사교 활동 참석", "대화 시작", "관심 그룹 가입"],
+                     "down": ["혼자 있는 시간 즐기기", "내향적 강점 개발", "깊은 사고"]},
+    "agreeableness": {"up": ["no라고 배우기", "경계 설정", "자신의 입장 고수"],
+                      "down": ["더 협조적으로", "다른 사람 듣기", "win-win 추구"]},
+    "neuroticism": {"up": ["감정 관리 배우기", "명상 실천", "정규 일정 유지"],
+                    "down": ["더 자신 있게", "불안 감소", "도전에 긍정적으로面對"]},
+    "leadership": {"up": ["리더십 역할 맡기", "관리 기술 배우기", "다른 사람 영향"],
+                   "down": ["팀 지원", "리더 지원", "작업 실행"]},
+    "risk_taking": {"up": ["용감하게", "도전受け", "위험 감수"],
+                    "down": ["신중한 결정", "위험 평가", "꾸준한 진보"]},
+    "rationality": {"up": ["합리적으로 생각", "데이터 기반", "논리적 사고"],
+                    "down": ["직관 따르기", "감정적 결정", "유연하게 적응"]},
+    "discipline": {"up": ["루틴 유지", "자기 통제", "인내"],
+                   "down": [" relax yourself", "유연한 조정", "자발적으로 행동"]},
+    "empathy": {"up": ["다른 사람 이해", "감정적 지원", "다른 사람 입장에서 생각"],
+                "down": ["독립적", "합리적 판단", "거리 유지"]},
+    "ambition": {"up": ["높은 목표 설정", "탁월함 추구", "계속 전진"],
+                 "down": ["적은 것에 만족", "현재 순간 즐기기", "생활 균형"]},
+    "resilience": {"up": ["강한 스트레스 저항", "실패から 배우기", "회복력 있음"],
+                   "down": ["더 취약", "지원 필요", "돕기 요청 배우기"]}
+}
 SUGGESTIONS_MAP = {
     "zh": SUGGESTIONS_ZH,
     "en": SUGGESTIONS_EN,
@@ -198,7 +225,8 @@ SUGGESTIONS_MAP = {
     "ja": SUGGESTIONS_JA,
     "de": SUGGESTIONS_DE,
     "ru": SUGGESTIONS_RU,
-    "fr": SUGGESTIONS_FR
+    "fr": SUGGESTIONS_FR,
+    "ko": SUGGESTIONS_KO
 }
 
 # 整体建议模板
@@ -209,7 +237,8 @@ OVERALL_TEMPLATES = {
     "ja": "{name}との主なギャップは{trait}です。提案：{suggestion}",
     "de": "Ihre Hauptlücke mit {name} ist in {trait}, empfohlen: {suggestion}",
     "ru": "Ваша основная разница с {name} в {trait}, рекомендуется: {suggestion}",
-    "fr": "Votre principale différence avec {name} est dans {trait}, suggéré: {suggestion}"
+    "fr": "Votre principale différence avec {name} est dans {trait}, suggéré: {suggestion}",
+    "ko": "{name}와의 주요 차이점은 {trait}입니다. 제안: {suggestion}"
 }
 
 def generate_suggestions(gaps: List[Dict[str, Any]], figure_type: str, language: str = "zh", figure_name: str = "") -> Dict[str, Any]:
