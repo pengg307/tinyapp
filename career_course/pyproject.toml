@@ -1,7 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "genprophets"
+name = "career-prophet"
 version = "1.0.0"
-description = "GenProphets - 职业性格测试与历史人物匹配"
 requires-python = ">=3.11"
 dependencies = [
     "fastapi",
@@ -9,6 +12,6 @@ dependencies = [
     "pydantic",
 ]
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
