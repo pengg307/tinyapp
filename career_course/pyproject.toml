@@ -1,0 +1,14 @@
+[project]
+name = "genprophets"
+version = "1.0.0"
+description = "GenProphets - 职业性格测试与历史人物匹配"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
