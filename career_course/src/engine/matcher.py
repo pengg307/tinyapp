@@ -44,15 +44,26 @@ DIM_NAMES = {
            "empathy": "공감력", "ambition": "야망", "resilience": "회복력"}
 }
 
-# Each question maps to a dimension (60 questions, 12 dimensions = 5 questions each)
+# FIXED: Map each of 60 questions to one of 12 dimensions (5 questions per dimension)
+# Order: openness, conscientiousness, extraversion, agreeableness, neuroticism,
+#        leadership, risk_taking, rationality, discipline, empathy, ambition, resilience
 ANSWER_DIM_MAP = [
-    0, 2, 5, 4, 2, 3, 5, 4, 3, 2, 1, 0, 3, 1, 4, 5, 4, 1, 0, 2,
-    5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3,
-    4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0
+    0, 1, 2, 3, 4,  # Q1-5: First 5 dimensions
+    5, 6, 7, 8, 9,  # Q6-10: Next 5 dimensions
+    10, 11, 0, 1, 2,  # Q11-15: Wrap around
+    3, 4, 5, 6, 7,  # Q16-20
+    8, 9, 10, 11, 0,  # Q21-25
+    1, 2, 3, 4, 5,  # Q26-30
+    6, 7, 8, 9, 10,  # Q31-35
+    11, 0, 1, 2, 3,  # Q36-40
+    4, 5, 6, 7, 8,  # Q41-45
+    9, 10, 11, 0, 1,  # Q46-50
+    2, 3, 4, 5, 6,  # Q51-55
+    7, 8, 9, 10, 11  # Q56-60
 ]
 
-# Option values: 0=low, 1=medium-low, 2=medium-high, 3=high
-OPTION_VALUES = [0.25, 0.45, 0.65, 0.85]
+# Option values: 0=very low, 1=low, 2=high, 3=very high
+OPTION_VALUES = [0.2, 0.4, 0.7, 0.9]
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 FIGURES_FILE = DATA_DIR / "figures.json"
@@ -67,39 +78,36 @@ def load_questions():
         return json.load(f).get("questions", [])
 
 def is_real_figure(fig):
-    return fig.get("id", "").startswith(("isaac_", "albert_", "marie_", "leonardo_", "nikola_", 
-                                          "william_", "shakespeare_", "abraham_", "mahatma_", 
-                                          "napoleon_", "winston_", "ada_", "florence_", "charles_", 
+    return fig.get("id", "").startswith(("isaac_", "albert_", "marie_", "leonardo_", "nikola_",
+                                          "william_", "shakespeare_", "abraham_", "mahatma_",
+                                          "napoleon_", "winston_", "ada_", "florence_", "charles_",
                                           "galileo_", "mendel_", "darwin_", "pascal_", "newton_"))
 
 def calculate_user_vector(answers):
     """Calculate user vector from answers using proper normalization."""
-    # Initialize dimension counters
-    dim_scores = {d: [] for d in DIMENSIONS}
-    
+    # Initialize dimension accumulators
+    dim_sums = {d: 0.0 for d in DIMENSIONS}
+    dim_counts = {d: 0 for d in DIMENSIONS}
+
     # Collect scores for each dimension
     for ans in answers:
         q_idx = ans.get("question_id", 0) - 1
         opt_idx = ans.get("option_index", 0)
-        
+
         if 0 <= q_idx < len(ANSWER_DIM_MAP) and 0 <= opt_idx < 4:
             dim_idx = ANSWER_DIM_MAP[q_idx]
             dim = DIMENSIONS[dim_idx]
-            dim_scores[dim].append(OPTION_VALUES[opt_idx])
-    
+            dim_sums[dim] += OPTION_VALUES[opt_idx]
+            dim_counts[dim] += 1
+
     # Calculate mean for each dimension
     user_vec = {}
-    for dim, scores in dim_scores.items():
-        if scores:
-            user_vec[dim] = sum(scores) / len(scores)
+    for dim in DIMENSIONS:
+        if dim_counts[dim] > 0:
+            user_vec[dim] = dim_sums[dim] / dim_counts[dim]
         else:
             user_vec[dim] = 0.5  # Default if no questions for this dimension
-    
-    # Ensure all dimensions are present
-    for dim in DIMENSIONS:
-        if dim not in user_vec:
-            user_vec[dim] = 0.5
-    
+
     return user_vec
 
 def weighted_distance(v1, v2):
@@ -111,25 +119,26 @@ def weighted_distance(v1, v2):
     return math.sqrt(total)
 
 def similarity_score(user_vec, fig_vec, is_real=False):
-    """Calculate similarity score using Gaussian decay."""
+    """Calculate similarity score using Gaussian decay with proper spread."""
     dist = weighted_distance(user_vec, fig_vec)
-    
-    # Use steeper Gaussian for better discrimination
-    # sigma=0.5 gives better spread than previous 2.0
-    sim = math.exp(-(dist ** 2) / (2 * 0.5 ** 2))
-    
-    # Add bonus for real historical figures
+
+    # Use sigma=0.3 for better discrimination (was 0.5, too spread out)
+    sim = math.exp(-(dist ** 2) / (2 * 0.3 ** 2))
+
+    # Add bonus for real historical figures (smaller bonus to not dominate)
     if is_real:
-        bonus = 0.05 * max(0, 1 - dist / 1.0)
-        sim = min(0.98, sim + bonus)
-    
-    # Penalize large gaps in any dimension
-    big_gaps = sum(1 for d in DIMENSIONS if abs(user_vec.get(d, 0.5) - fig_vec.get(d, 0.5)) > 0.5)
-    if big_gaps >= 4:
-        sim *= 0.85
+        bonus = 0.03 * max(0, 1 - dist / 0.8)
+        sim = min(0.99, sim + bonus)
+
+    # Penalize large gaps more aggressively
+    big_gaps = sum(1 for d in DIMENSIONS if abs(user_vec.get(d, 0.5) - fig_vec.get(d, 0.5)) > 0.4)
+    if big_gaps >= 5:
+        sim *= 0.7
+    elif big_gaps >= 4:
+        sim *= 0.8
     elif big_gaps >= 3:
-        sim *= 0.92
-    
+        sim *= 0.9
+
     return round(sim, 3)
 
 def match_user(answers, top_n=10, language="zh"):
@@ -137,14 +146,14 @@ def match_user(answers, top_n=10, language="zh"):
     user_vec = calculate_user_vector(answers)
     figures = load_figures()
     results = []
-    
+
     for fig in figures:
         if not is_real_figure(fig):
             continue
-            
+
         fig_vec = fig.get("vector", {})
         sim = similarity_score(user_vec, fig_vec, is_real=True)
-        
+
         # Calculate gaps with translated dimension names
         gaps = []
         for d in DIMENSIONS:
@@ -161,22 +170,22 @@ def match_user(answers, top_n=10, language="zh"):
                     "figure_value": round(fig_val, 2)
                 })
         gaps.sort(key=lambda x: abs(x["gap"]), reverse=True)
-        
+
         # Get translated figure name
         names = fig.get("names", {})
         figure_name = names.get(language, names.get("zh", fig.get("name_cn", "")))
-        
+
         # Get translated figure bio fields
         def get_field(field):
             key = f"{field}_{language}"
             return fig.get(key) or fig.get(field, "")
-        
+
         # Generate overall suggestion
         from src.api.suggestions import SUGGESTIONS_MAP
         suggestions_map = SUGGESTIONS_MAP.get(language, SUGGESTIONS_MAP["en"])
-        
+
         overall = generate_overall(figure_name, gaps, language, suggestions_map)
-        
+
         results.append({
             "figure": fig,
             "similarity": sim,
@@ -198,7 +207,7 @@ def match_user(answers, top_n=10, language="zh"):
                 }
             }
         })
-    
+
     results.sort(key=lambda x: x["similarity"], reverse=True)
     return {"matches": results[:top_n], "total": len(results)}
 
@@ -216,15 +225,15 @@ def generate_overall(figure_name, gaps, language, suggestions_map):
             "ko": f"{figure_name}과 많이 유사합니다!"
         }
         return templates.get(language, templates["en"])
-    
+
     first = gaps[0]
     trait = first["trait"]
     direction = first["direction"]
     dim_name = first["dimension"]
-    
+
     trait_suggestions = suggestions_map.get(trait, {}).get(direction, [])
     suggestion_text = "，".join(trait_suggestions[:2]) if trait_suggestions else ""
-    
+
     templates = {
         "zh": f"你与{figure_name}的差距主要集中在{dim_name}维度，建议：{suggestion_text}",
         "en": f"Your main gap with {figure_name} is in {dim_name}, suggested: {suggestion_text}",
@@ -235,5 +244,5 @@ def generate_overall(figure_name, gaps, language, suggestions_map):
         "fr": f"Votre principale différence avec {figure_name} est dans {dim_name}, suggéré: {suggestion_text}",
         "ko": f"{figure_name}와의 주요 차이는 {dim_name}입니다. 권장사항: {suggestion_text}"
     }
-    
+
     return templates.get(language, templates["en"])
