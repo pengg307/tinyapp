@@ -8,7 +8,7 @@ DIMENSIONS = [
     "leadership","risk_taking","rationality","discipline","empathy","ambition","resilience"
 ]
 
-# Dimension name translations for all 7 languages
+# Dimension name translations for all 8 languages
 DIM_NAMES = {
     "zh": {"openness": "开放性", "conscientiousness": "尽责性", "extraversion": "外向性",
            "agreeableness": "宜人性", "neuroticism": "情绪稳定性", "leadership": "领导力",
@@ -34,7 +34,7 @@ DIM_NAMES = {
            "agreeableness": "Доброжелательность", "neuroticism": "Эмоциональная стабильность", "leadership": "Лидерство",
            "risk_taking": "Склонность к риску", "rationality": "Рациональность", "discipline": "Дисциплина",
            "empathy": "Эмпатия", "ambition": "Амбициозность", "resilience": "Стрессоустойчивость"},
-    "fr": {"openness": "Ouverture", "conscientiousness": "Consciencieusité", "extraversion": "Extraversion",
+    "fr": {"openness": "Ouverture", "conscientiousness": "Conscience", "extraversion": "Extraversion",
            "agreeableness": "Agrément", "neuroticism": "Stabilité émotionnelle", "leadership": "Leadership",
            "risk_taking": "Prise de risque", "rationality": "Rationalité", "discipline": "Discipline",
            "empathy": "Empathie", "ambition": "Ambition", "resilience": "Résilience"},
@@ -44,8 +44,15 @@ DIM_NAMES = {
            "empathy": "공감력", "ambition": "야망", "resilience": "회복력"}
 }
 
-ANSWER_WEIGHTS = [0.38, 0.29, 0.22, 0.11]
-ANSWER_DIM_MAP = [0, 2, 5, 4, 2, 3, 5, 4, 3, 2, 1, 0, 3, 1, 4, 5, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0]
+# Each question maps to a dimension (60 questions, 12 dimensions = 5 questions each)
+ANSWER_DIM_MAP = [
+    0, 2, 5, 4, 2, 3, 5, 4, 3, 2, 1, 0, 3, 1, 4, 5, 4, 1, 0, 2,
+    5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3,
+    4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0, 2, 5, 3, 4, 1, 0
+]
+
+# Option values: 0=low, 1=medium-low, 2=medium-high, 3=high
+OPTION_VALUES = [0.25, 0.45, 0.65, 0.85]
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 FIGURES_FILE = DATA_DIR / "figures.json"
@@ -60,39 +67,73 @@ def load_questions():
         return json.load(f).get("questions", [])
 
 def is_real_figure(fig):
-    return fig.get("id", "").startswith(("isaac_", "albert_", "marie_", "leonardo_", "nikola_", "william_", "shakespeare_", "abraham_", "mahatma_", "napoleon_", "winston_", "ada_", "florence_", "charles_", "galileo_", "mendel_", "darwin_", "pascal_", "newton_"))
-
-def weighted_distance(v1, v2):
-    total = 0
-    for i, dim in enumerate(DIMENSIONS):
-        w = ANSWER_WEIGHTS[i % len(ANSWER_WEIGHTS)]
-        total += w * (v1.get(dim, 0.5) - v2.get(dim, 0.5)) ** 2
-    return math.sqrt(total)
-
-def similarity_score(user_vec, fig_vec, is_real=False):
-    dist = weighted_distance(user_vec, fig_vec)
-    norm_dist = dist / 2.0
-    base_sim = math.exp(-norm_dist)
-    if is_real:
-        bonus = 0.08 + 0.04 * max(0, 1 - dist / 1.5)
-        base_sim = min(0.98, base_sim + bonus)
-    big_gap = sum(1 for d in DIMENSIONS if abs(user_vec.get(d, 0) - fig_vec.get(d, 0)) > 0.6)
-    if big_gap >= 3:
-        base_sim *= 0.92
-    return round(base_sim, 3)
+    return fig.get("id", "").startswith(("isaac_", "albert_", "marie_", "leonardo_", "nikola_", 
+                                          "william_", "shakespeare_", "abraham_", "mahatma_", 
+                                          "napoleon_", "winston_", "ada_", "florence_", "charles_", 
+                                          "galileo_", "mendel_", "darwin_", "pascal_", "newton_"))
 
 def calculate_user_vector(answers):
-    user_vec = {d: 0.5 for d in DIMENSIONS}
+    """Calculate user vector from answers using proper normalization."""
+    # Initialize dimension counters
+    dim_scores = {d: [] for d in DIMENSIONS}
+    
+    # Collect scores for each dimension
     for ans in answers:
         q_idx = ans.get("question_id", 0) - 1
         opt_idx = ans.get("option_index", 0)
+        
         if 0 <= q_idx < len(ANSWER_DIM_MAP) and 0 <= opt_idx < 4:
             dim_idx = ANSWER_DIM_MAP[q_idx]
             dim = DIMENSIONS[dim_idx]
-            user_vec[dim] = min(1.0, user_vec[dim] + ANSWER_WEIGHTS[opt_idx])
+            dim_scores[dim].append(OPTION_VALUES[opt_idx])
+    
+    # Calculate mean for each dimension
+    user_vec = {}
+    for dim, scores in dim_scores.items():
+        if scores:
+            user_vec[dim] = sum(scores) / len(scores)
+        else:
+            user_vec[dim] = 0.5  # Default if no questions for this dimension
+    
+    # Ensure all dimensions are present
+    for dim in DIMENSIONS:
+        if dim not in user_vec:
+            user_vec[dim] = 0.5
+    
     return user_vec
 
+def weighted_distance(v1, v2):
+    """Calculate weighted Euclidean distance between two vectors."""
+    total = 0
+    for dim in DIMENSIONS:
+        diff = v1.get(dim, 0.5) - v2.get(dim, 0.5)
+        total += diff ** 2
+    return math.sqrt(total)
+
+def similarity_score(user_vec, fig_vec, is_real=False):
+    """Calculate similarity score using Gaussian decay."""
+    dist = weighted_distance(user_vec, fig_vec)
+    
+    # Use steeper Gaussian for better discrimination
+    # sigma=0.5 gives better spread than previous 2.0
+    sim = math.exp(-(dist ** 2) / (2 * 0.5 ** 2))
+    
+    # Add bonus for real historical figures
+    if is_real:
+        bonus = 0.05 * max(0, 1 - dist / 1.0)
+        sim = min(0.98, sim + bonus)
+    
+    # Penalize large gaps in any dimension
+    big_gaps = sum(1 for d in DIMENSIONS if abs(user_vec.get(d, 0.5) - fig_vec.get(d, 0.5)) > 0.5)
+    if big_gaps >= 4:
+        sim *= 0.85
+    elif big_gaps >= 3:
+        sim *= 0.92
+    
+    return round(sim, 3)
+
 def match_user(answers, top_n=10, language="zh"):
+    """Match user answers against historical figures."""
     user_vec = calculate_user_vector(answers)
     figures = load_figures()
     results = []
@@ -100,6 +141,7 @@ def match_user(answers, top_n=10, language="zh"):
     for fig in figures:
         if not is_real_figure(fig):
             continue
+            
         fig_vec = fig.get("vector", {})
         sim = similarity_score(user_vec, fig_vec, is_real=True)
         
@@ -111,8 +153,8 @@ def match_user(answers, top_n=10, language="zh"):
             gap = round(fig_val - user_val, 2)
             if abs(gap) > 0.15:
                 gaps.append({
-                    "trait": d,  # Keep original for internal use
-                    "dimension": DIM_NAMES.get(language, DIM_NAMES["zh"]).get(d, d),  # Translated for display
+                    "trait": d,
+                    "dimension": DIM_NAMES.get(language, DIM_NAMES["zh"]).get(d, d),
                     "gap": gap,
                     "direction": "up" if gap > 0 else "down",
                     "user_value": round(user_val, 2),
@@ -161,7 +203,7 @@ def match_user(answers, top_n=10, language="zh"):
     return {"matches": results[:top_n], "total": len(results)}
 
 def generate_overall(figure_name, gaps, language, suggestions_map):
-    """Generate overall suggestion text in the specified language"""
+    """Generate overall suggestion text in the specified language."""
     if not gaps:
         templates = {
             "zh": f"你与{figure_name}高度匹配！",
@@ -170,14 +212,15 @@ def generate_overall(figure_name, gaps, language, suggestions_map):
             "es": f"¡Coincides mucho con {figure_name}!",
             "de": f"Sie ähneln stark {figure_name}!",
             "ru": f"Вы очень похожи на {figure_name}!",
-            "fr": f"Vous correspondez bien à {figure_name}!"
+            "fr": f"Vous correspondez bien à {figure_name}!",
+            "ko": f"{figure_name}과 많이 유사합니다!"
         }
         return templates.get(language, templates["en"])
     
     first = gaps[0]
-    trait = first["trait"]  # Use original trait for suggestions map lookup
+    trait = first["trait"]
     direction = first["direction"]
-    dim_name = first["dimension"]  # Use translated dimension name
+    dim_name = first["dimension"]
     
     trait_suggestions = suggestions_map.get(trait, {}).get(direction, [])
     suggestion_text = "，".join(trait_suggestions[:2]) if trait_suggestions else ""
@@ -189,7 +232,8 @@ def generate_overall(figure_name, gaps, language, suggestions_map):
         "ja": f"{figure_name}との主なギャップは{dim_name}です。提案：{suggestion_text}",
         "de": f"Ihre Hauptlücke mit {figure_name} ist in {dim_name}, empfohlen: {suggestion_text}",
         "ru": f"Ваша основная разница с {figure_name} в {dim_name}, рекомендуется: {suggestion_text}",
-        "fr": f"Votre principale différence avec {figure_name} est dans {dim_name}, suggéré: {suggestion_text}"
+        "fr": f"Votre principale différence avec {figure_name} est dans {dim_name}, suggéré: {suggestion_text}",
+        "ko": f"{figure_name}와의 주요 차이는 {dim_name}입니다. 권장사항: {suggestion_text}"
     }
     
     return templates.get(language, templates["en"])
