@@ -122,22 +122,25 @@ def similarity_score(user_vec, fig_vec, is_real=False):
     """Calculate similarity score using Gaussian decay with proper spread."""
     dist = weighted_distance(user_vec, fig_vec)
 
-    # Use sigma=0.3 for better discrimination (was 0.5, too spread out)
-    sim = math.exp(-(dist ** 2) / (2 * 0.3 ** 2))
+    # Use sigma=0.8 for better discrimination while maintaining reasonable scores
+    # This gives good spread: close matches ~0.9, distant ~0.3
+    sim = math.exp(-(dist ** 2) / (2 * 0.8 ** 2))
 
-    # Add bonus for real historical figures (smaller bonus to not dominate)
+    # Add bonus for real historical figures (small bonus to not dominate)
     if is_real:
-        bonus = 0.03 * max(0, 1 - dist / 0.8)
+        bonus = 0.05 * max(0, 1 - dist / 1.2)
         sim = min(0.99, sim + bonus)
 
     # Penalize large gaps more aggressively
     big_gaps = sum(1 for d in DIMENSIONS if abs(user_vec.get(d, 0.5) - fig_vec.get(d, 0.5)) > 0.4)
-    if big_gaps >= 5:
+    if big_gaps >= 6:
+        sim *= 0.6
+    elif big_gaps >= 5:
         sim *= 0.7
     elif big_gaps >= 4:
-        sim *= 0.8
+        sim *= 0.85
     elif big_gaps >= 3:
-        sim *= 0.9
+        sim *= 0.95
 
     return round(sim, 3)
 
