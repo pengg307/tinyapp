@@ -1,0 +1,2692 @@
+[
+  {
+    "id": 1,
+    "category": "basic",
+    "dimension": "experience_level",
+    "difficulty": "easy",
+    "question_zh": "你做过几份保姆工作？每份大概做了多久？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "没做过，这是第一份工作",
+        "score": 1,
+        "feedback_zh": "无经验，需要培训"
+      },
+      {
+        "text_zh": "1-2份，每份3个月到1年",
+        "score": 3,
+        "feedback_zh": "有一定经验但不够稳定"
+      },
+      {
+        "text_zh": "3-5份，每份1-3年",
+        "score": 4,
+        "feedback_zh": "经验较丰富，稳定性良好"
+      },
+      {
+        "text_zh": "5份以上，每份3年以上",
+        "score": 5,
+        "feedback_zh": "经验丰富且稳定"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "basic",
+    "dimension": "health",
+    "difficulty": "easy",
+    "question_zh": "你的身体状况如何？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "非常健康，无任何疾病",
+        "score": 5,
+        "feedback_zh": "身体条件优秀"
+      },
+      {
+        "text_zh": "基本健康，有小毛病但不影响工作",
+        "score": 4,
+        "feedback_zh": "身体健康，可胜任工作"
+      },
+      {
+        "text_zh": "有一些慢性病但控制良好",
+        "score": 3,
+        "feedback_zh": "需注意定期体检"
+      },
+      {
+        "text_zh": "健康状况一般，经常需要休息",
+        "score": 2,
+        "feedback_zh": "可能影响工作稳定性"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "basic",
+    "dimension": "family_situation",
+    "difficulty": "medium",
+    "question_zh": "你的家庭情况是怎样的？家人支持你做保姆工作吗？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "单身/无家庭负担，全力支持",
+        "score": 5,
+        "feedback_zh": "时间精力充足"
+      },
+      {
+        "text_zh": "有家庭但家人理解支持",
+        "score": 4,
+        "feedback_zh": "家庭支持是重要保障"
+      },
+      {
+        "text_zh": "有家庭，家人勉强支持",
+        "score": 3,
+        "feedback_zh": "可能存在后顾之忧"
+      },
+      {
+        "text_zh": "家人不太支持，我自己想做",
+        "score": 2,
+        "feedback_zh": "家庭矛盾可能影响工作"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "basic",
+    "dimension": "motivation",
+    "difficulty": "medium",
+    "question_zh": "你为什么选择做保姆工作？是因为什么契机？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "一直喜欢照顾人，擅长家务",
+        "score": 5,
+        "feedback_zh": "内在动机强，职业认同感高"
+      },
+      {
+        "text_zh": "以前做过，觉得适合自己",
+        "score": 4,
+        "feedback_zh": "有经验且确认适合"
+      },
+      {
+        "text_zh": "就业压力大，先做着看看",
+        "score": 2,
+        "feedback_zh": "动机不够坚定，可能不稳定"
+      },
+      {
+        "text_zh": "没办法，什么赚钱做什么",
+        "score": 1,
+        "feedback_zh": "缺乏职业认同"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "basic",
+    "dimension": "learning_attitude",
+    "difficulty": "hard",
+    "question_zh": "如果雇主提出了新的育儿理念或家务要求，你不太熟悉，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "主动学习，上网查资料或向有经验的人请教",
+        "score": 5,
+        "feedback_zh": "学习态度积极，适应能力强"
+      },
+      {
+        "text_zh": "先按雇主要求做，有问题再慢慢学",
+        "score": 4,
+        "feedback_zh": "实践中学习，稳妥但效率一般"
+      },
+      {
+        "text_zh": "等雇主耐心教我，我不太会主动问",
+        "score": 2,
+        "feedback_zh": "被动学习，成长速度慢"
+      },
+      {
+        "text_zh": "我觉得我以前的方法就够了，不想改",
+        "score": 1,
+        "feedback_zh": "固守旧方法，难以适应新需求"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "basic",
+    "dimension": "career_plan",
+    "difficulty": "hard",
+    "question_zh": "你对自己未来3-5年的职业规划是什么？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "成为专业月嫂/育儿嫂，考相关证书，提升自己",
+        "score": 5,
+        "feedback_zh": "有清晰职业规划，上进心强"
+      },
+      {
+        "text_zh": "先做好当前工作，积累经验再说",
+        "score": 4,
+        "feedback_zh": "务实稳重"
+      },
+      {
+        "text_zh": "做一份算一份，走一步看一步",
+        "score": 2,
+        "feedback_zh": "缺乏规划，可能稳定性不足"
+      },
+      {
+        "text_zh": "没有规划，做完这份就换",
+        "score": 1,
+        "feedback_zh": "职业态度不够认真"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "basic",
+    "dimension": "reference_check",
+    "difficulty": "hard",
+    "question_zh": "你之前的雇主可以证明你的工作表现吗？如果现在有疑虑，你希望我们怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "可以，我有前雇主的联系方式，随时可以核实",
+        "score": 5,
+        "feedback_zh": "诚信透明，经得起核查"
+      },
+      {
+        "text_zh": "前雇主不方便联系，但我可以提供同事或朋友证明",
+        "score": 3,
+        "feedback_zh": "有替代证明，但可靠性略低"
+      },
+      {
+        "text_zh": "我不好意思要联系方式，但我很靠谱",
+        "score": 2,
+        "feedback_zh": "缺乏佐证，需要进一步考察"
+      },
+      {
+        "text_zh": "之前做得不顺，没好意思要联系方式",
+        "score": 1,
+        "feedback_zh": "过往经历可能有隐患"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "cooking",
+    "dimension": "cooking_skill",
+    "difficulty": "easy",
+    "question_zh": "你最拿手的几道菜是什么？能说说做法吗？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "红烧肉、清蒸鱼、西红柿炒蛋等十几道家常菜",
+        "score": 5,
+        "feedback_zh": "菜系丰富，基础扎实"
+      },
+      {
+        "text_zh": "会做几道家常菜，但花样不多",
+        "score": 3,
+        "feedback_zh": "基本够用，需拓展菜系"
+      },
+      {
+        "text_zh": "只会炒几个简单的菜",
+        "score": 2,
+        "feedback_zh": "烹饪能力有限"
+      },
+      {
+        "text_zh": "不太会做饭，边做边学吧",
+        "score": 1,
+        "feedback_zh": "烹饪能力不足"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "cooking",
+    "dimension": "hygiene_habits",
+    "difficulty": "easy",
+    "question_zh": "你在厨房工作时，会注意哪些卫生细节？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "生熟分开、勤洗手、厨具定期消毒、台面随时清理",
+        "score": 5,
+        "feedback_zh": "卫生习惯优秀"
+      },
+      {
+        "text_zh": "会洗手，切菜前后换手",
+        "score": 4,
+        "feedback_zh": "有基本卫生意识"
+      },
+      {
+        "text_zh": "大概知道要干净，但细节不太注意",
+        "score": 2,
+        "feedback_zh": "卫生意识一般"
+      },
+      {
+        "text_zh": "做完饭再说，没想那么多",
+        "score": 1,
+        "feedback_zh": "卫生意识薄弱"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "cooking",
+    "dimension": "baby_food",
+    "difficulty": "easy",
+    "question_zh": "你知道宝宝什么时候开始加辅食吗？一般会做些什么？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "6个月左右开始，先米粉后菜泥肉泥，循序渐进",
+        "score": 5,
+        "feedback_zh": "科学知识扎实"
+      },
+      {
+        "text_zh": "大概4-6个月，做点粥和菜汤",
+        "score": 3,
+        "feedback_zh": "有基本了解，不够系统"
+      },
+      {
+        "text_zh": "听说要加，但具体不清楚",
+        "score": 2,
+        "feedback_zh": "知识欠缺，需学习"
+      },
+      {
+        "text_zh": "没接触过，不太懂",
+        "score": 1,
+        "feedback_zh": "缺乏辅食知识"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "cooking",
+    "dimension": "dietary_restrictions",
+    "difficulty": "medium",
+    "question_zh": "如果雇主家人有食物过敏（比如海鲜、坚果过敏），你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "严格区分餐具和食材，烹饪时单独处理，做好标记",
+        "score": 5,
+        "feedback_zh": "过敏防范意识极强"
+      },
+      {
+        "text_zh": "做的时候注意分开，但不会特别严格",
+        "score": 3,
+        "feedback_zh": "有一定意识但不够严谨"
+      },
+      {
+        "text_zh": "问雇主哪些不能吃，然后避免做",
+        "score": 4,
+        "feedback_zh": "知道询问，但缺乏主动防范"
+      },
+      {
+        "text_zh": "反正做熟了应该没事吧",
+        "score": 1,
+        "feedback_zh": "对食物过敏重视不足，存在风险"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "cooking",
+    "dimension": "leftover_handling",
+    "difficulty": "hard",
+    "question_zh": "你做了一桌菜，最后剩了不少，第二天你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "当天分装冷藏，第二天彻底加热后再吃，不吃隔夜反复加热的",
+        "score": 5,
+        "feedback_zh": "食品安全意识强"
+      },
+      {
+        "text_zh": "放冰箱，第二天热一下继续吃",
+        "score": 3,
+        "feedback_zh": "有基本意识但不够细致"
+      },
+      {
+        "text_zh": "放到明天再热热吃，没什么事",
+        "score": 2,
+        "feedback_zh": "对食品安全重视不够"
+      },
+      {
+        "text_zh": "剩菜倒掉太浪费了，放几天也没关系",
+        "score": 1,
+        "feedback_zh": "食品安全意识薄弱"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "cooking",
+    "dimension": "cooking_under_pressure",
+    "difficulty": "hard",
+    "question_zh": "家里突然来了很多客人，只有1小时要做10个人的饭，你会怎么办？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "快速制定计划，先做能提前准备的凉菜和炖菜，热菜穿插进行",
+        "score": 5,
+        "feedback_zh": "应变能力强，统筹能力优秀"
+      },
+      {
+        "text_zh": "先做几个硬菜，其他的简单弄弄",
+        "score": 3,
+        "feedback_zh": "有应对意识，但不够系统"
+      },
+      {
+        "text_zh": "按顺序一个一个做，虽然慢但能做完",
+        "score": 2,
+        "feedback_zh": "缺乏统筹，效率较低"
+      },
+      {
+        "text_zh": "直接告诉雇主做不了这么多，叫外卖吧",
+        "score": 1,
+        "feedback_zh": "应变能力差，缺乏担当"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "cooking",
+    "dimension": "cooking_for_sick",
+    "difficulty": "hard",
+    "question_zh": "孩子感冒发烧不肯吃饭，你会怎么准备饮食？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "准备清淡易消化的粥、汤面，少量多餐，不强迫进食",
+        "score": 5,
+        "feedback_zh": "科学喂养，尊重孩子状态"
+      },
+      {
+        "text_zh": "做点有营养的软饭，哄着吃一点",
+        "score": 3,
+        "feedback_zh": "有心但方法不够专业"
+      },
+      {
+        "text_zh": "做平时爱吃的，希望能多吃点",
+        "score": 2,
+        "feedback_zh": "缺乏病期饮食知识"
+      },
+      {
+        "text_zh": "孩子不想吃就算了，饿一顿没关系",
+        "score": 1,
+        "feedback_zh": "忽视营养摄入"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "cooking",
+    "dimension": "taste_adjustment",
+    "difficulty": "hard",
+    "question_zh": "雇主反馈你做的菜太咸了，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "道歉并记录，下次少放盐，主动请雇主品尝调整",
+        "score": 5,
+        "feedback_zh": "虚心接受，积极改进"
+      },
+      {
+        "text_zh": "下次注意少放盐",
+        "score": 4,
+        "feedback_zh": "知道改进但缺乏主动沟通"
+      },
+      {
+        "text_zh": "可能我家口味就这样，下次试试看",
+        "score": 2,
+        "feedback_zh": "缺乏主动调整意识"
+      },
+      {
+        "text_zh": "我觉得味道刚好啊，可能是他们挑剔",
+        "score": 1,
+        "feedback_zh": "缺乏自我反思能力"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "category": "childcare",
+    "dimension": "daily_routine",
+    "difficulty": "easy",
+    "question_zh": "你日常带孩子的一天大概是什么流程？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "按时作息：起床、喂奶/辅食、游戏、午睡、户外活动、晚饭、洗澡、睡前故事、睡觉",
+        "score": 5,
+        "feedback_zh": "作息规律，科学育儿"
+      },
+      {
+        "text_zh": "大概有规律，但偶尔会打乱",
+        "score": 3,
+        "feedback_zh": "有基本节奏，但执行不够稳定"
+      },
+      {
+        "text_zh": "孩子想怎样就怎样，没有固定时间",
+        "score": 1,
+        "feedback_zh": "缺乏规律意识"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "category": "childcare",
+    "dimension": "sleep_training",
+    "difficulty": "medium",
+    "question_zh": "宝宝晚上睡不好，总是半夜醒来哭闹，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "先排查原因（饿了、尿布湿了、太热太冷），温和安抚，建立睡眠仪式",
+        "score": 5,
+        "feedback_zh": "科学应对，关注根本原因"
+      },
+      {
+        "text_zh": "抱起来哄，哭了就喂",
+        "score": 3,
+        "feedback_zh": "基本做法，但缺乏系统性"
+      },
+      {
+        "text_zh": "让孩子哭一会儿，哭累了自然就睡了",
+        "score": 2,
+        "feedback_zh": "忽视了孩子的安全感需求"
+      },
+      {
+        "text_zh": "没办法，孩子都这样，随他去吧",
+        "score": 1,
+        "feedback_zh": "缺乏耐心和应对方法"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "category": "childcare",
+    "dimension": "teething_care",
+    "difficulty": "medium",
+    "question_zh": "宝宝长牙期牙龈肿痛、烦躁不安，你会怎么帮助缓解？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "提供牙胶、冷毛巾咬，按摩牙龈，必要时咨询医生用退烧药",
+        "score": 5,
+        "feedback_zh": "方法科学，懂得就医指征"
+      },
+      {
+        "text_zh": "给点硬的东西啃，或者抱抱安慰",
+        "score": 3,
+        "feedback_zh": "有基本应对，但方法有限"
+      },
+      {
+        "text_zh": "长牙嘛，忍一忍就过去了",
+        "score": 2,
+        "feedback_zh": "忽视孩子不适"
+      },
+      {
+        "text_zh": "给孩子涂点白酒或草药在牙龈上",
+        "score": 1,
+        "feedback_zh": "危险做法，可能造成伤害"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "category": "childcare",
+    "dimension": "potty_training",
+    "difficulty": "hard",
+    "question_zh": "孩子2岁多了还不会如厕，总是尿裤子，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "观察信号，定时提醒，正面鼓励，不责备，循序渐进",
+        "score": 5,
+        "feedback_zh": "尊重发育节奏，正向引导"
+      },
+      {
+        "text_zh": "定时把孩子送去厕所，不行的话就换尿布",
+        "score": 3,
+        "feedback_zh": "有一定方法，但略显机械"
+      },
+      {
+        "text_zh": "老是尿裤子，干脆就别穿了，减少清洗麻烦",
+        "score": 2,
+        "feedback_zh": "消极应对，不利于孩子成长"
+      },
+      {
+        "text_zh": "骂他怎么又尿了，逼他学会",
+        "score": 1,
+        "feedback_zh": "暴力方式会造成心理创伤"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "category": "childcare",
+    "dimension": "screen_time",
+    "difficulty": "hard",
+    "question_zh": "雇主家孩子经常要看手机/电视，你觉得这样做合适吗？如果雇主不干预，你会怎么跟雇主沟通？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "私下温和沟通，提供替代方案（绘本、游戏），说明屏幕时间过多的危害",
+        "score": 5,
+        "feedback_zh": "沟通得体，有建设性"
+      },
+      {
+        "text_zh": "提醒雇主要注意，但不会多说",
+        "score": 3,
+        "feedback_zh": "有意识但沟通不够积极"
+      },
+      {
+        "text_zh": "这是他们家的事，我管不了",
+        "score": 1,
+        "feedback_zh": "缺乏责任意识和沟通意愿"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "category": "childcare",
+    "dimension": "sibling_conflict",
+    "difficulty": "hard",
+    "question_zh": "家里有两个孩子，大的欺负小的，抢玩具还打人，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "先分开两个孩子，分别安抚，再了解原因，教导分享和尊重，不偏袒",
+        "score": 5,
+        "feedback_zh": "处理得当，关注两个孩子的心理"
+      },
+      {
+        "text_zh": "让大的让着小的，打人的时候训斥大的",
+        "score": 3,
+        "feedback_zh": "基本处理，但不够深入"
+      },
+      {
+        "text_zh": "谁哭就抱谁，不管谁对谁错",
+        "score": 2,
+        "feedback_zh": "处理方式混乱，缺乏原则"
+      },
+      {
+        "text_zh": "大的该教训，抓过来打几下",
+        "score": 1,
+        "feedback_zh": "暴力方式严重错误"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "category": "childcare",
+    "dimension": "selective_eating",
+    "difficulty": "medium",
+    "question_zh": "孩子挑食，只吃白米饭不肯吃菜，你会怎么办？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "把菜切碎混进饭里，或做成有趣造型，逐步引导，不强迫",
+        "score": 5,
+        "feedback_zh": "方法灵活，尊重孩子节奏"
+      },
+      {
+        "text_zh": "做孩子喜欢的菜，慢慢引入新菜",
+        "score": 4,
+        "feedback_zh": "有策略，但推进较慢"
+      },
+      {
+        "text_zh": "强迫吃完，不吃就不准玩",
+        "score": 1,
+        "feedback_zh": "强迫进食损害亲子关系"
+      },
+      {
+        "text_zh": "随他，不吃就不吃，长大就好了",
+        "score": 2,
+        "feedback_zh": "完全放任，不利于习惯养成"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "category": "childcare",
+    "dimension": "separation_anxiety",
+    "difficulty": "hard",
+    "question_zh": "孩子刚上幼儿园，每天早上哭闹不肯去，粘着你不放，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "温柔但坚定地陪伴，建立告别仪式，告诉孩子'妈妈下班就来接你'，逐步建立安全感",
+        "score": 5,
+        "feedback_zh": "专业处理方式，建立安全感"
+      },
+      {
+        "text_zh": "转移注意力，给玩具或零食哄",
+        "score": 3,
+        "feedback_zh": "临时有效，但未解决根本问题"
+      },
+      {
+        "text_zh": "趁孩子不注意偷偷溜走",
+        "score": 1,
+        "feedback_zh": "严重错误，破坏孩子信任"
+      },
+      {
+        "text_zh": "跟着孩子一起哭，没办法",
+        "score": 1,
+        "feedback_zh": "情绪传递，反而加重焦虑"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "category": "childcare",
+    "dimension": "allergic_reaction",
+    "difficulty": "hard",
+    "question_zh": "孩子在外面玩的时候突然全身起红疹、呼吸急促，你怀疑是过敏，你会怎么办？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即拨打120，同时回忆可能接触到的过敏原，保持孩子呼吸道通畅",
+        "score": 5,
+        "feedback_zh": "正确处理过敏性休克，争分夺秒"
+      },
+      {
+        "text_zh": "赶紧带孩子去医院，路上观察情况",
+        "score": 4,
+        "feedback_zh": "及时处理，但应同时呼叫急救"
+      },
+      {
+        "text_zh": "给孩子吃点抗过敏药，等一等看",
+        "score": 2,
+        "feedback_zh": "延误紧急处理，风险很高"
+      },
+      {
+        "text_zh": "吓坏了，不知道怎么办，站着等雇主来",
+        "score": 1,
+        "feedback_zh": "缺乏应急处理能力"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "category": "childcare",
+    "dimension": "choking_emergency",
+    "difficulty": "hard",
+    "question_zh": "孩子吃东西的时候突然呛住了，脸憋得通红发不出声音，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即实施海姆立克急救法，同时让人拨打120",
+        "score": 5,
+        "feedback_zh": "掌握急救技能，反应正确"
+      },
+      {
+        "text_zh": "拍背、倒提孩子，试图让他咳出来",
+        "score": 3,
+        "feedback_zh": "有应急意识，但方法不够精准"
+      },
+      {
+        "text_zh": "给孩子喂水想冲下去",
+        "score": 1,
+        "feedback_zh": "错误做法，可能加重窒息"
+      },
+      {
+        "text_zh": "慌了神，大声喊人，不知道该做什么",
+        "score": 1,
+        "feedback_zh": "缺乏急救知识"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "category": "childcare",
+    "dimension": "tantrum_public",
+    "difficulty": "hard",
+    "question_zh": "在商场里，孩子突然躺地打滚哭闹要买玩具，周围人都看着，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "把孩子带到人少的地方，蹲下平视，温和但坚定地说不买的原因，给他选择",
+        "score": 5,
+        "feedback_zh": "公共场合处理得当，既保护自尊又立规矩"
+      },
+      {
+        "text_zh": "先哄住，买下来让他别哭了",
+        "score": 2,
+        "feedback_zh": "纵容行为，不利于规则建立"
+      },
+      {
+        "text_zh": "不管不顾，让他哭够了自然停",
+        "score": 2,
+        "feedback_zh": "冷处理有争议，但比纵容好"
+      },
+      {
+        "text_zh": "当众打骂孩子，吓唬他",
+        "score": 1,
+        "feedback_zh": "严重伤害孩子自尊和安全感"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "category": "hygiene",
+    "dimension": "daily_cleaning",
+    "difficulty": "easy",
+    "question_zh": "你每天做家务的顺序一般是怎样的？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "先整理杂物→擦拭台面→扫地拖地→清洁卫生间→最后检查一遍",
+        "score": 5,
+        "feedback_zh": "流程科学，从干到湿，从上到下"
+      },
+      {
+        "text_zh": "看到哪里脏了擦哪里，没有固定顺序",
+        "score": 2,
+        "feedback_zh": "缺乏系统性"
+      },
+      {
+        "text_zh": "早上做一部分，下午做一部分，看时间",
+        "score": 3,
+        "feedback_zh": "灵活但不够高效"
+      },
+      {
+        "text_zh": "雇主说什么我做什麼",
+        "score": 1,
+        "feedback_zh": "缺乏主动性"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "category": "hygiene",
+    "dimension": "disinfection",
+    "difficulty": "medium",
+    "question_zh": "家里有宝宝，你会怎么做好消毒工作？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "区分日常清洁和消毒，玩具定期煮沸或紫外线消毒，表面用稀释消毒液，注意通风",
+        "score": 5,
+        "feedback_zh": "消毒知识全面，操作规范"
+      },
+      {
+        "text_zh": "用84消毒液拖地擦桌子，每周一次",
+        "score": 3,
+        "feedback_zh": "有消毒意识，但频率和方法需加强"
+      },
+      {
+        "text_zh": "经常用水擦，擦干净就可以了",
+        "score": 2,
+        "feedback_zh": "混淆清洁和消毒概念"
+      },
+      {
+        "text_zh": "没什么特别讲究，该干嘛干嘛",
+        "score": 1,
+        "feedback_zh": "消毒意识薄弱"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "category": "hygiene",
+    "dimension": "laundry_separation",
+    "difficulty": "medium",
+    "question_zh": "孩子的衣服和大人的衣服你会怎么洗？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "孩子衣服单独洗，用专用洗衣液，阳光下晾晒或高温烘干",
+        "score": 5,
+        "feedback_zh": "分类洗涤，注重消毒"
+      },
+      {
+        "text_zh": "分开洗，但用什么洗衣液没特别讲究",
+        "score": 3,
+        "feedback_zh": "有分类意识，但细节不足"
+      },
+      {
+        "text_zh": "一起洗，方便",
+        "score": 1,
+        "feedback_zh": "未区分，存在交叉感染风险"
+      },
+      {
+        "text_zh": "衣服多的时候分开，少的时候就一起",
+        "score": 2,
+        "feedback_zh": "标准不统一，风险不可控"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "category": "hygiene",
+    "dimension": "deep_cleaning_schedule",
+    "difficulty": "medium",
+    "question_zh": "你多久会做一次大扫除（擦窗户、清洗空调滤网、清理油烟机）？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "每季度至少一次，根据使用情况灵活安排",
+        "score": 5,
+        "feedback_zh": "定期深度清洁，维护房屋质量"
+      },
+      {
+        "text_zh": "半年一次，或者雇主提醒的时候",
+        "score": 3,
+        "feedback_zh": "有一定意识，但主动性一般"
+      },
+      {
+        "text_zh": "一年一次，过年大扫除",
+        "score": 2,
+        "feedback_zh": "清洁频率太低"
+      },
+      {
+        "text_zh": "没做过，不知道怎么搞",
+        "score": 1,
+        "feedback_zh": "缺乏深度清洁能力"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "category": "hygiene",
+    "dimension": "pest_control",
+    "difficulty": "hard",
+    "question_zh": "厨房里发现了小飞虫（果蝇）和蚂蚁，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "找到源头（烂水果/糖罐），彻底清理，用物理方法（密封、清除）为主，必要时使用安全杀虫剂",
+        "score": 5,
+        "feedback_zh": "治标治本，方法科学"
+      },
+      {
+        "text_zh": "喷杀虫剂，然后开窗通风",
+        "score": 3,
+        "feedback_zh": "应急处理可以，但未根除源头"
+      },
+      {
+        "text_zh": "看到一只拍一只，没办法根治",
+        "score": 2,
+        "feedback_zh": "被动应付"
+      },
+      {
+        "text_zh": "不管它们，虫子很正常",
+        "score": 1,
+        "feedback_zh": "卫生意识差"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "category": "hygiene",
+    "dimension": "dishwashing_routine",
+    "difficulty": "hard",
+    "question_zh": "洗完碗筷后，你会怎么存放和晾干？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "沥水架晾干或用消毒柜，不擦干后马上收进柜子（容易滋生细菌）",
+        "score": 5,
+        "feedback_zh": "科学存放，避免细菌滋生"
+      },
+      {
+        "text_zh": "擦干后收进柜子",
+        "score": 3,
+        "feedback_zh": "有基本做法，但不够严谨"
+      },
+      {
+        "text_zh": "湿的就放进去，等干了再说",
+        "score": 1,
+        "feedback_zh": "潮湿环境易滋生细菌"
+      },
+      {
+        "text_zh": "用抹布擦干就收",
+        "score": 2,
+        "feedback_zh": "抹布本身可能带菌"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "category": "hygiene",
+    "dimension": "vacuum_cleaning_detail",
+    "difficulty": "hard",
+    "question_zh": "吸尘器的使用，你会特别注意哪些地方？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "床底、沙发底、墙角、窗帘上方、地毯边缘，定期清洗滤网和集尘袋",
+        "score": 5,
+        "feedback_zh": "清洁无死角，设备维护到位"
+      },
+      {
+        "text_zh": "地面主要区域吸一吸",
+        "score": 3,
+        "feedback_zh": "基本清洁，但遗漏边角"
+      },
+      {
+        "text_zh": "看到有灰的地方吸一下",
+        "score": 2,
+        "feedback_zh": "被动清洁，不够系统"
+      },
+      {
+        "text_zh": "不用吸尘器，用扫帚",
+        "score": 1,
+        "feedback_zh": "清洁效果较差"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "category": "safety",
+    "dimension": "fire_safety",
+    "difficulty": "easy",
+    "question_zh": "家里发生火灾的时候，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即拨打119，用湿毛巾捂住口鼻低姿撤离，不走电梯，先到安全区域集合",
+        "score": 5,
+        "feedback_zh": "正确的火灾逃生方法"
+      },
+      {
+        "text_zh": "先试着灭火，灭不了再跑",
+        "score": 3,
+        "feedback_zh": "有灭火意识，但应优先撤离"
+      },
+      {
+        "text_zh": "慌了，到处乱跑",
+        "score": 1,
+        "feedback_zh": "缺乏冷静判断能力"
+      },
+      {
+        "text_zh": "先救孩子，不管其他人",
+        "score": 4,
+        "feedback_zh": "保护孩子是本能，但需确保自身安全才能救人"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "category": "safety",
+    "dimension": "gas_leak",
+    "difficulty": "medium",
+    "question_zh": "你闻到煤气味了，但找不到泄漏点，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即开窗通风，不开任何电器开关，不打电话，到室外拨打燃气公司电话",
+        "score": 5,
+        "feedback_zh": "正确处理，避免电火花"
+      },
+      {
+        "text_zh": "打开灯找找哪里漏气",
+        "score": 1,
+        "feedback_zh": "开灯可能产生电火花，极其危险！"
+      },
+      {
+        "text_zh": "点个蜡烛找漏点",
+        "score": 1,
+        "feedback_zh": "绝对禁止！明火遇煤气会爆炸"
+      },
+      {
+        "text_zh": "用打火机测试哪里漏气",
+        "score": 1,
+        "feedback_zh": "极度危险行为！"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "category": "safety",
+    "dimension": "electrical_safety",
+    "difficulty": "medium",
+    "question_zh": "发现插座冒火花，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即切断总电源，联系电工维修，不用该插座直到修好",
+        "score": 5,
+        "feedback_zh": "正确处理流程，安全第一"
+      },
+      {
+        "text_zh": "拔掉插头，等它冷却后再用",
+        "score": 2,
+        "feedback_zh": "危险操作，可能触电"
+      },
+      {
+        "text_zh": "不管它，反正还能动",
+        "score": 1,
+        "feedback_zh": "忽视安全隐患，风险极高"
+      },
+      {
+        "text_zh": "用胶带包一下继续用",
+        "score": 1,
+        "feedback_zh": "临时措施不能解决根本问题"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "category": "safety",
+    "dimension": "car_seat_usage",
+    "difficulty": "medium",
+    "question_zh": "带孩子出门坐车，你会怎么安置孩子？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "使用儿童安全座椅，根据年龄体重选择合适型号，正确安装",
+        "score": 5,
+        "feedback_zh": "符合安全标准，专业做法"
+      },
+      {
+        "text_zh": "抱在怀里坐车",
+        "score": 1,
+        "feedback_zh": "极度危险，急刹车时可能致命"
+      },
+      {
+        "text_zh": "让孩子坐前排",
+        "score": 1,
+        "feedback_zh": "安全气囊可能对儿童造成致命伤害"
+      },
+      {
+        "text_zh": "用大人的安全带固定孩子",
+        "score": 2,
+        "feedback_zh": "不够安全，应选择儿童安全座椅"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "category": "safety",
+    "dimension": "window_falls",
+    "difficulty": "hard",
+    "question_zh": "你家在20楼，窗台边没有护栏，孩子爬到窗台上玩，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即制止，同时安装窗户限位器或防护栏，并教育孩子不要靠近窗边",
+        "score": 5,
+        "feedback_zh": "及时干预+工程防护+教育，三位一体"
+      },
+      {
+        "text_zh": "把孩子抱下来，告诉他不要爬窗台",
+        "score": 3,
+        "feedback_zh": "临时处理，但未消除安全隐患"
+      },
+      {
+        "text_zh": "看住孩子就行，不让他爬到边上",
+        "score": 2,
+        "feedback_zh": "依赖人工盯防，不可靠"
+      },
+      {
+        "text_zh": "20楼掉不下去，没事",
+        "score": 1,
+        "feedback_zh": "严重低估高空坠物风险"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "category": "safety",
+    "dimension": "poison_identification",
+    "difficulty": "hard",
+    "question_zh": "孩子误食了家长用的清洁剂（比如洗衣机槽清洁剂），你怎么办？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即拨打120，告知毒物名称和摄入量，不要让孩子呕吐，带上产品包装",
+        "score": 5,
+        "feedback_zh": "正确急救，避免二次伤害"
+      },
+      {
+        "text_zh": "赶紧喝点牛奶或水稀释",
+        "score": 2,
+        "feedback_zh": "某些腐蚀性毒物催吐或喝水可能加重伤害"
+      },
+      {
+        "text_zh": "让孩子吐出来",
+        "score": 2,
+        "feedback_zh": "腐蚀性毒物催吐可能造成二次伤害"
+      },
+      {
+        "text_zh": "等雇主回来再说",
+        "score": 1,
+        "feedback_zh": "延误黄金抢救时间"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "category": "safety",
+    "dimension": "hot_water_scald",
+    "difficulty": "hard",
+    "question_zh": "给孩子洗澡的时候，水温太烫把孩子手臂烫红了，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即用流动的冷水冲洗15-20分钟，不要涂牙膏或酱油，轻柔地覆盖伤口，必要时就医",
+        "score": 5,
+        "feedback_zh": "正确处理烫伤，方法科学"
+      },
+      {
+        "text_zh": "涂点牙膏或香油",
+        "score": 1,
+        "feedback_zh": "错误方法，可能造成感染"
+      },
+      {
+        "text_zh": "冰敷一下",
+        "score": 2,
+        "feedback_zh": "冰敷可能加重组织损伤"
+      },
+      {
+        "text_zh": "不管了，过几天就好了",
+        "score": 1,
+        "feedback_zh": "忽视伤情，可能延误治疗"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "category": "safety",
+    "dimension": "emergency_contact_card",
+    "difficulty": "hard",
+    "question_zh": "你会为雇主家制作一个紧急联系卡吗？上面会放哪些信息？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "会，包括：家庭医生电话、最近医院地址和电话、父母电话、保险信息、过敏史、紧急联系人",
+        "score": 5,
+        "feedback_zh": "准备充分，关键信息齐全"
+      },
+      {
+        "text_zh": "记一下父母电话和医院电话",
+        "score": 3,
+        "feedback_zh": "有基本意识，但信息不够全面"
+      },
+      {
+        "text_zh": "不需要，有事直接打120",
+        "score": 2,
+        "feedback_zh": "过于依赖急救电话，缺少备用方案"
+      },
+      {
+        "text_zh": "没想过这个问题",
+        "score": 1,
+        "feedback_zh": "安全意识薄弱"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "category": "safety",
+    "dimension": "stranger_at_door",
+    "difficulty": "hard",
+    "question_zh": "你一个人在家带宝宝，门外有人敲门说是物业来抄表或送快递，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "通过猫眼确认身份，不随便开门，必要时联系雇主确认",
+        "score": 5,
+        "feedback_zh": "安全意识强，核实身份后再行动"
+      },
+      {
+        "text_zh": "问一下是谁，然后开门",
+        "score": 2,
+        "feedback_zh": "仅凭声音判断不可靠"
+      },
+      {
+        "text_zh": "直接开门",
+        "score": 1,
+        "feedback_zh": "极度危险，可能让不法分子进入"
+      },
+      {
+        "text_zh": "假装不在家",
+        "score": 3,
+        "feedback_zh": "有一定防范但不够主动"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "category": "communication",
+    "dimension": "feedback_reception",
+    "difficulty": "easy",
+    "question_zh": "雇主说你菜做得太咸了，你会怎么回应？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "抱歉，下次我会注意少放盐，请问您喜欢什么口味？",
+        "score": 5,
+        "feedback_zh": "虚心接受，主动询问偏好"
+      },
+      {
+        "text_zh": "好的，我知道了",
+        "score": 3,
+        "feedback_zh": "基本接受，但缺乏互动"
+      },
+      {
+        "text_zh": "我觉得味道刚好啊",
+        "score": 1,
+        "feedback_zh": "缺乏谦逊态度"
+      },
+      {
+        "text_zh": "可能是您的味觉变了",
+        "score": 1,
+        "feedback_zh": "推卸责任，不恰当"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "category": "communication",
+    "dimension": "boundary_setting",
+    "difficulty": "medium",
+    "question_zh": "雇主让你做一些不在约定范围内的工作（比如帮他们家亲戚做家务），你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "礼貌询问雇主的意图，如果是偶尔帮忙可以理解，如果是长期额外工作则需协商报酬",
+        "score": 5,
+        "feedback_zh": "边界清晰，沟通得体"
+      },
+      {
+        "text_zh": "直接拒绝，说这不是我的工作",
+        "score": 2,
+        "feedback_zh": "过于强硬，影响关系"
+      },
+      {
+        "text_zh": "不好意思拒绝，默默做了",
+        "score": 3,
+        "feedback_zh": "缺乏边界意识，长期会委屈"
+      },
+      {
+        "text_zh": "做了之后到处跟别人说雇主欺负人",
+        "score": 1,
+        "feedback_zh": "背后抱怨，职业素养差"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "category": "communication",
+    "dimension": "reporting_incidents",
+    "difficulty": "medium",
+    "question_zh": "孩子在外面玩的时候，你负责看护，但不小心让他摔了一跤擦破了皮，你会怎么跟雇主报告？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "第一时间处理伤口，然后立即打电话告知雇主，如实说明情况，不隐瞒",
+        "score": 5,
+        "feedback_zh": "及时透明沟通，建立信任"
+      },
+      {
+        "text_zh": "先处理伤口，等雇主问起来再说",
+        "score": 3,
+        "feedback_zh": "被动沟通，可能造成误会"
+      },
+      {
+        "text_zh": "偷偷处理了，不让雇主知道",
+        "score": 1,
+        "feedback_zh": "隐瞒重大事件，破坏信任"
+      },
+      {
+        "text_zh": "告诉雇主是孩子不听话才摔的",
+        "score": 2,
+        "feedback_zh": "推卸责任给幼儿"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "category": "communication",
+    "dimension": "handling_accusations",
+    "difficulty": "hard",
+    "question_zh": "雇主突然说你偷拿了家里的钱，但你确实没有，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "冷静说明自己无辜，请求雇主一起查找证据，愿意配合调查，不争吵不情绪化",
+        "score": 5,
+        "feedback_zh": "冷静理性，维护自身权益的同时保持职业态度"
+      },
+      {
+        "text_zh": "马上否认，很生气",
+        "score": 3,
+        "feedback_zh": "情绪化反应，不利于解决问题"
+      },
+      {
+        "text_zh": "委屈哭了，解释不清",
+        "score": 2,
+        "feedback_zh": "情绪失控，缺乏应对能力"
+      },
+      {
+        "text_zh": "直接辞职走人，解释不清",
+        "score": 1,
+        "feedback_zh": "逃避问题，放弃自证清白"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "category": "communication",
+    "dimension": "scheduling_conflict",
+    "difficulty": "hard",
+    "question_zh": "雇主临时要求你加班，但你家里有事需要离开，你会怎么沟通？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "诚恳说明情况，提供替代方案（比如请同事临时顶替或提前完成部分工作）",
+        "score": 5,
+        "feedback_zh": "主动沟通，提出解决方案"
+      },
+      {
+        "text_zh": "直接告诉雇主不行，我有事",
+        "score": 3,
+        "feedback_zh": "诚实但缺乏协商"
+      },
+      {
+        "text_zh": "答应加班，但心里很不情愿，做的时候敷衍",
+        "score": 2,
+        "feedback_zh": "阳奉阴违，影响工作质量"
+      },
+      {
+        "text_zh": "不告而别，直接走人",
+        "score": 1,
+        "feedback_zh": "严重缺乏职业操守"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "category": "communication",
+    "dimension": "dealing_with_rude_family",
+    "difficulty": "hard",
+    "question_zh": "雇主的婆婆对你很挑剔，经常在儿媳面前说你不是，你会怎么应对？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "保持礼貌和距离，不反驳不争论，事后向雇主（其子女）委婉说明情况，寻求理解",
+        "score": 5,
+        "feedback_zh": "处理得当，维护自身尊严的同时保护雇主家庭和谐"
+      },
+      {
+        "text_zh": "忍气吞声，不说话",
+        "score": 2,
+        "feedback_zh": "消极应对，问题不会消失"
+      },
+      {
+        "text_zh": "当面怼回去",
+        "score": 1,
+        "feedback_zh": "激化矛盾，严重影响工作关系"
+      },
+      {
+        "text_zh": "跟雇主告状，说婆婆欺负我",
+        "score": 2,
+        "feedback_zh": "缺乏独立处理能力"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "category": "communication",
+    "dimension": "giving_bad_news",
+    "difficulty": "hard",
+    "question_zh": "你在照顾孩子的时候不小心把孩子磕到了，起了个大包，但孩子没有大哭大闹，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "第一时间冰敷处理伤口，然后立即如实告诉雇主，不隐瞒不夸大，一起观察后续情况",
+        "score": 5,
+        "feedback_zh": "正确处理+诚实沟通，建立信任"
+      },
+      {
+        "text_zh": "先处理好，等雇主问起来再说",
+        "score": 2,
+        "feedback_zh": "隐瞒可能失去信任"
+      },
+      {
+        "text_zh": "小声告诉雇主，然后赶紧说是孩子自己摔的",
+        "score": 1,
+        "feedback_zh": "推卸责任，不诚实"
+      },
+      {
+        "text_zh": "假装没看见，让孩子自己好",
+        "score": 1,
+        "feedback_zh": "不负责任"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "category": "ethics",
+    "dimension": "privacy_protection",
+    "difficulty": "easy",
+    "question_zh": "你在雇主家看到了一些私事（比如雇主夫妻吵架），你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "当作没看见没听见，绝对不和任何人谈论雇主家的私事",
+        "score": 5,
+        "feedback_zh": "保密意识强，职业操守优秀"
+      },
+      {
+        "text_zh": "不会主动说，但如果有人问就说一点",
+        "score": 2,
+        "feedback_zh": "保密意识不够强"
+      },
+      {
+        "text_zh": "都是小事，没什么不能说的",
+        "score": 1,
+        "feedback_zh": "对隐私不重视"
+      },
+      {
+        "text_zh": "可以分享，反正大家都是熟人",
+        "score": 1,
+        "feedback_zh": "泄露隐私，严重违反职业道德"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "category": "ethics",
+    "dimension": "honesty_about_mistakes",
+    "difficulty": "medium",
+    "question_zh": "你在雇主家不小心打碎了一个贵重的杯子，你会怎么办？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即告知雇主，道歉并提出赔偿，不隐瞒不推卸",
+        "score": 5,
+        "feedback_zh": "诚实负责，勇于担当"
+      },
+      {
+        "text_zh": "偷偷收拾碎片，装作没发生",
+        "score": 1,
+        "feedback_zh": "隐瞒错误，一旦被发现信任尽毁"
+      },
+      {
+        "text_zh": "等雇主自己发现，到时候再解释",
+        "score": 2,
+        "feedback_zh": "被动应对，不够主动"
+      },
+      {
+        "text_zh": "说是孩子打碎的",
+        "score": 1,
+        "feedback_zh": "栽赃嫁祸，极其恶劣"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "category": "ethics",
+    "dimension": "handling_found_money",
+    "difficulty": "hard",
+    "question_zh": "你在打扫雇主家的时候，发现地上有一笔钱，雇主似乎没发现，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即告知雇主，交还给雇主，不私藏",
+        "score": 5,
+        "feedback_zh": "诚实守信，职业操守优秀"
+      },
+      {
+        "text_zh": "放一边等雇主发现",
+        "score": 3,
+        "feedback_zh": "被动处理，不够主动"
+      },
+      {
+        "text_zh": "悄悄拿走",
+        "score": 1,
+        "feedback_zh": "这是盗窃行为"
+      },
+      {
+        "text_zh": "不管它，等别人来处理",
+        "score": 2,
+        "feedback_zh": "缺乏主动性和责任感"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "category": "ethics",
+    "dimension": "social_media_boundaries",
+    "difficulty": "hard",
+    "question_zh": "你在雇主家里拍了一些照片（比如孩子可爱的瞬间），你想发朋友圈，可以吗？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "绝对不可以，未经雇主明确许可不得发布任何涉及雇主家庭的照片",
+        "score": 5,
+        "feedback_zh": "隐私意识极强，尊重雇主"
+      },
+      {
+        "text_zh": "可以发，但要打马赛克",
+        "score": 2,
+        "feedback_zh": "即使打码也需要事先征求同意"
+      },
+      {
+        "text_zh": "发吧，反正都是正面的照片",
+        "score": 1,
+        "feedback_zh": "侵犯隐私，可能引起法律纠纷"
+      },
+      {
+        "text_zh": "先发朋友圈再告诉雇主",
+        "score": 1,
+        "feedback_zh": "先斩后奏，不尊重人"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "category": "ethics",
+    "dimension": "conflict_of_interest",
+    "difficulty": "hard",
+    "question_zh": "你的另一个朋友也是保姆，她听说你这家人条件很好，想让你把她介绍过来，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "婉言拒绝，告诉朋友这涉及到雇主的选择权，不应该强推",
+        "score": 5,
+        "feedback_zh": "尊重雇主选择权，不越界"
+      },
+      {
+        "text_zh": "推荐给朋友，反正多个人也没坏处",
+        "score": 2,
+        "feedback_zh": "缺乏边界意识，可能引起雇主不满"
+      },
+      {
+        "text_zh": "答应帮她问，但先征得雇主同意",
+        "score": 4,
+        "feedback_zh": "有沟通意识，但需确保方式得当"
+      },
+      {
+        "text_zh": "直接带朋友来雇主家",
+        "score": 1,
+        "feedback_zh": "严重越界，不尊重雇主"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "category": "professionalism",
+    "dimension": "work_attitude",
+    "difficulty": "easy",
+    "question_zh": "你对自己的这份工作怎么看？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "这是一份值得尊敬的工作，我用心做好，也从中获得成就感",
+        "score": 5,
+        "feedback_zh": "职业认同感强，心态积极"
+      },
+      {
+        "text_zh": "谋生的手段，做好本分就行",
+        "score": 3,
+        "feedback_zh": "务实态度，但缺乏热情"
+      },
+      {
+        "text_zh": "没办法，只能做这个",
+        "score": 2,
+        "feedback_zh": "职业认同感低，可能缺乏动力"
+      },
+      {
+        "text_zh": "就是打工的，无所谓",
+        "score": 1,
+        "feedback_zh": "对工作缺乏基本尊重"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "category": "professionalism",
+    "dimension": "time_management",
+    "difficulty": "easy",
+    "question_zh": "如果你今天有临时任务（比如雇主临时加班），但你自己也有安排，你会怎么协调？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "提前规划，尽量提前完成工作，如有冲突与雇主协商调整时间",
+        "score": 5,
+        "feedback_zh": "主动规划，有效沟通"
+      },
+      {
+        "text_zh": "先做完雇主的工作，自己的事再安排",
+        "score": 4,
+        "feedback_zh": "以工作为先，有一定灵活性"
+      },
+      {
+        "text_zh": "看雇主紧不紧急，不紧急就先做自己的",
+        "score": 2,
+        "feedback_zh": "判断力有待提高"
+      },
+      {
+        "text_zh": "直接拒绝，我有自己的时间安排",
+        "score": 1,
+        "feedback_zh": "缺乏灵活性"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "category": "professionalism",
+    "dimension": "dress_code",
+    "difficulty": "easy",
+    "question_zh": "你上班时会穿什么衣服？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "舒适、方便工作的服装，干净整洁，不穿拖鞋或过于暴露的衣服",
+        "score": 5,
+        "feedback_zh": "着装得体，符合职业要求"
+      },
+      {
+        "text_zh": "随便穿，舒服就行",
+        "score": 2,
+        "feedback_zh": "不太讲究"
+      },
+      {
+        "text_zh": "穿漂亮衣服，让自己开心",
+        "score": 2,
+        "feedback_zh": "未考虑工作实用性"
+      },
+      {
+        "text_zh": "穿什么无所谓，反正在家里",
+        "score": 1,
+        "feedback_zh": "缺乏职业素养意识"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "category": "professionalism",
+    "dimension": "time_management2",
+    "difficulty": "medium",
+    "question_zh": "如果你同时有几件事要做（比如做饭、洗衣服、看孩子），你会怎么安排优先级？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "先看孩子安全，再做紧急的家务，不紧急的等孩子睡了再做",
+        "score": 5,
+        "feedback_zh": "优先级清晰，安全优先"
+      },
+      {
+        "text_zh": "哪件事急就先做哪件，差不多就行",
+        "score": 3,
+        "feedback_zh": "有一定判断，但缺乏系统性"
+      },
+      {
+        "text_zh": "看心情，想做啥就做啥",
+        "score": 1,
+        "feedback_zh": "缺乏计划和条理"
+      },
+      {
+        "text_zh": "都放着等雇主回来了再说",
+        "score": 1,
+        "feedback_zh": "完全被动"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "category": "professionalism",
+    "dimension": "job_stability",
+    "difficulty": "hard",
+    "question_zh": "你之前换工作的原因主要是什么？最长的一份做了多久？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "最长一份做了3年，离职是因为雇主搬家/孩子上学不需要了",
+        "score": 5,
+        "feedback_zh": "稳定性好，离职原因客观合理"
+      },
+      {
+        "text_zh": "最长1-2年，离职多是雇主不满意或自己原因",
+        "score": 3,
+        "feedback_zh": "稳定性一般，有波动"
+      },
+      {
+        "text_zh": "每份都做不久，平均3-6个月",
+        "score": 1,
+        "feedback_zh": "稳定性较差，雇主可能担心"
+      },
+      {
+        "text_zh": "没做过几份，都不长",
+        "score": 2,
+        "feedback_zh": "缺乏长期工作经验"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "category": "professionalism",
+    "dimension": "salary_negotiation",
+    "difficulty": "hard",
+    "question_zh": "雇主跟你谈薪资，你觉得目前的薪资低于市场水平，你会怎么沟通？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "准备市场数据，诚恳表达期望，同时说明自己的工作价值和贡献，寻求合理调整",
+        "score": 5,
+        "feedback_zh": "有理有据，专业谈判"
+      },
+      {
+        "text_zh": "直接说想要涨薪",
+        "score": 3,
+        "feedback_zh": "直接但缺乏说服力"
+      },
+      {
+        "text_zh": "不好意思提，等雇主主动",
+        "score": 2,
+        "feedback_zh": "被动等待，可能错失机会"
+      },
+      {
+        "text_zh": "不说，但心里不满，工作敷衍",
+        "score": 1,
+        "feedback_zh": "消极应对，影响工作质量"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "category": "professionalism",
+    "dimension": "continuing_education",
+    "difficulty": "hard",
+    "question_zh": "你会怎么提升自己的育儿或家政服务技能？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "参加正规培训课程，考取相关证书，阅读专业书籍，向同行请教",
+        "score": 5,
+        "feedback_zh": "持续学习，自我提升意识强"
+      },
+      {
+        "text_zh": "在网上看一些育儿视频",
+        "score": 3,
+        "feedback_zh": "有学习意识，但来源不够专业"
+      },
+      {
+        "text_zh": "做久了自然就有经验了",
+        "score": 2,
+        "feedback_zh": "被动等待，缺乏主动学习"
+      },
+      {
+        "text_zh": "不需要学，我以前就是这么带的",
+        "score": 1,
+        "feedback_zh": "拒绝更新知识，可能落后"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "category": "elder_care",
+    "dimension": "elder_experience",
+    "difficulty": "easy",
+    "question_zh": "你有照顾老人的经验吗？具体做过什么？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "有，照顾过家里老人和其他雇主家的老人，包括喂饭、擦身、陪聊、陪诊等",
+        "score": 5,
+        "feedback_zh": "全面照护经验，技能扎实"
+      },
+      {
+        "text_zh": "照顾过，但主要是喂饭和陪聊",
+        "score": 3,
+        "feedback_zh": "有一定经验，技能较基础"
+      },
+      {
+        "text_zh": "没照顾过老人，只带过孩子",
+        "score": 2,
+        "feedback_zh": "缺乏老人照护经验"
+      },
+      {
+        "text_zh": "完全没经验",
+        "score": 1,
+        "feedback_zh": "不具备老人照护能力"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "category": "elder_care",
+    "dimension": "medication_management",
+    "difficulty": "medium",
+    "question_zh": "老人需要按时服药，但老人总是忘记或者不肯吃，你会怎么办？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "设置闹钟提醒，用分装药盒，温和地引导老人服药，记录每次服药情况",
+        "score": 5,
+        "feedback_zh": "系统化管理，专业细致"
+      },
+      {
+        "text_zh": "到点就去提醒老人吃药",
+        "score": 3,
+        "feedback_zh": "有基本意识，但方法较简单"
+      },
+      {
+        "text_zh": "老人不吃就不吃了，顺其自然",
+        "score": 1,
+        "feedback_zh": "忽视用药安全"
+      },
+      {
+        "text_zh": "偷偷把药片碾碎混在饭里",
+        "score": 2,
+        "feedback_zh": "未经同意处理药物，可能违反医嘱"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "category": "elder_care",
+    "dimension": "fall_response",
+    "difficulty": "hard",
+    "question_zh": "老人走路的时候突然摔倒了，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "不要立即扶起，先询问哪里疼、能不能动，检查有无明显骨折或出血，必要时拨打120",
+        "score": 5,
+        "feedback_zh": "正确处理，避免二次伤害"
+      },
+      {
+        "text_zh": "马上扶起来，看看有没有事",
+        "score": 2,
+        "feedback_zh": "可能加重伤情"
+      },
+      {
+        "text_zh": "叫人来帮忙，自己站一边",
+        "score": 2,
+        "feedback_zh": "被动等待"
+      },
+      {
+        "text_zh": "不管了，让老人自己爬起来",
+        "score": 1,
+        "feedback_zh": "完全不负责任"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "category": "elder_care",
+    "dimension": "feeding_assistance",
+    "difficulty": "hard",
+    "question_zh": "老人吞咽困难，吃饭的时候经常呛咳，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "调整食物性状（糊状/软食），小口喂食，进食时保持坐姿，吃完后保持坐姿30分钟，及时就医评估",
+        "score": 5,
+        "feedback_zh": "专业护理，关注安全和营养"
+      },
+      {
+        "text_zh": "慢慢喂，小心一点",
+        "score": 3,
+        "feedback_zh": "有一定意识，但方法不够系统"
+      },
+      {
+        "text_zh": "让老人自己吃，我在旁边看着",
+        "score": 2,
+        "feedback_zh": "被动看护，缺乏主动干预"
+      },
+      {
+        "text_zh": "喂快点，不然凉了",
+        "score": 1,
+        "feedback_zh": "忽略吞咽风险，可能导致窒息"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "category": "elder_care",
+    "dimension": "end_of_life_communication",
+    "difficulty": "hard",
+    "question_zh": "如果雇主家的老人病危，需要你陪护到最后，你会怎么准备和处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "提前了解病情，准备好必要的护理用品，学习临终关怀知识，给予老人和家属情感支持",
+        "score": 5,
+        "feedback_zh": "专业且有人文关怀"
+      },
+      {
+        "text_zh": "按雇主要求做，不懂就问",
+        "score": 3,
+        "feedback_zh": "有配合意识，但主动性不足"
+      },
+      {
+        "text_zh": "不知道怎么办，等着别人教",
+        "score": 2,
+        "feedback_zh": "缺乏主动性和学习能力"
+      },
+      {
+        "text_zh": "这种情况我做不了，想辞职",
+        "score": 1,
+        "feedback_zh": "缺乏应对危机的勇气和能力"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "category": "special",
+    "dimension": "infant_colic",
+    "difficulty": "hard",
+    "question_zh": "两个月大的宝宝肠绞痛，每天晚上固定时间剧烈哭闹，怎么哄都哄不好，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "尝试多种方法：飞机抱、白噪音、腹部按摩、温水浴，记录发作时间给医生参考，同时安抚家长情绪",
+        "score": 5,
+        "feedback_zh": "综合处理，多管齐下，关注家长心理"
+      },
+      {
+        "text_zh": "抱着不停地走，一直哄",
+        "score": 3,
+        "feedback_zh": "有耐心但方法单一"
+      },
+      {
+        "text_zh": "交给家长处理，我不管了",
+        "score": 1,
+        "feedback_zh": "逃避责任"
+      },
+      {
+        "text_zh": "给孩子喂点酒或者草药水镇住",
+        "score": 1,
+        "feedback_zh": "危险方法，绝对禁止"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "category": "special",
+    "dimension": "premature_baby_care",
+    "difficulty": "hard",
+    "question_zh": "雇主家的宝宝是早产儿，身体比较弱，你会特别注意哪些方面？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "严格按时喂哺、注意保暖、避免交叉感染、定期体检、记录生长发育数据、保持室内安静",
+        "score": 5,
+        "feedback_zh": "早产儿护理知识全面，细心专业"
+      },
+      {
+        "text_zh": "按时喂奶，注意别着凉",
+        "score": 3,
+        "feedback_zh": "有基本意识，但不够全面"
+      },
+      {
+        "text_zh": "跟普通宝宝一样照顾就行",
+        "score": 1,
+        "feedback_zh": "忽视早产儿特殊需求"
+      },
+      {
+        "text_zh": "多穿点衣服，怕冷",
+        "score": 2,
+        "feedback_zh": "过度保暖可能导致过热"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "category": "special",
+    "dimension": "multi_child_chaos",
+    "difficulty": "hard",
+    "question_zh": "雇主家有三个孩子（3岁、6岁、10岁），同时哭闹要东西，家里一片混乱，你会怎么办？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "先稳住最大的，让他帮忙照顾小的，分别安抚，然后依次处理各自需求，建立秩序",
+        "score": 5,
+        "feedback_zh": "多子女管理能力优秀，分配合理"
+      },
+      {
+        "text_zh": "谁哭得最凶先哄谁",
+        "score": 2,
+        "feedback_zh": "被动应对，混乱中缺乏条理"
+      },
+      {
+        "text_zh": "让他们自己哭，等安静了再说",
+        "score": 1,
+        "feedback_zh": "忽视孩子需求，可能造成心理伤害"
+      },
+      {
+        "text_zh": "大声呵斥让他们别吵了",
+        "score": 1,
+        "feedback_zh": "暴力压制，造成恐惧"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "category": "special",
+    "dimension": "nanny_dispute_with_parent",
+    "difficulty": "hard",
+    "question_zh": "你和雇主的育儿理念发生了严重分歧（比如你是否该给孩子穿袜子），双方都很坚持，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "先了解雇主为什么这么想，再解释我的观点和建议的理由，寻找双方都能接受的方案",
+        "score": 5,
+        "feedback_zh": "尊重+沟通+协商，寻求共识"
+      },
+      {
+        "text_zh": "听雇主的，他们说怎么就怎么来",
+        "score": 3,
+        "feedback_zh": "顺从，但可能不利于孩子"
+      },
+      {
+        "text_zh": "坚持我的做法，雇主不懂",
+        "score": 1,
+        "feedback_zh": "固执己见，破坏合作关系"
+      },
+      {
+        "text_zh": "找其他人评理，看谁对谁错",
+        "score": 2,
+        "feedback_zh": "把私人矛盾公开化，不合适"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "category": "special",
+    "dimension": "working_parent_commuting",
+    "difficulty": "hard",
+    "question_zh": "雇主夫妻都是上班族，早出晚归，孩子主要是你和老人带，你怎么协调三代人的育儿方式？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "跟老人和雇主分别沟通，统一基本规则，分歧私下解决，不在孩子面前争执，定期开小会复盘",
+        "score": 5,
+        "feedback_zh": "协调能力强，兼顾各方关系"
+      },
+      {
+        "text_zh": "听雇主的，老人说的不当面反对",
+        "score": 3,
+        "feedback_zh": "有一定智慧，但沟通不够主动"
+      },
+      {
+        "text_zh": "各管各的，不过多参与",
+        "score": 2,
+        "feedback_zh": "消极回避，问题不会消失"
+      },
+      {
+        "text_zh": "站在老人那边，雇主家的方式不对",
+        "score": 1,
+        "feedback_zh": "偏袒一方，加剧家庭矛盾"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "category": "special",
+    "dimension": "nanny_overnight_call",
+    "difficulty": "hard",
+    "question_zh": "半夜11点，雇主打电话来说孩子发烧39度，要你马上回去，但此时你在自己家，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即赶回，评估情况，必要时陪同就医，同时告知雇主注意安全",
+        "score": 5,
+        "feedback_zh": "紧急情况处理得当，责任感强"
+      },
+      {
+        "text_zh": "问清楚情况，看要不要回去",
+        "score": 3,
+        "feedback_zh": "有一定判断，但可能延误时机"
+      },
+      {
+        "text_zh": "这么晚了不方便，明天再说",
+        "score": 1,
+        "feedback_zh": "缺乏应急意识，延误救治"
+      },
+      {
+        "text_zh": "让他们叫救护车，我不回去了",
+        "score": 1,
+        "feedback_zh": "完全推卸责任"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "category": "special",
+    "dimension": "pet_allergy_child",
+    "difficulty": "hard",
+    "question_zh": "雇主家有宠物猫，孩子对猫毛过敏，但雇主不舍得送走猫，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "建议用空气净化器、定期给猫洗澡、孩子房间禁入宠物、密切观察孩子症状并记录，与医生沟通",
+        "score": 5,
+        "feedback_zh": "多维度解决，科学务实"
+      },
+      {
+        "text_zh": "提醒雇主注意，但做不了更多",
+        "score": 3,
+        "feedback_zh": "有意识但行动有限"
+      },
+      {
+        "text_zh": "让孩子远离猫就行",
+        "score": 2,
+        "feedback_zh": "简单化处理，效果有限"
+      },
+      {
+        "text_zh": "这是雇主家的事，不管",
+        "score": 1,
+        "feedback_zh": "不作为，忽视孩子健康"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "category": "special",
+    "dimension": "single_parent_stress",
+    "difficulty": "hard",
+    "question_zh": "雇主是单亲妈妈，工作压力大，经常情绪低落，甚至在你面前流泪，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "给予理解和安慰，倾听但不越界，必要时建议寻求心理咨询，照顾好自己和雇主家庭的基本需求",
+        "score": 5,
+        "feedback_zh": "有同理心又有边界感"
+      },
+      {
+        "text_zh": "安慰一下，然后继续做自己的事",
+        "score": 3,
+        "feedback_zh": "有一定同理心，但深度不够"
+      },
+      {
+        "text_zh": "不管她，我只负责干活",
+        "score": 1,
+        "feedback_zh": "冷漠，缺乏人情味"
+      },
+      {
+        "text_zh": "跟着一起哭，情绪受影响",
+        "score": 2,
+        "feedback_zh": "情绪容易被带偏，缺乏稳定性"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "category": "special",
+    "dimension": "elder_abuse_suspected",
+    "difficulty": "hard",
+    "question_zh": "你在照顾老人时发现老人身上有不明淤青，老人说是不小心碰的，但你不信，你会怎么办？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "温和询问老人具体情况，做好记录，必要时向有关部门报告，保护老人权益",
+        "score": 5,
+        "feedback_zh": "警觉性强，处理得当，有社会责任感"
+      },
+      {
+        "text_zh": "问问老人怎么回事，看看情况",
+        "score": 3,
+        "feedback_zh": "有一定警觉，但处理力度不够"
+      },
+      {
+        "text_zh": "老人说的应该是对的，算了",
+        "score": 1,
+        "feedback_zh": "忽视潜在虐待信号"
+      },
+      {
+        "text_zh": "直接问雇主是不是打了老人",
+        "score": 2,
+        "feedback_zh": "方式不当，可能引起冲突"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "category": "special",
+    "dimension": "food_poisoning_outbreak",
+    "difficulty": "hard",
+    "question_zh": "雇主全家吃了你做的饭后都出现了腹泻呕吐，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即了解症状和进食情况，必要时陪同就医，不推卸责任，事后复盘找出原因，改进操作",
+        "score": 5,
+        "feedback_zh": "冷静应对，承担责任，持续改进"
+      },
+      {
+        "text_zh": "赶紧解释不是我做的饭的问题",
+        "score": 2,
+        "feedback_zh": "急于撇清关系，不够冷静"
+      },
+      {
+        "text_zh": "不管了，让他们自己去医院",
+        "score": 1,
+        "feedback_zh": "逃避责任，缺乏担当"
+      },
+      {
+        "text_zh": "慌了，手足无措",
+        "score": 1,
+        "feedback_zh": "缺乏应急处理能力"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "category": "special",
+    "dimension": "nanny_wrongful_accusation",
+    "difficulty": "hard",
+    "question_zh": "雇主突然说你打了孩子，但你确定自己没有，而且家里有监控，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "保持冷静，请雇主调取监控录像查证，如实说明情况，不争吵不激动，必要时寻求第三方调解",
+        "score": 5,
+        "feedback_zh": "冷静理性，善用证据维权"
+      },
+      {
+        "text_zh": "激烈否认，要求雇主道歉",
+        "score": 2,
+        "feedback_zh": "情绪化，不利于解决问题"
+      },
+      {
+        "text_zh": "解释不清就辞职走人",
+        "score": 1,
+        "feedback_zh": "放弃自证，逃避问题"
+      },
+      {
+        "text_zh": "默默忍受，不解释",
+        "score": 1,
+        "feedback_zh": "缺乏自我保护意识"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "category": "special",
+    "dimension": "emergency_natural_disaster",
+    "difficulty": "hard",
+    "question_zh": "你正在雇主家工作时突然地震了，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即让孩子和老人躲在桌下或墙角，护住头部，地震停止后迅速疏散到开阔地带，清点人数",
+        "score": 5,
+        "feedback_zh": "正确处理地震应急，保护弱势群体"
+      },
+      {
+        "text_zh": "赶紧往外跑",
+        "score": 2,
+        "feedback_zh": "盲目逃跑可能在途中受伤"
+      },
+      {
+        "text_zh": "先保护贵重物品",
+        "score": 1,
+        "feedback_zh": "本末倒置，生命安全第一"
+      },
+      {
+        "text_zh": "吓懵了，不知道怎么办",
+        "score": 1,
+        "feedback_zh": "缺乏应急训练"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "category": "special",
+    "dimension": "misunderstanding_with_children",
+    "difficulty": "hard",
+    "question_zh": "孩子误会你偷了他的玩具，哭着不肯相信你，雇主也在场，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "蹲下来平视孩子，温和地解释，让小孩检查自己的玩具箱，一起寻找，用行动证明清白",
+        "score": 5,
+        "feedback_zh": "尊重孩子，耐心沟通，用行动说话"
+      },
+      {
+        "text_zh": "告诉雇主这是误会，让雇主来处理",
+        "score": 2,
+        "feedback_zh": "推给雇主，缺乏自主处理能力"
+      },
+      {
+        "text_zh": "不管孩子，自己做自己的事",
+        "score": 1,
+        "feedback_zh": "忽视孩子感受"
+      },
+      {
+        "text_zh": "生气地辩解，跟孩子吵起来",
+        "score": 1,
+        "feedback_zh": "情绪失控，无法妥善处理"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "category": "special",
+    "dimension": "elder_memory_loss_paranoia",
+    "difficulty": "hard",
+    "question_zh": "老人患阿尔茨海默症，开始怀疑有人偷他的东西，到处翻箱倒柜，你会怎么应对？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "不反驳不争论，温和地帮他一起找，转移注意力，把常用物品放在固定位置方便寻找",
+        "score": 5,
+        "feedback_zh": "理解疾病，处理得当"
+      },
+      {
+        "text_zh": "告诉老人是他自己记错了",
+        "score": 2,
+        "feedback_zh": "讲道理对痴呆患者无效"
+      },
+      {
+        "text_zh": "把东西藏起来不让老人找到",
+        "score": 1,
+        "feedback_zh": "欺骗行为，伤害老人信任"
+      },
+      {
+        "text_zh": "任由老人翻，不管",
+        "score": 1,
+        "feedback_zh": "缺乏耐心，放任混乱"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "category": "childcare",
+    "dimension": "fever_handling",
+    "difficulty": "hard",
+    "question_zh": "孩子半夜发烧到39度，家里只有你和孩子在，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "先物理降温（温水擦浴、贴退热贴），观察精神状态，必要时喂退烧药，凌晨去急诊",
+        "score": 5,
+        "feedback_zh": "正确处理，知道物理降温+观察+及时就医"
+      },
+      {
+        "text_zh": "赶紧抱去医院，路上注意保暖",
+        "score": 4,
+        "feedback_zh": "正确但可能过于着急，先降温观察一下更好"
+      },
+      {
+        "text_zh": "让孩子多盖被子出汗就好",
+        "score": 1,
+        "feedback_zh": "错误做法，可能导致高热惊厥"
+      },
+      {
+        "text_zh": "不管了，天亮再说",
+        "score": 1,
+        "feedback_zh": "延误病情，风险很高"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "category": "childcare",
+    "dimension": "foreign_object_eye",
+    "difficulty": "hard",
+    "question_zh": "孩子眼睛里进了异物（比如沙子），揉眼睛揉得红红的，你会怎么办？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "不要揉，用生理盐水或干净的水冲洗，如果不行立即就医",
+        "score": 5,
+        "feedback_zh": "正确处理，保护眼睛安全"
+      },
+      {
+        "text_zh": "帮孩子倒点水冲一下",
+        "score": 3,
+        "feedback_zh": "有意识但方法不够专业"
+      },
+      {
+        "text_zh": "让孩子揉一揉，揉出来就好了",
+        "score": 1,
+        "feedback_zh": "错误做法，可能损伤角膜"
+      },
+      {
+        "text_zh": "用纸巾擦一擦",
+        "score": 1,
+        "feedback_zh": "可能划伤眼睛"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "category": "safety",
+    "dimension": "burn_prevention_kitchen2",
+    "difficulty": "hard",
+    "question_zh": "做饭的时候锅里的油着火了，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "盖上锅盖灭火，关闭燃气，绝对不浇水，备好灭火毯",
+        "score": 5,
+        "feedback_zh": "正确灭油火方法，隔绝氧气"
+      },
+      {
+        "text_zh": "往锅里倒水",
+        "score": 1,
+        "feedback_zh": "极度危险！水遇热油会剧烈飞溅爆炸"
+      },
+      {
+        "text_zh": "用扇子扇风",
+        "score": 1,
+        "feedback_zh": "增加氧气供应，火势更旺"
+      },
+      {
+        "text_zh": "慌了，不知所措",
+        "score": 1,
+        "feedback_zh": "缺乏应急知识"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "category": "hygiene",
+    "dimension": "toilet_disinfection",
+    "difficulty": "hard",
+    "question_zh": "卫生间的马桶和地面有异味和污渍，你会怎么清洁？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "先刷马桶内壁和边缘，然后用消毒液拖地，最后开窗通风",
+        "score": 5,
+        "feedback_zh": "清洁顺序科学，消毒到位"
+      },
+      {
+        "text_zh": "用洁厕灵刷一刷，拖把拖一下",
+        "score": 3,
+        "feedback_zh": "基本清洁，但可能遗漏细节"
+      },
+      {
+        "text_zh": "冲水就行，不用太认真",
+        "score": 1,
+        "feedback_zh": "卫生意识差"
+      },
+      {
+        "text_zh": "让雇主自己来，我只负责表面",
+        "score": 1,
+        "feedback_zh": "缺乏责任感"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "category": "cooking",
+    "dimension": "nutritional_balance",
+    "difficulty": "hard",
+    "question_zh": "雇主希望你做的饭营养均衡，但孩子就是不爱吃蔬菜，你会怎么解决？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "把蔬菜切碎混进肉丸、饺子馅里，或做成蔬菜饼，潜移默化增加摄入",
+        "score": 5,
+        "feedback_zh": "巧妙搭配，不强迫，尊重孩子口味"
+      },
+      {
+        "text_zh": "做孩子喜欢吃的菜，蔬菜随便放一点",
+        "score": 3,
+        "feedback_zh": "有尝试但不够积极"
+      },
+      {
+        "text_zh": "随他，不爱吃就不吃",
+        "score": 1,
+        "feedback_zh": "忽视营养均衡"
+      },
+      {
+        "text_zh": "强迫孩子吃蔬菜，不吃就不准吃饭",
+        "score": 1,
+        "feedback_zh": "强迫进食损害亲子关系"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "category": "communication",
+    "dimension": "handling_angry_employer",
+    "difficulty": "hard",
+    "question_zh": "雇主因为孩子的问题对你很生气，当着孩子的面批评你，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "保持冷静，等雇主情绪平稳后私下沟通，解释情况，寻求理解",
+        "score": 5,
+        "feedback_zh": "处理得当，维护双方尊严"
+      },
+      {
+        "text_zh": "当场解释，但语气要缓和",
+        "score": 3,
+        "feedback_zh": "有沟通意识，但时机可能不对"
+      },
+      {
+        "text_zh": "忍着，等雇主走了再想办法",
+        "score": 2,
+        "feedback_zh": "消极应对，问题可能积累"
+      },
+      {
+        "text_zh": "当场争辩，证明自己没错",
+        "score": 1,
+        "feedback_zh": "激化矛盾，影响工作关系"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "category": "professionalism",
+    "dimension": "workplace_gossip",
+    "difficulty": "hard",
+    "question_zh": "你在雇主家听到雇主夫妻在吵架，谈论的是家里的经济问题，你会怎么想怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "当作没听见，不参与任何讨论，不向任何人透露",
+        "score": 5,
+        "feedback_zh": "严守隐私，职业操守优秀"
+      },
+      {
+        "text_zh": "听到了但不主动说，别人问就说不知道",
+        "score": 3,
+        "feedback_zh": "有一定边界，但不够主动"
+      },
+      {
+        "text_zh": "忍不住跟同事说说",
+        "score": 1,
+        "feedback_zh": "泄露雇主隐私，严重失德"
+      },
+      {
+        "text_zh": "主动给雇主提建议，帮他们解决问题",
+        "score": 1,
+        "feedback_zh": "越界行为，不合适"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "category": "elder_care",
+    "dimension": "dementia_wandering",
+    "difficulty": "hard",
+    "question_zh": "老人有阿尔茨海默症，有时候会自己出门找不到回家，你会怎么预防？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "给老人佩戴身份卡/手环，安装门磁报警器，不在老人面前表现出焦虑",
+        "score": 5,
+        "feedback_zh": "多层面防护，专业细致"
+      },
+      {
+        "text_zh": "看着老人，不让他出门",
+        "score": 3,
+        "feedback_zh": "有一定意识，但过于限制老人自由"
+      },
+      {
+        "text_zh": "老人走丢了就报警",
+        "score": 2,
+        "feedback_zh": "被动应对，缺乏预防措施"
+      },
+      {
+        "text_zh": "随他去，老人年纪大了正常",
+        "score": 1,
+        "feedback_zh": "忽视安全风险"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "category": "special",
+    "dimension": "nanny_medical_emergency",
+    "difficulty": "hard",
+    "question_zh": "你在雇主家工作时突然感到头晕恶心，怀疑自己食物中毒，但雇主和孩子都在，你会怎么处理？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即告知雇主自己身体不适，请求协助，如果情况严重立即就医，不等雇主安排",
+        "score": 5,
+        "feedback_zh": "及时沟通，自我保护意识强"
+      },
+      {
+        "text_zh": "忍一忍，等雇主回来再说",
+        "score": 2,
+        "feedback_zh": "延误救治，风险很高"
+      },
+      {
+        "text_zh": "偷偷离开，自己去医院",
+        "score": 2,
+        "feedback_zh": "不负责任，可能影响雇主家孩子"
+      },
+      {
+        "text_zh": "假装没事，继续工作",
+        "score": 1,
+        "feedback_zh": "危害自身和雇主家庭安全"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "category": "special",
+    "dimension": "child_abduction_attempt",
+    "difficulty": "hard",
+    "question_zh": "你带孩子在外面玩的时候，有陌生人试图接近孩子说要带孩子去找妈妈，你会怎么做？",
+    "scoring_type": "multiple_choice",
+    "options": [
+      {
+        "text_zh": "立即把孩子拉到身边，大声呼救引起周围人注意，必要时报警",
+        "score": 5,
+        "feedback_zh": "正确应急反应，保护孩子安全"
+      },
+      {
+        "text_zh": "警惕地看着陌生人，不让孩子靠近",
+        "score": 3,
+        "feedback_zh": "有意识但反应不够果断"
+      },
+      {
+        "text_zh": "跟陌生人理论，问他为什么这样",
+        "score": 2,
+        "feedback_zh": "纠缠可能延误最佳时机"
+      },
+      {
+        "text_zh": "吓坏了，不知道怎么办",
+        "score": 1,
+        "feedback_zh": "缺乏应急处理能力"
+      }
+    ]
+  }
+]

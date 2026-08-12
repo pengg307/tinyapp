@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家政面试题库 - 雇主端</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        header { text-align: center; padding: 30px 20px; color: white; }
+        header h1 { font-size: 2.2rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+        header p { font-size: 1rem; opacity: 0.9; }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 15px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+
+        .tab-nav {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+        .tab-btn {
+            padding: 10px 25px;
+            border: none;
+            border-radius: 25px;
+            background: rgba(255,255,255,0.3);
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.95rem;
+        }
+        .tab-btn.active { background: white; color: #667eea; font-weight: bold; }
+        .tab-btn:hover:not(.active) { background: rgba(255,255,255,0.5); }
+
+        .qr-section { text-align: center; padding: 20px; }
+        .qr-code { 
+            display: inline-block;
+            padding: 20px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+        .session-info { 
+            background: #f8f9ff;
+            padding: 15px;
+            border-radius: 12px;
+            margin: 15px 0;
+            text-align: left;
+        }
+        .session-info p { margin: 8px 0; color: #555; font-size: 0.9rem; }
+        .session-info strong { color: #333; }
+
+        .copy-btn {
+            padding: 8px 20px;
+            border: 2px solid #667eea;
+            border-radius: 20px;
+            background: white;
+            color: #667eea;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+            margin: 5px;
+        }
+        .copy-btn:hover { background: #667eea; color: white; }
+
+        .action-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin: 5px;
+        }
+        .action-btn.primary { background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
+        .action-btn.danger { background: #fee2e2; color: #dc2626; }
+        .action-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+        .hidden { display: none; }
+
+        .results-header { text-align: center; padding: 15px 0; }
+        .score-display { font-size: 3.5rem; font-weight: bold; background: linear-gradient(135deg, #667eea, #764ba2); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .rating-badge { font-size: 1.3rem; margin: 10px 0; }
+
+        .chart-container { position: relative; height: 280px; margin: 20px 0; }
+        .dimension-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 15px; }
+        .dimension-item { padding: 12px; border-radius: 10px; background: #f8f9ff; }
+        .dimension-item.strong { background: linear-gradient(135deg, #d4edda, #c3e6cb); }
+        .dimension-item.weak { background: linear-gradient(135deg, #f8d7da, #f5c6cb); }
+        .dimension-name { font-weight: bold; color: #333; margin-bottom: 4px; font-size: 0.9rem; }
+        .dimension-score { color: #666; font-size: 0.8rem; }
+        .suggestion-box { background: linear-gradient(135deg, #667eea10, #764ba210); border-left: 4px solid #667eea; padding: 18px; border-radius: 8px; margin-top: 15px; }
+        .suggestion-box h3 { color: #667eea; margin-bottom: 8px; font-size: 1rem; }
+        .suggestion-box p { color: #555; font-size: 0.9rem; line-height: 1.6; }
+
+        .stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin: 20px 0; }
+        .stat-item { text-align: center; padding: 15px; background: #f8f9ff; border-radius: 12px; }
+        .stat-item .value { font-size: 1.8rem; font-weight: bold; color: #667eea; }
+        .stat-item .label { color: #666; font-size: 0.85rem; margin-top: 5px; }
+
+        .input-field {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 12px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+        .input-field:focus { outline: none; border-color: #667eea; }
+
+        .form-group { margin-bottom: 15px; }
+        .form-group label { display: block; margin-bottom: 5px; color: #555; font-size: 0.9rem; }
+
+        .status-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+        .status-badge.active { background: #d1fae5; color: #065f46; }
+        .status-badge.completed { background: #dbeafe; color: #1e40af; }
+        .status-badge.expired { background: #fee2e2; color: #991b1b; }
+
+        .qrcode-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .share-hint {
+            background: #fef3c7;
+            padding: 15px;
+            border-radius: 12px;
+            margin: 15px 0;
+            text-align: center;
+            color: #92400e;
+            font-size: 0.9rem;
+        }
+
+        .collapse-btn {
+            background: none;
+            border: none;
+            color: #667eea;
+            cursor: pointer;
+            font-size: 0.9rem;
+            padding: 5px 0;
+        }
+        .collapse-btn:hover { text-decoration: underline; }
+
+        .question-detail {
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            background: #f9fafb;
+            border-left: 4px solid #e5e7eb;
+        }
+        .question-detail.correct { border-left-color: #4ade80; background: #f0fdf4; }
+        .question-detail.incorrect { border-left-color: #f87171; background: #fef2f2; }
+        .question-detail .q-header { display: flex; justify-content: space-between; margin-bottom: 8px; }
+        .question-detail .q-category { font-size: 0.75rem; color: #666; }
+        .question-detail .q-difficulty { font-size: 0.7rem; padding: 2px 8px; border-radius: 10px; }
+        .question-detail .q-difficulty.easy { background: #4ade80; color: white; }
+        .question-detail .q-difficulty.medium { background: #fbbf24; color: white; }
+        .question-detail .q-difficulty.hard { background: #f87171; color: white; }
+        .question-detail .q-text { font-size: 0.9rem; color: #333; margin-bottom: 8px; }
+        .question-detail .q-answer { font-size: 0.85rem; color: #666; }
+        .question-detail .q-feedback { font-size: 0.8rem; color: #888; margin-top: 5px; font-style: italic; }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.6rem; }
+            .card { padding: 18px; }
+            .score-display { font-size: 2.8rem; }
+            .stats-grid { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+            .stat-item .value { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏠 家政面试题库系统</h1>
+            <p>雇主端 - 生成测试二维码，查看候选人评估报告</p>
+        </header>
+
+        <!-- Tab Navigation -->
+        <div class="tab-nav">
+            <button class="tab-btn active" onclick="showTab('create')">创建测试</button>
+            <button class="tab-btn" onclick="showTab('report')">查看报告</button>
+        </div>
+
+        <!-- Create Test Tab -->
+        <div id="create-tab">
+            <div class="card">
+                <h3 style="margin-bottom:15px;">📝 创建新的面试测试</h3>
+                <div class="form-group">
+                    <label>雇主姓名（可选）</label>
+                    <input type="text" class="input-field" id="master-name" placeholder="输入您的姓名或公司名称">
+                </div>
+                <button class="action-btn primary" onclick="createSession()">生成二维码</button>
+            </div>
+
+            <div id="qr-section" class="card hidden">
+                <h3 style="margin-bottom:15px;">📱 测试二维码</h3>
+                <div class="qr-section">
+                    <div class="session-info" id="session-info"></div>
+                    <div class="qrcode-container">
+                        <div class="qr-code">
+                            <div id="qrcode"></div>
+                        </div>
+                    </div>
+                    <div class="share-hint">
+                        💡 请将此二维码发送给应聘者，对方扫码后即可开始测试。<br>
+                        二维码有效期12小时。
+                    </div>
+                    <button class="copy-btn" onclick="copyLink()">📋 复制链接</button>
+                    <button class="copy-btn" onclick="refreshQR()">🔄 重新生成</button>
+                    <button class="action-btn danger" onclick="deleteSession()">❌ 取消测试</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Report Tab -->
+        <div id="report-tab" class="hidden">
+            <div class="card">
+                <h3 style="margin-bottom:15px;">🔍 查看评估报告</h3>
+                <div class="form-group">
+                    <label>输入短码</label>
+                    <input type="text" class="input-field" id="session-id-input" placeholder="例如: Y9XJKM">
+                </div>
+                <button class="action-btn primary" onclick="loadReport()">查询报告</button>
+                <button class="action-btn" style="background:#f0f0f0;color:#666;" onclick="loadSessionStatus()">查看状态</button>
+            </div>
+
+            <div id="session-status" class="card hidden">
+                <h3 style="margin-bottom:15px;">📊 测试状态</h3>
+                <div id="status-content"></div>
+            </div>
+
+            <div id="report-content" class="hidden">
+                <div class="card">
+                    <div class="results-header">
+                        <div class="score-display" id="total-score">0</div>
+                        <div class="rating-badge" id="rating-badge">加载中...</div>
+                        <div style="color:#888;font-size:0.85rem;margin-top:5px;" id="stats-summary"></div>
+                    </div>
+                    <div class="chart-container"><canvas id="radar-chart"></canvas></div>
+                    <div class="suggestion-box">
+                        <h3>📋 评估建议</h3>
+                        <p id="suggestion-text">生成中...</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 style="margin-bottom:12px;font-size:1rem;">📊 维度详情</h3>
+                    <div class="dimension-grid" id="dimension-grid"></div>
+                </div>
+                <div class="card">
+                    <h3 style="margin-bottom:12px;font-size:1rem;">✅ 优势领域</h3>
+                    <div class="dimension-grid" id="strong-points"></div>
+                    <h3 style="margin:18px 0 12px;font-size:1rem;">⚠️ 需改进领域</h3>
+                    <div class="dimension-grid" id="weak-points"></div>
+                </div>
+                <div class="card">
+                    <h3 style="margin-bottom:12px;font-size:1rem;">📝 逐题分析</h3>
+                    <button class="collapse-btn" onclick="toggleQuestionDetails()">展开/收起题目详情</button>
+                    <div id="question-details-container" class="hidden" style="margin-top:15px;"></div>
+                </div>
+                <button class="action-btn primary" onclick="showTab('create')" style="margin-top:15px;">创建新测试</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let currentSessionCode = null;
+        let currentReport = null;
+
+        const CATEGORY_MAP = {
+            'basic': '基本信息', 'cooking': '烹饪技能', 'childcare': '育儿能力',
+            'hygiene': '卫生习惯', 'safety': '安全意识', 'communication': '沟通能力',
+            'ethics': '职业道德', 'professionalism': '职业素养', 'elder_care': '老人照护', 'special': '特殊情况'
+        };
+        const DIFFICULTY_MAP = { 'easy': '基础', 'medium': '中等', 'hard': '进阶' };
+        const SCORE_LABELS = { 5: '最佳', 4: '更好', 3: '正确', 1: '错误' };
+
+        function showTab(tab) {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            if (tab === 'create') {
+                document.getElementById('create-tab').classList.remove('hidden');
+                document.getElementById('report-tab').classList.add('hidden');
+            } else {
+                document.getElementById('create-tab').classList.add('hidden');
+                document.getElementById('report-tab').classList.remove('hidden');
+            }
+        }
+
+        async function createSession() {
+            const masterName = document.getElementById('master-name').value.trim();
+            
+            try {
+                const response = await fetch('/api/session', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ master_name: masterName })
+                });
+                
+                const data = await response.json();
+                currentSessionCode = data.short_code;
+
+                // 显示二维码
+                document.getElementById('qr-section').classList.remove('hidden');
+                document.getElementById('session-info').innerHTML = `
+                    <p><strong>短码:</strong> ${data.short_code}</p>
+                    <p><strong>雇主:</strong> ${data.master_info?.name || '匿名'}</p>
+                    <p><strong>创建时间:</strong> ${new Date().toLocaleString('zh-CN')}</p>
+                    <p><strong>有效期至:</strong> ${data.expires_at}</p>
+                    <div style="margin-top:15px;padding:10px;background:#f0f4ff;border-radius:8px;">
+                        <p style="font-size:0.85rem;color:#666;margin-bottom:5px;">📋 分享给应聘者：</p>
+                        <p style="font-size:0.8rem;color:#667eea;word-break:break-all;">${data.test_url}</p>
+                    </div>
+                    <div style="margin-top:10px;padding:10px;background:#f0fff4;border-radius:8px;">
+                        <p style="font-size:0.85rem;color:#666;margin-bottom:5px;">📊 查看报告：</p>
+                        <p style="font-size:0.8rem;color:#10b981;word-break:break-all;">${data.report_url}</p>
+                    </div>
+                `;
+                
+                // 生成二维码（使用test_url）
+                document.getElementById('qrcode').innerHTML = '';
+                new QRCode(document.getElementById('qrcode'), {
+                    text: data.test_url,
+                    width: 200,
+                    height: 200,
+                    colorDark: "#667eea",
+                    colorLight: "#ffffff",
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+                
+            } catch (error) {
+                alert('创建测试失败，请重试');
+            }
+        }
+
+        function copyLink() {
+            if (currentSessionCode) {
+                const link = `${window.location.origin}/test/${currentSessionCode}`;
+                navigator.clipboard.writeText(link).then(() => {
+                    alert('测试链接已复制！');
+                }).catch(() => {
+                    prompt('请复制以下链接:', link);
+                });
+            }
+        }
+
+        function refreshQR() {
+            if (currentSessionCode) {
+                document.getElementById('qrcode').innerHTML = '';
+                new QRCode(document.getElementById('qrcode'), {
+                    text: `${window.location.origin}/test/${currentSessionCode}`,
+                    width: 200,
+                    height: 200,
+                    colorDark: "#667eea",
+                    colorLight: "#ffffff",
+                    correctLevel: QRCode.CorrectLevel.H
+                });
+            }
+        }
+
+        async function deleteSession() {
+            if (!currentSessionCode) return;
+
+            if (!confirm('确定要取消此测试吗？所有已收集的数据将被删除。')) return;
+
+            try {
+                await fetch(`/api/session/${currentSessionCode}`, { method: 'DELETE' });
+                currentSessionCode = null;
+                document.getElementById('qr-section').classList.add('hidden');
+                document.getElementById('master-name').value = '';
+                alert('测试已取消');
+            } catch (error) {
+                alert('取消失败，请重试');
+            }
+        }
+
+        async function loadSessionStatus() {
+            const sessionId = document.getElementById('session-id-input').value.trim();
+            if (!sessionId) {
+                alert('请输入Session ID');
+                return;
+            }
+            
+            try {
+                const response = await fetch(`/api/session/${sessionId}`);
+                const data = await response.json();
+                
+                document.getElementById('session-status').classList.remove('hidden');
+                const statusClass = data.status === 'completed' ? 'completed' : 
+                                   data.status === 'expired' ? 'expired' : 'active';
+                
+                document.getElementById('status-content').innerHTML = `
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="value">${data.answer_count || 0}</div>
+                            <div class="label">已答题数</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="value">${data.total_questions || 90}</div>
+                            <div class="label">总题目数</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="value"><span class="status-badge ${statusClass}">${data.status === 'completed' ? '已完成' : data.status === 'expired' ? '已过期' : '进行中'}</span></div>
+                            <div class="label">状态</div>
+                        </div>
+                    </div>
+                    <p style="margin-top:15px;color:#666;font-size:0.9rem;">
+                        <strong>雇主:</strong> ${data.master_info?.name || data.master_name || '匿名'}<br>
+                        <strong>创建时间:</strong> ${new Date(data.created_at).toLocaleString('zh-CN')}<br>
+                        <strong>有效期:</strong> ${data.expires_at ? new Date(data.expires_at * 1000).toLocaleString('zh-CN') : '未知'}
+                    </p>
+                `;
+                
+                // 如果已完成，自动加载报告
+                if (data.status === 'completed') {
+                    loadReport();
+                }
+                
+            } catch (error) {
+                alert('查询失败: ' + error.message);
+            }
+        }
+
+        async function loadReport() {
+            const sessionId = document.getElementById('session-id-input').value.trim();
+            if (!sessionId) {
+                alert('请输入Session ID');
+                return;
+            }
+            
+            try {
+                const response = await fetch(`/api/session/${sessionId}/report`);
+                const data = await response.json();
+                
+                currentReport = data;
+                document.getElementById('report-content').classList.remove('hidden');
+                
+                // 填充报告数据
+                animateScore(data.total_score);
+                document.getElementById('rating-badge').textContent = data.rating;
+                document.getElementById('suggestion-text').textContent = data.suggestion;
+                document.getElementById('stats-summary').textContent = 
+                    `共 ${data.total_questions} 道题，已答 ${data.answered_count} 道`;
+                
+                renderRadarChart(data.dimension_details);
+                
+                const dimGrid = document.getElementById('dimension-grid');
+                dimGrid.innerHTML = data.dimension_details.map(d => `
+                    <div class="dimension-item">
+                        <div class="dimension-name">${d.category}: ${d.dimension}</div>
+                        <div class="dimension-score">${d.avg_score} / 5.0 (${d.weight}%权重)</div>
+                    </div>
+                `).join('');
+                
+                const strongGrid = document.getElementById('strong-points');
+                strongGrid.innerHTML = data.strong_points.map(p => `
+                    <div class="dimension-item strong">
+                        <div class="dimension-name">${p.dimension}</div>
+                        <div class="dimension-score">${p.score} / 5.0</div>
+                    </div>
+                `).join('');
+                
+                const weakGrid = document.getElementById('weak-points');
+                weakGrid.innerHTML = data.weak_points.map(p => `
+                    <div class="dimension-item weak">
+                        <div class="dimension-name">${p.dimension}</div>
+                        <div class="dimension-score">${p.score} / 5.0</div>
+                    </div>
+                `).join('');
+                
+                // 渲染题目详情
+                renderQuestionDetails(data.question_details);
+                
+            } catch (error) {
+                alert('加载报告失败: ' + error.message);
+                document.getElementById('report-content').classList.add('hidden');
+            }
+        }
+
+        function renderQuestionDetails(details) {
+            const container = document.getElementById('question-details-container');
+            if (!details || details.length === 0) {
+                container.innerHTML = '<p style="color:#888;text-align:center;">暂无题目详情</p>';
+                return;
+            }
+            
+            container.innerHTML = details.map(qd => `
+                <div class="question-detail ${qd.is_best ? 'correct' : 'incorrect'}">
+                    <div class="q-header">
+                        <span class="q-category">${qd.category} · 问题 ${qd.id}</span>
+                        <span class="q-difficulty ${qd.difficulty}">${DIFFICULTY_MAP[qd.difficulty]}</span>
+                    </div>
+                    <div class="q-text">${qd.question}</div>
+                    <div class="q-answer">
+                        候选人回答: <strong>${qd.selected_answer || '未回答'}</strong>
+                        <span style="margin-left:10px;padding:2px 6px;border-radius:4px;font-size:0.75rem;background:${qd.is_best ? '#d1fae5' : '#fee2e2'};color:${qd.is_best ? '#065f46' : '#991b1b'};">
+                            ${SCORE_LABELS[qd.score] || '未知'}
+                        </span>
+                    </div>
+                    ${qd.selected_feedback ? `<div class="q-feedback">💡 ${qd.selected_feedback}</div>` : ''}
+                </div>
+            `).join('');
+        }
+
+        function toggleQuestionDetails() {
+            const container = document.getElementById('question-details-container');
+            container.classList.toggle('hidden');
+        }
+
+        function animateScore(targetScore) {
+            const el = document.getElementById('total-score');
+            let current = 0;
+            const inc = targetScore / 40;
+            const timer = setInterval(() => {
+                current += inc;
+                if (current >= targetScore) { current = targetScore; clearInterval(timer); }
+                el.textContent = Math.round(current);
+            }, 25);
+        }
+
+        function renderRadarChart(dimensions) {
+            const ctx = document.getElementById('radar-chart').getContext('2d');
+            const topDims = dimensions.sort((a, b) => b.avg_score - a.avg_score).slice(0, 8);
+            
+            if (window._radarChart) {
+                window._radarChart.destroy();
+            }
+
+            window._radarChart = new Chart(ctx, {
+                type: 'radar',
+                data: {
+                    labels: topDims.map(d => d.dimension),
+                    datasets: [{
+                        label: '得分',
+                        data: topDims.map(d => d.avg_score),
+                        backgroundColor: 'rgba(102, 126, 234, 0.2)',
+                        borderColor: 'rgba(102, 126, 234, 1)',
+                        borderWidth: 2,
+                        pointBackgroundColor: 'rgba(102, 126, 234, 1)',
+                        pointRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: { r: { min: 0, max: 5, ticks: { stepSize: 1 } } },
+                    plugins: { legend: { display: false } }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
