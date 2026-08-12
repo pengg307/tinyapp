@@ -8,10 +8,5 @@
       "src": "/(.*)",
       "dest": "/static/$1"
     }
-  ],
-  "functions": {
-    "src/main.py": {
-      "runtime": "vercel:python@0.0.0"
-    }
-  }
+  ]
 }
